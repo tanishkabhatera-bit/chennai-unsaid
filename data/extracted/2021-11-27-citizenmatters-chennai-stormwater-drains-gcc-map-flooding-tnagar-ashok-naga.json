@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2021-11-27-citizenmatters-chennai-stormwater-drains-gcc-map-flooding-tnagar-ashok-naga",
+    "url": "https://citizenmatters.in/chennai-stormwater-drains-gcc-map-flooding-tnagar-ashok-nagar/",
+    "title": "All that's wrong with stormwater drains in Chennai and how to fix them",
+    "outlet": "Citizen Matters",
+    "published": "2021-11-27"
+  },
+  "records": [
+    {
+      "locality": "ashok-nagar",
+      "sk": "2021-11-27#913ed262e6",
+      "date": "2021-11-27",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Both Ashok Nagar and T Nagar saw severe flooding during the rains earlier this month.",
+      "source_url": "https://citizenmatters.in/chennai-stormwater-drains-gcc-map-flooding-tnagar-ashok-nagar/",
+      "source_title": "All that's wrong with stormwater drains in Chennai and how to fix them",
+      "locality_as_written": "Ashok Nagar"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2021-11-27#913ed262e6",
+      "date": "2021-11-27",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Both Ashok Nagar and T Nagar saw severe flooding during the rains earlier this month.",
+      "source_url": "https://citizenmatters.in/chennai-stormwater-drains-gcc-map-flooding-tnagar-ashok-nagar/",
+      "source_title": "All that's wrong with stormwater drains in Chennai and how to fix them",
+      "locality_as_written": "T Nagar"
+    }
+  ],
+  "unmatched": [
+    "Diagonally opposite K-4 police station at the junction of 3rd avenue and 6th avenue"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Ashok Nagar\",\n        \"date\": \"2021-11-27\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Both Ashok Nagar and T Nagar saw severe flooding during the rains earlier this month.\"\n    },\n    {\n        \"locality\": \"T Nagar\",\n        \"date\": \"2021-11-27\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Both Ashok Nagar and T Nagar saw severe flooding during the rains earlier this month.\"\n    },\n    {\n        \"locality\": \"Diagonally opposite K-4 police station at the junction of 3rd avenue and 6th avenue\",\n        \"date\": \"2021-11-27\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The smallest rains flood this corner for the simple reason that for about 50 mtr, there are no entry points into the swd.\"\n    }\n]"
+}

@@ -1,0 +1,27 @@
+{
+  "article": {
+    "id": "2025-10-22-dtnext-heavy-rain-batters-chennai-and-coastal-districts-two-depress",
+    "url": "https://www.dtnext.in/news/tamilnadu/heavy-rain-batters-chennai-and-coastal-districts-two-depressions-forming-over-seas-850374",
+    "title": "Heavy rain batters Chennai and coastal districts; two depressions forming over seas",
+    "outlet": "DT Next",
+    "published": "2025-10-22"
+  },
+  "records": [
+    {
+      "locality": "kodambakkam",
+      "sk": "2025-10-22#25d541d6d0",
+      "date": "2025-10-22",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A tree was uprooted.",
+      "source_url": "https://www.dtnext.in/news/tamilnadu/heavy-rain-batters-chennai-and-coastal-districts-two-depressions-forming-over-seas-850374",
+      "source_title": "Heavy rain batters Chennai and coastal districts; two depressions forming over seas",
+      "locality_as_written": "Fifth Street, Trustpuram, Kodambakkam"
+    }
+  ],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The overnight downpour caused waterlogging in several neighbourhoods.\"\n  },\n  {\n    \"locality\": \"Fifth Street, Trustpuram, Kodambakkam\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A tree was uprooted.\"\n  }\n]\n```"
+}

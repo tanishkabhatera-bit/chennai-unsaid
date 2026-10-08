@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": "2026-04-06-dtnext-rainwater-stagnates-on-gst-road-between-chromepet-pallavaram",
+    "url": "https://www.dtnext.in/news/chennai/rainwater-stagnates-on-gst-road-between-chromepet-pallavaram",
+    "title": "Rainwater stagnates on GST Road between Chromepet, Pallavaram",
+    "outlet": "DT Next",
+    "published": "2026-04-06"
+  },
+  "records": [
+    {
+      "locality": "pallavaram",
+      "sk": "2026-04-06#3b9f17912a",
+      "date": "2026-04-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "A brief spell of rain for less than an hour on Monday afternoon has left GST Road flooded between Chromepet and Pallavaram, making navigation a struggle for commuters.",
+      "source_url": "https://www.dtnext.in/news/chennai/rainwater-stagnates-on-gst-road-between-chromepet-pallavaram",
+      "source_title": "Rainwater stagnates on GST Road between Chromepet, Pallavaram",
+      "locality_as_written": "GST Road between Chromepet and Pallavaram"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2026-04-06#3b9f17912a",
+      "date": "2026-04-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The sudden downpour led to waterlogging in several areas of Chromepet, with storm water drains overflowing and mixing with sewage along nearly 1-km of the Chennai-Tiruchy National Highway.",
+      "source_url": "https://www.dtnext.in/news/chennai/rainwater-stagnates-on-gst-road-between-chromepet-pallavaram",
+      "source_title": "Rainwater stagnates on GST Road between Chromepet, Pallavaram",
+      "locality_as_written": "Chromepet"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"GST Road between Chromepet and Pallavaram\",\n    \"date\": \"2026-04-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A brief spell of rain for less than an hour on Monday afternoon has left GST Road flooded between Chromepet and Pallavaram, making navigation a struggle for commuters.\"\n  },\n  {\n    \"locality\": \"Chromepet\",\n    \"date\": \"2026-04-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The sudden downpour led to waterlogging in several areas of Chromepet, with storm water drains overflowing and mixing with sewage along nearly 1-km of the Chennai-Tiruchy National Highway.\"\n  }\n]\n```"
+}

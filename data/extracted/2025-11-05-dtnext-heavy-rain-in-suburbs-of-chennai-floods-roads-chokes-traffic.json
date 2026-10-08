@@ -1,0 +1,101 @@
+{
+  "article": {
+    "id": "2025-11-05-dtnext-heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic",
+    "url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+    "title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+    "outlet": "DT Next",
+    "published": "2025-11-05"
+  },
+  "records": [
+    {
+      "locality": "tambaram",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The downpour caused severe waterlogging and massive traffic snarls.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The downpour caused severe waterlogging and massive traffic snarls.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Chromepet"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The downpour caused severe waterlogging and massive traffic snarls.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Pallavaram"
+    },
+    {
+      "locality": "mudichur",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Key arterial roads were inundated, severely disrupting vehicular movement.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Mudichur Road"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Key arterial roads were inundated, severely disrupting vehicular movement.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Velachery Road"
+    },
+    {
+      "locality": "perungalathur",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Perungalathur"
+    },
+    {
+      "locality": "selaiyur",
+      "sk": "2025-11-05#004245e6b4",
+      "date": "2025-11-05",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-in-suburbs-of-chennai-floods-roads-chokes-traffic-for-hours-852082",
+      "source_title": "Heavy rain in suburbs of Chennai floods roads, chokes traffic for hours",
+      "locality_as_written": "Selaiyur"
+    }
+  ],
+  "unmatched": [
+    "GST Road",
+    "Irumbuliyur",
+    "Camp Road"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Tambaram\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The downpour caused severe waterlogging and massive traffic snarls.\"\n  },\n  {\n    \"locality\": \"Chromepet\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The downpour caused severe waterlogging and massive traffic snarls.\"\n  },\n  {\n    \"locality\": \"Pallavaram\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The downpour caused severe waterlogging and massive traffic snarls.\"\n  },\n  {\n    \"locality\": \"GST Road\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Key arterial roads were inundated, severely disrupting vehicular movement.\"\n  },\n  {\n    \"locality\": \"Mudichur Road\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Key arterial roads were inundated, severely disrupting vehicular movement.\"\n  },\n  {\n    \"locality\": \"Velachery Road\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Key arterial roads were inundated, severely disrupting vehicular movement.\"\n  },\n  {\n    \"locality\": \"Perungalathur\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.\"\n  },\n  {\n    \"locality\": \"Irumbuliyur\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.\"\n  },\n  {\n    \"locality\": \"Selaiyur\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.\"\n  },\n  {\n    \"locality\": \"Camp Road\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.\"\n  },\n  {\n    \"locality\": \"Old Tambaram\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The slow pace of the flyover expansion work created a bottleneck of vehicles lined up for nearly 3km.\"\n  },\n  {\n    \"locality\": \"Selaiyur police station on the Tambaram-Velachery Road\",\n    \"date\": \"2025-11-05\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water stagnated to a depth of nearly three feet, resembling a pond.\"\n  }\n]\n```"
+}

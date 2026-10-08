@@ -1,0 +1,76 @@
+{
+  "article": {
+    "id": "2017-11-06-dtnext-chennai-suburbs-swimming-in-problems",
+    "url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
+    "title": "Chennai suburbs swimming in problems",
+    "outlet": "DT Next",
+    "published": "2017-11-06"
+  },
+  "records": [
+    {
+      "locality": "mudichur",
+      "sk": "2017-11-06#88033df834",
+      "date": "2017-11-06",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents of Mudichur, who have been hit hardest due to flooding, had held a meeting, demanding action to prevent inundation in the future.",
+      "source_url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
+      "source_title": "Chennai suburbs swimming in problems",
+      "locality_as_written": "Mudichur"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2017-11-06#88033df834",
+      "date": "2017-11-06",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": 4,
+      "detail": "Residents had to suffer the agony of sewage mixed rainwater entering their homes, due to a fault in the drainage system.",
+      "source_url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
+      "source_title": "Chennai suburbs swimming in problems",
+      "locality_as_written": "Kurinji Nagar, Chromepet"
+    },
+    {
+      "locality": "tambaram",
+      "sk": "2017-11-06#88033df834",
+      "date": "2017-11-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Mudichur Road has been hit badly by the torrential rains, causing traffic to be diverted.",
+      "source_url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
+      "source_title": "Chennai suburbs swimming in problems",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "chitlapakkam",
+      "sk": "2017-11-06#88033df834",
+      "date": "2017-11-06",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "An overflow from the Selaiyur Lake, inundates the locality.",
+      "source_url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
+      "source_title": "Chennai suburbs swimming in problems",
+      "locality_as_written": "Chitlapakkam"
+    },
+    {
+      "locality": "perungalathur",
+      "sk": "2017-11-06#88033df834",
+      "date": "2017-11-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Encroachments on waterbodies and blocking of runoff path have been listed as the major causes for the flood-like situation.",
+      "source_url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
+      "source_title": "Chennai suburbs swimming in problems",
+      "locality_as_written": "Perungalathur"
+    }
+  ],
+  "unmatched": [
+    "Pallavan Nagar",
+    "Varadarajapuram"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Mudichur\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents of Mudichur, who have been hit hardest due to flooding, had held a meeting, demanding action to prevent inundation in the future.\"\n    },\n    {\n        \"locality\": \"Pallavan Nagar\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Localities such as Pallavan Nagar, SK Avenue, Senthil Nagar, Ambal Nagar, Madanapuram and 13 other areas in Mudichur and Varadarajapuram were severely flooded, after the onset of the North-East monsoon.\"\n    },\n    {\n        \"locality\": \"Kurinji Nagar, Chromepet\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": 4,\n        \"detail\": \"Residents had to suffer the agony of sewage mixed rainwater entering their homes, due to a fault in the drainage system.\"\n    },\n    {\n        \"locality\": \"Kurukku Street, Chromepet\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The inundation was due to a building construction, obstructing the water flow into the drainage channels.\"\n    },\n    {\n        \"locality\": \"Tambaram\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Mudichur Road has been hit badly by the torrential rains, causing traffic to be diverted.\"\n    },\n    {\n        \"locality\": \"Chitlapakkam\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"An overflow from the Selaiyur Lake, inundates the locality.\"\n    },\n    {\n        \"locality\": \"Perungalathur\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachments on waterbodies and blocking of runoff path have been listed as the major causes for the flood-like situation.\"\n    },\n    {\n        \"locality\": \"Varadarajapuram\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachments on waterbodies and blocking of runoff path have been listed as the major causes for the flood-like situation.\"\n    },\n    {\n        \"locality\": \"Thilagavathy Nagar, Balaji Nagar, Irumbuliyur, East Tambaram\",\n        \"date\": \"2017-11-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The construction of the drainage network was done until the Tambaram-Mudichur Road, which comes under the State Highways Department.\"\n    }\n]\n```"
+}

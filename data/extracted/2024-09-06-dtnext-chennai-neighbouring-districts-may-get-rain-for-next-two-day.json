@@ -1,0 +1,174 @@
+{
+  "article": {
+    "id": "2024-09-06-dtnext-chennai-neighbouring-districts-may-get-rain-for-next-two-day",
+    "url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+    "title": "Chennai, neighbouring districts may get rain for next two days",
+    "outlet": "DT Next",
+    "published": "2024-09-06"
+  },
+  "records": [
+    {
+      "locality": "vadapalani",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Vadapalani received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Vadapalani"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Velachery received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "tondiarpet",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Tondiarpet received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Tondiarpet"
+    },
+    {
+      "locality": "george-town",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Broadway received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Broadway"
+    },
+    {
+      "locality": "kodambakkam",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Kodambakkam received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Kodambakkam"
+    },
+    {
+      "locality": "mylapore",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Mylapore received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Mylapore"
+    },
+    {
+      "locality": "tiruvottiyur",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Tiruvottriyur received 1 to 2 cm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Tiruvottriyur"
+    },
+    {
+      "locality": "manali",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Manali received 1 to 2 cm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Manali"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Perambur received 1 to 2 cm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Ennore received 1 to 2 cm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Ennore"
+    },
+    {
+      "locality": "puzhal",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Puzhal received 1 to 2 cm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Puzhal"
+    },
+    {
+      "locality": "kathivakkam",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several areas in Chennai including Kathivakkam received 1 to 2 cm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Kathivakkam"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2024-09-06#f9cd6f96e9",
+      "date": "2024-09-06",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The highest amount of rainfall was recorded in Sholinganallur at 8 cm.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
+      "source_title": "Chennai, neighbouring districts may get rain for next two days",
+      "locality_as_written": "Sholinganallur"
+    }
+  ],
+  "unmatched": [
+    "Tiruvallur",
+    "Kancheepuram",
+    "Villupuram",
+    "Chengalpattu"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Vadapalani\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Vadapalani received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.\"\n  },\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Velachery received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.\"\n  },\n  {\n    \"locality\": \"Tondiarpet\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Tondiarpet received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.\"\n  },\n  {\n    \"locality\": \"Broadway\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Broadway received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.\"\n  },\n  {\n    \"locality\": \"Kodambakkam\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Kodambakkam received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.\"\n  },\n  {\n    \"locality\": \"Mylapore\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Mylapore received moderate rainfall from Thursday night which continued on Friday, leading to waterlogging and traffic disruptions.\"\n  },\n  {\n    \"locality\": \"Tiruvottriyur\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Tiruvottriyur received 1 to 2 cm of rainfall.\"\n  },\n  {\n    \"locality\": \"Manali\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Manali received 1 to 2 cm of rainfall.\"\n  },\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Perambur received 1 to 2 cm of rainfall.\"\n  },\n  {\n    \"locality\": \"Ennore\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Ennore received 1 to 2 cm of rainfall.\"\n  },\n  {\n    \"locality\": \"Puzhal\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Puzhal received 1 to 2 cm of rainfall.\"\n  },\n  {\n    \"locality\": \"Kathivakkam\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas in Chennai including Kathivakkam received 1 to 2 cm of rainfall.\"\n  },\n  {\n    \"locality\": \"Sholinganallur\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The highest amount of rainfall was recorded in Sholinganallur at 8 cm.\"\n  },\n  {\n    \"locality\": \"Tiruvallur\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The highest amount of rainfall was recorded in Tiruvallur at 5 cm.\"\n  },\n  {\n    \"locality\": \"Kancheepuram\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The highest amount of rainfall was recorded in Kancheepuram at 5 cm.\"\n  },\n  {\n    \"locality\": \"Villupuram\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The highest amount of rainfall was recorded in Villupuram at 4 cm.\"\n  },\n  {\n    \"locality\": \"Chengalpattu\",\n    \"date\": \"2024-09-06\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The highest amount of rainfall was recorded in Chengalpattu at 3 cm.\"\n  }\n]\n```"
+}

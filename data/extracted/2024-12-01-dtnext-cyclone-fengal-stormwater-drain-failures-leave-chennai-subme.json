@@ -1,0 +1,90 @@
+{
+  "article": {
+    "id": "2024-12-01-dtnext-cyclone-fengal-stormwater-drain-failures-leave-chennai-subme",
+    "url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+    "title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+    "outlet": "DT Next",
+    "published": "2024-12-01"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2024-12-01#ddf8659545",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Velachery experienced severe waterlogging due to stormwater drain failures and blockages caused by debris dumping.",
+      "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+      "source_title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2024-12-01#ddf8659545",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "OMR was transformed into a temporary water body due to intense rainfall from Cyclone Fengal.",
+      "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+      "source_title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+      "locality_as_written": "OMR"
+    },
+    {
+      "locality": "mylapore",
+      "sk": "2024-12-01#ddf8659545",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Mylapore experienced waterlogging as a result of the fierce downpour from Cyclone Fengal.",
+      "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+      "source_title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+      "locality_as_written": "Mylapore"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2024-12-01#ddf8659545",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Perambur faced severe waterlogging due to inadequate desilting of stormwater drains by the civic body.",
+      "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+      "source_title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "anna-nagar",
+      "sk": "2024-12-01#ddf8659545",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Anna Nagar was turned into a temporary water body due to the intense rainfall from Cyclone Fengal.",
+      "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+      "source_title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+      "locality_as_written": "Anna Nagar"
+    },
+    {
+      "locality": "pattalam",
+      "sk": "2024-12-01#ddf8659545",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Pattalam experienced severe waterlogging due to inadequate desilting of stormwater drains by the civic body.",
+      "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-stormwater-drain-failures-leave-chennai-submerged-813242",
+      "source_title": "Cyclone Fengal: Stormwater drain failures leave Chennai submerged",
+      "locality_as_written": "Pattalam"
+    }
+  ],
+  "unmatched": [
+    "Sarathy Nagar",
+    "Tansi Nagar",
+    "VGP Selva Nagar",
+    "Balamurugan Nagar"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Velachery experienced severe waterlogging due to stormwater drain failures and blockages caused by debris dumping.\"\n  },\n  {\n    \"locality\": \"OMR\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"OMR was transformed into a temporary water body due to intense rainfall from Cyclone Fengal.\"\n  },\n  {\n    \"locality\": \"Mylapore\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Mylapore experienced waterlogging as a result of the fierce downpour from Cyclone Fengal.\"\n  },\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Perambur faced severe waterlogging due to inadequate desilting of stormwater drains by the civic body.\"\n  },\n  {\n    \"locality\": \"Anna Nagar\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Anna Nagar was turned into a temporary water body due to the intense rainfall from Cyclone Fengal.\"\n  },\n  {\n    \"locality\": \"Sarathy Nagar\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Sarathy Nagar experienced water stagnation due to blockages in the pond near the six-vent culvert in Velachery.\"\n  },\n  {\n    \"locality\": \"Tansi Nagar\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Tansi Nagar faced water stagnation due to blockages in the pond near the six-vent culvert in Velachery.\"\n  },\n  {\n    \"locality\": \"VGP Selva Nagar\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"VGP Selva Nagar experienced water stagnation due to blockages in the pond near the six-vent culvert in Velachery.\"\n  },\n  {\n    \"locality\": \"Balamurugan Nagar\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Balamurugan Nagar faced water stagnation due to blockages in the pond near the six-vent culvert in Velachery.\"\n  },\n  {\n    \"locality\": \"Pattalam\",\n    \"date\": \"2024-12-01\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Pattalam experienced severe waterlogging due to inadequate desilting of stormwater drains by the civic body.\"\n  }\n]\n```"
+}

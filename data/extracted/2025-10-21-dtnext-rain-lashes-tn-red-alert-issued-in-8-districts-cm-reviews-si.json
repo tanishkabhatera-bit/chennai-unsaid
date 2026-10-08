@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2025-10-21-dtnext-rain-lashes-tn-red-alert-issued-in-8-districts-cm-reviews-si",
+    "url": "https://www.dtnext.in/news/tamilnadu/rain-lashes-tn-red-alert-issued-in-8-districts-cm-reviews-situation-850283",
+    "title": "Rain lashes TN, red alert issued in 8 districts; CM reviews situation",
+    "outlet": "DT Next",
+    "published": "2025-10-21"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai",
+    "Tirunelveli"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2025-10-21\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Chennai recorded an average of 60mm rainfall with a high of 100mm in Medavakkam.\"\n    },\n    {\n        \"locality\": \"Tirunelveli\",\n        \"date\": \"2025-10-21\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Relentless rains in and around Ambasamudram in Tirunelveli district have affected thousands of acres of paddy crop harvesting.\"\n    }\n]\n```"
+}

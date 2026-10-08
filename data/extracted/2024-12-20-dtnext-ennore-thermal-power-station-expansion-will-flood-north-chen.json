@@ -1,0 +1,99 @@
+{
+  "article": {
+    "id": "2024-12-20-dtnext-ennore-thermal-power-station-expansion-will-flood-north-chen",
+    "url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+    "title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+    "outlet": "DT Next",
+    "published": "2024-12-20"
+  },
+  "records": [
+    {
+      "locality": "manali",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will flood the Manali Industrial Area.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Manali Industrial Area"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will flood the Kodungaiyur Dumpyard.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Kodungaiyur Dumpyard"
+    },
+    {
+      "locality": "peravallur",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Peravallur due to backflow from the filled up ETPS Site.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Peravallur"
+    },
+    {
+      "locality": "ambattur",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Ambattur due to backflow from the filled up ETPS Site.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Ambattur"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Perambur due to backflow from the filled up ETPS Site.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "madhavaram",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Madhavaram due to backflow from the filled up ETPS Site.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Madhavaram"
+    },
+    {
+      "locality": "tiruvottiyur",
+      "sk": "2024-12-20#495bd14688",
+      "date": "2024-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Tiruvottiyur due to backflow from the filled up ETPS Site.",
+      "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
+      "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
+      "locality_as_written": "Tiruvottiyur"
+    }
+  ],
+  "unmatched": [
+    "Tiru-Vi-Ka Nagar"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Manali Industrial Area\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will flood the Manali Industrial Area.\"\n  },\n  {\n    \"locality\": \"Kodungaiyur Dumpyard\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will flood the Kodungaiyur Dumpyard.\"\n  },\n  {\n    \"locality\": \"Peravallur\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will cause difficulties in Peravallur due to backflow from the filled up ETPS Site.\"\n  },\n  {\n    \"locality\": \"Ambattur\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will cause difficulties in Ambattur due to backflow from the filled up ETPS Site.\"\n  },\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will cause difficulties in Perambur due to backflow from the filled up ETPS Site.\"\n  },\n  {\n    \"locality\": \"Tiru-Vi-Ka Nagar\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will cause difficulties in Tiru-Vi-Ka Nagar due to backflow from the filled up ETPS Site.\"\n  },\n  {\n    \"locality\": \"Madhavaram\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will cause difficulties in Madhavaram due to backflow from the filled up ETPS Site.\"\n  },\n  {\n    \"locality\": \"Tiruvottiyur\",\n    \"date\": \"2024-12-20\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The expansion of Ennore Thermal Power Station will cause difficulties in Tiruvottiyur due to backflow from the filled up ETPS Site.\"\n  }\n]\n```"
+}

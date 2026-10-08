@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "2019-10-18-dtnext-state-fails-to-floodproof-vulnerable-areas",
+    "url": "https://www.dtnext.in/city/2019/10/18/state-fails-to-floodproof-vulnerable-areas",
+    "title": "State fails to flood-proof vulnerable areas",
+    "outlet": "DT Next",
+    "published": "2019-10-18"
+  },
+  "records": [
+    {
+      "locality": "mudichur",
+      "sk": "2019-10-18#8c6607086b",
+      "date": "2019-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Water stagnation occurs after light rains, and there is no development since the Chennai floods.",
+      "source_url": "https://www.dtnext.in/city/2019/10/18/state-fails-to-floodproof-vulnerable-areas",
+      "source_title": "State fails to flood-proof vulnerable areas",
+      "locality_as_written": "Mudichur"
+    },
+    {
+      "locality": "tambaram",
+      "sk": "2019-10-18#8c6607086b",
+      "date": "2019-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The entire street gets flooded even after brief rains, and drain construction has not been completed.",
+      "source_url": "https://www.dtnext.in/city/2019/10/18/state-fails-to-floodproof-vulnerable-areas",
+      "source_title": "State fails to flood-proof vulnerable areas",
+      "locality_as_written": "CTO Colony in Tambaram"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2019-10-18#8c6607086b",
+      "date": "2019-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Rainwater collected in these residential areas flows into the marshland through blocked culverts.",
+      "source_url": "https://www.dtnext.in/city/2019/10/18/state-fails-to-floodproof-vulnerable-areas",
+      "source_title": "State fails to flood-proof vulnerable areas",
+      "locality_as_written": "Bharani street, Udhayam Nagar, Tansi Nagar, Annai Indira Gandhi Nagar, Balamurugan Nagar, Bhuvaneshwari Nagar, and VGP Selva Nagar in Velachery"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2019-10-18#8c6607086b",
+      "date": "2019-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Drain work started two weeks ago but was left incomplete due to rain, causing traffic congestion.",
+      "source_url": "https://www.dtnext.in/city/2019/10/18/state-fails-to-floodproof-vulnerable-areas",
+      "source_title": "State fails to flood-proof vulnerable areas",
+      "locality_as_written": "Vyasarpadi"
+    }
+  ],
+  "unmatched": [
+    "Ram Nagar",
+    "Kuberan Nagar"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Mudichur\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water stagnation occurs after light rains, and there is no development since the Chennai floods.\"\n  },\n  {\n    \"locality\": \"PTC Colony in Mudichur\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water stagnation takes more than a week to drain after light rains.\"\n  },\n  {\n    \"locality\": \"Lakshmi Nagar, Kurinji Nadan Nagar, and Amudam Nagar in Mudichur\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"No works have been undertaken to prevent flooding in these areas since the 2015 floods.\"\n  },\n  {\n    \"locality\": \"CTO Colony in Tambaram\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The entire street gets flooded even after brief rains, and drain construction has not been completed.\"\n  },\n  {\n    \"locality\": \"Ram Nagar\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water stagnation occurs after light rains, and officials have not visited to speed up drain construction.\"\n  },\n  {\n    \"locality\": \"Kuberan Nagar\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Stagnant water rises up to the knee, and a two-wheeler was once stuck in the water.\"\n  },\n  {\n    \"locality\": \"Bharani street, Udhayam Nagar, Tansi Nagar, Annai Indira Gandhi Nagar, Balamurugan Nagar, Bhuvaneshwari Nagar, and VGP Selva Nagar in Velachery\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Rainwater collected in these residential areas flows into the marshland through blocked culverts.\"\n  },\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2019-10-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Drain work started two weeks ago but was left incomplete due to rain, causing traffic congestion.\"\n  }\n]\n```"
+}

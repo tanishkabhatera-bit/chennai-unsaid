@@ -1,0 +1,45 @@
+{
+  "article": {
+    "id": "2024-10-15-dtnext-chennai-rains-gcc-releases-update-on-north-east-monsoon-as-o",
+    "url": "https://www.dtnext.in/news/chennai/chennai-rains-gcc-releases-update-on-north-east-monsoon-as-of-9-pm-807573",
+    "title": "Chennai rains: GCC releases update on North East monsoon as of 9 pm",
+    "outlet": "DT Next",
+    "published": "2024-10-15"
+  },
+  "records": [
+    {
+      "locality": "perambur",
+      "sk": "2024-10-15#699dfbe3d3",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Perambur Railway subway is closed due to water-logging in the city.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-gcc-releases-update-on-north-east-monsoon-as-of-9-pm-807573",
+      "source_title": "Chennai rains: GCC releases update on North East monsoon as of 9 pm",
+      "locality_as_written": "Perambur Railway"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2024-10-15#699dfbe3d3",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Velachery subway is closed due to water-logging in the city.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-gcc-releases-update-on-north-east-monsoon-as-of-9-pm-807573",
+      "source_title": "Chennai rains: GCC releases update on North East monsoon as of 9 pm",
+      "locality_as_written": "Velachery"
+    }
+  ],
+  "unmatched": [
+    "Valluvar Kottam High Road",
+    "Thirumangalam bridge service road",
+    "Sivasaami Salai",
+    "Ganesapuram",
+    "Sundaram Point",
+    "Madley",
+    "Rangarajapuram"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Valluvar Kottam High Road\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Valluvar Kottam High Road to Independence Day park is closed and vehicles are diverted via Tank Bunk Road- Mahalingapuram.\"\n  },\n  {\n    \"locality\": \"Thirumangalam bridge service road\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Thirumangalam bridge service road towards Padi has been rerouted through Estate Road and Park Road.\"\n  },\n  {\n    \"locality\": \"Sivasaami Salai\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Sivasaami Salai closed and diverted to a one-way route via Nilgiris.\"\n  },\n  {\n    \"locality\": \"Ganesapuram\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Ganesapuram subway is closed due to water-logging in the city.\"\n  },\n  {\n    \"locality\": \"Perambur Railway\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Perambur Railway subway is closed due to water-logging in the city.\"\n  },\n  {\n    \"locality\": \"Sundaram Point\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Sundaram Point subway is closed due to water-logging in the city.\"\n  },\n  {\n    \"locality\": \"Madley\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Madley subway is closed due to water-logging in the city.\"\n  },\n  {\n    \"locality\": \"Rangarajapuram\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Rangarajapuram subway is closed due to water-logging in the city.\"\n  },\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Velachery subway is closed due to water-logging in the city.\"\n  }\n]\n```"
+}

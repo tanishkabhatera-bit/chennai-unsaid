@@ -8,20 +8,55 @@
   },
   "records": [
     {
+      "locality": "vyasarpadi",
+      "sk": "2023-12-08#3ae12ef57e",
+      "date": "2023-12-08",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "A 60-year-old woman in Third Street in Dhamodharan Nagar, who recently underwent surgery and required follow-up treatment, died by suicide on December 7, when her family members went out to look for some help.",
+      "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
+      "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
       "locality": "kodungaiyur",
       "sk": "2023-12-08#3ae12ef57e",
       "date": "2023-12-08",
       "event": "Cyclone Michaung",
       "severity": "severe",
       "water_stayed_days": null,
-      "detail": "Kodungaiyur is one of the areas badly affected and requires immediate government intervention.",
+      "detail": "One of the areas badly affected and requiring immediate government intervention.",
       "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
       "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
       "locality_as_written": "Kodungaiyur"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2023-12-08#3ae12ef57e",
+      "date": "2023-12-08",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "One of the areas badly affected and requiring immediate government intervention.",
+      "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
+      "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
+      "locality_as_written": "Pullianthope"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2023-12-08#3ae12ef57e",
+      "date": "2023-12-08",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents around Ennore in areas like Kargil Nagar, where the water level is still at the chest level in a few areas and knee level in a few other areas, are forced to wade through the highly contaminated water.",
+      "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
+      "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
+      "locality_as_written": "Ennore"
     }
   ],
   "unmatched": [
-    "Vyasarpadi",
     "Dhamodharan Nagar",
     "Kannigapuram",
     "Captain Cotton Canal",
@@ -30,10 +65,9 @@
     "Ezhil Nagar",
     "Kurukkupet",
     "Kargil Nagar",
-    "Pullianthope",
     "Pulicat",
     "Athipattu",
     "Pudhunagar"
   ],
-  "reply": "```json\n[\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A 60-year-old woman in Third Street in Dhamodharan Nagar, who recently underwent surgery and required follow-up treatment, died by suicide on December 7, when her family members went out to look for some help.\"\n  },\n  {\n    \"locality\": \"Dhamodharan Nagar\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A 60-year-old woman in Third Street in Dhamodharan Nagar, who recently underwent surgery and required follow-up treatment, died by suicide on December 7, when her family members went out to look for some help.\"\n  },\n  {\n    \"locality\": \"Kannigapuram\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Kannigapuram near Otteri Nullah is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Captain Cotton Canal\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas around Captain Cotton Canal are badly affected and require immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Mullai Nagar\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Mullai Nagar is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"MKB Nagar\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"MKB Nagar is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Ezhil Nagar\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Ezhil Nagar is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Kodungaiyur\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Kodungaiyur is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Kurukkupet\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Kurukkupet is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Kargil Nagar\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents around Ennore in areas like Kargil Nagar are wading through highly contaminated water due to industrial waste like crude oil being released into the standing water.\"\n  },\n  {\n    \"locality\": \"Pullianthope\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Pullianthope is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Pulicat\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Pulicat is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Athipattu\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Athipattu is one of the areas badly affected and requires immediate government intervention.\"\n  },\n  {\n    \"locality\": \"Pudhunagar\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Pudhunagar is one of the areas badly affected and requires immediate government intervention.\"\n  }\n]\n```"
+  "reply": "```json\n[\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A 60-year-old woman in Third Street in Dhamodharan Nagar, who recently underwent surgery and required follow-up treatment, died by suicide on December 7, when her family members went out to look for some help.\"\n    },\n    {\n        \"locality\": \"Dhamodharan Nagar\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A 60-year-old woman in Third Street in Dhamodharan Nagar, who recently underwent surgery and required follow-up treatment, died by suicide on December 7, when her family members went out to look for some help.\"\n    },\n    {\n        \"locality\": \"Kannigapuram\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Captain Cotton Canal\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Mullai Nagar\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"MKB Nagar\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Ezhil Nagar\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Kodungaiyur\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Kurukkupet\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Kargil Nagar\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents around Ennore in areas like Kargil Nagar, where the water level is still at the chest level in a few areas and knee level in a few other areas, are forced to wade through the highly contaminated water.\"\n    },\n    {\n        \"locality\": \"Pullianthope\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Pulicat\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Athipattu\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Pudhunagar\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"One of the areas badly affected and requiring immediate government intervention.\"\n    },\n    {\n        \"locality\": \"Ennore\",\n        \"date\": \"2023-12-08\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents around Ennore in areas like Kargil Nagar, where the water level is still at the chest level in a few areas and knee level in a few other areas, are forced to wade through the highly contaminated water.\"\n    }\n]\n```"
 }

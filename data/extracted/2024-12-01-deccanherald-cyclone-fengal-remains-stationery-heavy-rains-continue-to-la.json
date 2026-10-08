@@ -1,0 +1,88 @@
+{
+  "article": {
+    "id": "2024-12-01-deccanherald-cyclone-fengal-remains-stationery-heavy-rains-continue-to-la",
+    "url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+    "title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+    "outlet": "Deccan Herald",
+    "published": "2024-12-01"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2024-12-01#2d54c052f5",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas and densely populated locality came under water.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+      "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "madipakkam",
+      "sk": "2024-12-01#2d54c052f5",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas and densely populated locality came under water.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+      "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2024-12-01#2d54c052f5",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas and densely populated locality came under water.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+      "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+      "locality_as_written": "Pulianthope"
+    },
+    {
+      "locality": "medavakkam",
+      "sk": "2024-12-01#2d54c052f5",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas and densely populated locality came under water.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+      "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+      "locality_as_written": "Medavakkam"
+    },
+    {
+      "locality": "tambaram",
+      "sk": "2024-12-01#2d54c052f5",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas and densely populated locality came under water.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+      "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "ashok-nagar",
+      "sk": "2024-12-01#2d54c052f5",
+      "date": "2024-12-01",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas and densely populated locality came under water.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
+      "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+      "locality_as_written": "Ashok Nagar"
+    }
+  ],
+  "unmatched": [
+    "Puducherry",
+    "Cuddalore"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Velachery\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas and densely populated locality came under water.\"\n    },\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas and densely populated locality came under water.\"\n    },\n    {\n        \"locality\": \"Pulianthope\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas and densely populated locality came under water.\"\n    },\n    {\n        \"locality\": \"Medavakkam\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas and densely populated locality came under water.\"\n    },\n    {\n        \"locality\": \"Tambaram\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas and densely populated locality came under water.\"\n    },\n    {\n        \"locality\": \"Ashok Nagar\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas and densely populated locality came under water.\"\n    },\n    {\n        \"locality\": \"Puducherry\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Cars floating and almost submerged in flood waters in several parts of the city.\"\n    },\n    {\n        \"locality\": \"Cuddalore\",\n        \"date\": \"2024-12-01\",\n        \"event\": \"Cyclone Fengal\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Rain water entered houses in several localities, confining people to their homes.\"\n    }\n]\n```"
+}

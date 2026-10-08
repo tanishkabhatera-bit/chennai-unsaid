@@ -1,0 +1,77 @@
+{
+  "article": {
+    "id": "2022-11-18-citizenmatters-north-central-and-south-chennai-flood-monsoon-soil-topograph",
+    "url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
+    "title": "Urban floods: Why some areas in Chennai are worse hit than others",
+    "outlet": "Citizen Matters",
+    "published": "2022-11-18"
+  },
+  "records": [
+    {
+      "locality": "tiruvottiyur",
+      "sk": "2022-11-18#64bc4c151d",
+      "date": "2022-11-18",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Thiruvotriyur in North Chennai has been battling floods this year.",
+      "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
+      "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+      "locality_as_written": "Thiruvotriyur"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2022-11-18#64bc4c151d",
+      "date": "2022-11-18",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Vyasarpadi in North Chennai has been battling floods this year.",
+      "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
+      "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "iyyappanthangal",
+      "sk": "2022-11-18#64bc4c151d",
+      "date": "2022-11-18",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Iyyapanthangal saw people being ferried on boats due to inundation of around three feet.",
+      "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
+      "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+      "locality_as_written": "Iyyapanthangal"
+    },
+    {
+      "locality": "mugalivakkam",
+      "sk": "2022-11-18#64bc4c151d",
+      "date": "2022-11-18",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Mugalivakkam experienced inundation due to the overflowing of the Porur lake.",
+      "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
+      "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+      "locality_as_written": "Mugalivakkam"
+    },
+    {
+      "locality": "thoraipakkam",
+      "sk": "2022-11-18#64bc4c151d",
+      "date": "2022-11-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Thoraipakkam, adjacent to the Pallikaranai wetland, suffers from water stagnation on roads when it rains.",
+      "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
+      "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+      "locality_as_written": "Thoraipakkam"
+    }
+  ],
+  "unmatched": [
+    "Seethammal Colony",
+    "North Chennai",
+    "Moulivakkam"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Seethammal Colony\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area used to be a hotspot of floods in Chennai until last year, but newly laid stormwater drains kept the roads free from inundation this year.\"\n  },\n  {\n    \"locality\": \"North Chennai\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Some areas in North Chennai are still struggling with floods due to lack of proper flood mitigation infrastructure.\"\n  },\n  {\n    \"locality\": \"Thiruvotriyur\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Thiruvotriyur in North Chennai has been battling floods this year.\"\n  },\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Vyasarpadi in North Chennai has been battling floods this year.\"\n  },\n  {\n    \"locality\": \"Iyyapanthangal\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Iyyapanthangal saw people being ferried on boats due to inundation of around three feet.\"\n  },\n  {\n    \"locality\": \"Moulivakkam\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Moulivakkam saw people being ferried on boats due to inundation of around three feet.\"\n  },\n  {\n    \"locality\": \"Mugalivakkam\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Mugalivakkam experienced inundation due to the overflowing of the Porur lake.\"\n  },\n  {\n    \"locality\": \"Thoraipakkam\",\n    \"date\": \"2022-11-18\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Thoraipakkam, adjacent to the Pallikaranai wetland, suffers from water stagnation on roads when it rains.\"\n  }\n]"
+}

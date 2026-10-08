@@ -163,7 +163,9 @@ async function extract(article: Article) {
 async function main() {
   const force = process.argv.includes("--force");
   await mkdir(OUT_DIR, { recursive: true });
-  const files = (await readdir(ARTICLES_DIR)).filter((f) => f.endsWith(".txt")).sort();
+  const files = (await readdir(ARTICLES_DIR))
+    .filter((f) => f.endsWith(".txt") && f !== "urls.txt")
+    .sort();
   if (files.length === 0) {
     console.log(`No articles found. Add .txt files to ${ARTICLES_DIR}/ (see articles/README.md).`);
     return;

@@ -1,0 +1,87 @@
+{
+  "article": {
+    "id": "2025-08-03-dtnext-heavy-rain-paralyses-tambaram-842150",
+    "url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+    "title": "Heavy rain paralyses Tambaram",
+    "outlet": "DT Next",
+    "published": "2025-08-03"
+  },
+  "records": [
+    {
+      "locality": "tambaram",
+      "sk": "2025-08-03#a27de98fc4",
+      "date": "2025-08-03",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The locality was plunged into chaos due to intense downpour, with arterial roads rapidly inundated and the subway submerged by nearly two feet of floodwaters.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+      "source_title": "Heavy rain paralyses Tambaram",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "selaiyur",
+      "sk": "2025-08-03#a27de98fc4",
+      "date": "2025-08-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality experienced torrential rain, thunder, and lightning, leading to rapid inundation of the roads.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+      "source_title": "Heavy rain paralyses Tambaram",
+      "locality_as_written": "Selaiyur"
+    },
+    {
+      "locality": "mudichur",
+      "sk": "2025-08-03#a27de98fc4",
+      "date": "2025-08-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality faced severe flooding, with the Tambaram-Mudichur Road completely submerged and water stagnating on interior roads.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+      "source_title": "Heavy rain paralyses Tambaram",
+      "locality_as_written": "Mudichur"
+    },
+    {
+      "locality": "perungalathur",
+      "sk": "2025-08-03#a27de98fc4",
+      "date": "2025-08-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Sections of the Chennai-Tiruchy National Highway near residential areas were waterlogged, disrupting vehicular movement.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+      "source_title": "Heavy rain paralyses Tambaram",
+      "locality_as_written": "Perungalathur"
+    },
+    {
+      "locality": "peerkankaranai",
+      "sk": "2025-08-03#a27de98fc4",
+      "date": "2025-08-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality experienced waterlogging on arterial roads and interior streets, disrupting traffic and making it difficult for residents to walk through.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+      "source_title": "Heavy rain paralyses Tambaram",
+      "locality_as_written": "Peerkankaranai"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2025-08-03#a27de98fc4",
+      "date": "2025-08-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The road was similarly flooded, crippling traffic flow.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-rain-paralyses-tambaram-842150",
+      "source_title": "Heavy rain paralyses Tambaram",
+      "locality_as_written": "Velachery Road"
+    }
+  ],
+  "unmatched": [
+    "Irumbuliyur"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Tambaram\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The locality was plunged into chaos due to intense downpour, with arterial roads rapidly inundated and the subway submerged by nearly two feet of floodwaters.\"\n  },\n  {\n    \"locality\": \"Selaiyur\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The locality experienced torrential rain, thunder, and lightning, leading to rapid inundation of the roads.\"\n  },\n  {\n    \"locality\": \"Mudichur\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The locality faced severe flooding, with the Tambaram-Mudichur Road completely submerged and water stagnating on interior roads.\"\n  },\n  {\n    \"locality\": \"Perungalathur\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Sections of the Chennai-Tiruchy National Highway near residential areas were waterlogged, disrupting vehicular movement.\"\n  },\n  {\n    \"locality\": \"Peerkankaranai\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The locality experienced waterlogging on arterial roads and interior streets, disrupting traffic and making it difficult for residents to walk through.\"\n  },\n  {\n    \"locality\": \"Irumbuliyur\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The locality faced waterlogging on arterial roads and interior streets, disrupting traffic and causing severe inconvenience to residents.\"\n  },\n  {\n    \"locality\": \"Velachery Road\",\n    \"date\": \"2025-08-03\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The road was similarly flooded, crippling traffic flow.\"\n  }\n]\n```"
+}

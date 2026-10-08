@@ -23,11 +23,21 @@ Then open http://localhost:3000.
 
 ## Status
 
-Step 1 of the build: Home and Area Report pages running on sample data for Velachery, T Nagar and Adyar. Amazon Bedrock and DynamoDB come next.
+Area Report pages read live from Amazon DynamoDB (Sydney, ap-southeast-2): 338 flood records across 82 localities, extracted by Amazon Nova Lite on Bedrock from 69 news articles (2015–2026).
 
-## Data honesty
+## Data
 
-- `data/mock/` holds **sample** flood records and summaries used only to build the layout. Their source links are news searches, not specific articles. They will be replaced by records extracted from real news articles.
-- `data/seed-reports.json` holds resident reports **written by the team** so the demo isn't empty. They are marked `seeded: true`.
+- **Flood records** (`data/flood-records.json`, `data/extracted/`): extracted by Bedrock from articles listed in `articles/urls.txt` (DT Next, Deccan Herald, Citizen Matters). Every record links to its source. `npm run verify` checks that each record's locality is named in its article. Article text itself is not committed (copyright).
+- **Heat ratings** (`data/heat-ratings.json`): indicative, written by the team from coastal distance, tree cover and density.
+- **Resident reports** (`data/seed-reports.json`): **written by the team** so the demo isn't empty, marked `seeded: true`.
+
+## Pipeline
+
+```bash
+npm run fetch-articles   # download articles/urls.txt into articles/*.txt
+npm run extract          # Bedrock → data/flood-records.json
+npm run verify           # check records against articles
+npm run load             # write everything to DynamoDB
+```
 
 See `chennai-unsaid-spec.md` for the full build spec.

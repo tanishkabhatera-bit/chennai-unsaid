@@ -47,6 +47,18 @@ function publishedDate(html: string): string | undefined {
   return raw?.match(/\d{4}-\d{2}-\d{2}/)?.[0];
 }
 
+function jsonLdParagraphs(html: string): string[] {
+  const m = html.match(/"articleBody"\s*:\s*"((?:[^"\\]|\\.)*)"/);
+  if (!m) return [];
+  const body = JSON.parse(`"${m[1]}"`) // undo JSON escaping
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+  return body
+    .split(/<\/p>/i)
+    .map((p: string) => decode(p))
+    .filter((p: string) => p.length > 60);
+}
+
 function outletFor(url: URL): string {
   const host = url.hostname.replace(/^www\./, "");
   return Object.entries(OUTLETS).find(([domain]) => host.endsWith(domain))?.[1] ?? host;
@@ -77,9 +89,11 @@ async function fetchOne(link: string): Promise<string> {
   const date = publishedDate(html);
   if (!date) throw new Error("no published date found on the page");
 
-  const paragraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+  let paragraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
     .map((m) => decode(m[1]))
     .filter((p) => p.length > 60);
+  // Some sites (Deccan Herald) keep the text only in JSON-LD, as an escaped HTML string.
+  if (paragraphs.join(" ").length < 400) paragraphs = jsonLdParagraphs(html);
   if (paragraphs.join(" ").length < 400) throw new Error("couldn't find the article text (site may need copy-paste)");
 
   const id = fileId(url, date);

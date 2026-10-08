@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2025-10-22-dtnext-high-alert-for-residents-along-adyar-kosasthalaiyar-rivers-8",
+    "url": "https://www.dtnext.in/news/chennai/high-alert-for-residents-along-adyar-kosasthalaiyar-rivers-850453",
+    "title": "High alert for residents along Adyar, Kosasthalaiyar rivers",
+    "outlet": "DT Next",
+    "published": "2025-10-22"
+  },
+  "records": [
+    {
+      "locality": "manali",
+      "sk": "2025-10-22#ad79ad196c",
+      "date": "2025-10-22",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Villages along the Kosasthalaiyar have been placed on high alert.",
+      "source_url": "https://www.dtnext.in/news/chennai/high-alert-for-residents-along-adyar-kosasthalaiyar-rivers-850453",
+      "source_title": "High alert for residents along Adyar, Kosasthalaiyar rivers",
+      "locality_as_written": "Manali New Town"
+    }
+  ],
+  "unmatched": [
+    "Sirukalathur",
+    "Kavanur",
+    "Kundrathur",
+    "Thirumudivakkam",
+    "Vazhudiyampedu",
+    "Thiruneermalai",
+    "Nambakkam",
+    "Thamaraipakkam",
+    "Thirukandalam",
+    "Athur",
+    "Pandikkavanur",
+    "Jagannathapuram",
+    "Sadayankuppam"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Sirukalathur\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Authorities have cautioned residents to move to safer ground as the Adyar River level is expected to rise.\"\n  },\n  {\n    \"locality\": \"Kavanur\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Authorities have cautioned residents to move to safer ground as the Adyar River level is expected to rise.\"\n  },\n  {\n    \"locality\": \"Kundrathur\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Authorities have cautioned residents to move to safer ground as the Adyar River level is expected to rise.\"\n  },\n  {\n    \"locality\": \"Thirumudivakkam\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Authorities have cautioned residents to move to safer ground as the Adyar River level is expected to rise.\"\n  },\n  {\n    \"locality\": \"Vazhudiyampedu\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Authorities have cautioned residents to move to safer ground as the Adyar River level is expected to rise.\"\n  },\n  {\n    \"locality\": \"Thiruneermalai\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Authorities have cautioned residents to move to safer ground as the Adyar River level is expected to rise.\"\n  },\n  {\n    \"locality\": \"Nambakkam\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Thamaraipakkam\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Thirukandalam\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Athur\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Pandikkavanur\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Jagannathapuram\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Manali New Town\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  },\n  {\n    \"locality\": \"Sadayankuppam\",\n    \"date\": \"2025-10-22\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Villages along the Kosasthalaiyar have been placed on high alert.\"\n  }\n]\n```"
+}

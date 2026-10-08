@@ -1,0 +1,55 @@
+{
+  "article": {
+    "id": "2023-12-20-citizenmatters-chennai-cyclone-floods-north-pallikaranai-stormwater-drains-",
+    "url": "https://citizenmatters.in/chennai-cyclone-floods-north-pallikaranai-stormwater-drains-janakarajan-gcc/",
+    "title": "Chennai floods: Master Drainage Plan and better SWD design the way forward, says Dr Janakarajan",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-20"
+  },
+  "records": [
+    {
+      "locality": "pallikaranai",
+      "sk": "2023-12-20#0593509dad",
+      "date": "2023-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Poor connectivity between the upstream tanks and the Pallikaranai marshland led to areas in South Chennai, especially Pallikaranai, getting heavily flooded.",
+      "source_url": "https://citizenmatters.in/chennai-cyclone-floods-north-pallikaranai-stormwater-drains-janakarajan-gcc/",
+      "source_title": "Chennai floods: Master Drainage Plan and better SWD design the way forward, says Dr Janakarajan",
+      "locality_as_written": "Pallikaranai"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2023-12-20#0593509dad",
+      "date": "2023-12-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Because of the encroachments in this region, there is also a disconnect between the Ennore wetland and the Buckingham Canal.",
+      "source_url": "https://citizenmatters.in/chennai-cyclone-floods-north-pallikaranai-stormwater-drains-janakarajan-gcc/",
+      "source_title": "Chennai floods: Master Drainage Plan and better SWD design the way forward, says Dr Janakarajan",
+      "locality_as_written": "Ennore wetland"
+    },
+    {
+      "locality": "mylapore",
+      "sk": "2023-12-20#0593509dad",
+      "date": "2023-12-20",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Amudhini regularly boards the 29C or A1 from Abhiramapuram to Chetpet. On a scorching day, without any roofing, the bus shelter seats radiate heat, and they are 'uninviting and uncomfortable to sit on for a prolonged period of time,' says the public relations professional.",
+      "source_url": "https://citizenmatters.in/chennai-cyclone-floods-north-pallikaranai-stormwater-drains-janakarajan-gcc/",
+      "source_title": "Chennai floods: Master Drainage Plan and better SWD design the way forward, says Dr Janakarajan",
+      "locality_as_written": "Mylapore Tank"
+    }
+  ],
+  "unmatched": [
+    "Chennai",
+    "South Chennai",
+    "Okkiam Maduvu",
+    "North Chennai",
+    "KMC Hospital"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Even the areas that were never flooded before, were inundated this year, say many Chennai residents shocked at the flood water entering their homes.\"\n    },\n    {\n        \"locality\": \"South Chennai\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Particularly, the areas in South Chennai saw devastating floods because of the sudden opening of the Chembarambakkam reservoir.\"\n    },\n    {\n        \"locality\": \"Pallikaranai\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Poor connectivity between the upstream tanks and the Pallikaranai marshland led to areas in South Chennai, especially Pallikaranai, getting heavily flooded.\"\n    },\n    {\n        \"locality\": \"Okkiam Maduvu\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Okkiam Maduvu should have been maintained all through the year but it was not. Thus, Okkiam Maduvu was not able to carry the water to the sea.\"\n    },\n    {\n        \"locality\": \"North Chennai\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"North Chennai is prone to flooding. The stretch from Ennore wetland to Pulicat lake is an ecologically important zone but the government does not concentrate on that at all.\"\n    },\n    {\n        \"locality\": \"Ennore wetland\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Because of the encroachments in this region, there is also a disconnect between the Ennore wetland and the Buckingham Canal.\"\n    },\n    {\n        \"locality\": \"Mylapore Tank\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Amudhini regularly boards the 29C or A1 from Abhiramapuram to Chetpet. On a scorching day, without any roofing, the bus shelter seats radiate heat, and they are 'uninviting and uncomfortable to sit on for a prolonged period of time,' says the public relations professional.\"\n    },\n    {\n        \"locality\": \"KMC Hospital\",\n        \"date\": \"2023-12-20\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"On her route, she passes Mylapore Tank and KMC Hospital and notes: 'Bus stops differ from one to the other. I have seen well-maintained bus stops with decent seating, but many others are poorly maintained.'\"\n    }\n]"
+}

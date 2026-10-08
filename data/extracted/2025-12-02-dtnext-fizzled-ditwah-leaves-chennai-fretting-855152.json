@@ -1,0 +1,104 @@
+{
+  "article": {
+    "id": "2025-12-02-dtnext-fizzled-ditwah-leaves-chennai-fretting-855152",
+    "url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+    "title": "Fizzled Ditwah leaves Chennai fretting",
+    "outlet": "DT Next",
+    "published": "2025-12-02"
+  },
+  "records": [
+    {
+      "locality": "poonamallee",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "A floating car drew attention on social media, reflecting the extent of waterlogging.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "Poonamallee High Road service lane near Velappanchavadi"
+    },
+    {
+      "locality": "pattalam",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "One of the worst-affected areas with streets inundated with knee-deep water mixed with sewage.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "Pattalam"
+    },
+    {
+      "locality": "choolai",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "One of the worst-affected areas with streets inundated with knee-deep water mixed with sewage.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "Choolai"
+    },
+    {
+      "locality": "george-town",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Prolonged water stagnation led to fewer visitors at Kothwal Chavadi and flower bazaar.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "George Town"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding in streets off Usman Road prompted criticism from residents.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "T Nagar"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Extensive waterlogging severely affected traffic movement.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "Old Mahabalipuram Road"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2025-12-02#ec1c77d689",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Roads remained heavily waterlogged.",
+      "source_url": "https://www.dtnext.in/news/chennai/fizzled-ditwah-leaves-chennai-fretting-855152",
+      "source_title": "Fizzled Ditwah leaves Chennai fretting",
+      "locality_as_written": "BB Road and Kodungaiyur Thendral Nagar - Durgai Avenue"
+    }
+  ],
+  "unmatched": [
+    "Greenways Road",
+    "Angalamman Koil Street",
+    "Munusamy Street",
+    "KM Garden junction",
+    "Anna Salai",
+    "North Chennai"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Greenways Road\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A large tree was uprooted and crashed onto a moving car, though no injuries were reported.\"\n  },\n  {\n    \"locality\": \"Poonamallee High Road service lane near Velappanchavadi\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A floating car drew attention on social media, reflecting the extent of waterlogging.\"\n  },\n  {\n    \"locality\": \"Pattalam\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"One of the worst-affected areas with streets inundated with knee-deep water mixed with sewage.\"\n  },\n  {\n    \"locality\": \"Choolai\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"One of the worst-affected areas with streets inundated with knee-deep water mixed with sewage.\"\n  },\n  {\n    \"locality\": \"Angalamman Koil Street\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Streets were inundated with knee-deep water mixed with sewage, and a live electric cable lay immersed in the water.\"\n  },\n  {\n    \"locality\": \"Munusamy Street\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Some stretches recorded hip-deep water.\"\n  },\n  {\n    \"locality\": \"KM Garden junction\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Streets were inundated with knee-deep water mixed with sewage.\"\n  },\n  {\n    \"locality\": \"George Town\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Prolonged water stagnation led to fewer visitors at Kothwal Chavadi and flower bazaar.\"\n  },\n  {\n    \"locality\": \"T Nagar\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding in streets off Usman Road prompted criticism from residents.\"\n  },\n  {\n    \"locality\": \"Anna Salai\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Extensive waterlogging severely affected traffic movement.\"\n  },\n  {\n    \"locality\": \"Old Mahabalipuram Road\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Extensive waterlogging severely affected traffic movement.\"\n  },\n  {\n    \"locality\": \"North Chennai\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several roads turned into ponds despite pre-monsoon desilting drives.\"\n  },\n  {\n    \"locality\": \"BB Road and Kodungaiyur Thendral Nagar - Durgai Avenue\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads remained heavily waterlogged.\"\n  }\n]\n```"
+}

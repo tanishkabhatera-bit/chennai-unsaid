@@ -1,0 +1,29 @@
+{
+  "article": {
+    "id": "2025-08-23-dtnext-new-swds-dont-solve-old-problems-for-korattur-housing-board-",
+    "url": "https://www.dtnext.in/news/chennai/new-swds-dont-solve-old-problems-for-korattur-housing-board-colonies-844304",
+    "title": "New SWDs don&#x27;t solve old problems for Korattur housing board colonies",
+    "outlet": "DT Next",
+    "published": "2025-08-23"
+  },
+  "records": [
+    {
+      "locality": "korattur",
+      "sk": "2023-12-30#b903ffbc42",
+      "date": "2023-12-30",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": 3,
+      "detail": "Cyclone Michaung submerged several streets in the Korattur housing board area for over three days.",
+      "source_url": "https://www.dtnext.in/news/chennai/new-swds-dont-solve-old-problems-for-korattur-housing-board-colonies-844304",
+      "source_title": "New SWDs don&#x27;t solve old problems for Korattur housing board colonies",
+      "locality_as_written": "Korattur housing board area"
+    }
+  ],
+  "unmatched": [
+    "Central Avenue",
+    "30th Street, Tamil Nadu Housing Board (TNHB) Colony",
+    "27th, 28th and adjoining streets, Tamil Nadu Housing Board (TNHB) Colony"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Korattur\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several stretches in Korattur were waterlogged after heavy overnight rain.\"\n  },\n  {\n    \"locality\": \"Central Avenue\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Central Avenue, a key road connecting Korattur to the Ambattur industrial estate, was under stagnant water throughout the morning.\"\n  },\n  {\n    \"locality\": \"30th Street, Tamil Nadu Housing Board (TNHB) Colony\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": 5,\n    \"detail\": \"Residents on 30th Street waded through water that rose from half to knee level and mixed with sewage.\"\n  },\n  {\n    \"locality\": \"27th, 28th and adjoining streets, Tamil Nadu Housing Board (TNHB) Colony\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Waterlogging was reported on 27th, 28th and adjoining streets, where residents complained that clogged drains delayed outflow.\"\n  },\n  {\n    \"locality\": \"Korattur housing board area\",\n    \"date\": \"2023-12-30\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Cyclone Michaung submerged several streets in the Korattur housing board area for over three days.\"\n  }\n]\n```"
+}

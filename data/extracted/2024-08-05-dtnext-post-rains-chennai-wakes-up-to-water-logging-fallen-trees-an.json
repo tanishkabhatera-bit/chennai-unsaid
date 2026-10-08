@@ -1,0 +1,51 @@
+{
+  "article": {
+    "id": "2024-08-05-dtnext-post-rains-chennai-wakes-up-to-water-logging-fallen-trees-an",
+    "url": "https://www.dtnext.in/news/city/post-rains-chennai-wakes-up-to-water-logging-fallen-trees-and-traffic-jams-798218",
+    "title": "Waterlogging in Chennai after a brief spell chokes traffic for hours",
+    "outlet": "DT Next",
+    "published": "2024-08-05"
+  },
+  "records": [
+    {
+      "locality": "perambur",
+      "sk": "2024-08-05#1a6726ef4b",
+      "date": "2024-08-05",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Water-logging and fallen tree branches led to traffic congestion.",
+      "source_url": "https://www.dtnext.in/news/city/post-rains-chennai-wakes-up-to-water-logging-fallen-trees-and-traffic-jams-798218",
+      "source_title": "Waterlogging in Chennai after a brief spell chokes traffic for hours",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "adyar",
+      "sk": "2024-08-05#1a6726ef4b",
+      "date": "2024-08-05",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Several tree branches fell due to heavy rain and strong winds.",
+      "source_url": "https://www.dtnext.in/news/city/post-rains-chennai-wakes-up-to-water-logging-fallen-trees-and-traffic-jams-798218",
+      "source_title": "Waterlogging in Chennai after a brief spell chokes traffic for hours",
+      "locality_as_written": "Adyar"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2024-08-05#1a6726ef4b",
+      "date": "2024-08-05",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Minor water-logging and traffic gridlock due to ongoing construction work.",
+      "source_url": "https://www.dtnext.in/news/city/post-rains-chennai-wakes-up-to-water-logging-fallen-trees-and-traffic-jams-798218",
+      "source_title": "Waterlogging in Chennai after a brief spell chokes traffic for hours",
+      "locality_as_written": "Velachery"
+    }
+  ],
+  "unmatched": [
+    "Tidel Park signal"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2024-08-05\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water-logging and fallen tree branches led to traffic congestion.\"\n  },\n  {\n    \"locality\": \"Adyar\",\n    \"date\": \"2024-08-05\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several tree branches fell due to heavy rain and strong winds.\"\n  },\n  {\n    \"locality\": \"Tidel Park signal\",\n    \"date\": \"2024-08-05\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Traffic moved at a snail pace due to water-logging.\"\n  },\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2024-08-05\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Minor water-logging and traffic gridlock due to ongoing construction work.\"\n  }\n]\n```"
+}

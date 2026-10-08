@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2026-03-20-dtnext-velachery-residents-want-new-mla-to-address-flood-risk-missi",
+    "url": "https://www.dtnext.in/news/chennai/velachery-residents-want-new-mla-to-address-flood-risk-missing-road-links",
+    "title": "Velachery residents want new MLA to address flood risk, missing road links",
+    "outlet": "DT Next",
+    "published": "2026-03-20"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2026-03-20#c5be635fe0",
+      "date": "2026-03-20",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents flagged chronic flooding and the absence of direct road connectivity as their primary concerns.",
+      "source_url": "https://www.dtnext.in/news/chennai/velachery-residents-want-new-mla-to-address-flood-risk-missing-road-links",
+      "source_title": "Velachery residents want new MLA to address flood risk, missing road links",
+      "locality_as_written": "AGS Colony in Velachery"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"AGS Colony in Velachery\",\n    \"date\": \"2026-03-20\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents flagged chronic flooding and the absence of direct road connectivity as their primary concerns.\"\n  }\n]\n```"
+}

@@ -1,0 +1,27 @@
+{
+  "article": {
+    "id": "2026-04-13-dtnext-constituency-watch-virugambakkam-poor-sewer-lines-choked-roa",
+    "url": "https://www.dtnext.in/news/chennai/constituency-watch-virugambakkam-poor-sewer-lines-choked-roads-lay-bare-tinsel-towns-underbelly",
+    "title": "DT Next Constituency Watch | Virugambakkam: Poor sewer lines, choked roads lay bare tinsel town’s underbelly",
+    "outlet": "DT Next",
+    "published": "2026-04-13"
+  },
+  "records": [
+    {
+      "locality": "valasaravakkam",
+      "sk": "2026-04-13#6f85e14abe",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Flooding used to be worse earlier. After the drain works, waterlogging has reduced.",
+      "source_url": "https://www.dtnext.in/news/chennai/constituency-watch-virugambakkam-poor-sewer-lines-choked-roads-lay-bare-tinsel-towns-underbelly",
+      "source_title": "DT Next Constituency Watch | Virugambakkam: Poor sewer lines, choked roads lay bare tinsel town’s underbelly",
+      "locality_as_written": "Valasaravakkam"
+    }
+  ],
+  "unmatched": [
+    "Low-lying pockets"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Low-lying pockets\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying pockets still report flooding during heavy rains, pointing to gaps in stormwater drainage integration.\"\n    },\n    {\n        \"locality\": \"Valasaravakkam\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flooding used to be worse earlier. After the drain works, waterlogging has reduced.\"\n    }\n]\n```"
+}

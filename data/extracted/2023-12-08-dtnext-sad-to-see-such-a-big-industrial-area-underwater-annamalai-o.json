@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": "2023-12-08-dtnext-sad-to-see-such-a-big-industrial-area-underwater-annamalai-o",
+    "url": "https://www.dtnext.in/news/city/sad-to-see-such-a-big-industrial-area-underwater-annamalai-on-chennai-floods-753138",
+    "title": "Sad to see such a big industrial area underwater: Annamalai on Chennai floods",
+    "outlet": "DT Next",
+    "published": "2023-12-08"
+  },
+  "records": [
+    {
+      "locality": "ambattur",
+      "sk": "2023-12-08#300d90f2aa",
+      "date": "2023-12-08",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The Ambattur Industrial Estate in Chennai was affected by waterlogging due to rains caused by Cyclone Michaung.",
+      "source_url": "https://www.dtnext.in/news/city/sad-to-see-such-a-big-industrial-area-underwater-annamalai-on-chennai-floods-753138",
+      "source_title": "Sad to see such a big industrial area underwater: Annamalai on Chennai floods",
+      "locality_as_written": "Ambattur Industrial Estate"
+    },
+    {
+      "locality": "pattalam",
+      "sk": "2023-12-08#300d90f2aa",
+      "date": "2023-12-08",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "In the Pattalam area in Chennai, roads are still waterlogged and the people are complaining of a lack of cleanliness and absence of necessities.",
+      "source_url": "https://www.dtnext.in/news/city/sad-to-see-such-a-big-industrial-area-underwater-annamalai-on-chennai-floods-753138",
+      "source_title": "Sad to see such a big industrial area underwater: Annamalai on Chennai floods",
+      "locality_as_written": "Pattalam"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Ambattur Industrial Estate\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The Ambattur Industrial Estate in Chennai was affected by waterlogging due to rains caused by Cyclone Michaung.\"\n  },\n  {\n    \"locality\": \"Pattalam\",\n    \"date\": \"2023-12-08\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"In the Pattalam area in Chennai, roads are still waterlogged and the people are complaining of a lack of cleanliness and absence of necessities.\"\n  }\n]\n```"
+}

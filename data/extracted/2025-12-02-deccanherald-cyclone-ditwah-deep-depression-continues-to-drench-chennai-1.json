@@ -1,0 +1,100 @@
+{
+  "article": {
+    "id": "2025-12-02-deccanherald-cyclone-ditwah-deep-depression-continues-to-drench-chennai-1",
+    "url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+    "title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+    "outlet": "Deccan Herald",
+    "published": "2025-12-02"
+  },
+  "records": [
+    {
+      "locality": "george-town",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Parrys Corner registered 26 cm rainfall in 24 hours, leading to severe waterlogging.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "Parrys Corner"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Ennore registered 26 cm rainfall in 24 hours, leading to severe waterlogging.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "Ennore"
+    },
+    {
+      "locality": "manali",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "New Manali Town registered 20.6 cm rainfall in 24 hours, leading to moderate waterlogging.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "New Manali Town"
+    },
+    {
+      "locality": "vadapalani",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Vadapalani registered 18.1 cm rainfall in 24 hours, leading to moderate waterlogging.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "Vadapalani"
+    },
+    {
+      "locality": "medavakkam",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Medavakkam registered 17.7 cm rainfall in 24 hours, leading to moderate waterlogging.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "Medavakkam"
+    },
+    {
+      "locality": "nungambakkam",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Nungambakkam registered 14 cm rainfall in 24 hours, leading to minor waterlogging.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "Nungambakkam"
+    },
+    {
+      "locality": "purasawalkam",
+      "sk": "2025-12-02#6faa915e3b",
+      "date": "2025-12-02",
+      "event": "Cyclone Ditwah",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Purasawalkam experienced knee-deep water, preventing residents from leaving their homes.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
+      "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+      "locality_as_written": "Purasawalkam"
+    }
+  ],
+  "unmatched": [
+    "Ice House",
+    "Basin Bridge"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Parrys Corner\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Parrys Corner registered 26 cm rainfall in 24 hours, leading to severe waterlogging.\"\n    },\n    {\n        \"locality\": \"Ennore\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Ennore registered 26 cm rainfall in 24 hours, leading to severe waterlogging.\"\n    },\n    {\n        \"locality\": \"Ice House\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Ice House registered 23.1 cm rainfall in 24 hours, leading to moderate waterlogging.\"\n    },\n    {\n        \"locality\": \"Basin Bridge\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Basin Bridge registered 20.7 cm rainfall in 24 hours, leading to moderate waterlogging.\"\n    },\n    {\n        \"locality\": \"New Manali Town\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"New Manali Town registered 20.6 cm rainfall in 24 hours, leading to moderate waterlogging.\"\n    },\n    {\n        \"locality\": \"Vadapalani\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Vadapalani registered 18.1 cm rainfall in 24 hours, leading to moderate waterlogging.\"\n    },\n    {\n        \"locality\": \"Medavakkam\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Medavakkam registered 17.7 cm rainfall in 24 hours, leading to moderate waterlogging.\"\n    },\n    {\n        \"locality\": \"Nungambakkam\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Nungambakkam registered 14 cm rainfall in 24 hours, leading to minor waterlogging.\"\n    },\n    {\n        \"locality\": \"Purasawalkam\",\n        \"date\": \"2025-12-02\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Purasawalkam experienced knee-deep water, preventing residents from leaving their homes.\"\n    }\n]\n```"
+}

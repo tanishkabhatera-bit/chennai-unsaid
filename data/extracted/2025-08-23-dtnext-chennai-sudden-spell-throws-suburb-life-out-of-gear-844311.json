@@ -1,0 +1,125 @@
+{
+  "article": {
+    "id": "2025-08-23-dtnext-chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+    "url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+    "title": "Chennai: Sudden spell throws suburb life out of gear",
+    "outlet": "DT Next",
+    "published": "2025-08-23"
+  },
+  "records": [
+    {
+      "locality": "tambaram",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Several suburban areas of Chennai, including Tambaram, were inundated, disrupting traffic and paralysing daily life.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Portions of the Chennai–Tiruchy National Highway in Pallavaram were submerged with nearly two feet of water, forcing vehicles to wade through.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Pallavaram"
+    },
+    {
+      "locality": "guduvanchery",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Guduvanchery was one of the suburban areas of Chennai that were inundated due to heavy rain.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Guduvanchery"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Stretches of OMR experienced severe waterlogging due to heavy rain.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "OMR (Old Mahabalipuram Road)"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Nearly two feet of water submerged portions of the Chennai–Tiruchy National Highway in Chromepet, forcing vehicles to wade through.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Chromepet"
+    },
+    {
+      "locality": "pammal",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding was reported in Pammal.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Pammal"
+    },
+    {
+      "locality": "anakaputhur",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding was reported in Anakaputhur.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Anakaputhur"
+    },
+    {
+      "locality": "mudichur",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding was reported on Mudichur Road.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Mudichur Road"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2025-08-23#a932ddb9d9",
+      "date": "2025-08-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding was reported on Tambaram–Velachery Main Road.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-sudden-spell-throws-suburb-life-out-of-gear-844311",
+      "source_title": "Chennai: Sudden spell throws suburb life out of gear",
+      "locality_as_written": "Tambaram–Velachery Main Road"
+    }
+  ],
+  "unmatched": [
+    "Chengalpattu",
+    "Maduranthagam",
+    "ECR (East Coast Road)"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Tambaram\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several suburban areas of Chennai, including Tambaram, were inundated, disrupting traffic and paralysing daily life.\"\n  },\n  {\n    \"locality\": \"Pallavaram\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Portions of the Chennai–Tiruchy National Highway in Pallavaram were submerged with nearly two feet of water, forcing vehicles to wade through.\"\n  },\n  {\n    \"locality\": \"Guduvanchery\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Guduvanchery was one of the suburban areas of Chennai that were inundated due to heavy rain.\"\n  },\n  {\n    \"locality\": \"Chengalpattu\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Chengalpattu was among the suburban areas of Chennai that experienced severe waterlogging.\"\n  },\n  {\n    \"locality\": \"Maduranthagam\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Maduranthagam was one of the suburban areas of Chennai that were inundated due to heavy rain.\"\n  },\n  {\n    \"locality\": \"OMR (Old Mahabalipuram Road)\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Stretches of OMR experienced severe waterlogging due to heavy rain.\"\n  },\n  {\n    \"locality\": \"ECR (East Coast Road)\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Stretches of ECR experienced severe waterlogging due to heavy rain.\"\n  },\n  {\n    \"locality\": \"Chromepet\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Nearly two feet of water submerged portions of the Chennai–Tiruchy National Highway in Chromepet, forcing vehicles to wade through.\"\n  },\n  {\n    \"locality\": \"Pallavaram–Kundrathur Road\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding was reported on Pallavaram–Kundrathur Road.\"\n  },\n  {\n    \"locality\": \"Pammal\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding was reported in Pammal.\"\n  },\n  {\n    \"locality\": \"Anakaputhur\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding was reported in Anakaputhur.\"\n  },\n  {\n    \"locality\": \"Mudichur Road\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding was reported on Mudichur Road.\"\n  },\n  {\n    \"locality\": \"Tambaram–Velachery Main Road\",\n    \"date\": \"2025-08-23\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding was reported on Tambaram–Velachery Main Road.\"\n  }\n]\n```"
+}

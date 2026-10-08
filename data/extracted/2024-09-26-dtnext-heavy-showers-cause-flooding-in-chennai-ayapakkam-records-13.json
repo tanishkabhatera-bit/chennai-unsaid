@@ -1,0 +1,97 @@
+{
+  "article": {
+    "id": "2024-09-26-dtnext-heavy-showers-cause-flooding-in-chennai-ayapakkam-records-13",
+    "url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+    "title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+    "outlet": "DT Next",
+    "published": "2024-09-26"
+  },
+  "records": [
+    {
+      "locality": "poonamallee",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Poonamallee High Road.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "Poonamallee High Road"
+    },
+    {
+      "locality": "anna-nagar",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Anna Nagar.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "Anna Nagar"
+    },
+    {
+      "locality": "koyambedu",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Koyambedu.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "Koyambedu"
+    },
+    {
+      "locality": "nungambakkam",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Nungambakkam.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "Nungambakkam"
+    },
+    {
+      "locality": "kk-nagar",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as K K Nagar.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "K K Nagar"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding affected the Perambur High Road Subway on Wednesday night, with the former being temporarily closed due to water stagnation.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "Perambur High Road Subway"
+    },
+    {
+      "locality": "villivakkam",
+      "sk": "2024-09-26#dfbf5ae30d",
+      "date": "2024-09-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding affected the Villivakkam Subway on Wednesday night.",
+      "source_url": "https://www.dtnext.in/news/chennai/heavy-showers-cause-flooding-in-chennai-ayapakkam-records-1341-mm-rain-805212",
+      "source_title": "Heavy showers cause flooding in Chennai; Ayapakkam records 134.1 mm rain",
+      "locality_as_written": "Villivakkam Subway"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Poonamallee High Road\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Poonamallee High Road.\"\n  },\n  {\n    \"locality\": \"Anna Nagar\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Anna Nagar.\"\n  },\n  {\n    \"locality\": \"Koyambedu\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Koyambedu.\"\n  },\n  {\n    \"locality\": \"Nungambakkam\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as Nungambakkam.\"\n  },\n  {\n    \"locality\": \"K K Nagar\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Heavy rains on Wednesday night disrupted life in several parts of the city, leading to flooding in areas such as K K Nagar.\"\n  },\n  {\n    \"locality\": \"Perambur High Road Subway\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding affected the Perambur High Road Subway on Wednesday night, with the former being temporarily closed due to water stagnation.\"\n  },\n  {\n    \"locality\": \"Villivakkam Subway\",\n    \"date\": \"2024-09-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding affected the Villivakkam Subway on Wednesday night.\"\n  }\n]\n```"
+}

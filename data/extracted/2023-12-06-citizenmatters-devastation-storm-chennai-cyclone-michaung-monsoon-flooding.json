@@ -8,45 +8,69 @@
   },
   "records": [
     {
-      "locality": "perungudi",
-      "sk": "2023-12-04#50c2728be5",
-      "date": "2023-12-04",
+      "locality": "taramani",
+      "sk": "2023-12-06#50c2728be5",
+      "date": "2023-12-06",
       "event": "Cyclone Michaung",
       "severity": "severe",
       "water_stayed_days": null,
-      "detail": "Areas surrounding Velachery, including Perungudi, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.",
+      "detail": "Areas surrounding Velachery, including Taramani, are heavily waterlogged, making it impossible for residents to move out.",
+      "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
+      "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+      "locality_as_written": "Taramani"
+    },
+    {
+      "locality": "perungudi",
+      "sk": "2023-12-06#50c2728be5",
+      "date": "2023-12-06",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas surrounding Velachery, including Perungudi, are heavily waterlogged, making it impossible for residents to move out.",
       "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
       "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
       "locality_as_written": "Perungudi"
     },
     {
       "locality": "pallikaranai",
-      "sk": "2023-12-04#50c2728be5",
-      "date": "2023-12-04",
+      "sk": "2023-12-06#50c2728be5",
+      "date": "2023-12-06",
       "event": "Cyclone Michaung",
       "severity": "severe",
       "water_stayed_days": null,
-      "detail": "Areas surrounding Velachery, including Pallikaranai, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.",
+      "detail": "Areas surrounding Velachery, including Pallikaranai, are heavily waterlogged, making it impossible for residents to move out.",
       "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
       "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
       "locality_as_written": "Pallikaranai"
     },
     {
       "locality": "madipakkam",
-      "sk": "2023-12-04#50c2728be5",
-      "date": "2023-12-04",
+      "sk": "2023-12-06#50c2728be5",
+      "date": "2023-12-06",
       "event": "Cyclone Michaung",
       "severity": "severe",
       "water_stayed_days": null,
-      "detail": "Areas surrounding Velachery, including large parts of Madipakkam, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.",
+      "detail": "Areas surrounding Velachery, including Madipakkam, are heavily waterlogged, making it impossible for residents to move out.",
       "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
       "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
       "locality_as_written": "Madipakkam"
     },
     {
+      "locality": "manapakkam",
+      "sk": "2023-12-06#50c2728be5",
+      "date": "2023-12-06",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Few of the neighbouring localities in Manapakkam are facing severe water stagnation.",
+      "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
+      "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+      "locality_as_written": "Manapakkam"
+    },
+    {
       "locality": "saidapet",
-      "sk": "2023-12-04#50c2728be5",
-      "date": "2023-12-04",
+      "sk": "2023-12-06#50c2728be5",
+      "date": "2023-12-06",
       "event": "Cyclone Michaung",
       "severity": "severe",
       "water_stayed_days": null,
@@ -57,9 +81,7 @@
     }
   ],
   "unmatched": [
-    "Taramani",
-    "Ram nagar",
-    "Manapakkam"
+    "Ram nagar"
   ],
-  "reply": "```json\n[\n  {\n    \"locality\": \"Taramani\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas surrounding Velachery, including Taramani, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.\"\n  },\n  {\n    \"locality\": \"Perungudi\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas surrounding Velachery, including Perungudi, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.\"\n  },\n  {\n    \"locality\": \"Ram nagar\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas surrounding Velachery, including Ram nagar, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.\"\n  },\n  {\n    \"locality\": \"Pallikaranai\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas surrounding Velachery, including Pallikaranai, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.\"\n  },\n  {\n    \"locality\": \"Madipakkam\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas surrounding Velachery, including large parts of Madipakkam, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.\"\n  },\n  {\n    \"locality\": \"Manapakkam\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Few of the neighboring localities in Manapakkam are facing severe water stagnation.\"\n  },\n  {\n    \"locality\": \"Saidapet\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Hutments on the Adyar riverside in Saidapet are almost completely submerged with the rising water levels.\"\n  }\n]\n```"
+  "reply": "```json\n[\n    {\n        \"locality\": \"Taramani\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Areas surrounding Velachery, including Taramani, are heavily waterlogged, making it impossible for residents to move out.\"\n    },\n    {\n        \"locality\": \"Perungudi\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Areas surrounding Velachery, including Perungudi, are heavily waterlogged, making it impossible for residents to move out.\"\n    },\n    {\n        \"locality\": \"Ram nagar\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Areas surrounding Velachery, including Ram nagar, are heavily waterlogged, making it impossible for residents to move out.\"\n    },\n    {\n        \"locality\": \"Pallikaranai\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Areas surrounding Velachery, including Pallikaranai, are heavily waterlogged, making it impossible for residents to move out.\"\n    },\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Areas surrounding Velachery, including Madipakkam, are heavily waterlogged, making it impossible for residents to move out.\"\n    },\n    {\n        \"locality\": \"Manapakkam\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Few of the neighbouring localities in Manapakkam are facing severe water stagnation.\"\n    },\n    {\n        \"locality\": \"Saidapet\",\n        \"date\": \"2023-12-06\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Hutments on the Adyar riverside in Saidapet are almost completely submerged with the rising water levels.\"\n    }\n]\n```"
 }

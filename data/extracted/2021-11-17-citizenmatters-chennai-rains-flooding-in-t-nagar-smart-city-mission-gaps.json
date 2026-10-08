@@ -1,0 +1,47 @@
+{
+  "article": {
+    "id": "2021-11-17-citizenmatters-chennai-rains-flooding-in-t-nagar-smart-city-mission-gaps",
+    "url": "https://citizenmatters.in/chennai-rains-flooding-in-t-nagar-smart-city-mission-gaps/",
+    "title": "Flooding in T Nagar raises a lot of questions for the smart city mission",
+    "outlet": "Citizen Matters",
+    "published": "2021-11-17"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2021-11-07#24cf1ca228",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Water entered all the flats in the ground floor of the building.",
+      "source_url": "https://citizenmatters.in/chennai-rains-flooding-in-t-nagar-smart-city-mission-gaps/",
+      "source_title": "Flooding in T Nagar raises a lot of questions for the smart city mission",
+      "locality_as_written": "Motilal street in T Nagar"
+    },
+    {
+      "locality": "west-mambalam",
+      "sk": "2021-11-10#24cf1ca228",
+      "date": "2021-11-10",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Waterlogging due to clogging of the canal.",
+      "source_url": "https://citizenmatters.in/chennai-rains-flooding-in-t-nagar-smart-city-mission-gaps/",
+      "source_title": "Flooding in T Nagar raises a lot of questions for the smart city mission",
+      "locality_as_written": "Areas near the Mambalam canal"
+    }
+  ],
+  "unmatched": [
+    "Bashyam Road",
+    "Pondy Bazaar",
+    "GN Chetty Road",
+    "Bazullah street",
+    "Habibullah Street",
+    "Giri road",
+    "Usman Road",
+    "Ranganathan Street",
+    "Rameswaram Street"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Motilal street in T Nagar\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water entered all the flats in the ground floor of the building.\"\n  },\n  {\n    \"locality\": \"Bashyam Road\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Pondy Bazaar\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"GN Chetty Road\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Bazullah street\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Habibullah Street\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Giri road\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Usman Road\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Ranganathan Street\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Rameswaram Street\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Rameswaram road in T Nagar\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saw severe inundation.\"\n  },\n  {\n    \"locality\": \"Areas near the Mambalam canal\",\n    \"date\": \"2021-11-10\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Waterlogging due to clogging of the canal.\"\n  },\n  {\n    \"locality\": \"Rameswaram street, Ranganathan street, and Mambalam railway station in T Nagar\",\n    \"date\": \"2021-11-10\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Entire stretch of road was inundated.\"\n  }\n]"
+}

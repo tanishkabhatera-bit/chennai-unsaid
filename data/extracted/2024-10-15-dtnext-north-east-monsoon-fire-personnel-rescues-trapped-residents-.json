@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2024-10-15-dtnext-north-east-monsoon-fire-personnel-rescues-trapped-residents-",
+    "url": "https://www.dtnext.in/news/chennai/north-east-monsoon-fire-personnel-rescues-trapped-residents-in-boats-amid-flooding-in-velachery-807537",
+    "title": "Chennai rains: Fire personnel rescues trapped residents in boats amid flooding in Velachery",
+    "outlet": "DT Next",
+    "published": "2024-10-15"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2024-10-15#372918e738",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Over 10 streets submerged, fire personnel rescuing trapped residents using boats.",
+      "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-fire-personnel-rescues-trapped-residents-in-boats-amid-flooding-in-velachery-807537",
+      "source_title": "Chennai rains: Fire personnel rescues trapped residents in boats amid flooding in Velachery",
+      "locality_as_written": "AGS Colony in Velachery"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"AGS Colony in Velachery\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Over 10 streets submerged, fire personnel rescuing trapped residents using boats.\"\n  }\n]\n```"
+}

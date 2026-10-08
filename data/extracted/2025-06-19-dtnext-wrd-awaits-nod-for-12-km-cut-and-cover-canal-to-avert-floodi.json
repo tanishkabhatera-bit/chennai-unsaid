@@ -1,0 +1,87 @@
+{
+  "article": {
+    "id": "2025-06-19-dtnext-wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-floodi",
+    "url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+    "title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+    "outlet": "DT Next",
+    "published": "2025-06-19"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2025-06-19#93a00a68a7",
+      "date": "2025-06-19",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Around 25 localities in TANSI Nagar in Velachery were inundated with 5–6 feet of water.",
+      "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+      "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "pallikaranai",
+      "sk": "2025-06-19#93a00a68a7",
+      "date": "2025-06-19",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Pallikaranai is one of the localities that experience waterlogging.",
+      "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+      "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+      "locality_as_written": "Pallikaranai"
+    },
+    {
+      "locality": "perungudi",
+      "sk": "2025-06-19#93a00a68a7",
+      "date": "2025-06-19",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Perungudi is one of the localities that experience waterlogging.",
+      "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+      "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+      "locality_as_written": "Perungudi"
+    },
+    {
+      "locality": "neelankarai",
+      "sk": "2025-06-19#93a00a68a7",
+      "date": "2025-06-19",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Neelankarai is one of the localities that experience waterlogging.",
+      "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+      "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+      "locality_as_written": "Neelankarai"
+    },
+    {
+      "locality": "injambakkam",
+      "sk": "2025-06-19#93a00a68a7",
+      "date": "2025-06-19",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Injambakkam is one of the localities that experience waterlogging.",
+      "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+      "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+      "locality_as_written": "Injambakkam"
+    },
+    {
+      "locality": "karapakkam",
+      "sk": "2025-06-19#93a00a68a7",
+      "date": "2025-06-19",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Karapakkam is one of the localities that experience waterlogging.",
+      "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
+      "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
+      "locality_as_written": "Karapakkam"
+    }
+  ],
+  "unmatched": [
+    "Nanmangalam"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Around 25 localities in TANSI Nagar in Velachery were inundated with 5–6 feet of water.\"\n  },\n  {\n    \"locality\": \"Pallikaranai\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Pallikaranai is one of the localities that experience waterlogging.\"\n  },\n  {\n    \"locality\": \"Nanmangalam\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Nanmangalam is one of the localities that experience waterlogging.\"\n  },\n  {\n    \"locality\": \"Perungudi\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Perungudi is one of the localities that experience waterlogging.\"\n  },\n  {\n    \"locality\": \"Neelankarai\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Neelankarai is one of the localities that experience waterlogging.\"\n  },\n  {\n    \"locality\": \"Injambakkam\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Injambakkam is one of the localities that experience waterlogging.\"\n  },\n  {\n    \"locality\": \"Karapakkam\",\n    \"date\": \"2025-06-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Karapakkam is one of the localities that experience waterlogging.\"\n  }\n]\n```"
+}

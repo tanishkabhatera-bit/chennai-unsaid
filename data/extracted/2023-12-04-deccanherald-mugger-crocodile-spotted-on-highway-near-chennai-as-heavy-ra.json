@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2023-12-04-deccanherald-mugger-crocodile-spotted-on-highway-near-chennai-as-heavy-ra",
+    "url": "https://www.deccanherald.com/india/tamil-nadu/mugger-crocodile-spotted-on-highway-near-chennai-as-heavy-rains-lash-2795974",
+    "title": "Cyclone Michaung: &#x27;Mugger&#x27; crocodile spotted on road near Chennai as heavy rains lash city, adjoining areas",
+    "outlet": "Deccan Herald",
+    "published": "2023-12-04"
+  },
+  "records": [
+    {
+      "locality": "perungalathur",
+      "sk": "2023-12-04#09eeb68dbf",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Perungalathur has been one of the worst affected areas in the city due to the continuous downpour since Sunday night.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/mugger-crocodile-spotted-on-highway-near-chennai-as-heavy-rains-lash-2795974",
+      "source_title": "Cyclone Michaung: &#x27;Mugger&#x27; crocodile spotted on road near Chennai as heavy rains lash city, adjoining areas",
+      "locality_as_written": "Perungalathur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Perungalathur\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Perungalathur has been one of the worst affected areas in the city due to the continuous downpour since Sunday night.\"\n  }\n]\n```"
+}

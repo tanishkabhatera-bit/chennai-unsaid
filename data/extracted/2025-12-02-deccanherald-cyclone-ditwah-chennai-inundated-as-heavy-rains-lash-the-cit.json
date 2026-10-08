@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2025-12-02-deccanherald-cyclone-ditwah-chennai-inundated-as-heavy-rains-lash-the-cit",
+    "url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-chennai-inundated-as-heavy-rains-lash-the-city-3816741",
+    "title": "Cyclone Ditwah: Chennai inundated as heavy rains lash the city",
+    "outlet": "Deccan Herald",
+    "published": "2025-12-02"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai",
+    "low-lying areas"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Chennai and its surrounding districts have been flooded, turning major roads and residential areas into waterlogged chaos.\"\n  },\n  {\n    \"locality\": \"low-lying areas\",\n    \"date\": \"2025-12-02\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several localities have been marooned and major traffic disruption has occurred.\"\n  }\n]\n```"
+}

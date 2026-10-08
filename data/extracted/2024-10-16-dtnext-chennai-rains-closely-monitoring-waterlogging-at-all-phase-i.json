@@ -1,0 +1,28 @@
+{
+  "article": {
+    "id": "2024-10-16-dtnext-chennai-rains-closely-monitoring-waterlogging-at-all-phase-i",
+    "url": "https://www.dtnext.in/news/chennai/chennai-rains-closely-monitoring-waterlogging-at-all-phase-ii-sites-says-cmrl-807702",
+    "title": "Chennai rains: Closely monitoring waterlogging at all phase II sites, says CMRL",
+    "outlet": "DT Next",
+    "published": "2024-10-16"
+  },
+  "records": [
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2024-10-16#d68d2c410e",
+      "date": "2024-10-16",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Waterlogging issues mitigated along the OMR-Sholinganallur stretch, with improved traffic flow after removal of stagnant water.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-closely-monitoring-waterlogging-at-all-phase-ii-sites-says-cmrl-807702",
+      "source_title": "Chennai rains: Closely monitoring waterlogging at all phase II sites, says CMRL",
+      "locality_as_written": "OMR-Sholinganallur stretch"
+    }
+  ],
+  "unmatched": [
+    "Phase II project sites",
+    "Panagal Park"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Phase II project sites\",\n        \"date\": \"2024-10-16\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Waterlogging at Phase II project sites, with CMRL deploying water pumps to monitor and de-water flooded areas.\"\n    },\n    {\n        \"locality\": \"OMR-Sholinganallur stretch\",\n        \"date\": \"2024-10-16\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Waterlogging issues mitigated along the OMR-Sholinganallur stretch, with improved traffic flow after removal of stagnant water.\"\n    },\n    {\n        \"locality\": \"Panagal Park\",\n        \"date\": \"2024-10-16\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"CMRL installed four water pumps in Panagal Park to manage waterlogging, with collected water being diverted to the Nandanam Canal.\"\n    }\n]\n```"
+}

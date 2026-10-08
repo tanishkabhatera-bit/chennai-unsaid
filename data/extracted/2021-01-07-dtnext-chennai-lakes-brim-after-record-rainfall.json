@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2021-01-07-dtnext-chennai-lakes-brim-after-record-rainfall",
+    "url": "https://www.dtnext.in/news/city/chennai-lakes-brim-after-record-rainfall",
+    "title": "Chennai lakes brim after record rainfall",
+    "outlet": "DT Next",
+    "published": "2021-01-07"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai",
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2021-01-07\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water stagnation was reported in as many as 36 locations due to heavy rain.\"\n    },\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2021-01-07\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water logging occurred on 161 streets on Tuesday and rainwater receded within a few hours.\"\n    }\n]\n```"
+}

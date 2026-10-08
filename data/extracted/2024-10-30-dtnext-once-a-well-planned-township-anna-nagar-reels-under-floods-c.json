@@ -1,0 +1,27 @@
+{
+  "article": {
+    "id": "2024-10-30-dtnext-once-a-well-planned-township-anna-nagar-reels-under-floods-c",
+    "url": "https://www.dtnext.in/news/chennai/once-a-well-planned-township-anna-nagar-reels-under-floods-concretisation-809448",
+    "title": "Once a well-planned township, Anna Nagar reels under floods, concretisation",
+    "outlet": "DT Next",
+    "published": "2024-10-30"
+  },
+  "records": [
+    {
+      "locality": "anna-nagar",
+      "sk": "2024-10-30#28b48721da",
+      "date": "2024-10-30",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several interior and main roads in Anna Nagar west, including parking areas, were flooded, with peak-hour traffic adding to the chaos.",
+      "source_url": "https://www.dtnext.in/news/chennai/once-a-well-planned-township-anna-nagar-reels-under-floods-concretisation-809448",
+      "source_title": "Once a well-planned township, Anna Nagar reels under floods, concretisation",
+      "locality_as_written": "Anna Nagar west"
+    }
+  ],
+  "unmatched": [
+    "4th Street, D Sector"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Anna Nagar west\",\n    \"date\": \"2024-10-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several interior and main roads in Anna Nagar west, including parking areas, were flooded, with peak-hour traffic adding to the chaos.\"\n  },\n  {\n    \"locality\": \"4th Street, D Sector\",\n    \"date\": \"2024-10-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water from East Main Road and SBOA Main CBSE School East Gate Road slopes into 4th Street, causing flooding.\"\n  },\n  {\n    \"locality\": \"Anna Nagar\",\n    \"date\": \"2024-10-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents have been experiencing water-logging problems in the last two years.\"\n  },\n  {\n    \"locality\": \"Anna Nagar\",\n    \"date\": \"2024-10-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The recent Metro Rail stations have added to the water-logging issues.\"\n  },\n  {\n    \"locality\": \"Anna Nagar west, Mogappair, Kilpauk\",\n    \"date\": \"2024-10-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Construction has changed the area, leaving hardly any space for rainwater harvesting and adding to the monsoon woes.\"\n  }\n]\n```"
+}

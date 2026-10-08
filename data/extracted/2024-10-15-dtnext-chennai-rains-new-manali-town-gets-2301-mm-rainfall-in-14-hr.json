@@ -1,0 +1,85 @@
+{
+  "article": {
+    "id": "2024-10-15-dtnext-chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hr",
+    "url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+    "title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+    "outlet": "DT Next",
+    "published": "2024-10-15"
+  },
+  "records": [
+    {
+      "locality": "manali",
+      "sk": "2024-10-15#f87f9c2138",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "New Manali Town recorded 230.1 mm of rainfall in 14 hours.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+      "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+      "locality_as_written": "New Manali Town"
+    },
+    {
+      "locality": "kathivakkam",
+      "sk": "2024-10-15#f87f9c2138",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Kathivakkam recorded 212.4 mm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+      "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+      "locality_as_written": "Kathivakkam"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2024-10-15#f87f9c2138",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Perambur recorded 211.8 mm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+      "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "kolathur",
+      "sk": "2024-10-15#f87f9c2138",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Kolathur recorded 211.2 mm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+      "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+      "locality_as_written": "Kolathur"
+    },
+    {
+      "locality": "ayapakkam",
+      "sk": "2024-10-15#f87f9c2138",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Ayappakam recorded 210 mm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+      "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+      "locality_as_written": "Ayappakam"
+    },
+    {
+      "locality": "anna-nagar",
+      "sk": "2024-10-15#f87f9c2138",
+      "date": "2024-10-15",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Anna Nagar West recorded 192 mm of rainfall.",
+      "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
+      "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
+      "locality_as_written": "Anna Nagar West"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"New Manali Town\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"New Manali Town recorded 230.1 mm of rainfall in 14 hours.\"\n  },\n  {\n    \"locality\": \"Kathivakkam\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Kathivakkam recorded 212.4 mm of rainfall.\"\n  },\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Perambur recorded 211.8 mm of rainfall.\"\n  },\n  {\n    \"locality\": \"Kolathur\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Kolathur recorded 211.2 mm of rainfall.\"\n  },\n  {\n    \"locality\": \"Ayappakam\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Ayappakam recorded 210 mm of rainfall.\"\n  },\n  {\n    \"locality\": \"Anna Nagar West\",\n    \"date\": \"2024-10-15\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Anna Nagar West recorded 192 mm of rainfall.\"\n  }\n]\n```"
+}

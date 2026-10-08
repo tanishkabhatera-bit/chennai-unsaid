@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2021-12-08-citizenmatters-chennai-jawahar-nagar-rain-flooding-stomwater-drains",
+    "url": "https://citizenmatters.in/chennai-jawahar-nagar-rain-flooding-stomwater-drains/",
+    "title": "As rain pounds Jawahar Nagar, residents miss an old pond and stormwater drains",
+    "outlet": "Citizen Matters",
+    "published": "2021-12-08"
+  },
+  "records": [],
+  "unmatched": [
+    "Jawahar Nagar"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Jawahar Nagar\",\n        \"date\": \"2021-12-08\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": 22,\n        \"detail\": \"The locality experienced severe waterlogging and flooding, with water entering many homes, necessitating rescue operations and relief efforts.\"\n    }\n]\n```"
+}

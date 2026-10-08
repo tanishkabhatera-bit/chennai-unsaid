@@ -1,0 +1,67 @@
+{
+  "article": {
+    "id": "2023-12-07-citizenmatters-residents-groups-tambaram-floods-mitigation-cyclone-michaung",
+    "url": "https://citizenmatters.in/residents-groups-tambaram-floods-mitigation-cyclone-michaung/",
+    "title": "Resilience during adversity: How RWAs in Tambaram helped combat floods",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-07"
+  },
+  "records": [
+    {
+      "locality": "peerkankaranai",
+      "sk": "2023-12-04#4a0455348e",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality experienced waterlogging due to the overflow of Perungalathur lake.",
+      "source_url": "https://citizenmatters.in/residents-groups-tambaram-floods-mitigation-cyclone-michaung/",
+      "source_title": "Resilience during adversity: How RWAs in Tambaram helped combat floods",
+      "locality_as_written": "Perkankaranai (Perungalathur)"
+    },
+    {
+      "locality": "pammal",
+      "sk": "2023-12-04#4a0455348e",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Volunteers from Pammal area participated in rescue operations to prevent flooding.",
+      "source_url": "https://citizenmatters.in/residents-groups-tambaram-floods-mitigation-cyclone-michaung/",
+      "source_title": "Resilience during adversity: How RWAs in Tambaram helped combat floods",
+      "locality_as_written": "Pammal"
+    },
+    {
+      "locality": "anakaputhur",
+      "sk": "2023-12-04#4a0455348e",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality was among those affected by the flood situation.",
+      "source_url": "https://citizenmatters.in/residents-groups-tambaram-floods-mitigation-cyclone-michaung/",
+      "source_title": "Resilience during adversity: How RWAs in Tambaram helped combat floods",
+      "locality_as_written": "Anakaputhur"
+    },
+    {
+      "locality": "sembakkam",
+      "sk": "2023-12-04#4a0455348e",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality was among those affected by the flood situation.",
+      "source_url": "https://citizenmatters.in/residents-groups-tambaram-floods-mitigation-cyclone-michaung/",
+      "source_title": "Resilience during adversity: How RWAs in Tambaram helped combat floods",
+      "locality_as_written": "Sembakkam"
+    }
+  ],
+  "unmatched": [
+    "Hasthinapuram",
+    "Nemilichery",
+    "Kilkatalai",
+    "Thiruneermalai",
+    "Madambakkam"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Perkankaranai (Perungalathur)\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality experienced waterlogging due to the overflow of Perungalathur lake.\"\n    },\n    {\n        \"locality\": \"Pammal\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Volunteers from Pammal area participated in rescue operations to prevent flooding.\"\n    },\n    {\n        \"locality\": \"Anakaputhur\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    },\n    {\n        \"locality\": \"Hasthinapuram\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    },\n    {\n        \"locality\": \"Nemilichery\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    },\n    {\n        \"locality\": \"Kilkatalai\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    },\n    {\n        \"locality\": \"Thiruneermalai\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    },\n    {\n        \"locality\": \"Sembakkam\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    },\n    {\n        \"locality\": \"Madambakkam\",\n        \"date\": \"2023-12-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality was among those affected by the flood situation.\"\n    }\n]\n```"
+}

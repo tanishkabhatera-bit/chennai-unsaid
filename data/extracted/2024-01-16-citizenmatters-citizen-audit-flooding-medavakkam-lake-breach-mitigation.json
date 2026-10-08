@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2024-01-16-citizenmatters-citizen-audit-flooding-medavakkam-lake-breach-mitigation",
+    "url": "https://citizenmatters.in/citizen-audit-flooding-medavakkam-lake-breach-mitigation/",
+    "title": "Lake breach in Medavakkam: Citizen flood audit unearths a host of problems",
+    "outlet": "Citizen Matters",
+    "published": "2024-01-16"
+  },
+  "records": [
+    {
+      "locality": "medavakkam",
+      "sk": "2023-12-04#9dd02d605d",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The lake breach caused grave damage to property and cars in the surrounding areas.",
+      "source_url": "https://citizenmatters.in/citizen-audit-flooding-medavakkam-lake-breach-mitigation/",
+      "source_title": "Lake breach in Medavakkam: Citizen flood audit unearths a host of problems",
+      "locality_as_written": "Thiruvalluvar Street (Medavakkam)"
+    },
+    {
+      "locality": "pallikaranai",
+      "sk": "2023-12-04#9dd02d605d",
+      "date": "2023-12-04",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The localities impacted by the tank overflow include Pallikaranai.",
+      "source_url": "https://citizenmatters.in/citizen-audit-flooding-medavakkam-lake-breach-mitigation/",
+      "source_title": "Lake breach in Medavakkam: Citizen flood audit unearths a host of problems",
+      "locality_as_written": "Pallikaranai"
+    }
+  ],
+  "unmatched": [
+    "Vadakkupattu"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Vadakkupattu\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The water levels in low-lying areas around the lake rose as high as five feet, causing severe damage to property and cars.\"\n  },\n  {\n    \"locality\": \"Thiruvalluvar Street (Medavakkam)\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The lake breach caused grave damage to property and cars in the surrounding areas.\"\n  },\n  {\n    \"locality\": \"Pallikaranai\",\n    \"date\": \"2023-12-04\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The localities impacted by the tank overflow include Pallikaranai.\"\n  }\n]\n```"
+}

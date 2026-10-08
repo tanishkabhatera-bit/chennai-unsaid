@@ -1,0 +1,99 @@
+{
+  "article": {
+    "id": "2021-11-07-deccanherald-overnight-rains-lash-chennai-many-localities-under-water-104",
+    "url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+    "title": "Overnight rains lash Chennai; many localities under water",
+    "outlet": "Deccan Herald",
+    "published": "2021-11-07"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "People living in low-lying areas parked their cars on flyovers in the area.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas, including Perambur, were flooded.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "valasaravakkam",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas, including Valasaravakkam, were flooded.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Valasaravakkam"
+    },
+    {
+      "locality": "vadapalani",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas, including Vadapalani, were flooded.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Vadapalani"
+    },
+    {
+      "locality": "mylapore",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Mylapore recorded 226 mm (22.6 cm) rainfall.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Mylapore"
+    },
+    {
+      "locality": "ambattur",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Ambattur recorded 20.5 cm rainfall.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Ambattur"
+    },
+    {
+      "locality": "nungambakkam",
+      "sk": "2021-11-07#9b6b1f44fd",
+      "date": "2021-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Nungambakkam recorded 20.7 cm rainfall.",
+      "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
+      "source_title": "Overnight rains lash Chennai; many localities under water",
+      "locality_as_written": "Nungambakkam"
+    }
+  ],
+  "unmatched": [
+    "North Chennai"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"People living in low-lying areas parked their cars on flyovers in the area.\"\n  },\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas, including Perambur, were flooded.\"\n  },\n  {\n    \"locality\": \"Valasaravakkam\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas, including Valasaravakkam, were flooded.\"\n  },\n  {\n    \"locality\": \"Vadapalani\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas, including Vadapalani, were flooded.\"\n  },\n  {\n    \"locality\": \"Mylapore\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Mylapore recorded 226 mm (22.6 cm) rainfall.\"\n  },\n  {\n    \"locality\": \"Ambattur\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Ambattur recorded 20.5 cm rainfall.\"\n  },\n  {\n    \"locality\": \"Nungambakkam\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Nungambakkam recorded 20.7 cm rainfall.\"\n  },\n  {\n    \"locality\": \"North Chennai\",\n    \"date\": \"2021-11-07\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Knee-deep water was reported from several localities in north Chennai.\"\n  }\n]\n```"
+}

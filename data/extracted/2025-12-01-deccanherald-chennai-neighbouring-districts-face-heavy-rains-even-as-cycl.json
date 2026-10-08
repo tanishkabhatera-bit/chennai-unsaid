@@ -1,0 +1,63 @@
+{
+  "article": {
+    "id": "2025-12-01-deccanherald-chennai-neighbouring-districts-face-heavy-rains-even-as-cycl",
+    "url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
+    "title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
+    "outlet": "Deccan Herald",
+    "published": "2025-12-01"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2025-12-01#da55567ecc",
+      "date": "2025-12-01",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Waterlogging and inundation in the business district of T Nagar.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
+      "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
+      "locality_as_written": "T Nagar"
+    },
+    {
+      "locality": "kodambakkam",
+      "sk": "2025-12-01#da55567ecc",
+      "date": "2025-12-01",
+      "event": "Cyclone Ditwah",
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "About a dozen trees fell in Kodambakkam.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
+      "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
+      "locality_as_written": "Kodambakkam"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2025-12-01#da55567ecc",
+      "date": "2025-12-01",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Low-lying areas like Velachery were prepared for evacuation if needed.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
+      "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2025-12-01#da55567ecc",
+      "date": "2025-12-01",
+      "event": "Cyclone Ditwah",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Ennore in north Chennai recorded about 12.9 cm rainfall, the highest in the city.",
+      "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
+      "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
+      "locality_as_written": "Ennore"
+    }
+  ],
+  "unmatched": [
+    "Alwarpet"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"T Nagar\",\n        \"date\": \"2025-12-01\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Waterlogging and inundation in the business district of T Nagar.\"\n    },\n    {\n        \"locality\": \"Kodambakkam\",\n        \"date\": \"2025-12-01\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"About a dozen trees fell in Kodambakkam.\"\n    },\n    {\n        \"locality\": \"Alwarpet\",\n        \"date\": \"2025-12-01\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"About a dozen trees fell in Alwarpet.\"\n    },\n    {\n        \"locality\": \"Velachery\",\n        \"date\": \"2025-12-01\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Low-lying areas like Velachery were prepared for evacuation if needed.\"\n    },\n    {\n        \"locality\": \"Ennore\",\n        \"date\": \"2025-12-01\",\n        \"event\": \"Cyclone Ditwah\",\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Ennore in north Chennai recorded about 12.9 cm rainfall, the highest in the city.\"\n    }\n]\n```"
+}

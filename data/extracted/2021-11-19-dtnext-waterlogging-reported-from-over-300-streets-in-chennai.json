@@ -1,0 +1,29 @@
+{
+  "article": {
+    "id": "2021-11-19-dtnext-waterlogging-reported-from-over-300-streets-in-chennai",
+    "url": "https://www.dtnext.in/city/2021/11/18/waterlogging-reported-from-over-300-streets-in-chennai",
+    "title": "Waterlogging reported from over 300 streets in Chennai",
+    "outlet": "DT Next",
+    "published": "2021-11-19"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2021-11-19#1687cd7db3",
+      "date": "2021-11-19",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Waterlogging reported from over 300 streets in Chennai, including T Nagar.",
+      "source_url": "https://www.dtnext.in/city/2021/11/18/waterlogging-reported-from-over-300-streets-in-chennai",
+      "source_title": "Waterlogging reported from over 300 streets in Chennai",
+      "locality_as_written": "T Nagar"
+    }
+  ],
+  "unmatched": [
+    "Jawahar Nagar",
+    "AGS Colony",
+    "Seethammal Road in Mandaveli"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"T Nagar\",\n    \"date\": \"2021-11-19\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Waterlogging reported from over 300 streets in Chennai, including T Nagar.\"\n  },\n  {\n    \"locality\": \"Jawahar Nagar\",\n    \"date\": \"2021-11-19\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Waterlogging reported from over 300 streets in Chennai, including Jawahar Nagar.\"\n  },\n  {\n    \"locality\": \"AGS Colony\",\n    \"date\": \"2021-11-19\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Waterlogging reported from over 300 streets in Chennai, including AGS Colony.\"\n  },\n  {\n    \"locality\": \"Seethammal Road in Mandaveli\",\n    \"date\": \"2021-11-19\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"In vulnerable areas like Seethammal Road in Mandaveli, the civic body placed four motor pumps.\"\n  }\n]\n```"
+}

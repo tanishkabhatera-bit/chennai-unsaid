@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2023-12-15-citizenmatters-iitm-team-log-flood-water-levels-chennai-residents-forecasti",
+    "url": "https://citizenmatters.in/iitm-team-log-flood-water-levels-chennai-residents-forecasting/",
+    "title": "Tech triumphs over cyclone: IITM team helps 2,000 residents log flood water levels in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-15"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2023-12-15\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Cyclone Michaung caused severe flooding in Chennai, with many residents recording water depths in their localities.\"\n    }\n]\n```"
+}

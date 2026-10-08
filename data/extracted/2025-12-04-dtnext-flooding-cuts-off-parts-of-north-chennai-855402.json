@@ -1,0 +1,73 @@
+{
+  "article": {
+    "id": "2025-12-04-dtnext-flooding-cuts-off-parts-of-north-chennai-855402",
+    "url": "https://www.dtnext.in/news/chennai/flooding-cuts-off-parts-of-north-chennai-855402",
+    "title": "Flooding cuts off parts of north Chennai",
+    "outlet": "DT Next",
+    "published": "2025-12-04"
+  },
+  "records": [
+    {
+      "locality": "ernavoor",
+      "sk": "2025-12-04#793bedf7a5",
+      "date": "2025-12-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": 3,
+      "detail": "Waterlogging disrupted daily life due to heavy rains over the past three days.",
+      "source_url": "https://www.dtnext.in/news/chennai/flooding-cuts-off-parts-of-north-chennai-855402",
+      "source_title": "Flooding cuts off parts of north Chennai",
+      "locality_as_written": "Ernavoor"
+    },
+    {
+      "locality": "kathivakkam",
+      "sk": "2025-12-04#793bedf7a5",
+      "date": "2025-12-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": 3,
+      "detail": "Traffic was suspended on Kathivakkam High Road due to severe flooding.",
+      "source_url": "https://www.dtnext.in/news/chennai/flooding-cuts-off-parts-of-north-chennai-855402",
+      "source_title": "Flooding cuts off parts of north Chennai",
+      "locality_as_written": "Kathivakkam"
+    },
+    {
+      "locality": "tiruvottiyur",
+      "sk": "2025-12-04#793bedf7a5",
+      "date": "2025-12-04",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": 3,
+      "detail": "Western localities such as Jothi Nagar and Kargil Nagar were inundated after heavy spells of rain.",
+      "source_url": "https://www.dtnext.in/news/chennai/flooding-cuts-off-parts-of-north-chennai-855402",
+      "source_title": "Flooding cuts off parts of north Chennai",
+      "locality_as_written": "Tiruvottiyur"
+    },
+    {
+      "locality": "madhavaram",
+      "sk": "2025-12-04#793bedf7a5",
+      "date": "2025-12-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": 3,
+      "detail": "The Madhavaram-Redhills Road was flooded again, forcing police to block traffic.",
+      "source_url": "https://www.dtnext.in/news/chennai/flooding-cuts-off-parts-of-north-chennai-855402",
+      "source_title": "Flooding cuts off parts of north Chennai",
+      "locality_as_written": "Madhavaram"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2025-12-04#793bedf7a5",
+      "date": "2025-12-04",
+      "event": "Cyclone Ditwah",
+      "severity": "severe",
+      "water_stayed_days": 3,
+      "detail": "Ennore and its surrounding areas recorded more than 60 cm of rainfall over the past three days.",
+      "source_url": "https://www.dtnext.in/news/chennai/flooding-cuts-off-parts-of-north-chennai-855402",
+      "source_title": "Flooding cuts off parts of north Chennai",
+      "locality_as_written": "Ennore"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Ernavoor\",\n    \"date\": \"2025-12-04\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Waterlogging disrupted daily life due to heavy rains over the past three days.\"\n  },\n  {\n    \"locality\": \"Kathivakkam\",\n    \"date\": \"2025-12-04\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Traffic was suspended on Kathivakkam High Road due to severe flooding.\"\n  },\n  {\n    \"locality\": \"Tiruvottiyur\",\n    \"date\": \"2025-12-04\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Western localities such as Jothi Nagar and Kargil Nagar were inundated after heavy spells of rain.\"\n  },\n  {\n    \"locality\": \"Madhavaram\",\n    \"date\": \"2025-12-04\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"The Madhavaram-Redhills Road was flooded again, forcing police to block traffic.\"\n  },\n  {\n    \"locality\": \"Ennore\",\n    \"date\": \"2025-12-04\",\n    \"event\": \"Cyclone Ditwah\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Ennore and its surrounding areas recorded more than 60 cm of rainfall over the past three days.\"\n  }\n]\n```"
+}

@@ -1,0 +1,123 @@
+{
+  "article": {
+    "id": "2016-12-01-dtnext-flood-of-memories",
+    "url": "https://www.dtnext.in/news/city/flood-of-memories",
+    "title": "Flood of memories",
+    "outlet": "DT Next",
+    "published": "2016-12-01"
+  },
+  "records": [
+    {
+      "locality": "mudichur",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Mudichur saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Mudichur"
+    },
+    {
+      "locality": "perumbakkam",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Perumbakkam saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Perumbakkam"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Pallavaram saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Pallavaram"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Velachery saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "pallikaranai",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Pallikaranai saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Pallikaranai"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like T Nagar saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "T Nagar"
+    },
+    {
+      "locality": "saidapet",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Saidapet saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Saidapet"
+    },
+    {
+      "locality": "kotturpuram",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Kotturpuram saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Kotturpuram"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2015-12-01#658173595e",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Areas like Vyasarpadi saw the floods washing away homes and stranded residents were rescued by boats.",
+      "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
+      "source_title": "Flood of memories",
+      "locality_as_written": "Vyasarpadi"
+    }
+  ],
+  "unmatched": [
+    "Nandambakkam"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Mudichur\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Mudichur saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Perumbakkam\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Perumbakkam saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Pallavaram\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Pallavaram saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Velachery saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Pallikaranai\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Pallikaranai saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"T Nagar\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like T Nagar saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Saidapet\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Saidapet saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Kotturpuram\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Kotturpuram saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Areas like Vyasarpadi saw the floods washing away homes and stranded residents were rescued by boats.\"\n  },\n  {\n    \"locality\": \"Tansi Nagar in Velachery\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Tansi Nagar in Velachery was severely inundated during the incessant rains, and families living on interior roads had to be evacuated by boat.\"\n  },\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents of Vyasarpadi suffered during the 2015 floods as no official aid was forthcoming, and the public school was heavily flooded.\"\n  },\n  {\n    \"locality\": \"Perumbakkam\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many families in Perumbakkam lost their homes, especially those living in temporary structures, and it took months for the families to re-enter their homes, which were heavily inundated.\"\n  },\n  {\n    \"locality\": \"Kotturpuram housing board\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The floods had badly inundated many houses in the Kotturpuram housing board.\"\n  },\n  {\n    \"locality\": \"Nandambakkam\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The December deluge affected people in Nandambakkam, and Kanappa Nainar's family had to evacuate their home due to rising floodwaters.\"\n  }\n]\n```"
+}

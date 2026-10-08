@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": "2025-06-14-dtnext-canal-over-5-km-to-divert-surplus-water-from-ambattur-lake-8",
+    "url": "https://www.dtnext.in/news/chennai/canal-over-5-km-to-divert-surplus-water-from-ambattur-lake-837124",
+    "title": "Canal over 5 km to divert surplus water from Ambattur lake",
+    "outlet": "DT Next",
+    "published": "2025-06-14"
+  },
+  "records": [
+    {
+      "locality": "ambattur",
+      "sk": "2025-06-14#33ce787f29",
+      "date": "2025-06-14",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.",
+      "source_url": "https://www.dtnext.in/news/chennai/canal-over-5-km-to-divert-surplus-water-from-ambattur-lake-837124",
+      "source_title": "Canal over 5 km to divert surplus water from Ambattur lake",
+      "locality_as_written": "Ambattur Industrial Estate"
+    },
+    {
+      "locality": "korattur",
+      "sk": "2025-06-14#33ce787f29",
+      "date": "2025-06-14",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.",
+      "source_url": "https://www.dtnext.in/news/chennai/canal-over-5-km-to-divert-surplus-water-from-ambattur-lake-837124",
+      "source_title": "Canal over 5 km to divert surplus water from Ambattur lake",
+      "locality_as_written": "Korattur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Ambattur Industrial Estate\",\n    \"date\": \"2025-06-14\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.\"\n  },\n  {\n    \"locality\": \"Ambattur\",\n    \"date\": \"2025-06-14\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.\"\n  },\n  {\n    \"locality\": \"Korattur\",\n    \"date\": \"2025-06-14\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.\"\n  }\n]\n```"
+}

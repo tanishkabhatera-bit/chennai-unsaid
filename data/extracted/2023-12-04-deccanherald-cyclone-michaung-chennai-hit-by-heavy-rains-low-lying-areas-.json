@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2023-12-04-deccanherald-cyclone-michaung-chennai-hit-by-heavy-rains-low-lying-areas-",
+    "url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-michaung-chennai-hit-by-heavy-rains-low-lying-areas-inundated-2795516",
+    "title": "Cyclone Michaung dumps rains in TN before its landfall in Andhra Pradesh",
+    "outlet": "Deccan Herald",
+    "published": "2023-12-04"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2023-12-03\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Teams from NDRF and SDRF were involved in rescuing people whose houses were inundated due to the rising water level.\"\n    }\n]\n```"
+}

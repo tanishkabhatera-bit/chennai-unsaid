@@ -1,0 +1,100 @@
+{
+  "article": {
+    "id": "2024-12-02-citizenmatters-cyclone-fengal-chennai-floods",
+    "url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+    "title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+    "outlet": "Citizen Matters",
+    "published": "2024-12-02"
+  },
+  "records": [
+    {
+      "locality": "saidapet",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Many homes were inundated and belongings were swept away during the December 2023 floods.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Saidapet"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Many areas face waterlogging issues.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Many areas face waterlogging issues.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Many areas face waterlogging issues.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Kodungaiyur"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Storm water drains are overflowing.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "taramani",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Storm water drains are overflowing.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Taramani"
+    },
+    {
+      "locality": "ashok-nagar",
+      "sk": "2024-12-02#d7b321f8b6",
+      "date": "2024-12-02",
+      "event": "Cyclone Fengal",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Many areas face waterlogging issues.",
+      "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
+      "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+      "locality_as_written": "Ashokanagar"
+    }
+  ],
+  "unmatched": [
+    "Rajapakilpakkam Lake",
+    "Kalakshetra Colony"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Saidapet\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many homes were inundated and belongings were swept away during the December 2023 floods.\"\n  },\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many areas face waterlogging issues.\"\n  },\n  {\n    \"locality\": \"Perambur\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many areas face waterlogging issues.\"\n  },\n  {\n    \"locality\": \"Kodungaiyur\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many areas face waterlogging issues.\"\n  },\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Storm water drains are overflowing.\"\n  },\n  {\n    \"locality\": \"Taramani\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Storm water drains are overflowing.\"\n  },\n  {\n    \"locality\": \"Ashokanagar\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many areas face waterlogging issues.\"\n  },\n  {\n    \"locality\": \"Rajapakilpakkam Lake\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Excess water discharged from the lake inundated few houses in Gokul Nagar 3rd Street in Tambaram.\"\n  },\n  {\n    \"locality\": \"Kalakshetra Colony\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water receded quickly due to desilting of storm water drains and RWH pits.\"\n  },\n  {\n    \"locality\": \"18th Avenue Ashok Nagar\",\n    \"date\": \"2024-12-02\",\n    \"event\": \"Cyclone Fengal\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area is frequently waterlogged despite the completion of storm water drains.\"\n  }\n]\n```"
+}

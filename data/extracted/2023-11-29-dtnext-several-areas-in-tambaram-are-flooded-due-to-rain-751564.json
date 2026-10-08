@@ -1,0 +1,87 @@
+{
+  "article": {
+    "id": "2023-11-29-dtnext-several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+    "url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+    "title": "Several areas in Tambaram are flooded due to rain",
+    "outlet": "DT Next",
+    "published": "2023-11-29"
+  },
+  "records": [
+    {
+      "locality": "tambaram",
+      "sk": "2023-11-29#aece2d68f7",
+      "date": "2023-11-29",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The streets were flooded and traffic was heavily affected on the Tambaram-Velachery Road and Mudichur Road.",
+      "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+      "source_title": "Several areas in Tambaram are flooded due to rain",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2023-11-29#aece2d68f7",
+      "date": "2023-11-29",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The streets were flooded.",
+      "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+      "source_title": "Several areas in Tambaram are flooded due to rain",
+      "locality_as_written": "Chromepet"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2023-11-29#aece2d68f7",
+      "date": "2023-11-29",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The water entered the houses in Kamarajar Nagar and the residents were helpless.",
+      "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+      "source_title": "Several areas in Tambaram are flooded due to rain",
+      "locality_as_written": "Pallavaram"
+    },
+    {
+      "locality": "pammal",
+      "sk": "2023-11-29#aece2d68f7",
+      "date": "2023-11-29",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The streets were flooded.",
+      "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+      "source_title": "Several areas in Tambaram are flooded due to rain",
+      "locality_as_written": "Pammal"
+    },
+    {
+      "locality": "peerkankaranai",
+      "sk": "2023-11-29#aece2d68f7",
+      "date": "2023-11-29",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The water flooded the streets in TTK Nagar as the SWD in the area got clogged.",
+      "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+      "source_title": "Several areas in Tambaram are flooded due to rain",
+      "locality_as_written": "Peerkankaranai"
+    },
+    {
+      "locality": "sembakkam",
+      "sk": "2023-11-29#aece2d68f7",
+      "date": "2023-11-29",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Several areas were flooded with water and the subway linking West and East Tambaram was also flooded.",
+      "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
+      "source_title": "Several areas in Tambaram are flooded due to rain",
+      "locality_as_written": "Sembakkam"
+    }
+  ],
+  "unmatched": [
+    "Vandalur-Kelambakkam"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Tambaram\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The streets were flooded and traffic was heavily affected on the Tambaram-Velachery Road and Mudichur Road.\"\n  },\n  {\n    \"locality\": \"Chromepet\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The streets were flooded.\"\n  },\n  {\n    \"locality\": \"Pallavaram\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The water entered the houses in Kamarajar Nagar and the residents were helpless.\"\n  },\n  {\n    \"locality\": \"Pammal\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The streets were flooded.\"\n  },\n  {\n    \"locality\": \"Peerkankaranai\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The water flooded the streets in TTK Nagar as the SWD in the area got clogged.\"\n  },\n  {\n    \"locality\": \"Sembakkam\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Several areas were flooded with water and the subway linking West and East Tambaram was also flooded.\"\n  },\n  {\n    \"locality\": \"Vandalur-Kelambakkam\",\n    \"date\": \"2023-11-29\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The GST Road was flooded and many bikes and autorickshaws were stuck in the water.\"\n  }\n]\n```"
+}
