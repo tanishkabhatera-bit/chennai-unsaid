@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "adyar",
+    "rating": "Cooler",
+    "reason": "About 2 km from the coast, with tree-lined streets and the Adyar estuary nearby",
+    "coast_km": 2
+  },
+  {
+    "locality": "t-nagar",
+    "rating": "Hotter",
+    "reason": "Dense commercial built-up area, very low tree cover, about 5 km from the coast",
+    "coast_km": 5
+  },
+  {
+    "locality": "velachery",
+    "rating": "Average",
+    "reason": "Dense residential growth, with some relief from Velachery lake and the Pallikaranai marsh, about 6 km from the coast",
+    "coast_km": 6
+  }
+]

@@ -1,0 +1,14 @@
+[
+  { "locality": "velachery", "created_at": "2023-12-12T10:00:00.000Z", "category": "flooding", "when": "2023-12", "text": "Ground floor of our building had water for 5 days. Cars in the stilt parking were damaged.", "seeded": true },
+  { "locality": "velachery", "created_at": "2023-12-20T10:00:00.000Z", "category": "dengue", "when": "2023-12", "text": "Mosquitoes everywhere for weeks after the water went down.", "seeded": true },
+  { "locality": "velachery", "created_at": "2024-05-10T10:00:00.000Z", "category": "water-supply", "when": "2024-05", "text": "We depend on tankers in summer, around 800 rupees a load.", "seeded": true },
+  { "locality": "velachery", "created_at": "2024-10-16T10:00:00.000Z", "category": "power-cuts", "when": "2024-10", "text": "Power was switched off for almost a day during the heavy rain.", "seeded": true },
+  { "locality": "velachery", "created_at": "2024-10-18T10:00:00.000Z", "category": "flooding", "when": "2024-10", "text": "Our street was knee-deep again. It cleared in about 2 days.", "seeded": true },
+  { "locality": "t-nagar", "created_at": "2023-12-08T10:00:00.000Z", "category": "flooding", "when": "2023-12", "text": "The subway near us was closed for two days.", "seeded": true },
+  { "locality": "t-nagar", "created_at": "2024-04-22T10:00:00.000Z", "category": "heat", "when": "2024-04", "text": "Top-floor flats get very hot. AC is a must from March.", "seeded": true },
+  { "locality": "t-nagar", "created_at": "2024-10-17T10:00:00.000Z", "category": "power-cuts", "when": "2024-10", "text": "Short power cuts during heavy rain, mostly at night.", "seeded": true },
+  { "locality": "t-nagar", "created_at": "2025-05-14T10:00:00.000Z", "category": "heat", "when": "2025-05", "text": "Very little shade on the streets. Walking at noon is hard.", "seeded": true },
+  { "locality": "adyar", "created_at": "2023-12-06T10:00:00.000Z", "category": "flooding", "when": "2023-12", "text": "Our road had ankle-deep water for a few hours only.", "seeded": true },
+  { "locality": "adyar", "created_at": "2024-04-15T10:00:00.000Z", "category": "water-supply", "when": "2024-04", "text": "Metro water comes on alternate days. We keep a sump.", "seeded": true },
+  { "locality": "adyar", "created_at": "2025-05-20T10:00:00.000Z", "category": "heat", "when": "2025-05", "text": "The sea breeze in the evening helps a lot.", "seeded": true }
+]

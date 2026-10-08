@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chennai Unsaid
 
-## Getting Started
+**What brokers, landlords and listings never tell you about a Chennai area: whether it floods, how hot it runs, and what residents actually go through every monsoon.**
 
-First, run the development server:
+Built for Environmental Hacks, Bharat Builds Tour (WeMakeDevs × AWS). Track: Heat and Water.
+
+## What it does
+
+1. Search any Chennai locality.
+2. Flood history, year by year, each entry linked to the news article behind it.
+3. Heat rating (Cooler / Average / Hotter) with a one-line reason.
+4. Anonymous resident reports in five categories.
+5. An AI summary ending with two questions to ask the landlord or seller.
+
+## Run it locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Status
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Step 1 of the build: Home and Area Report pages running on sample data for Velachery, T Nagar and Adyar. Amazon Bedrock and DynamoDB come next.
 
-## Learn More
+## Data honesty
 
-To learn more about Next.js, take a look at the following resources:
+- `data/mock/` holds **sample** flood records and summaries used only to build the layout. Their source links are news searches, not specific articles. They will be replaced by records extracted from real news articles.
+- `data/seed-reports.json` holds resident reports **written by the team** so the demo isn't empty. They are marked `seeded: true`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See `chennai-unsaid-spec.md` for the full build spec.
