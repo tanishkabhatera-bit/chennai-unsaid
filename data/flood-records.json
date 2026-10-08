@@ -1,0 +1,110 @@
+[
+  {
+    "locality": "kodungaiyur",
+    "sk": "2023-12-10#ece3ce7abe",
+    "date": "2023-12-10",
+    "event": "Cyclone Michaung",
+    "severity": "moderate",
+    "water_stayed_days": 7,
+    "detail": "Residents of Kodungaiyur are still waterlogged for a week due to heavy rain from Cyclone Michaung.",
+    "source_url": "https://www.dtnext.in/news/city/chennai-floods-water-yet-to-recede-in-many-areas-of-the-city-753596",
+    "source_title": "Chennai floods: Water yet to recede in many areas of the city",
+    "locality_as_written": "Kodungaiyur"
+  },
+  {
+    "locality": "kodungaiyur",
+    "sk": "2023-12-08#3ae12ef57e",
+    "date": "2023-12-08",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Kodungaiyur is one of the areas badly affected and requires immediate government intervention.",
+    "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
+    "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
+    "locality_as_written": "Kodungaiyur"
+  },
+  {
+    "locality": "madipakkam",
+    "sk": "2023-12-04#50c2728be5",
+    "date": "2023-12-04",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Areas surrounding Velachery, including large parts of Madipakkam, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.",
+    "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
+    "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+    "locality_as_written": "Madipakkam"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2023-12-10#ece3ce7abe",
+    "date": "2023-12-10",
+    "event": "Cyclone Michaung",
+    "severity": "moderate",
+    "water_stayed_days": 7,
+    "detail": "Areas in Pallikaranai, including Ambal Nagar and Vinayakar Nagar, are still waterlogged for a week due to heavy rain from Cyclone Michaung.",
+    "source_url": "https://www.dtnext.in/news/city/chennai-floods-water-yet-to-recede-in-many-areas-of-the-city-753596",
+    "source_title": "Chennai floods: Water yet to recede in many areas of the city",
+    "locality_as_written": "Pallikaranai"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2023-12-04#50c2728be5",
+    "date": "2023-12-04",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Areas surrounding Velachery, including Pallikaranai, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.",
+    "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
+    "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+    "locality_as_written": "Pallikaranai"
+  },
+  {
+    "locality": "perungudi",
+    "sk": "2023-12-04#50c2728be5",
+    "date": "2023-12-04",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Areas surrounding Velachery, including Perungudi, are heavily waterlogged, making it impossible for residents to move out of the neighborhood.",
+    "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
+    "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+    "locality_as_written": "Perungudi"
+  },
+  {
+    "locality": "saidapet",
+    "sk": "2023-12-04#50c2728be5",
+    "date": "2023-12-04",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Hutments on the Adyar riverside in Saidapet are almost completely submerged with the rising water levels.",
+    "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
+    "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+    "locality_as_written": "Saidapet"
+  },
+  {
+    "locality": "thoraipakkam",
+    "sk": "2023-12-10#ece3ce7abe",
+    "date": "2023-12-10",
+    "event": "Cyclone Michaung",
+    "severity": "moderate",
+    "water_stayed_days": 7,
+    "detail": "Residents of Thoraipakkam are still waterlogged for a week due to heavy rain from Cyclone Michaung.",
+    "source_url": "https://www.dtnext.in/news/city/chennai-floods-water-yet-to-recede-in-many-areas-of-the-city-753596",
+    "source_title": "Chennai floods: Water yet to recede in many areas of the city",
+    "locality_as_written": "Thoraipakkam"
+  },
+  {
+    "locality": "valasaravakkam",
+    "sk": "2023-12-10#ece3ce7abe",
+    "date": "2023-12-10",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": 7,
+    "detail": "Some areas in Valasavakkam are still struggling with sewage mixed with rainwater that has entered into the houses for a week due to heavy rain from Cyclone Michaung.",
+    "source_url": "https://www.dtnext.in/news/city/chennai-floods-water-yet-to-recede-in-many-areas-of-the-city-753596",
+    "source_title": "Chennai floods: Water yet to recede in many areas of the city",
+    "locality_as_written": "Valasavakkam"
+  }
+]

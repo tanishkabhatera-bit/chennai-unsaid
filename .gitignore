@@ -33,6 +33,10 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# news article text stays local (copyright); the links and extracted records are committed
+articles/*.txt
+!articles/urls.txt
+
 # vercel
 .vercel
 
