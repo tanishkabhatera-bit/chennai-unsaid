@@ -1,0 +1,11 @@
+[
+  {
+    "locality": "adyar",
+    "date": "2018-08-06",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The integrated stormwater drain (ISWD) system has been compl\""
+    ],
+    "event": null
+  }
+]

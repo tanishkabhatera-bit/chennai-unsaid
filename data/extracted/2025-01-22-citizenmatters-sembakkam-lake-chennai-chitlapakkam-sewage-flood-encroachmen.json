@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2025-01-22-citizenmatters-sembakkam-lake-chennai-chitlapakkam-sewage-flood-encroachmen",
+    "url": "https://citizenmatters.in/sembakkam-lake-chennai-chitlapakkam-sewage-flood-encroachment-tambaram",
+    "title": "Reviving Sembakkam Lake: A battle against sewage, encroachments and government neglect",
+    "outlet": "Citizen Matters",
+    "published": "2025-01-22"
+  },
+  "records": [
+    {
+      "locality": "sembakkam",
+      "sk": "2025-01-22#6cc027ca7d",
+      "date": "2025-01-22",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Sembakkam Lake receives sewage water from Chitlapakkam Lake, Selaiyur Lake, and buildings in Sembakkam, leading to flooding during monsoons.",
+      "source_url": "https://citizenmatters.in/sembakkam-lake-chennai-chitlapakkam-sewage-flood-encroachment-tambaram",
+      "source_title": "Reviving Sembakkam Lake: A battle against sewage, encroachments and government neglect",
+      "locality_as_written": "Sembakkam Lake"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Sembakkam Lake\",\n        \"date\": \"2025-01-22\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Sembakkam Lake receives sewage water from Chitlapakkam Lake, Selaiyur Lake, and buildings in Sembakkam, leading to flooding during monsoons.\"\n    }\n]\n```"
+}

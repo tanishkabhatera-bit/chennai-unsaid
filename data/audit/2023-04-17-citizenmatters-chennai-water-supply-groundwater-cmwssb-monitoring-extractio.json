@@ -1,0 +1,61 @@
+[
+  {
+    "locality": "keelkattalai",
+    "date": "2023-04-17",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event or flooding incident in the locality of Keelkattalai to Kamatchi Memorial Hospital."
+    ],
+    "event": null
+  },
+  {
+    "locality": "kovilambakkam",
+    "date": "2023-04-17",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in the locality of 'Kovilambakkam Panchayat'."
+    ],
+    "event": null
+  },
+  {
+    "locality": "nanmangalam",
+    "date": "2023-04-17",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Nanmangalam Lake being waterlogged or flooded on 2023-04-17."
+    ],
+    "event": null
+  },
+  {
+    "locality": "tambaram",
+    "date": "2023-04-17",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Tambaram Corporation limits being waterlogged or flooded on 2023-04-17."
+    ],
+    "event": null
+  },
+  {
+    "locality": "thoraipakkam",
+    "date": "2023-04-17",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in the locality of Pallavaram to Thoraipakkam."
+    ],
+    "event": null
+  },
+  {
+    "locality": "perungudi",
+    "date": "2023-04-17",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "date": "2023-04-17",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

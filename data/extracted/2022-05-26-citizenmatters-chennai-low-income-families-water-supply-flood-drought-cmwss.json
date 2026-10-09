@@ -1,0 +1,66 @@
+{
+  "article": {
+    "id": "2022-05-26-citizenmatters-chennai-low-income-families-water-supply-flood-drought-cmwss",
+    "url": "https://citizenmatters.in/chennai-low-income-families-water-supply-flood-drought-cmwssb",
+    "title": "Irregular water supply not just a seasonal issue for many Chennai families",
+    "outlet": "Citizen Matters",
+    "published": "2022-05-26"
+  },
+  "records": [
+    {
+      "locality": "pulianthope",
+      "sk": "2022-05-26#720f2a2ca7",
+      "date": "2022-05-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Roads were waterlogged.",
+      "source_url": "https://citizenmatters.in/chennai-low-income-families-water-supply-flood-drought-cmwssb",
+      "source_title": "Irregular water supply not just a seasonal issue for many Chennai families",
+      "locality_as_written": "Pulianthope"
+    },
+    {
+      "locality": "pattalam",
+      "sk": "2022-05-26#720f2a2ca7",
+      "date": "2022-05-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Roads were waterlogged.",
+      "source_url": "https://citizenmatters.in/chennai-low-income-families-water-supply-flood-drought-cmwssb",
+      "source_title": "Irregular water supply not just a seasonal issue for many Chennai families",
+      "locality_as_written": "Pattalam"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2022-05-26#720f2a2ca7",
+      "date": "2022-05-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Roads were waterlogged.",
+      "source_url": "https://citizenmatters.in/chennai-low-income-families-water-supply-flood-drought-cmwssb",
+      "source_title": "Irregular water supply not just a seasonal issue for many Chennai families",
+      "locality_as_written": "Kodungaiyur"
+    },
+    {
+      "locality": "otteri",
+      "sk": "2022-05-26#720f2a2ca7",
+      "date": "2022-05-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Roads were waterlogged.",
+      "source_url": "https://citizenmatters.in/chennai-low-income-families-water-supply-flood-drought-cmwssb",
+      "source_title": "Irregular water supply not just a seasonal issue for many Chennai families",
+      "locality_as_written": "Otteri"
+    }
+  ],
+  "unmatched": [
+    "Jeeva Nagar",
+    "KV Park",
+    "VOC Nagar",
+    "Kannigapuram"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Pulianthope\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"Jeeva Nagar\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"KV Park\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"VOC Nagar\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"Kannigapuram\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"Pattalam\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"Kodungaiyur\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  },\n  {\n    \"locality\": \"Otteri\",\n    \"date\": \"2022-05-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Roads were waterlogged.\"\n  }\n]"
+}

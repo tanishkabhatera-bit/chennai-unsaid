@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2016-05-09-citizenmatters-saidapet-debates-flood-management-election-campaign",
+    "url": "https://citizenmatters.in/saidapet-debates-flood-management-election-campaign",
+    "title": "Saidapet: Debates on flood management steer election campaigns",
+    "outlet": "Citizen Matters",
+    "published": "2016-05-09"
+  },
+  "records": [
+    {
+      "locality": "saidapet",
+      "sk": "2015-12-01#ea444f4f90",
+      "date": "2015-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Saidapet was one of the worst affected areas during the December 2015 floods.",
+      "source_url": "https://citizenmatters.in/saidapet-debates-flood-management-election-campaign",
+      "source_title": "Saidapet: Debates on flood management steer election campaigns",
+      "locality_as_written": "Saidapet"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n  {\n    \"locality\": \"Saidapet\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Saidapet was one of the worst affected areas during the December 2015 floods.\"\n  }\n]"
+}

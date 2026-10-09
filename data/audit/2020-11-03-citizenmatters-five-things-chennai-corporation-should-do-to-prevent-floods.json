@@ -1,0 +1,84 @@
+[
+  {
+    "locality": "ambattur",
+    "date": "2020-11-03",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"DTP Colony in Ambattur is flooded every monsoon due to the a\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "adambakkam",
+    "date": "2020-11-03",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "pallavaram",
+    "date": "2020-11-03",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "chromepet",
+    "date": "2020-11-03",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "date": "2020-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Sholinganallur around 2020-11-03."
+    ],
+    "event": null
+  },
+  {
+    "locality": "perungudi",
+    "date": "2020-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Perungudi around 2020-11-03."
+    ],
+    "event": null
+  },
+  {
+    "locality": "thoraipakkam",
+    "date": "2020-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Thoraipakkam being flooded or waterlogged on 2020-11-03."
+    ],
+    "event": null
+  },
+  {
+    "locality": "kottivakkam",
+    "date": "2020-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Kottivakkam around 2020-11-03."
+    ],
+    "event": null
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2020-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Madipakkam on 2020-11-03."
+    ],
+    "event": null
+  },
+  {
+    "locality": "selaiyur",
+    "date": "2020-11-03",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

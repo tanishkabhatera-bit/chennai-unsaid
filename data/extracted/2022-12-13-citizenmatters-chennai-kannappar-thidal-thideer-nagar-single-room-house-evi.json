@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-12-13-citizenmatters-chennai-kannappar-thidal-thideer-nagar-single-room-house-evi",
+    "url": "https://citizenmatters.in/chennai-kannappar-thidal-thideer-nagar-single-room-house-eviction-child-marriage-old-age-heat-floods",
+    "title": "Photo story: Life in single-room homes in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2022-12-13"
+  },
+  "records": [],
+  "unmatched": [
+    "Kannappar Thidal"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Kannappar Thidal\",\n        \"date\": \"2022-12-13\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents have survived heavy rains, floods, and cyclones in Chennai.\"\n    }\n]\n```"
+}

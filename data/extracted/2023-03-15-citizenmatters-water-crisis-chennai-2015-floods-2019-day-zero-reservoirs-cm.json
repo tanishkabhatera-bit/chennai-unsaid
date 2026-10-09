@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2023-03-15-citizenmatters-water-crisis-chennai-2015-floods-2019-day-zero-reservoirs-cm",
+    "url": "https://citizenmatters.in/water-crisis-chennai-2015-floods-2019-day-zero-reservoirs-cmwssb-gcc",
+    "title": "Chennai needs an integrated water management system to prevent floods and drought: Dr S Janakarajan",
+    "outlet": "Citizen Matters",
+    "published": "2023-03-15"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai",
+    "Chennai"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2015-11-01\",\n    \"event\": \"Cyclone Komen\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The 2015 floods resulted in huge damage to lives and livelihoods, properties and so on.\"\n  },\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2019-06-21\",\n    \"event\": \"Day Zero\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The city came to a standstill as the main reservoirs ran dry and Chennai hit 'Day Zero'.\"\n  }\n]"
+}

@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-02-03-citizenmatters-chennai-flooding-rains-nature-based-solutions-constructed-we",
+    "url": "https://citizenmatters.in/chennai-flooding-rains-nature-based-solutions-constructed-wetlands",
+    "title": "Nature-based solutions: The answer to flooding in Chennai?",
+    "outlet": "Citizen Matters",
+    "published": "2022-02-03"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2022-02-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Chennai experienced intense rains and flooding last year, bringing the city to a standstill for days.\"\n    }\n]"
+}

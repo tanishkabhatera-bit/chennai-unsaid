@@ -1,0 +1,41 @@
+{
+  "article": {
+    "id": "2022-11-05-citizenmatters-chennai-rains-rope-cars-in-marina-climate-change-initiative-",
+    "url": "https://citizenmatters.in/chennai-rains-rope-cars-in-marina-climate-change-initiative-garbage-orr-development",
+    "title": "Chennai Buzz: Rains lash the city | Rope cars in Marina Beach...and more",
+    "outlet": "Citizen Matters",
+    "published": "2022-11-05"
+  },
+  "records": [
+    {
+      "locality": "vyasarpadi",
+      "sk": "2022-10-31#f6d10916f3",
+      "date": "2022-10-31",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "A 52-year-old autorickshaw driver was fatally electrocuted after touching a pole of a pandal where rainwater had stagnated.",
+      "source_url": "https://citizenmatters.in/chennai-rains-rope-cars-in-marina-climate-change-initiative-garbage-orr-development",
+      "source_title": "Chennai Buzz: Rains lash the city | Rope cars in Marina Beach...and more",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2022-11-01#f6d10916f3",
+      "date": "2022-11-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "A 45-year-old resident died after a concrete slab collapsed on her due to heavy rains.",
+      "source_url": "https://citizenmatters.in/chennai-rains-rope-cars-in-marina-climate-change-initiative-garbage-orr-development",
+      "source_title": "Chennai Buzz: Rains lash the city | Rope cars in Marina Beach...and more",
+      "locality_as_written": "Pulianthope"
+    }
+  ],
+  "unmatched": [
+    "Marina Beach",
+    "15 zones across the city",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2022-10-31\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A 52-year-old autorickshaw driver was fatally electrocuted after touching a pole of a pandal where rainwater had stagnated.\"\n    },\n    {\n        \"locality\": \"Pulianthope\",\n        \"date\": \"2022-11-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A 45-year-old resident died after a concrete slab collapsed on her due to heavy rains.\"\n    },\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2022-11-05\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A Manali-bound MTC bus broke down in an inundated subway, leaving 28 persons stuck in the bus.\"\n    },\n    {\n        \"locality\": \"Marina Beach\",\n        \"date\": \"2022-11-05\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Greater Chennai Corporation plans to start a rope car service on the beach.\"\n    },\n    {\n        \"locality\": \"15 zones across the city\",\n        \"date\": \"2022-11-05\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"More than 60% of the shops have not installed separate bins for waste disposal, leading to clogged storm water drains and inundation during rains.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2022-11-05\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The approach road to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

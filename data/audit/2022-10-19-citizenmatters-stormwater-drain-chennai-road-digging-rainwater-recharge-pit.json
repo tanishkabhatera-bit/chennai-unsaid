@@ -1,0 +1,25 @@
+[
+  {
+    "locality": "kk-nagar",
+    "date": "2022-10-19",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not support the record as it mentions that some parts of KK Nagar did not experience water stagnation due to working stormwater drains, but it does not specify that KK Nagar as a whole was waterlogged or flooded."
+    ],
+    "event": null
+  },
+  {
+    "locality": "mugalivakkam",
+    "date": "2022-10-19",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "perambur",
+    "date": "2022-10-19",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

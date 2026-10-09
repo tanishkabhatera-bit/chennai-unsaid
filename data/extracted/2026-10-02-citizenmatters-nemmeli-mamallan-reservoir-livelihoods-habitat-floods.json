@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2026-10-02-citizenmatters-nemmeli-mamallan-reservoir-livelihoods-habitat-floods",
+    "url": "https://citizenmatters.in/nemmeli-mamallan-reservoir-livelihoods-habitat-floods",
+    "title": "Flawed EIA, lost livelihoods and flood risk: What the Mamallan project destroys in Nemmeli",
+    "outlet": "Citizen Matters",
+    "published": "2026-10-02"
+  },
+  "records": [],
+  "unmatched": [
+    "Nemmeli"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Nemmeli\",\n        \"date\": \"2026-10-02\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Mamallan Reservoir project poses flood risks to communities living nearby.\"\n    }\n]\n```"
+}

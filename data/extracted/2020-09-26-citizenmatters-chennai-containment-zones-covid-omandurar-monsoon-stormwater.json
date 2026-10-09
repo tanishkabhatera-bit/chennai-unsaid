@@ -1,0 +1,75 @@
+{
+  "article": {
+    "id": "2020-09-26-citizenmatters-chennai-containment-zones-covid-omandurar-monsoon-stormwater",
+    "url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+    "title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+    "outlet": "Citizen Matters",
+    "published": "2020-09-26"
+  },
+  "records": [
+    {
+      "locality": "adambakkam",
+      "sk": "2020-09-26#bc73fbe057",
+      "date": "2020-09-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents are pressing for the government to carry out the restoration process of Adambakkam Lake to prevent flooding.",
+      "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+      "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+      "locality_as_written": "Adambakkam"
+    },
+    {
+      "locality": "nanganallur",
+      "sk": "2020-09-26#bc73fbe057",
+      "date": "2020-09-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents are pressing for the government to carry out the restoration process of Adambakkam Lake to prevent flooding.",
+      "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+      "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+      "locality_as_written": "Nanganallur"
+    },
+    {
+      "locality": "tambaram",
+      "sk": "2020-09-26#bc73fbe057",
+      "date": "2020-09-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents are worried about the poor maintenance of stormwater drains and sewer networks.",
+      "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+      "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+      "locality_as_written": "Tambaram"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2020-09-26#bc73fbe057",
+      "date": "2020-09-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents are worried about the poor maintenance of stormwater drains and sewer networks.",
+      "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+      "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+      "locality_as_written": "Pallavaram"
+    },
+    {
+      "locality": "mudichur",
+      "sk": "2020-09-26#bc73fbe057",
+      "date": "2020-09-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents are worried about the poor maintenance of stormwater drains and sewer networks.",
+      "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+      "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+      "locality_as_written": "Mudichur"
+    }
+  ],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Adambakkam\",\n        \"date\": \"2020-09-26\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents are pressing for the government to carry out the restoration process of Adambakkam Lake to prevent flooding.\"\n    },\n    {\n        \"locality\": \"Nanganallur\",\n        \"date\": \"2020-09-26\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents are pressing for the government to carry out the restoration process of Adambakkam Lake to prevent flooding.\"\n    },\n    {\n        \"locality\": \"Tambaram\",\n        \"date\": \"2020-09-26\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents are worried about the poor maintenance of stormwater drains and sewer networks.\"\n    },\n    {\n        \"locality\": \"Pallavaram\",\n        \"date\": \"2020-09-26\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents are worried about the poor maintenance of stormwater drains and sewer networks.\"\n    },\n    {\n        \"locality\": \"Mudichur\",\n        \"date\": \"2020-09-26\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents are worried about the poor maintenance of stormwater drains and sewer networks.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2020-09-26\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

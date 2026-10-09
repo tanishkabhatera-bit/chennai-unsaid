@@ -1,0 +1,82 @@
+[
+  {
+    "locality": "vyasarpadi",
+    "date": "2026-04-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flooding event in Vyasarpadi on 2026-04-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "perambur",
+    "date": "2026-04-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Perambur on 2026-04-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "kolathur",
+    "date": "2026-04-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "thalambur",
+    "date": "2026-04-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "velachery",
+    "date": "2026-04-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "padur",
+    "date": "2026-04-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2026-04-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kodungaiyur",
+    "date": "2026-04-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flooding event on 2026-04-13 in Kodungaiyur wetland."
+    ],
+    "event": null
+  },
+  {
+    "locality": "korattur",
+    "date": "2026-04-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flooding event on 2026-04-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "date": "2026-04-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event on 2026-04-13 in Shollinganallur."
+    ],
+    "event": null
+  }
+]

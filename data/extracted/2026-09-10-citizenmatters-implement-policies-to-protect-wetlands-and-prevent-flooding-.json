@@ -1,0 +1,49 @@
+{
+  "article": {
+    "id": "2026-09-10-citizenmatters-implement-policies-to-protect-wetlands-and-prevent-flooding-",
+    "url": "https://citizenmatters.in/implement-policies-to-protect-wetlands-and-prevent-flooding-citizens-charter-for-pallikaranai-watershed",
+    "title": "Protect wetlands and prevent flooding: Citizen’s Charter for Pallikaranai Watershed",
+    "outlet": "Citizen Matters",
+    "published": "2026-09-10"
+  },
+  "records": [
+    {
+      "locality": "pallikaranai",
+      "sk": "2026-09-10#2ade1dac02",
+      "date": "2026-09-10",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article discusses the decline in wetlands and the potential for severe flooding in Pallikaranai due to encroachment and poor planning.",
+      "source_url": "https://citizenmatters.in/implement-policies-to-protect-wetlands-and-prevent-flooding-citizens-charter-for-pallikaranai-watershed",
+      "source_title": "Protect wetlands and prevent flooding: Citizen’s Charter for Pallikaranai Watershed",
+      "locality_as_written": "Pallikaranai"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2026-09-10#2ade1dac02",
+      "date": "2026-09-10",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article mentions that the Pallikaranai Ramsar site's occupation by government agencies and real estate giants could worsen flooding in OMR.",
+      "source_url": "https://citizenmatters.in/implement-policies-to-protect-wetlands-and-prevent-flooding-citizens-charter-for-pallikaranai-watershed",
+      "source_title": "Protect wetlands and prevent flooding: Citizen’s Charter for Pallikaranai Watershed",
+      "locality_as_written": "OMR"
+    },
+    {
+      "locality": "semmancheri",
+      "sk": "2026-09-10#2ade1dac02",
+      "date": "2026-09-10",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article states that the concerns of people impacted in Semmenchery should be addressed to prevent worsening flooding.",
+      "source_url": "https://citizenmatters.in/implement-policies-to-protect-wetlands-and-prevent-flooding-citizens-charter-for-pallikaranai-watershed",
+      "source_title": "Protect wetlands and prevent flooding: Citizen’s Charter for Pallikaranai Watershed",
+      "locality_as_written": "Semmenchery"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Pallikaranai\",\n        \"date\": \"2026-09-10\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article discusses the decline in wetlands and the potential for severe flooding in Pallikaranai due to encroachment and poor planning.\"\n    },\n    {\n        \"locality\": \"OMR\",\n        \"date\": \"2026-09-10\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that the Pallikaranai Ramsar site's occupation by government agencies and real estate giants could worsen flooding in OMR.\"\n    },\n    {\n        \"locality\": \"Semmenchery\",\n        \"date\": \"2026-09-10\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article states that the concerns of people impacted in Semmenchery should be addressed to prevent worsening flooding.\"\n    }\n]\n```"
+}

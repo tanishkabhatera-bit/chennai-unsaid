@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2024-06-29-citizenmatters-stormwater-drains-chennai-floods-mitigation-desilting-gcc",
+    "url": "https://citizenmatters.in/stormwater-drains-chennai-floods-mitigation-desilting-gcc",
+    "title": "Stormwater drains upgrade: What GCC is doing to prevent flooding in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2024-06-29"
+  },
+  "records": [],
+  "unmatched": [
+    "North Chennai",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"North Chennai\",\n        \"date\": \"2024-06-29\",\n        \"event\": \"December 2023 floods\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Many residents in North Chennai complained about the ineffectiveness of stormwater drains during the December 2023 floods.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2024-06-29\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The industrial estate in Hadapsar has a road broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

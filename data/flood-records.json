@@ -1,5 +1,29 @@
 [
   {
+    "locality": "adambakkam",
+    "sk": "2020-11-03#1e3c7ce48c",
+    "date": "2020-11-03",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Canals in Adambakkam are riddled with encroachments that hamper the free flow of water.",
+    "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+    "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+    "locality_as_written": "Adambakkam"
+  },
+  {
+    "locality": "adambakkam",
+    "sk": "2020-09-26#bc73fbe057",
+    "date": "2020-09-26",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents are pressing for the government to carry out the restoration process of Adambakkam Lake to prevent flooding.",
+    "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+    "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+    "locality_as_written": "Adambakkam"
+  },
+  {
     "locality": "adyar",
     "sk": "2025-12-16#d2797e33fe",
     "date": "2025-12-16",
@@ -46,6 +70,30 @@
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/floating-cars-submerged-localities-chennai-battles-floods-in-the-wake-of-cyclone-michuang-2796547",
     "source_title": "Floating cars, submerged localities: Chennai battles floods in the wake of cyclone Michuang",
     "locality_as_written": "Adyar"
+  },
+  {
+    "locality": "adyar",
+    "sk": "2021-11-30#f22f016d79",
+    "date": "2021-11-30",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Water logging and inundation in several areas such as Adyar.",
+    "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+    "source_title": "Four recommended steps for a flood-proof Chennai",
+    "locality_as_written": "Adyar"
+  },
+  {
+    "locality": "adyar",
+    "sk": "2021-11-27#ff571c8a77",
+    "date": "2021-11-27",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The Chennai Corporation has opened 91 flood shelters to accommodate residents from low-lying areas affected by inundation.",
+    "source_url": "https://citizenmatters.in/chennai-rain-flooding-cmda-expansion-bus-terminals-ppp",
+    "source_title": "Chennai Buzz: Revenue-sharing for bus terminals | Vegetable prices rise...and more!",
+    "locality_as_written": "banks of the Adyar, Cooum and Kosasthalaiyar rivers"
   },
   {
     "locality": "alandur",
@@ -133,6 +181,30 @@
   },
   {
     "locality": "ambattur",
+    "sk": "2023-09-23#48e5470e88",
+    "date": "2023-09-23",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Ambattur has a high number of spots which saw water stagnation during the rains and will receive adequate attention to prevent a repeat of the issues.",
+    "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+    "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+    "locality_as_written": "Ambattur"
+  },
+  {
+    "locality": "ambattur",
+    "sk": "2023-02-22#4ecad3297c",
+    "date": "2023-02-22",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Ambattur has not received underground drainage connections, leading to an open drainage system that exacerbates the mosquito issue.",
+    "source_url": "https://citizenmatters.in/chennais-mosquito-menace-fogging-drone-spray-polluted-drains-rivers-gcc",
+    "source_title": "Chennai's mosquito problem needs permanent solutions over temporary fixes",
+    "locality_as_written": "Ambattur"
+  },
+  {
+    "locality": "ambattur",
     "sk": "2021-11-07#9b6b1f44fd",
     "date": "2021-11-07",
     "event": null,
@@ -154,6 +226,18 @@
     "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
     "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
     "locality_as_written": "Karukku Main Road, Ambattur"
+  },
+  {
+    "locality": "ambattur",
+    "sk": "2020-11-01#69caad3783",
+    "date": "2020-11-01",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Waterlogging was reported after intense rains on October 29th.",
+    "source_url": "https://citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list",
+    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Karukku Main Road in Ambattur zone"
   },
   {
     "locality": "anakaputhur",
@@ -252,6 +336,54 @@
     "locality_as_written": "Anna Nagar"
   },
   {
+    "locality": "anna-nagar",
+    "sk": "2023-09-23#48e5470e88",
+    "date": "2023-09-23",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Anna Nagar has a high number of spots which saw water stagnation during the rains and will receive adequate attention to prevent a repeat of the issues.",
+    "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+    "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+    "locality_as_written": "Anna Nagar"
+  },
+  {
+    "locality": "anna-nagar",
+    "sk": "2022-11-12#74442a2d7e",
+    "date": "2022-11-12",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Anna Nagar.",
+    "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+    "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+    "locality_as_written": "Anna Nagar"
+  },
+  {
+    "locality": "anna-salai",
+    "sk": "2018-10-09#76bf2271bd",
+    "date": "2018-10-09",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Water stagnation at many important junctions along arterial roads.",
+    "source_url": "https://citizenmatters.in/north-east-monsoon-chennai-roads-dengue-metro-solar",
+    "source_title": "Chennai Buzz: NE monsoon worries | Dengue scare in city | Metro stations go solar",
+    "locality_as_written": "Mount Road"
+  },
+  {
+    "locality": "arumbakkam",
+    "sk": "2022-06-24#79bce3574e",
+    "date": "2022-06-24",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": 3,
+    "detail": "Severe flooding on more than 25% of the roads, with water standing up to a height of three feet, submerging pillar boxes and causing electricity suspension for more than three days.",
+    "source_url": "https://citizenmatters.in/chennai-ward-105-n-adiyaman-dmk-flood-waste-management-arumbakkam",
+    "source_title": "Councillor talk: Flooding and civic issues of Ward 105 the focus for N Adiyaman",
+    "locality_as_written": "Arumbakkam"
+  },
+  {
     "locality": "ashok-nagar",
     "sk": "2024-12-02#d7b321f8b6",
     "date": "2024-12-02",
@@ -289,6 +421,18 @@
   },
   {
     "locality": "ashok-nagar",
+    "sk": "2023-07-07#ef5e3446e7",
+    "date": "2023-07-07",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Key roads in Ashok Nagar have been subject to floods in recent years whenever there have been severe cyclonic storms in the city.",
+    "source_url": "https://citizenmatters.in/residents-joined-hands-to-tackle-flooding-issues-in-ashok-nagar",
+    "source_title": "Residents work with civic body to tackle flooding in Ashok Nagar through SWDs",
+    "locality_as_written": "Ashok Nagar"
+  },
+  {
+    "locality": "ashok-nagar",
     "sk": "2021-11-27#913ed262e6",
     "date": "2021-11-27",
     "event": null,
@@ -298,6 +442,18 @@
     "source_url": "https://citizenmatters.in/chennai-stormwater-drains-gcc-map-flooding-tnagar-ashok-nagar/",
     "source_title": "All that's wrong with stormwater drains in Chennai and how to fix them",
     "locality_as_written": "Ashok Nagar"
+  },
+  {
+    "locality": "ashok-nagar",
+    "sk": "2019-02-13#481e74b0e8",
+    "date": "2019-02-13",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Groundwater levels in Ashok Nagar 18th avenue have dropped significantly, with eight out of 24 monitored wells running dry.",
+    "source_url": "https://citizenmatters.in/chennai-water-crisis-groundwater-lakes-rain-conservation",
+    "source_title": "Water situation ominous; is Chennai prepared for summer ahead?",
+    "locality_as_written": "Ashok Nagar 18th avenue"
   },
   {
     "locality": "avadi",
@@ -321,6 +477,18 @@
     "detail": "Residents complained of power outages.",
     "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-long-power-outage-leaves-chennai-city-in-the-dark-813234",
     "source_title": "Cyclone Fengal: Long power outage leaves Chennai city in the dark",
+    "locality_as_written": "Avadi"
+  },
+  {
+    "locality": "avadi",
+    "sk": "2023-02-22#4ecad3297c",
+    "date": "2023-02-22",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Avadi is infested with rampant mosquito breeding, primarily due to unhygienic surroundings with open sewage.",
+    "source_url": "https://citizenmatters.in/chennais-mosquito-menace-fogging-drone-spray-polluted-drains-rivers-gcc",
+    "source_title": "Chennai's mosquito problem needs permanent solutions over temporary fixes",
     "locality_as_written": "Avadi"
   },
   {
@@ -357,6 +525,30 @@
     "detail": "Residents experienced almost a 2015-flood-like situation.",
     "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
     "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Chitlapakkam"
+  },
+  {
+    "locality": "chitlapakkam",
+    "sk": "2020-11-01#69caad3783",
+    "date": "2020-11-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents experienced almost a 2015-flood-like situation.",
+    "source_url": "https://citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list",
+    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Chitlapakkam"
+  },
+  {
+    "locality": "chitlapakkam",
+    "sk": "2018-09-10#bada175019",
+    "date": "2018-09-10",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "A choked storm water drain is a haven for mosquitoes due to plastic waste and sewerage contamination.",
+    "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+    "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
     "locality_as_written": "Chitlapakkam"
   },
   {
@@ -445,6 +637,18 @@
   },
   {
     "locality": "chromepet",
+    "sk": "2023-12-18#c5ad5e638b",
+    "date": "2023-12-18",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Flooding interrupted the delivery of medical services at a few government hospitals.",
+    "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+    "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+    "locality_as_written": "Chromepet"
+  },
+  {
+    "locality": "chromepet",
     "sk": "2023-11-29#aece2d68f7",
     "date": "2023-11-29",
     "event": null,
@@ -457,6 +661,18 @@
   },
   {
     "locality": "chromepet",
+    "sk": "2020-11-03#1e3c7ce48c",
+    "date": "2020-11-03",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Encroachments on lake channels in Chrompet cause flooding even during light rains.",
+    "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+    "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+    "locality_as_written": "Chrompet"
+  },
+  {
+    "locality": "chromepet",
     "sk": "2020-11-01#4fe96703be",
     "date": "2020-11-01",
     "event": null,
@@ -465,6 +681,30 @@
     "detail": "Residents experienced almost a 2015-flood-like situation.",
     "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
     "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Chrompet"
+  },
+  {
+    "locality": "chromepet",
+    "sk": "2020-11-01#69caad3783",
+    "date": "2020-11-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents experienced almost a 2015-flood-like situation.",
+    "source_url": "https://citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list",
+    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Chrompet"
+  },
+  {
+    "locality": "chromepet",
+    "sk": "2020-08-02#f1cc70d6bd",
+    "date": "2020-08-02",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Heavy rain caused severe waterlogging in the streets of Chrompet.",
+    "source_url": "https://citizenmatters.in/covid-results-sms-koyambedu-reopening-metro-phase-1-pallavaram-waterlogging",
+    "source_title": "Chennai Buzz: COVID results via SMS | North Chennai Metro construction resumed | Koyambedu market to be reopened...and more",
     "locality_as_written": "Chrompet"
   },
   {
@@ -502,6 +742,18 @@
     "source_url": "https://www.dtnext.in/news/chennai/live-cyclone-fengal-effect-hits-chennai-neighbourhood-check-details-heavy-rainfall-kancheepuram-chengalpattu-tiruvallur-heavy-rains-red-alert-813152",
     "source_title": "HIGHLIGHTS: Cyclone Fengal reaches coast, makes landfall near Puducherry",
     "locality_as_written": "Egmore"
+  },
+  {
+    "locality": "egmore",
+    "sk": "2022-11-19#af971b566e",
+    "date": "2022-11-19",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Waterlogging in front of Mathsya Hotel was addressed by installing Hume Pipes.",
+    "source_url": "https://citizenmatters.in/buzz-chennai-footballer-medical-negligence-cmda-road-widening-cmrl-tunnels-floods",
+    "source_title": "Chennai Buzz: Footballer's death leads to protests | CMDA plans road widening...and more!",
+    "locality_as_written": "Tamil Salai at Egmore"
   },
   {
     "locality": "ennore",
@@ -577,6 +829,18 @@
   },
   {
     "locality": "ennore",
+    "sk": "2023-12-16#bdab02cb91",
+    "date": "2023-12-16",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The Ennore-Manali region was impacted by an oil spill and subsequent flooding due to Cyclone Michaung.",
+    "source_url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+    "source_title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+    "locality_as_written": "Ennore-Manali"
+  },
+  {
+    "locality": "ennore",
     "sk": "2023-12-08#3ae12ef57e",
     "date": "2023-12-08",
     "event": "Cyclone Michaung",
@@ -585,6 +849,18 @@
     "detail": "Residents around Ennore in areas like Kargil Nagar, where the water level is still at the chest level in a few areas and knee level in a few other areas, are forced to wade through the highly contaminated water.",
     "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
     "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
+    "locality_as_written": "Ennore"
+  },
+  {
+    "locality": "ennore",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Areas surrounding the fishing villages in lower-level areas were flooded during the first week's rains.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
     "locality_as_written": "Ennore"
   },
   {
@@ -660,6 +936,18 @@
     "locality_as_written": "Guduvanchery"
   },
   {
+    "locality": "guduvanchery",
+    "sk": "2021-12-01#2d372e7f34",
+    "date": "2021-12-01",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Guduvanchery experienced extreme waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+    "source_title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+    "locality_as_written": "Guduvanchery"
+  },
+  {
     "locality": "guindy",
     "sk": "2025-12-16#d2797e33fe",
     "date": "2025-12-16",
@@ -730,6 +1018,66 @@
     "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
     "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
     "locality_as_written": "Iyyapanthangal"
+  },
+  {
+    "locality": "iyyappanthangal",
+    "sk": "2022-11-12#74442a2d7e",
+    "date": "2022-11-12",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Many areas in Iyyapanthangal had water up to three feet due to delayed flood mitigation measures, even after five years of regularising unauthorised development.",
+    "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+    "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+    "locality_as_written": "Iyyapanthangal"
+  },
+  {
+    "locality": "jafferkhanpet",
+    "sk": "2022-10-29#cbe2b193e8",
+    "date": "2022-10-29",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "A journalist fell into a stormwater drain pit near Kasi theatre, and succumbed to his injuries.",
+    "source_url": "https://citizenmatters.in/chennai-egmore-railway-station-expansion-air-quality-deepavali-stormwater-drain",
+    "source_title": "Chennai Buzz: Chennai Metropolitan Area set to expand | Air pollution skyrockets on Deepavali ...and more!",
+    "locality_as_written": "Jafferkhanpet"
+  },
+  {
+    "locality": "jafferkhanpet",
+    "sk": "2020-11-25#e11280c0af",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents living in the area have been directed to move to the nearest GCC shelters.",
+    "source_url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+    "source_title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+    "locality_as_written": "Jafferkhanpet"
+  },
+  {
+    "locality": "jawahar-nagar",
+    "sk": "2026-08-04#e6b59b7cc5",
+    "date": "2026-08-04",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Residents report flooding issues since more infrastructure came up, causing water to stagnate around their neighborhood.",
+    "source_url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+    "source_title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+    "locality_as_written": "Ezhilmuga Nagar and Jawahar Nagar"
+  },
+  {
+    "locality": "kannagi-nagar",
+    "sk": "2024-01-29#7eeae33bea",
+    "date": "2024-01-29",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Flooding was not the only issue; poor quality of houses and leaking roofs added to the problem.",
+    "source_url": "https://citizenmatters.in/flood-audit-report-of-ircduc",
+    "source_title": "Marooned and abandoned: Study reveals displaced families were put in the path of floods",
+    "locality_as_written": "Kannagi Nagar"
   },
   {
     "locality": "karapakkam",
@@ -816,6 +1164,42 @@
     "locality_as_written": "K K Nagar"
   },
   {
+    "locality": "kk-nagar",
+    "sk": "2021-12-04#5c68370a43",
+    "date": "2021-12-04",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The area suffered from missing stormwater drains, leading to severe waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-omicron-airport-travel-gcc-stormwater-drains",
+    "source_title": "Chennai Buzz: At risk travellers to be screened | Flaws in SWD network...and more!",
+    "locality_as_written": "K K Nagar"
+  },
+  {
+    "locality": "kk-nagar",
+    "sk": "2021-12-01#2d372e7f34",
+    "date": "2021-12-01",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "K K Nagar experienced extreme waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+    "source_title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+    "locality_as_written": "K K Nagar"
+  },
+  {
+    "locality": "kk-nagar",
+    "sk": "2020-11-25#e3e262321f",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "KK Nagar was severely inundated due to Cyclone Nivar.",
+    "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+    "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+    "locality_as_written": "KK Nagar"
+  },
+  {
     "locality": "kodambakkam",
     "sk": "2025-12-01#da55567ecc",
     "date": "2025-12-01",
@@ -900,6 +1284,18 @@
     "locality_as_written": "Kodambakkam"
   },
   {
+    "locality": "kodambakkam",
+    "sk": "2022-11-16#363ac1d633",
+    "date": "2022-11-16",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The area experiences waterlogging and clogged drains during heavy downpours.",
+    "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+    "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+    "locality_as_written": "Kodambakkam"
+  },
+  {
     "locality": "kodungaiyur",
     "sk": "2025-12-02#ec1c77d689",
     "date": "2025-12-02",
@@ -946,6 +1342,30 @@
     "source_url": "https://citizenmatters.in/north-chennai-floods-cyclone-michaung-rainwater-logging-inundation-vyasarpadi-ennore-gcc/",
     "source_title": "Cyclone Michaung: North Chennai people left to fend for themselves",
     "locality_as_written": "Kodungaiyur"
+  },
+  {
+    "locality": "kodungaiyur",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Kodungaiyur did not face a lot of damage.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "locality_as_written": "Kodungaiyur"
+  },
+  {
+    "locality": "kolathur",
+    "sk": "2026-04-13#6af7f274e1",
+    "date": "2026-04-13",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "During the 2015 floods, water entered homes and roads, but there was no media coverage.",
+    "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+    "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+    "locality_as_written": "Sunnambu Kolathur"
   },
   {
     "locality": "kolathur",
@@ -996,6 +1416,54 @@
     "locality_as_written": "Kolathur"
   },
   {
+    "locality": "kolathur",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Water levels increased and entered into houses, and people had to pump out water with no help from the government.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "locality_as_written": "Kumaran Nagar in Kolathur"
+  },
+  {
+    "locality": "kolathur",
+    "sk": "2022-03-14#5f957e69b1",
+    "date": "2022-03-14",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The disappearance of a pond in Kolathur led to extensive water-logging and flooding in the area during the monsoon of 2021.",
+    "source_url": "https://citizenmatters.in/chennai-kolathur-rain-flooding-monsoon-pond-encroachment-government-buildings",
+    "source_title": "Loss of a Kolathur pond and all that Chennai lost with it",
+    "locality_as_written": "Kolathur"
+  },
+  {
+    "locality": "kolathur",
+    "sk": "2021-12-04#5c68370a43",
+    "date": "2021-12-04",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "There were no stormwater drains present in the area, resulting in extreme waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-omicron-airport-travel-gcc-stormwater-drains",
+    "source_title": "Chennai Buzz: At risk travellers to be screened | Flaws in SWD network...and more!",
+    "locality_as_written": "Teachers Colony in Kolathur"
+  },
+  {
+    "locality": "korattur",
+    "sk": "2025-01-20#5c48f8a6bc",
+    "date": "2025-01-20",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Flooding is a major issue in Korattur, Ward 87.",
+    "source_url": "https://citizenmatters.in/chennai-councillor-talk-ward-87-poornima-school-infra-flooding-tvs-canal-gcc",
+    "source_title": "Chennai Councillor Talk: Poornima focuses on improving school infrastructure in Ward 87",
+    "locality_as_written": "Korattur"
+  },
+  {
     "locality": "korattur",
     "sk": "2024-12-01#04de28caf3",
     "date": "2024-12-01",
@@ -1032,6 +1500,42 @@
     "locality_as_written": "Korattur housing board area"
   },
   {
+    "locality": "korattur",
+    "sk": "2023-12-01#fce8a5b27f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Narrowing of Lucas TVS canal obstructs rainwater drainage, turning the area into a flood zone.",
+    "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+    "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+    "locality_as_written": "Korattur"
+  },
+  {
+    "locality": "kottivakkam",
+    "sk": "2022-01-20#b0c3bc5527",
+    "date": "2022-01-20",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The article describes severe drainage issues leading to sewage water overflowing and entering homes during the monsoon.",
+    "source_url": "https://citizenmatters.in/chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollution",
+    "source_title": "Living with sewage: Fishing hamlets in Chennai's Kottivakkam see no end to drainage woes",
+    "locality_as_written": "Kottivakkam"
+  },
+  {
+    "locality": "kotturpuram",
+    "sk": "2020-11-25#e11280c0af",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents living in the area have been directed to move to the nearest GCC shelters.",
+    "source_url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+    "source_title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+    "locality_as_written": "Kotturpuram"
+  },
+  {
     "locality": "kotturpuram",
     "sk": "2015-12-01#658173595e",
     "date": "2015-12-01",
@@ -1066,6 +1570,42 @@
     "source_url": "https://www.dtnext.in/news/city/heavy-downpour-throws-life-out-of-gear-in-chennai-751565",
     "source_title": "Heavy downpour throws life out of gear in Chennai",
     "locality_as_written": "Koyambedu"
+  },
+  {
+    "locality": "kundrathur",
+    "sk": "2022-11-12#74442a2d7e",
+    "date": "2022-11-12",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "In Kundrathur, officials have sent lorries to deliver water to the residents, and have closed off the area to prevent accidents, among other measures.",
+    "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+    "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+    "locality_as_written": "Kundrathur"
+  },
+  {
+    "locality": "kundrathur",
+    "sk": "2020-11-25#e11280c0af",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents living in the area have been directed to move to the nearest GCC shelters.",
+    "source_url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+    "source_title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+    "locality_as_written": "Kundrathur"
+  },
+  {
+    "locality": "madambakkam",
+    "sk": "2018-09-10#bada175019",
+    "date": "2018-09-10",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "A closed storm water drain is a luxury for the residents.",
+    "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+    "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+    "locality_as_written": "Parvathy Nagar in Madambakkam"
   },
   {
     "locality": "madhavaram",
@@ -1114,6 +1654,30 @@
     "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
     "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Madhavaram"
+  },
+  {
+    "locality": "madhavaram",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Drainage water stagnates on the roads and there is no way for the rainwater to drain.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "locality_as_written": "Poniammonmedu and neighbouring areas in Madhavaram"
+  },
+  {
+    "locality": "madipakkam",
+    "sk": "2025-10-28#550c6e6863",
+    "date": "2025-10-28",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "During Cyclone Michaung in 2023, the home was flooded, and the family had to be rescued by boat.",
+    "source_url": "https://citizenmatters.in/living-with-climate-anxiety-how-rising-heat-floods-are-reshaping-daily-life-in-chennai",
+    "source_title": "Living with climate anxiety: How rising heat, floods are reshaping daily life in Chennai",
+    "locality_as_written": "Madipakkam"
   },
   {
     "locality": "madipakkam",
@@ -1213,6 +1777,18 @@
   },
   {
     "locality": "madipakkam",
+    "sk": "2024-07-29#6a82729539",
+    "date": "2024-07-29",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The water was waist-deep, and it rose very quickly during Cyclone Michaung.",
+    "source_url": "https://citizenmatters.in/flooding-and-bad-roads-a-perennial-problem-in-ward-188",
+    "source_title": "Chennai: Flooding and bad roads a perennial problem in Ward 188",
+    "locality_as_written": "Madipakkam"
+  },
+  {
+    "locality": "madipakkam",
     "sk": "2023-12-06#50c2728be5",
     "date": "2023-12-06",
     "event": "Cyclone Michaung",
@@ -1221,6 +1797,42 @@
     "detail": "Areas surrounding Velachery, including Madipakkam, are heavily waterlogged, making it impossible for residents to move out.",
     "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
     "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+    "locality_as_written": "Madipakkam"
+  },
+  {
+    "locality": "madipakkam",
+    "sk": "2023-10-18#8b1baeb70f",
+    "date": "2023-10-18",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.",
+    "source_url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+    "source_title": "Staying safe while driving on Chennai roads this monsoon",
+    "locality_as_written": "Madipakkam"
+  },
+  {
+    "locality": "madipakkam",
+    "sk": "2023-10-04#472702a7c1",
+    "date": "2023-10-04",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents experienced waterlogged roads due to sudden heavy rains.",
+    "source_url": "https://citizenmatters.in/chennai-southwest-monsoon-northeast-rainfall-weater-imd-swd-gcc",
+    "source_title": "Lessons for Chennai from the rainy days of the southwest monsoon",
+    "locality_as_written": "Madipakkam"
+  },
+  {
+    "locality": "madipakkam",
+    "sk": "2020-11-25#e3e262321f",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Parts of Madipakkam experienced severe inundation as a result of Cyclone Nivar.",
+    "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+    "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
     "locality_as_written": "Madipakkam"
   },
   {
@@ -1294,6 +1906,42 @@
     "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
     "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
     "locality_as_written": "Manapakkam"
+  },
+  {
+    "locality": "manapakkam",
+    "sk": "2023-10-18#8b1baeb70f",
+    "date": "2023-10-18",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.",
+    "source_url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+    "source_title": "Staying safe while driving on Chennai roads this monsoon",
+    "locality_as_written": "Manapakkam"
+  },
+  {
+    "locality": "mandaveli",
+    "sk": "2021-11-30#f22f016d79",
+    "date": "2021-11-30",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents were marooned for several days without power during the floods in 2015.",
+    "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+    "source_title": "Four recommended steps for a flood-proof Chennai",
+    "locality_as_written": "Mandaveli Raja Street"
+  },
+  {
+    "locality": "mangadu",
+    "sk": "2023-01-10#f2509acd76",
+    "date": "2023-01-10",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Cyclone Mandous inundated several areas of the municipality, with no channel for the water to flow due to encroached outlets towards Porur Lake.",
+    "source_url": "https://citizenmatters.in/chennai-suburban-area-cmda-approval-mangadu-real-estate-flooding",
+    "source_title": "Chennai suburbs battle civic issues even as real estate prices rocket",
+    "locality_as_written": "Mangadu Municipality"
   },
   {
     "locality": "medavakkam",
@@ -1477,6 +2125,18 @@
   },
   {
     "locality": "mudichur",
+    "sk": "2020-09-26#bc73fbe057",
+    "date": "2020-09-26",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents are worried about the poor maintenance of stormwater drains and sewer networks.",
+    "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+    "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+    "locality_as_written": "Mudichur"
+  },
+  {
+    "locality": "mudichur",
     "sk": "2019-10-18#8c6607086b",
     "date": "2019-10-18",
     "event": null,
@@ -1497,6 +2157,18 @@
     "detail": "Residents of Mudichur, who have been hit hardest due to flooding, had held a meeting, demanding action to prevent inundation in the future.",
     "source_url": "https://www.dtnext.in/city/2017/11/06/chennai-suburbs-swimming-in-problems",
     "source_title": "Chennai suburbs swimming in problems",
+    "locality_as_written": "Mudichur"
+  },
+  {
+    "locality": "mudichur",
+    "sk": "2016-10-26#3ab9118f86",
+    "date": "2016-10-26",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Residents of Perungalathur gathered boats to rescue people from the neighboring area of Mudichur.",
+    "source_url": "https://citizenmatters.in/with-no-elected-councillors-how-will-chennai-take-on-the-monsoon",
+    "source_title": "With no elected councillors in office, how will Chennai take on the monsoon?",
     "locality_as_written": "Mudichur"
   },
   {
@@ -1525,6 +2197,18 @@
   },
   {
     "locality": "mugalivakkam",
+    "sk": "2023-10-18#8b1baeb70f",
+    "date": "2023-10-18",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.",
+    "source_url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+    "source_title": "Staying safe while driving on Chennai roads this monsoon",
+    "locality_as_written": "Mugalivakkam"
+  },
+  {
+    "locality": "mugalivakkam",
     "sk": "2022-11-18#64bc4c151d",
     "date": "2022-11-18",
     "event": null,
@@ -1533,6 +2217,18 @@
     "detail": "Mugalivakkam experienced inundation due to the overflowing of the Porur lake.",
     "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
     "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+    "locality_as_written": "Mugalivakkam"
+  },
+  {
+    "locality": "mugalivakkam",
+    "sk": "2022-10-19#71cf6b41f5",
+    "date": "2022-10-19",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "The roads in Mugalivakkam are shoddier than ever due to stormwater drain work.",
+    "source_url": "https://citizenmatters.in/stormwater-drain-chennai-road-digging-rainwater-recharge-pit-trees",
+    "source_title": "Chennai races against time to finish storm water drain work, but concerns persist",
     "locality_as_written": "Mugalivakkam"
   },
   {
@@ -1609,6 +2305,18 @@
   },
   {
     "locality": "mylapore",
+    "sk": "2023-12-16#bdab02cb91",
+    "date": "2023-12-16",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The burial grounds at Mylapore experienced damage to gasifier machines due to the floods.",
+    "source_url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+    "source_title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+    "locality_as_written": "Mylapore"
+  },
+  {
+    "locality": "mylapore",
     "sk": "2023-12-04#68b1f68359",
     "date": "2023-12-04",
     "event": "Cyclone Michaung",
@@ -1630,6 +2338,30 @@
     "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
     "source_title": "Overnight rains lash Chennai; many localities under water",
     "locality_as_written": "Mylapore"
+  },
+  {
+    "locality": "mylapore",
+    "sk": "2017-11-11#e22f93d85f",
+    "date": "2017-11-11",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Mylapore recorded 300mm of rainfall on November 2nd, one of the highest rain rates per hour in recent past.",
+    "source_url": "https://citizenmatters.in/are-chennais-monsoon-vagaries-an-indication-of-global-climate-change",
+    "source_title": "Are Chennai's monsoon vagaries an indication of global climate change?",
+    "locality_as_written": "Mylapore"
+  },
+  {
+    "locality": "nanganallur",
+    "sk": "2020-09-26#bc73fbe057",
+    "date": "2020-09-26",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents are pressing for the government to carry out the restoration process of Adambakkam Lake to prevent flooding.",
+    "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+    "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+    "locality_as_written": "Nanganallur"
   },
   {
     "locality": "neelankarai",
@@ -1836,6 +2568,66 @@
     "locality_as_written": "Sholinganallur"
   },
   {
+    "locality": "omr-sholinganallur",
+    "sk": "2023-12-01#61cd549b0f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "More than 1,000 people were escorted using boats during the 2023 floods.",
+    "source_url": "https://citizenmatters.in/chennai-floods-economic-social-vulnerability-flood-mitigation-affected-areas-gcc-budget-tax",
+    "source_title": "Chennai floods: How the vulnerable are always short-changed",
+    "locality_as_written": "Sholinganallur"
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "sk": "2023-04-17#9a15a1d665",
+    "date": "2023-04-17",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents staged a protest demanding the government provide drinking water and sewerage connection, indicating waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+    "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+    "locality_as_written": "Sholinganallur"
+  },
+  {
+    "locality": "otteri",
+    "sk": "2023-12-16#bdab02cb91",
+    "date": "2023-12-16",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The Otteri Corporation burial ground was inundated with 5 feet of water due to the cyclone-induced heavy rainfall.",
+    "source_url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+    "source_title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+    "locality_as_written": "Otteri Corporation burial ground"
+  },
+  {
+    "locality": "otteri",
+    "sk": "2023-12-01#fce8a5b27f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Overflowing Otteri Nalla Canal causes water accumulation in low-lying areas.",
+    "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+    "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+    "locality_as_written": "Otteri"
+  },
+  {
+    "locality": "padur",
+    "sk": "2026-04-13#6af7f274e1",
+    "date": "2026-04-13",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Residents note missing SWD links and canals, leading to backflow and flooding.",
+    "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+    "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+    "locality_as_written": "Padur to Okkiyam Maduvu"
+  },
+  {
     "locality": "pallavaram",
     "sk": "2026-04-06#3b9f17912a",
     "date": "2026-04-06",
@@ -1909,6 +2701,18 @@
   },
   {
     "locality": "pallavaram",
+    "sk": "2020-11-03#1e3c7ce48c",
+    "date": "2020-11-03",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Encroachments on lake channels in Pallavaram cause flooding even during light rains.",
+    "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+    "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+    "locality_as_written": "Pallavaram"
+  },
+  {
+    "locality": "pallavaram",
     "sk": "2020-11-01#4fe96703be",
     "date": "2020-11-01",
     "event": null,
@@ -1917,6 +2721,42 @@
     "detail": "Residents experienced almost a 2015-flood-like situation.",
     "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
     "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Pallavaram"
+  },
+  {
+    "locality": "pallavaram",
+    "sk": "2020-11-01#69caad3783",
+    "date": "2020-11-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents experienced almost a 2015-flood-like situation.",
+    "source_url": "https://citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list",
+    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
+    "locality_as_written": "Pallavaram"
+  },
+  {
+    "locality": "pallavaram",
+    "sk": "2020-09-26#bc73fbe057",
+    "date": "2020-09-26",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents are worried about the poor maintenance of stormwater drains and sewer networks.",
+    "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+    "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+    "locality_as_written": "Pallavaram"
+  },
+  {
+    "locality": "pallavaram",
+    "sk": "2020-08-02#f1cc70d6bd",
+    "date": "2020-08-02",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Encroachment of water canals and culverts led to severe waterlogging in Pallavaram.",
+    "source_url": "https://citizenmatters.in/covid-results-sms-koyambedu-reopening-metro-phase-1-pallavaram-waterlogging",
+    "source_title": "Chennai Buzz: COVID results via SMS | North Chennai Metro construction resumed | Koyambedu market to be reopened...and more",
     "locality_as_written": "Pallavaram"
   },
   {
@@ -1930,6 +2770,30 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Pallavaram"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2026-08-04#e6b59b7cc5",
+    "date": "2026-08-04",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The area remained submerged for days, with homes flooded and roads impassable.",
+    "source_url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+    "source_title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+    "locality_as_written": "Pallikaranai"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2026-04-13#6af7f274e1",
+    "date": "2026-04-13",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Dumping of garbage and changing the land has exacerbated the flooding in surrounding neighborhoods.",
+    "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+    "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+    "locality_as_written": "Pallikaranai marshland"
   },
   {
     "locality": "pallikaranai",
@@ -2061,6 +2925,42 @@
     "detail": "The localities impacted by the tank overflow include Pallikaranai.",
     "source_url": "https://citizenmatters.in/citizen-audit-flooding-medavakkam-lake-breach-mitigation/",
     "source_title": "Lake breach in Medavakkam: Citizen flood audit unearths a host of problems",
+    "locality_as_written": "Pallikaranai"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2023-12-01#61cd549b0f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "More than 1,000 people were escorted using boats during the 2023 floods.",
+    "source_url": "https://citizenmatters.in/chennai-floods-economic-social-vulnerability-flood-mitigation-affected-areas-gcc-budget-tax",
+    "source_title": "Chennai floods: How the vulnerable are always short-changed",
+    "locality_as_written": "Pallikaranai"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2023-12-01#fce8a5b27f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Encroachments and institutional constructions are major obstacles for water drainage.",
+    "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+    "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+    "locality_as_written": "Pallikaranai"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2017-11-10#f6e4446a2e",
+    "date": "2017-11-10",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Severe waterlogging for days on end due to dump yard restricting the flow of flood waters.",
+    "source_url": "https://citizenmatters.in/chennai-waste-segregation-and-urban-flooding",
+    "source_title": "Waste segregation: The challenge Chennai must overcome",
     "locality_as_written": "Pallikaranai"
   },
   {
@@ -2341,6 +3241,18 @@
   },
   {
     "locality": "perambur",
+    "sk": "2024-01-24#fded8f2e5e",
+    "date": "2024-01-24",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Shoddy road resurfacing has caused waterlogging and stagnation of rainwater.",
+    "source_url": "https://citizenmatters.in/road-milling-perambur-residents-resurfacing-shoddy-floods-inundation",
+    "source_title": "Road milling an eyewash: Perambur residents suffer consequences of shoddy work",
+    "locality_as_written": "Perambur"
+  },
+  {
+    "locality": "perambur",
     "sk": "2023-12-04#68b1f68359",
     "date": "2023-12-04",
     "event": "Cyclone Michaung",
@@ -2350,6 +3262,18 @@
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/floating-cars-submerged-localities-chennai-battles-floods-in-the-wake-of-cyclone-michuang-2796547",
     "source_title": "Floating cars, submerged localities: Chennai battles floods in the wake of cyclone Michuang",
     "locality_as_written": "Perambur"
+  },
+  {
+    "locality": "perambur",
+    "sk": "2023-11-30#16f431fe05",
+    "date": "2023-11-30",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The entire stretch of the SWD between Perambur and Vyasarpadi Jeeva railway stations is in a very dilapidated condition, with concrete slabs placed over casuarina poles and iron channels in poor condition.",
+    "source_url": "https://citizenmatters.in/chennai-drains-improper-sewage-work-residents-petition",
+    "source_title": "Draining the exchequer: Improper SWD work irks Chennai residents",
+    "locality_as_written": "Perambur High Road North Side"
   },
   {
     "locality": "perambur",
@@ -2365,6 +3289,30 @@
   },
   {
     "locality": "perambur",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The street was inundated, with water entering people's houses.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "locality_as_written": "Ramakrishna Street in Perambur"
+  },
+  {
+    "locality": "perambur",
+    "sk": "2022-10-19#71cf6b41f5",
+    "date": "2022-10-19",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents of Perambur are not happy with the execution of stormwater drain work, citing lack of coordination and temporary diesel pumps for inundated areas.",
+    "source_url": "https://citizenmatters.in/stormwater-drain-chennai-road-digging-rainwater-recharge-pit-trees",
+    "source_title": "Chennai races against time to finish storm water drain work, but concerns persist",
+    "locality_as_written": "Perambur"
+  },
+  {
+    "locality": "perambur",
     "sk": "2021-11-07#9b6b1f44fd",
     "date": "2021-11-07",
     "event": null,
@@ -2374,6 +3322,78 @@
     "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
     "source_title": "Overnight rains lash Chennai; many localities under water",
     "locality_as_written": "Perambur"
+  },
+  {
+    "locality": "perambur",
+    "sk": "2016-05-11#df5932b579",
+    "date": "2016-05-11",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Perambur being a low-lying area, inundation during monsoons is a problem that has been plaguing the residents for decades.",
+    "source_url": "https://citizenmatters.in/perambur-monsoon-management-at-the-centre-of-residents-woes",
+    "source_title": "Perambur: Monsoon management at the centre of residents' woes",
+    "locality_as_written": "Perambur"
+  },
+  {
+    "locality": "perumbakkam",
+    "sk": "2026-08-04#e6b59b7cc5",
+    "date": "2026-08-04",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The neighborhood remained submerged for days, with homes flooded and roads impassable.",
+    "source_url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+    "source_title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+    "locality_as_written": "Perumbakkam"
+  },
+  {
+    "locality": "perumbakkam",
+    "sk": "2025-10-28#550c6e6863",
+    "date": "2025-10-28",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The locality gets flooded even with moderate rain, and recovery from such events can take years.",
+    "source_url": "https://citizenmatters.in/living-with-climate-anxiety-how-rising-heat-floods-are-reshaping-daily-life-in-chennai",
+    "source_title": "Living with climate anxiety: How rising heat, floods are reshaping daily life in Chennai",
+    "locality_as_written": "Perumbakkam"
+  },
+  {
+    "locality": "perumbakkam",
+    "sk": "2024-01-29#7eeae33bea",
+    "date": "2024-01-29",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Houses on the ground floor were quickly inundated, forcing residents to seek refuge in other homes with leaky roofs and damp walls.",
+    "source_url": "https://citizenmatters.in/flood-audit-report-of-ircduc",
+    "source_title": "Marooned and abandoned: Study reveals displaced families were put in the path of floods",
+    "locality_as_written": "Perumbakkam"
+  },
+  {
+    "locality": "perumbakkam",
+    "sk": "2023-12-01#fce8a5b27f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Poorly maintained Perumbakkam Lake with sewage water and hyacinths leads to flooding.",
+    "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+    "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+    "locality_as_written": "Perumbakkam"
+  },
+  {
+    "locality": "perumbakkam",
+    "sk": "2022-11-16#363ac1d633",
+    "date": "2022-11-16",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": 8,
+    "detail": "The area was flooded with knee-deep water for eight days during the 2021 monsoon.",
+    "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+    "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+    "locality_as_written": "Perumbakkam"
   },
   {
     "locality": "perumbakkam",
@@ -2461,6 +3481,18 @@
   },
   {
     "locality": "perungudi",
+    "sk": "2024-02-03#67ed75d91a",
+    "date": "2024-02-03",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The rupture of an 800 mm drinking water main line in Perungudi caused flooding, and this is not the first time such flash floods have occurred in the locality.",
+    "source_url": "https://citizenmatters.in/chennai-ennore-protest-mosquito-control-swd-perungudi-flash-floods-gcc",
+    "source_title": "Chennai buzz: Mosquito control measures intensified | Flash floods in Perungudi... and more",
+    "locality_as_written": "Perungudi"
+  },
+  {
+    "locality": "perungudi",
     "sk": "2023-12-06#50c2728be5",
     "date": "2023-12-06",
     "event": "Cyclone Michaung",
@@ -2469,6 +3501,30 @@
     "detail": "Areas surrounding Velachery, including Perungudi, are heavily waterlogged, making it impossible for residents to move out.",
     "source_url": "https://citizenmatters.in/devastation-storm-chennai-cyclone-michaung-monsoon-flooding/",
     "source_title": "Calm after the storm in Chennai: What Cyclone Michaung left behind",
+    "locality_as_written": "Perungudi"
+  },
+  {
+    "locality": "perungudi",
+    "sk": "2023-12-01#61cd549b0f",
+    "date": "2023-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "More than 1,000 people were escorted using boats during the 2023 floods.",
+    "source_url": "https://citizenmatters.in/chennai-floods-economic-social-vulnerability-flood-mitigation-affected-areas-gcc-budget-tax",
+    "source_title": "Chennai floods: How the vulnerable are always short-changed",
+    "locality_as_written": "Perungudi"
+  },
+  {
+    "locality": "perungudi",
+    "sk": "2023-04-17#9a15a1d665",
+    "date": "2023-04-17",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Groundwater is extremely polluted due to the nearby dump yard, leading to waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+    "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
     "locality_as_written": "Perungudi"
   },
   {
@@ -2568,6 +3624,66 @@
     "locality_as_written": "Pullianthope"
   },
   {
+    "locality": "pulianthope",
+    "sk": "2023-07-14#d7d94ffc34",
+    "date": "2023-07-14",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Water stagnation during rains and power cuts were major issues in the area, with stagnant water on the roads taking more than four days to drain.",
+    "source_url": "https://citizenmatters.in/north-chennai-ward-73-councillor-ambedvalavan-working-class-sewage-storm-water-drains",
+    "source_title": "Councillor Talk: Ambedvalavan aims to improve civic amenities and prevent flooding in Ward 73 - Pulianthope",
+    "locality_as_written": "Pulianthope"
+  },
+  {
+    "locality": "pulianthope",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Near an urban public health centre in Pulianthope, it floods almost every time it rains.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "locality_as_written": "Pulianthope"
+  },
+  {
+    "locality": "pulianthope",
+    "sk": "2022-11-01#f6d10916f3",
+    "date": "2022-11-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "A 45-year-old resident died after a concrete slab collapsed on her due to heavy rains.",
+    "source_url": "https://citizenmatters.in/chennai-rains-rope-cars-in-marina-climate-change-initiative-garbage-orr-development",
+    "source_title": "Chennai Buzz: Rains lash the city | Rope cars in Marina Beach...and more",
+    "locality_as_written": "Pulianthope"
+  },
+  {
+    "locality": "pulianthope",
+    "sk": "2021-11-30#f22f016d79",
+    "date": "2021-11-30",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Water logging and inundation in several areas such as Pulianthope.",
+    "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+    "source_title": "Four recommended steps for a flood-proof Chennai",
+    "locality_as_written": "Pulianthope"
+  },
+  {
+    "locality": "pulianthope",
+    "sk": "2020-11-25#e3e262321f",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Pulianthope faced severe inundation as a result of Cyclone Nivar.",
+    "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+    "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+    "locality_as_written": "Pulianthope"
+  },
+  {
     "locality": "purasawalkam",
     "sk": "2025-12-02#6faa915e3b",
     "date": "2025-12-02",
@@ -2614,6 +3730,42 @@
     "source_url": "https://www.dtnext.in/news/city/heavy-downpour-throws-life-out-of-gear-in-chennai-751565",
     "source_title": "Heavy downpour throws life out of gear in Chennai",
     "locality_as_written": "Puzhal"
+  },
+  {
+    "locality": "puzhuthivakkam",
+    "sk": "2020-11-25#e3e262321f",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Puzhuthivakkam was severely inundated due to Cyclone Nivar.",
+    "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+    "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+    "locality_as_written": "Puzhuthivakkam"
+  },
+  {
+    "locality": "ram-nagar",
+    "sk": "2024-07-29#6a82729539",
+    "date": "2024-07-29",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The water from the marshland overflowed and spilled into the surrounding areas during Cyclone Michaung.",
+    "source_url": "https://citizenmatters.in/flooding-and-bad-roads-a-perennial-problem-in-ward-188",
+    "source_title": "Chennai: Flooding and bad roads a perennial problem in Ward 188",
+    "locality_as_written": "Ram Nagar"
+  },
+  {
+    "locality": "ram-nagar",
+    "sk": "2017-11-04#a943fe4148",
+    "date": "2017-11-04",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The area was waterlogged to knee-deep level during the heavy rains.",
+    "source_url": "https://citizenmatters.in/heavy-rains-chennai-no-flooding-thiruvanmiyur-storm-water-drain",
+    "source_title": "Despite heavy rains, this Thiruvanmiyur road saw no flooding; here’s why!",
+    "locality_as_written": "Sriram Nagar cross street"
   },
   {
     "locality": "royapettah",
@@ -2665,6 +3817,18 @@
   },
   {
     "locality": "saidapet",
+    "sk": "2015-12-01#ea444f4f90",
+    "date": "2015-12-01",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Saidapet was one of the worst affected areas during the December 2015 floods.",
+    "source_url": "https://citizenmatters.in/saidapet-debates-flood-management-election-campaign",
+    "source_title": "Saidapet: Debates on flood management steer election campaigns",
+    "locality_as_written": "Saidapet"
+  },
+  {
+    "locality": "saidapet",
     "sk": "2015-12-01#658173595e",
     "date": "2015-12-01",
     "event": null,
@@ -2712,6 +3876,18 @@
     "locality_as_written": "Selaiyur"
   },
   {
+    "locality": "selaiyur",
+    "sk": "2020-11-03#1e3c7ce48c",
+    "date": "2020-11-03",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Sewage getting mixed in storm water drains in Selaiyur is a recurring problem.",
+    "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+    "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+    "locality_as_written": "Selaiyur"
+  },
+  {
     "locality": "sembakkam",
     "sk": "2023-12-04#4a0455348e",
     "date": "2023-12-04",
@@ -2736,6 +3912,30 @@
     "locality_as_written": "Sembakkam"
   },
   {
+    "locality": "shastri-nagar",
+    "sk": "2019-02-13#481e74b0e8",
+    "date": "2019-02-13",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Groundwater levels in Adyar Shastri Nagar have dropped significantly, with eight out of 24 monitored wells running dry.",
+    "source_url": "https://citizenmatters.in/chennai-water-crisis-groundwater-lakes-rain-conservation",
+    "source_title": "Water situation ominous; is Chennai prepared for summer ahead?",
+    "locality_as_written": "Adyar Shastri Nagar"
+  },
+  {
+    "locality": "sidco-nagar",
+    "sk": "2016-05-14#681fa707a4",
+    "date": "2016-05-14",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "SIDCO Nagar was one of the worst affected areas during the December floods.",
+    "source_url": "https://citizenmatters.in/villivakkam-residents-tired-of-the-perennial-woe-of-inundation",
+    "source_title": "Villivakkam: Residents tired of the perennial woe of inundation",
+    "locality_as_written": "SIDCO Nagar"
+  },
+  {
     "locality": "siruseri",
     "sk": "2024-11-30#f804d0d736",
     "date": "2024-11-30",
@@ -2746,6 +3946,18 @@
     "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-long-power-outage-leaves-chennai-city-in-the-dark-813234",
     "source_title": "Cyclone Fengal: Long power outage leaves Chennai city in the dark",
     "locality_as_written": "Siruseri"
+  },
+  {
+    "locality": "sithalapakkam",
+    "sk": "2018-09-10#bada175019",
+    "date": "2018-09-10",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Industrial effluents and sewage have prompted the growth of water hyacinth.",
+    "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+    "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+    "locality_as_written": "Sithalapakkam Lake in the outskirts of Tambaram"
   },
   {
     "locality": "t-nagar",
@@ -2785,6 +3997,90 @@
   },
   {
     "locality": "t-nagar",
+    "sk": "2023-08-25#caed70103f",
+    "date": "2023-08-25",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "After a night-long heavy downpour, the water started entering the house on the ground floor and the residents had to shift their 96-year-old mother to a friend's place in Chrompet through an ambulance.",
+    "source_url": "https://citizenmatters.in/mambalam-canal-restoration-chennai-stormwater-drains-floods-gcc",
+    "source_title": "Bungled Mambalam Canal restoration raises questions about its future",
+    "locality_as_written": "T Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2023-05-18#a2c9c7ade0",
+    "date": "2023-05-18",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "The article mentions that the bus shelters in T Nagar are not completely waterlogging-free.",
+    "source_url": "https://citizenmatters.in/climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+    "source_title": "Making Chennai's public transport climate resilient",
+    "locality_as_written": "T Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2021-12-06#12cbaf3039",
+    "date": "2021-12-06",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The entire ground floor of a residence was submerged in flood water.",
+    "source_url": "https://citizenmatters.in/chennai-tnagar-smart-city-floods-stormwater-drain-monsoon",
+    "source_title": "ஸ்மார்ட் சிட்டி திட்டம்: தி.நகரில் வெள்ள பாதிப்பு எழுப்பும் கேள்விகள்",
+    "locality_as_written": "T.Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2021-12-04#5c68370a43",
+    "date": "2021-12-04",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Unscientific planning of stormwater drains caused widespread flooding in the area.",
+    "source_url": "https://citizenmatters.in/chennai-omicron-airport-travel-gcc-stormwater-drains",
+    "source_title": "Chennai Buzz: At risk travellers to be screened | Flaws in SWD network...and more!",
+    "locality_as_written": "T.Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2021-12-01#2d372e7f34",
+    "date": "2021-12-01",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "T. Nagar experienced extreme waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+    "source_title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+    "locality_as_written": "T. Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2021-11-30#f22f016d79",
+    "date": "2021-11-30",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Water logging and inundation in several areas such as T Nagar.",
+    "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+    "source_title": "Four recommended steps for a flood-proof Chennai",
+    "locality_as_written": "T Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2021-11-27#ff571c8a77",
+    "date": "2021-11-27",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Large pipes have been laid in parts of flooded areas such as T Nagar to prevent waterlogging.",
+    "source_url": "https://citizenmatters.in/chennai-rain-flooding-cmda-expansion-bus-terminals-ppp",
+    "source_title": "Chennai Buzz: Revenue-sharing for bus terminals | Vegetable prices rise...and more!",
+    "locality_as_written": "T Nagar"
+  },
+  {
+    "locality": "t-nagar",
     "sk": "2021-11-27#913ed262e6",
     "date": "2021-11-27",
     "event": null,
@@ -2806,6 +4102,18 @@
     "source_url": "https://www.dtnext.in/city/2021/11/18/waterlogging-reported-from-over-300-streets-in-chennai",
     "source_title": "Waterlogging reported from over 300 streets in Chennai",
     "locality_as_written": "T Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2021-11-09#adef68e3b0",
+    "date": "2021-11-09",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "This area experiences severe flooding and sewage backwashing into houses after 15 minutes of rain.",
+    "source_url": "https://citizenmatters.in/chennai-floods-mandaveli-rains-stormwater-drains-citizen-action",
+    "source_title": "Chennai floods: How these Mandaveli streets averted waterlogging even as it poured",
+    "locality_as_written": "T.Nagar Northusman road, Parthasarathy road intersection"
   },
   {
     "locality": "t-nagar",
@@ -2941,6 +4249,18 @@
   },
   {
     "locality": "tambaram",
+    "sk": "2020-09-26#bc73fbe057",
+    "date": "2020-09-26",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents are worried about the poor maintenance of stormwater drains and sewer networks.",
+    "source_url": "https://citizenmatters.in/chennai-containment-zones-covid-omandurar-monsoon-stormwater-stray-dogs",
+    "source_title": "Chennai Buzz: New street barricade rules | Slum evictions | Rise in stray population...and more",
+    "locality_as_written": "Tambaram"
+  },
+  {
+    "locality": "tambaram",
     "sk": "2019-10-18#8c6607086b",
     "date": "2019-10-18",
     "event": null,
@@ -3012,6 +4332,42 @@
     "locality_as_written": "Taramani"
   },
   {
+    "locality": "teynampet",
+    "sk": "2023-12-18#c5ad5e638b",
+    "date": "2023-12-18",
+    "event": "Cyclone Michaung",
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Flood water marks and dirty walls with a foul smell were observed in the parking area.",
+    "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+    "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+    "locality_as_written": "Teynampet"
+  },
+  {
+    "locality": "thalambur",
+    "sk": "2026-04-13#6af7f274e1",
+    "date": "2026-04-13",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents experienced severe flooding during the 2015 floods, with no SWDs or other infrastructure in place.",
+    "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+    "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+    "locality_as_written": "Thalambur"
+  },
+  {
+    "locality": "thiru-vi-ka-nagar",
+    "sk": "2022-11-12#74442a2d7e",
+    "date": "2022-11-12",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Thiru. vi. ka. Nagar.",
+    "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+    "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+    "locality_as_written": "Thiru. vi. ka. Nagar"
+  },
+  {
     "locality": "thiruvanmiyur",
     "sk": "2023-11-29#d3b1781633",
     "date": "2023-11-29",
@@ -3049,6 +4405,18 @@
   },
   {
     "locality": "thoraipakkam",
+    "sk": "2023-12-08#c5ad5e638b",
+    "date": "2023-12-08",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Anjitha Pravin returned to find her rented apartment severely damaged, with mouldy walls and a lost scooter.",
+    "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+    "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+    "locality_as_written": "Thoraipakkam"
+  },
+  {
+    "locality": "thoraipakkam",
     "sk": "2022-11-18#64bc4c151d",
     "date": "2022-11-18",
     "event": null,
@@ -3058,6 +4426,18 @@
     "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
     "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
     "locality_as_written": "Thoraipakkam"
+  },
+  {
+    "locality": "thousand-lights",
+    "sk": "2022-11-16#363ac1d633",
+    "date": "2022-11-16",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "The family was evicted from their residence due to the 2015 Chennai floods.",
+    "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+    "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+    "locality_as_written": "Thousand Lights"
   },
   {
     "locality": "tiruvottiyur",
@@ -3117,6 +4497,18 @@
     "detail": "Thiruvotriyur in North Chennai has been battling floods this year.",
     "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
     "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+    "locality_as_written": "Thiruvotriyur"
+  },
+  {
+    "locality": "tiruvottiyur",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": 2,
+    "detail": "The Ajax subway in Thiruvotriyur was filled with water for two days in the first few days of November.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
     "locality_as_written": "Thiruvotriyur"
   },
   {
@@ -3334,6 +4726,18 @@
     "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
     "source_title": "Overnight rains lash Chennai; many localities under water",
     "locality_as_written": "Valasaravakkam"
+  },
+  {
+    "locality": "velachery",
+    "sk": "2026-04-13#6af7f274e1",
+    "date": "2026-04-13",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Residents experienced severe flooding during the 2015 floods, with no SWDs or other infrastructure in place.",
+    "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+    "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+    "locality_as_written": "Velachery"
   },
   {
     "locality": "velachery",
@@ -3577,6 +4981,18 @@
   },
   {
     "locality": "velachery",
+    "sk": "2023-12-05#c5ad5e638b",
+    "date": "2023-12-05",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": 3,
+    "detail": "Floodwaters filled the streets adjacent to Jayakumari's house, causing a 72-hour power cut and worsening her unhealed wounds from mosquito bites.",
+    "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+    "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+    "locality_as_written": "Velachery"
+  },
+  {
+    "locality": "velachery",
     "sk": "2023-12-04#68b1f68359",
     "date": "2023-12-04",
     "event": "Cyclone Michaung",
@@ -3601,6 +5017,18 @@
   },
   {
     "locality": "velachery",
+    "sk": "2021-11-30#f22f016d79",
+    "date": "2021-11-30",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Water logging and inundation in several areas such as Velachery.",
+    "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+    "source_title": "Four recommended steps for a flood-proof Chennai",
+    "locality_as_written": "Velachery"
+  },
+  {
+    "locality": "velachery",
     "sk": "2021-11-07#9b6b1f44fd",
     "date": "2021-11-07",
     "event": null,
@@ -3610,6 +5038,18 @@
     "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
     "source_title": "Overnight rains lash Chennai; many localities under water",
     "locality_as_written": "Velachery"
+  },
+  {
+    "locality": "velachery",
+    "sk": "2020-11-25#e3e262321f",
+    "date": "2020-11-25",
+    "event": "Cyclone Nivar",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Ram Nagar in Velachery witnessed severe inundation due to Cyclone Nivar.",
+    "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+    "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+    "locality_as_written": "Ram Nagar in Velachery"
   },
   {
     "locality": "velachery",
@@ -3636,6 +5076,18 @@
     "locality_as_written": "Velachery"
   },
   {
+    "locality": "velachery-tansi-nagar",
+    "sk": "2025-11-03#296fb21252",
+    "date": "2025-11-03",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": 7,
+    "detail": "These families are forced to vacate their houses, needing boats, tractors, and other makeshift transport to relocate.",
+    "source_url": "https://citizenmatters.in/flood-threat-in-tansi-nagar-chennai-communitys-plea-to-save-canal-stop-beautification",
+    "source_title": "Flood threat in Tansi Nagar: Chennai community's plea to save canal, stop 'beautification'",
+    "locality_as_written": "Tansi Nagar"
+  },
+  {
     "locality": "villivakkam",
     "sk": "2024-10-15#637e4ce7f3",
     "date": "2024-10-15",
@@ -3660,6 +5112,18 @@
     "locality_as_written": "Villivakkam Subway"
   },
   {
+    "locality": "villivakkam",
+    "sk": "2018-09-10#bada175019",
+    "date": "2018-09-10",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Intertwined EB cables pose a dangerous situation.",
+    "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+    "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+    "locality_as_written": "Rajamangalam of Villivakkam"
+  },
+  {
     "locality": "virugambakkam",
     "sk": "2025-12-01#c3d16c182f",
     "date": "2025-12-01",
@@ -3681,6 +5145,18 @@
     "detail": "Many areas face waterlogging issues.",
     "source_url": "https://citizenmatters.in/cyclone-fengal-chennai-floods/",
     "source_title": "Cyclone Fengal in Chennai: Some areas badly impacted, others hold steady",
+    "locality_as_written": "Vyasarpadi"
+  },
+  {
+    "locality": "vyasarpadi",
+    "sk": "2023-12-29#1451e055e3",
+    "date": "2023-12-29",
+    "event": "Cyclone Michaung",
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Marginalized communities in North Chennai were sidelined by authorities during the devastating floods caused by Cyclone Michaung.",
+    "source_url": "https://citizenmatters.in/chennai-stories-2023-vyasarpadi-gandhinagar-cyclone-michaung-ennore",
+    "source_title": "Editor’s Pick: Chennai stories that made a mark in 2023",
     "locality_as_written": "Vyasarpadi"
   },
   {
@@ -3717,6 +5193,30 @@
     "detail": "Vyasarpadi in North Chennai has been battling floods this year.",
     "source_url": "https://citizenmatters.in/north-central-and-south-chennai-flood-monsoon-soil-topography/",
     "source_title": "Urban floods: Why some areas in Chennai are worse hit than others",
+    "locality_as_written": "Vyasarpadi"
+  },
+  {
+    "locality": "vyasarpadi",
+    "sk": "2022-11-07#312fe3e629",
+    "date": "2022-11-07",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Two men in Vyasarpadi died due to electrocution in stagnated water.",
+    "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "locality_as_written": "Vyasarpadi"
+  },
+  {
+    "locality": "vyasarpadi",
+    "sk": "2022-10-31#f6d10916f3",
+    "date": "2022-10-31",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "A 52-year-old autorickshaw driver was fatally electrocuted after touching a pole of a pandal where rainwater had stagnated.",
+    "source_url": "https://citizenmatters.in/chennai-rains-rope-cars-in-marina-climate-change-initiative-garbage-orr-development",
+    "source_title": "Chennai Buzz: Rains lash the city | Rope cars in Marina Beach...and more",
     "locality_as_written": "Vyasarpadi"
   },
   {
@@ -3793,6 +5293,18 @@
   },
   {
     "locality": "west-mambalam",
+    "sk": "2023-09-23#48e5470e88",
+    "date": "2023-09-23",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The Mambalam Canal will also be desilted prior to the monsoon.",
+    "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+    "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+    "locality_as_written": "Mambalam"
+  },
+  {
+    "locality": "west-mambalam",
     "sk": "2021-11-10#24cf1ca228",
     "date": "2021-11-10",
     "event": null,
@@ -3802,5 +5314,17 @@
     "source_url": "https://citizenmatters.in/chennai-rains-flooding-in-t-nagar-smart-city-mission-gaps/",
     "source_title": "Flooding in T Nagar raises a lot of questions for the smart city mission",
     "locality_as_written": "Areas near the Mambalam canal"
+  },
+  {
+    "locality": "west-mambalam",
+    "sk": "2019-02-13#481e74b0e8",
+    "date": "2019-02-13",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Residents of Mambalam complain that they receive water only once in a week.",
+    "source_url": "https://citizenmatters.in/chennai-water-crisis-groundwater-lakes-rain-conservation",
+    "source_title": "Water situation ominous; is Chennai prepared for summer ahead?",
+    "locality_as_written": "Mambalam"
   }
 ]

@@ -1,0 +1,84 @@
+{
+  "article": {
+    "id": "2020-11-14-citizenmatters-chennai-cumta-world-bank-flood-mapping-water-vending-machine",
+    "url": "https://citizenmatters.in/chennai-cumta-world-bank-flood-mapping-water-vending-machine-water-supply-project",
+    "title": "Chennai Buzz: CUMTA's first meeting in 2021 | Flood-prone spots mapped | 11 more water ATMs..and more",
+    "outlet": "Citizen Matters",
+    "published": "2020-11-14"
+  },
+  "records": [
+    {
+      "locality": "madhavaram",
+      "sk": "2020-11-14#37a5829f78",
+      "date": "2020-11-14",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The North Zone of Greater Chennai Police has mapped over 76 streets in Madhavaram that experience frequent waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-cumta-world-bank-flood-mapping-water-vending-machine-water-supply-project",
+      "source_title": "Chennai Buzz: CUMTA's first meeting in 2021 | Flood-prone spots mapped | 11 more water ATMs..and more",
+      "locality_as_written": "Madhavaram"
+    },
+    {
+      "locality": "washermanpet",
+      "sk": "2020-11-14#37a5829f78",
+      "date": "2020-11-14",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The North Zone of Greater Chennai Police has mapped 33 inundation spots in Washermanpet that experience frequent waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-cumta-world-bank-flood-mapping-water-vending-machine-water-supply-project",
+      "source_title": "Chennai Buzz: CUMTA's first meeting in 2021 | Flood-prone spots mapped | 11 more water ATMs..and more",
+      "locality_as_written": "Washermanpet"
+    },
+    {
+      "locality": "mannady",
+      "sk": "2020-11-14#37a5829f78",
+      "date": "2020-11-14",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Mannady Metro is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-cumta-world-bank-flood-mapping-water-vending-machine-water-supply-project",
+      "source_title": "Chennai Buzz: CUMTA's first meeting in 2021 | Flood-prone spots mapped | 11 more water ATMs..and more",
+      "locality_as_written": "Mannady Metro"
+    },
+    {
+      "locality": "periyar-nagar",
+      "sk": "2020-11-14#37a5829f78",
+      "date": "2020-11-14",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "T.H Road – Periyar Nagar Junction is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-cumta-world-bank-flood-mapping-water-vending-machine-water-supply-project",
+      "source_title": "Chennai Buzz: CUMTA's first meeting in 2021 | Flood-prone spots mapped | 11 more water ATMs..and more",
+      "locality_as_written": "T.H Road – Periyar Nagar Junction"
+    },
+    {
+      "locality": "manali",
+      "sk": "2020-11-14#37a5829f78",
+      "date": "2020-11-14",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Manali Express Road is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-cumta-world-bank-flood-mapping-water-vending-machine-water-supply-project",
+      "source_title": "Chennai Buzz: CUMTA's first meeting in 2021 | Flood-prone spots mapped | 11 more water ATMs..and more",
+      "locality_as_written": "Manali Express Road"
+    }
+  ],
+  "unmatched": [
+    "Flower Bazaar",
+    "Prakasam Slaai",
+    "Walltax Road",
+    "NSC Bose Road",
+    "Stanley Subway",
+    "Maniappan Street",
+    "Ambedkar Nagar",
+    "Patel Nagar",
+    "GNT Road",
+    "Madurai Manavalan Nagar"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Madhavaram\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The North Zone of Greater Chennai Police has mapped over 76 streets in Madhavaram that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Flower Bazaar\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The North Zone of Greater Chennai Police has mapped 21 inundation spots in Flower Bazaar that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Washermanpet\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The North Zone of Greater Chennai Police has mapped 33 inundation spots in Washermanpet that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Prakasam Slaai\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Prakasam Slaai is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Walltax Road\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Walltax Road is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"NSC Bose Road\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"NSC Bose Road is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Mannady Metro\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Mannady Metro is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Stanley Subway\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Stanley Subway is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Maniappan Street\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Maniappan Street is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Ambedkar Nagar\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Ambedkar Nagar is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Patel Nagar\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Patel Nagar is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"T.H Road – Periyar Nagar Junction\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"T.H Road – Periyar Nagar Junction is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"GNT Road\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"GNT Road is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Madurai Manavalan Nagar\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Madurai Manavalan Nagar is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    },\n    {\n        \"locality\": \"Manali Express Road\",\n        \"date\": \"2020-11-14\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Manali Express Road is one of the locations identified in the North Zone of Greater Chennai Police that experience frequent waterlogging.\"\n    }\n]\n```"
+}

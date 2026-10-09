@@ -1,0 +1,27 @@
+[
+  {
+    "locality": "perumbakkam",
+    "date": "2026-08-04",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2026-08-04",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "jawahar-nagar",
+    "date": "2026-08-04",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2024-02-08-citizenmatters-councillor-ward-77-chennai-kp-park-basic-facilities-floods-e",
+    "url": "https://citizenmatters.in/councillor-ward-77-chennai-kp-park-basic-facilities-floods-education-gcc",
+    "title": "Councillor Talk: Sumathi's vision is education for every underprivileged child in Chennai's Ward 77",
+    "outlet": "Citizen Matters",
+    "published": "2024-02-08"
+  },
+  "records": [],
+  "unmatched": [
+    "Ward 77",
+    "KP Park locality"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ward 77\",\n        \"date\": \"2023-11-29\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": 3,\n        \"detail\": \"Water was stagnant for three days in Ward 77 during the 2023 floods, and it took more than three days for the water to recede.\"\n    },\n    {\n        \"locality\": \"KP Park locality\",\n        \"date\": \"2023-11-29\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"KP Park locality was badly hit during the 2023 floods, and it took more than half a month for the area to return to normalcy.\"\n    }\n]\n```"
+}

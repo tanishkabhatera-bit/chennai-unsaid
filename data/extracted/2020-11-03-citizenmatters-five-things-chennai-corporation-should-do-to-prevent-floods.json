@@ -1,0 +1,136 @@
+{
+  "article": {
+    "id": "2020-11-03-citizenmatters-five-things-chennai-corporation-should-do-to-prevent-floods",
+    "url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+    "title": "Five things the Greater Chennai Corporation must do to prevent floods",
+    "outlet": "Citizen Matters",
+    "published": "2020-11-03"
+  },
+  "records": [
+    {
+      "locality": "ambattur",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "DTP Colony in Ambattur is flooded every monsoon due to the absence of a proper sewage network and pumping station.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "DTP Colony in Ambattur"
+    },
+    {
+      "locality": "adambakkam",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Canals in Adambakkam are riddled with encroachments that hamper the free flow of water.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Adambakkam"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Encroachments on lake channels in Pallavaram cause flooding even during light rains.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Pallavaram"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Encroachments on lake channels in Chrompet cause flooding even during light rains.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Chrompet"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Sholinganallur is one of the localities that lack proper underground drainage systems.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Sholinganallur"
+    },
+    {
+      "locality": "perungudi",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Perungudi is one of the localities that lack proper underground drainage systems.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Perungudi"
+    },
+    {
+      "locality": "thoraipakkam",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Thoraipakkam is one of the localities that lack proper underground drainage systems.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Thoraipakkam"
+    },
+    {
+      "locality": "kottivakkam",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Kottivakkam is one of the localities that lack proper underground drainage systems.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Kottivakkam"
+    },
+    {
+      "locality": "madipakkam",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Sewage getting mixed in storm water drains in Madipakkam is a recurring problem.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "selaiyur",
+      "sk": "2020-11-03#1e3c7ce48c",
+      "date": "2020-11-03",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Sewage getting mixed in storm water drains in Selaiyur is a recurring problem.",
+      "source_url": "https://citizenmatters.in/five-things-chennai-corporation-should-do-to-prevent-floods",
+      "source_title": "Five things the Greater Chennai Corporation must do to prevent floods",
+      "locality_as_written": "Selaiyur"
+    }
+  ],
+  "unmatched": [
+    "Koratty",
+    "Neelangara"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ambattur\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Several pockets of Ambattur zone witness flooding every monsoon.\"\n    },\n    {\n        \"locality\": \"Adambakkam\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Canals in Adambakkam are riddled with encroachments that hamper the free flow of water.\"\n    },\n    {\n        \"locality\": \"Pallavaram\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachments on lake channels in Pallavaram cause flooding even during light rains.\"\n    },\n    {\n        \"locality\": \"Chrompet\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachments on lake channels in Chrompet cause flooding even during light rains.\"\n    },\n    {\n        \"locality\": \"DTP Colony in Ambattur\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"DTP Colony in Ambattur is flooded every monsoon due to the absence of a proper sewage network and pumping station.\"\n    },\n    {\n        \"locality\": \"Koratty\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Several localities including Korattur were added to the Greater Chennai Corporation, but lack proper underground drainage systems.\"\n    },\n    {\n        \"locality\": \"Sholinganallur\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Sholinganallur is one of the localities that lack proper underground drainage systems.\"\n    },\n    {\n        \"locality\": \"Perungudi\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Perungudi is one of the localities that lack proper underground drainage systems.\"\n    },\n    {\n        \"locality\": \"Thoraipakkam\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Thoraipakkam is one of the localities that lack proper underground drainage systems.\"\n    },\n    {\n        \"locality\": \"Kottivakkam\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Kottivakkam is one of the localities that lack proper underground drainage systems.\"\n    },\n    {\n        \"locality\": \"Neelangara\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Neelangara is one of the localities that lack proper underground drainage systems.\"\n    },\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Sewage getting mixed in storm water drains in Madipakkam is a recurring problem.\"\n    },\n    {\n        \"locality\": \"Selaiyur\",\n        \"date\": \"2020-11-03\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Sewage getting mixed in storm water drains in Selaiyur is a recurring problem.\"\n    }\n]\n```"
+}

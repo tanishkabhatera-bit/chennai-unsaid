@@ -1,0 +1,48 @@
+[
+  {
+    "locality": "madambakkam",
+    "date": "2018-09-10",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "ambattur",
+    "date": "2018-09-10",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event in which TNHB Colony of Kolathur was flooded."
+    ],
+    "event": null
+  },
+  {
+    "locality": "chitlapakkam",
+    "date": "2018-09-10",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "sithalapakkam",
+    "date": "2018-09-10",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kodambakkam",
+    "date": "2018-09-10",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Trustpuram of Kodambakkam around 2018-09-10."
+    ],
+    "event": null
+  },
+  {
+    "locality": "villivakkam",
+    "date": "2018-09-10",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

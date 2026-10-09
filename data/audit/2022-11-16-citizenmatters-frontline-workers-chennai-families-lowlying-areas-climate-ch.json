@@ -1,0 +1,43 @@
+[
+  {
+    "locality": "thousand-lights",
+    "date": "2022-11-16",
+    "ok": true,
+    "reasons": [
+      "event label \"2015 Chennai floods\" removed: not in 2015-11/2015-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "perumbakkam",
+    "date": "2022-11-16",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kodambakkam",
+    "date": "2022-11-16",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "vyasarpadi",
+    "date": "2022-11-16",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The locality is prone to flooding, affecting the lives of me\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "pulianthope",
+    "date": "2022-11-16",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The locality is prone to flooding, affecting the lives of me\""
+    ],
+    "event": null
+  }
+]

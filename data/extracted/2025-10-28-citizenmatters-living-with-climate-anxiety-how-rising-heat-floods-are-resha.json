@@ -1,0 +1,51 @@
+{
+  "article": {
+    "id": "2025-10-28-citizenmatters-living-with-climate-anxiety-how-rising-heat-floods-are-resha",
+    "url": "https://citizenmatters.in/living-with-climate-anxiety-how-rising-heat-floods-are-reshaping-daily-life-in-chennai",
+    "title": "Living with climate anxiety: How rising heat, floods are reshaping daily life in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2025-10-28"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2025-10-28#550c6e6863",
+      "date": "2025-10-28",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Waterlogging is a serious concern, making roads almost unmanageable.",
+      "source_url": "https://citizenmatters.in/living-with-climate-anxiety-how-rising-heat-floods-are-reshaping-daily-life-in-chennai",
+      "source_title": "Living with climate anxiety: How rising heat, floods are reshaping daily life in Chennai",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "madipakkam",
+      "sk": "2025-10-28#550c6e6863",
+      "date": "2025-10-28",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "During Cyclone Michaung in 2023, the home was flooded, and the family had to be rescued by boat.",
+      "source_url": "https://citizenmatters.in/living-with-climate-anxiety-how-rising-heat-floods-are-reshaping-daily-life-in-chennai",
+      "source_title": "Living with climate anxiety: How rising heat, floods are reshaping daily life in Chennai",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "perumbakkam",
+      "sk": "2025-10-28#550c6e6863",
+      "date": "2025-10-28",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality gets flooded even with moderate rain, and recovery from such events can take years.",
+      "source_url": "https://citizenmatters.in/living-with-climate-anxiety-how-rising-heat-floods-are-reshaping-daily-life-in-chennai",
+      "source_title": "Living with climate anxiety: How rising heat, floods are reshaping daily life in Chennai",
+      "locality_as_written": "Perumbakkam"
+    }
+  ],
+  "unmatched": [
+    "Sarvamangala Nagar"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Sarvamangala Nagar\",\n        \"date\": \"2025-10-28\",\n        \"event\": \"2015 Chennai floods\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents experienced water rushing into their homes during the 2015 Chennai floods.\"\n    },\n    {\n        \"locality\": \"Velachery\",\n        \"date\": \"2025-10-28\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Waterlogging is a serious concern, making roads almost unmanageable.\"\n    },\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2025-10-28\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"During Cyclone Michaung in 2023, the home was flooded, and the family had to be rescued by boat.\"\n    },\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2025-10-28\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality gets flooded even with moderate rain, and recovery from such events can take years.\"\n    }\n]\n```"
+}

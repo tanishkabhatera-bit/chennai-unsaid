@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-04-23-citizenmatters-chennai-buzz-marina-blue-flag-beach-mask-mandate-flooding-cn",
+    "url": "https://citizenmatters.in/chennai-buzz-marina-blue-flag-beach-mask-mandate-flooding-cng-waste-management",
+    "title": "Chennai Buzz: Mask mandate returns | Phased fight against flooding..and more!",
+    "outlet": "Citizen Matters",
+    "published": "2022-04-23"
+  },
+  "records": [],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2022-04-23\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Roads in Ramtekdi Industrial Estate are broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

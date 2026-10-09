@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2023-10-04-citizenmatters-chennai-southwest-monsoon-northeast-rainfall-weater-imd-swd-",
+    "url": "https://citizenmatters.in/chennai-southwest-monsoon-northeast-rainfall-weater-imd-swd-gcc",
+    "title": "Lessons for Chennai from the rainy days of the southwest monsoon",
+    "outlet": "Citizen Matters",
+    "published": "2023-10-04"
+  },
+  "records": [
+    {
+      "locality": "madipakkam",
+      "sk": "2023-10-04#472702a7c1",
+      "date": "2023-10-04",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents experienced waterlogged roads due to sudden heavy rains.",
+      "source_url": "https://citizenmatters.in/chennai-southwest-monsoon-northeast-rainfall-weater-imd-swd-gcc",
+      "source_title": "Lessons for Chennai from the rainy days of the southwest monsoon",
+      "locality_as_written": "Madipakkam"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2023-10-04\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents experienced waterlogged roads due to sudden heavy rains.\"\n    }\n]\n```"
+}

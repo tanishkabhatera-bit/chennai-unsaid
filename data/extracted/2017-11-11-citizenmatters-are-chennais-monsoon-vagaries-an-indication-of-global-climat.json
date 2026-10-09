@@ -1,0 +1,28 @@
+{
+  "article": {
+    "id": "2017-11-11-citizenmatters-are-chennais-monsoon-vagaries-an-indication-of-global-climat",
+    "url": "https://citizenmatters.in/are-chennais-monsoon-vagaries-an-indication-of-global-climate-change",
+    "title": "Are Chennai's monsoon vagaries an indication of global climate change?",
+    "outlet": "Citizen Matters",
+    "published": "2017-11-11"
+  },
+  "records": [
+    {
+      "locality": "mylapore",
+      "sk": "2017-11-11#e22f93d85f",
+      "date": "2017-11-11",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Mylapore recorded 300mm of rainfall on November 2nd, one of the highest rain rates per hour in recent past.",
+      "source_url": "https://citizenmatters.in/are-chennais-monsoon-vagaries-an-indication-of-global-climate-change",
+      "source_title": "Are Chennai's monsoon vagaries an indication of global climate change?",
+      "locality_as_written": "Mylapore"
+    }
+  ],
+  "unmatched": [
+    "Chennai",
+    "Chennai"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2017-11-11\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Chennai received 648.4 mm of rain by November 7th, which is 74% of the average northeast monsoon rainfall.\"\n  },\n  {\n    \"locality\": \"Mylapore\",\n    \"date\": \"2017-11-11\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Mylapore recorded 300mm of rainfall on November 2nd, one of the highest rain rates per hour in recent past.\"\n  },\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2015-12-01\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Chennai received 294mm of rain on December 1, 2015.\"\n  }\n]"
+}

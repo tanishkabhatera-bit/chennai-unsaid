@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "thoraipakkam",
+    "date": "2026-05-04",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"Thoraipakkam is vulnerable to flooding and waterlogging.\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "perumbakkam",
+    "date": "2026-05-04",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"Perumbakkam is vulnerable to flooding and waterlogging.\""
+    ],
+    "event": null
+  }
+]

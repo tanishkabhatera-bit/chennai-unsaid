@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": "2024-07-29-citizenmatters-flooding-and-bad-roads-a-perennial-problem-in-ward-188",
+    "url": "https://citizenmatters.in/flooding-and-bad-roads-a-perennial-problem-in-ward-188",
+    "title": "Chennai: Flooding and bad roads a perennial problem in Ward 188",
+    "outlet": "Citizen Matters",
+    "published": "2024-07-29"
+  },
+  "records": [
+    {
+      "locality": "madipakkam",
+      "sk": "2024-07-29#6a82729539",
+      "date": "2024-07-29",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The water was waist-deep, and it rose very quickly during Cyclone Michaung.",
+      "source_url": "https://citizenmatters.in/flooding-and-bad-roads-a-perennial-problem-in-ward-188",
+      "source_title": "Chennai: Flooding and bad roads a perennial problem in Ward 188",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "ram-nagar",
+      "sk": "2024-07-29#6a82729539",
+      "date": "2024-07-29",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The water from the marshland overflowed and spilled into the surrounding areas during Cyclone Michaung.",
+      "source_url": "https://citizenmatters.in/flooding-and-bad-roads-a-perennial-problem-in-ward-188",
+      "source_title": "Chennai: Flooding and bad roads a perennial problem in Ward 188",
+      "locality_as_written": "Ram Nagar"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2024-07-29\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The water was waist-deep, and it rose very quickly during Cyclone Michaung.\"\n    },\n    {\n        \"locality\": \"Ram Nagar\",\n        \"date\": \"2024-07-29\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The water from the marshland overflowed and spilled into the surrounding areas during Cyclone Michaung.\"\n    }\n]\n```"
+}

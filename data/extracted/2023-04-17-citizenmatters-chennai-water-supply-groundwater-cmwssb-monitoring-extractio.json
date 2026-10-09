@@ -1,0 +1,99 @@
+{
+  "article": {
+    "id": "2023-04-17-citizenmatters-chennai-water-supply-groundwater-cmwssb-monitoring-extractio",
+    "url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+    "title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2023-04-17"
+  },
+  "records": [
+    {
+      "locality": "keelkattalai",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Hundreds of water lorries parked on the radial road, indicating waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Keelkattalai to Kamatchi Memorial Hospital"
+    },
+    {
+      "locality": "kovilambakkam",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "80% of the locality falls under illegal groundwater extraction, leading to waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Kovilambakkam Panchayat"
+    },
+    {
+      "locality": "nanmangalam",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Illegal extraction of groundwater near the lake, causing waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Nanmangalam Lake"
+    },
+    {
+      "locality": "tambaram",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Water lorries extract groundwater illegally, leading to waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Tambaram Corporation limits"
+    },
+    {
+      "locality": "thoraipakkam",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Illegal extraction of groundwater is common, leading to waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Pallavaram to Thoraipakkam"
+    },
+    {
+      "locality": "perungudi",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Groundwater is extremely polluted due to the nearby dump yard, leading to waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Perungudi"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2023-04-17#9a15a1d665",
+      "date": "2023-04-17",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents staged a protest demanding the government provide drinking water and sewerage connection, indicating waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-water-supply-groundwater-cmwssb-monitoring-extraction-rainwater-harvesting",
+      "source_title": "Illegal extraction and poor rainwater harvesting affect groundwater in Chennai",
+      "locality_as_written": "Sholinganallur"
+    }
+  ],
+  "unmatched": [
+    "Greater Chennai Corporation limits"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Keelkattalai to Kamatchi Memorial Hospital\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Hundreds of water lorries parked on the radial road, indicating waterlogging.\"\n  },\n  {\n    \"locality\": \"Kovilambakkam Panchayat\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"80% of the locality falls under illegal groundwater extraction, leading to waterlogging.\"\n  },\n  {\n    \"locality\": \"Nanmangalam Lake\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Illegal extraction of groundwater near the lake, causing waterlogging.\"\n  },\n  {\n    \"locality\": \"Tambaram Corporation limits\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water lorries extract groundwater illegally, leading to waterlogging.\"\n  },\n  {\n    \"locality\": \"Greater Chennai Corporation limits\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water lorries extract groundwater illegally, leading to waterlogging.\"\n  },\n  {\n    \"locality\": \"Pallavaram to Thoraipakkam\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Illegal extraction of groundwater is common, leading to waterlogging.\"\n  },\n  {\n    \"locality\": \"Perungudi\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Groundwater is extremely polluted due to the nearby dump yard, leading to waterlogging.\"\n  },\n  {\n    \"locality\": \"Sholinganallur\",\n    \"date\": \"2023-04-17\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents staged a protest demanding the government provide drinking water and sewerage connection, indicating waterlogging.\"\n  }\n]"
+}

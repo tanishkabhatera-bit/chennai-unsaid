@@ -1,0 +1,47 @@
+[
+  {
+    "locality": "madhavaram",
+    "date": "2020-11-14",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The North Zone of Greater Chennai Police has mapped over 76 \""
+    ],
+    "event": null
+  },
+  {
+    "locality": "washermanpet",
+    "date": "2020-11-14",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The North Zone of Greater Chennai Police has mapped 33 inund\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "mannady",
+    "date": "2020-11-14",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"Mannady Metro is one of the locations identified in the Nort\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "periyar-nagar",
+    "date": "2020-11-14",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"T.H Road – Periyar Nagar Junction is one of the locations id\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "manali",
+    "date": "2020-11-14",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"Manali Express Road is one of the locations identified in th\""
+    ],
+    "event": null
+  }
+]

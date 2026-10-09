@@ -1,0 +1,52 @@
+{
+  "article": {
+    "id": "2023-10-18-citizenmatters-chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+    "url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+    "title": "Staying safe while driving on Chennai roads this monsoon",
+    "outlet": "Citizen Matters",
+    "published": "2023-10-18"
+  },
+  "records": [
+    {
+      "locality": "madipakkam",
+      "sk": "2023-10-18#8b1baeb70f",
+      "date": "2023-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.",
+      "source_url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+      "source_title": "Staying safe while driving on Chennai roads this monsoon",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "manapakkam",
+      "sk": "2023-10-18#8b1baeb70f",
+      "date": "2023-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.",
+      "source_url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+      "source_title": "Staying safe while driving on Chennai roads this monsoon",
+      "locality_as_written": "Manapakkam"
+    },
+    {
+      "locality": "mugalivakkam",
+      "sk": "2023-10-18#8b1baeb70f",
+      "date": "2023-10-18",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.",
+      "source_url": "https://citizenmatters.in/chennai-swm-nem-rains-roads-safety-accidents-motorists-metro",
+      "source_title": "Staying safe while driving on Chennai roads this monsoon",
+      "locality_as_written": "Mugalivakkam"
+    }
+  ],
+  "unmatched": [
+    "Chennai city",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai city\",\n        \"date\": \"2023-10-18\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water accumulated in nearly 80 locations in June 2023, demanding the deployment of police and disaster response personnel.\"\n    },\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2023-10-18\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.\"\n    },\n    {\n        \"locality\": \"Manapakkam\",\n        \"date\": \"2023-10-18\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.\"\n    },\n    {\n        \"locality\": \"Mugalivakkam\",\n        \"date\": \"2023-10-18\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Delays in completing metro water infrastructure have caused significant disruptions on the roads and created considerable challenges for residents.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2023-10-18\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

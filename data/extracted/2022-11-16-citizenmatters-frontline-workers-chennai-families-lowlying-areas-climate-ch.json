@@ -1,0 +1,73 @@
+{
+  "article": {
+    "id": "2022-11-16-citizenmatters-frontline-workers-chennai-families-lowlying-areas-climate-ch",
+    "url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+    "title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+    "outlet": "Citizen Matters",
+    "published": "2022-11-16"
+  },
+  "records": [
+    {
+      "locality": "thousand-lights",
+      "sk": "2022-11-16#363ac1d633",
+      "date": "2022-11-16",
+      "event": "2015 Chennai floods",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The family was evicted from their residence due to the 2015 Chennai floods.",
+      "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+      "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+      "locality_as_written": "Thousand Lights"
+    },
+    {
+      "locality": "perumbakkam",
+      "sk": "2022-11-16#363ac1d633",
+      "date": "2022-11-16",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": 8,
+      "detail": "The area was flooded with knee-deep water for eight days during the 2021 monsoon.",
+      "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+      "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+      "locality_as_written": "Perumbakkam"
+    },
+    {
+      "locality": "kodambakkam",
+      "sk": "2022-11-16#363ac1d633",
+      "date": "2022-11-16",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The area experiences waterlogging and clogged drains during heavy downpours.",
+      "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+      "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+      "locality_as_written": "Kodambakkam"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2022-11-16#363ac1d633",
+      "date": "2022-11-16",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality is prone to flooding, affecting the lives of metro water lorry drivers, electricity board workers, and conservancy workers.",
+      "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+      "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2022-11-16#363ac1d633",
+      "date": "2022-11-16",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The locality is prone to flooding, affecting the lives of metro water lorry drivers, electricity board workers, and conservancy workers.",
+      "source_url": "https://citizenmatters.in/frontline-workers-chennai-families-lowlying-areas-climate-change-impact-monsoon",
+      "source_title": "Frontline workers in Chennai battle the rains with poor support and scarce empathy",
+      "locality_as_written": "Pulianthope"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n    {\n        \"locality\": \"Thousand Lights\",\n        \"date\": \"2022-11-16\",\n        \"event\": \"2015 Chennai floods\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The family was evicted from their residence due to the 2015 Chennai floods.\"\n    },\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2022-11-16\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": 8,\n        \"detail\": \"The area was flooded with knee-deep water for eight days during the 2021 monsoon.\"\n    },\n    {\n        \"locality\": \"Kodambakkam\",\n        \"date\": \"2022-11-16\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The area experiences waterlogging and clogged drains during heavy downpours.\"\n    },\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2022-11-16\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality is prone to flooding, affecting the lives of metro water lorry drivers, electricity board workers, and conservancy workers.\"\n    },\n    {\n        \"locality\": \"Pulianthope\",\n        \"date\": \"2022-11-16\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The locality is prone to flooding, affecting the lives of metro water lorry drivers, electricity board workers, and conservancy workers.\"\n    }\n]"
+}

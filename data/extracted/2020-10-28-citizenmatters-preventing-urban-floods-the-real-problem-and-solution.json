@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2020-10-28-citizenmatters-preventing-urban-floods-the-real-problem-and-solution",
+    "url": "https://citizenmatters.in/preventing-urban-floods-the-real-problem-and-solution",
+    "title": "Where's the roadmap to prevent the next Hyderabad-like flood?",
+    "outlet": "Citizen Matters",
+    "published": "2020-10-28"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2020-10-28\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Chennai has experienced severe flooding in the past, with water inundating the city.\"\n    }\n]\n```"
+}

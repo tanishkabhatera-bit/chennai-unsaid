@@ -1,0 +1,23 @@
+[
+  {
+    "locality": "jafferkhanpet",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  },
+  {
+    "locality": "kotturpuram",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  },
+  {
+    "locality": "kundrathur",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  }
+]

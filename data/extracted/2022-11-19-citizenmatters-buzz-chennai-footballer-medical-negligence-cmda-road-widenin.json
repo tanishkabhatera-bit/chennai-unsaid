@@ -1,0 +1,28 @@
+{
+  "article": {
+    "id": "2022-11-19-citizenmatters-buzz-chennai-footballer-medical-negligence-cmda-road-widenin",
+    "url": "https://citizenmatters.in/buzz-chennai-footballer-medical-negligence-cmda-road-widening-cmrl-tunnels-floods",
+    "title": "Chennai Buzz: Footballer's death leads to protests | CMDA plans road widening...and more!",
+    "outlet": "Citizen Matters",
+    "published": "2022-11-19"
+  },
+  "records": [
+    {
+      "locality": "egmore",
+      "sk": "2022-11-19#af971b566e",
+      "date": "2022-11-19",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Waterlogging in front of Mathsya Hotel was addressed by installing Hume Pipes.",
+      "source_url": "https://citizenmatters.in/buzz-chennai-footballer-medical-negligence-cmda-road-widening-cmrl-tunnels-floods",
+      "source_title": "Chennai Buzz: Footballer's death leads to protests | CMDA plans road widening...and more!",
+      "locality_as_written": "Tamil Salai at Egmore"
+    }
+  ],
+  "unmatched": [
+    "Aziz Nagar and Subramaniapuram",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Tamil Salai at Egmore\",\n        \"date\": \"2022-11-19\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Waterlogging in front of Mathsya Hotel was addressed by installing Hume Pipes.\"\n    },\n    {\n        \"locality\": \"Aziz Nagar and Subramaniapuram\",\n        \"date\": \"2022-11-19\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water from these areas is now directed to Cooum via the Trustpuram Canal to relieve T.Nagar areas.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2022-11-19\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "locality": "velachery-tansi-nagar",
+    "date": "2025-11-03",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "indira-nagar",
+    "date": "2025-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event on 2025-11-03 affecting Annai Indira Nagar."
+    ],
+    "event": null
+  },
+  {
+    "locality": "anna-nagar",
+    "date": "2025-11-03",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flooding event in Anna Nagar on 2025-11-03."
+    ],
+    "event": null
+  }
+]

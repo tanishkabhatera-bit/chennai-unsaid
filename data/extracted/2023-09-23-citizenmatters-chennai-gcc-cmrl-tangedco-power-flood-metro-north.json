@@ -1,0 +1,97 @@
+{
+  "article": {
+    "id": "2023-09-23-citizenmatters-chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+    "url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+    "title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+    "outlet": "Citizen Matters",
+    "published": "2023-09-23"
+  },
+  "records": [
+    {
+      "locality": "mugalivakkam",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Mugalivakkam is one of the areas where roads are in poor condition and have been identified for relaying.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Mugalivakkam"
+    },
+    {
+      "locality": "porur",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Porur is one of the areas where roads are in poor condition and have been identified for relaying.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Porur"
+    },
+    {
+      "locality": "madhavaram",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Madhavaram is one of the areas where roads are in poor condition and have been identified for relaying.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Madhavaram"
+    },
+    {
+      "locality": "madipakkam",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Madipakkam is one of the areas where roads are in poor condition and have been identified for relaying.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "ambattur",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Ambattur has a high number of spots which saw water stagnation during the rains and will receive adequate attention to prevent a repeat of the issues.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Ambattur"
+    },
+    {
+      "locality": "anna-nagar",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Anna Nagar has a high number of spots which saw water stagnation during the rains and will receive adequate attention to prevent a repeat of the issues.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Anna Nagar"
+    },
+    {
+      "locality": "west-mambalam",
+      "sk": "2023-09-23#48e5470e88",
+      "date": "2023-09-23",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The Mambalam Canal will also be desilted prior to the monsoon.",
+      "source_url": "https://citizenmatters.in/chennai-gcc-cmrl-tangedco-power-flood-metro-north",
+      "source_title": "Chennai Buzz: Flood mitigation efforts on | Roads to be relaid based on complaints..and more!",
+      "locality_as_written": "Mambalam"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Mugalivakkam\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Mugalivakkam is one of the areas where roads are in poor condition and have been identified for relaying.\"\n    },\n    {\n        \"locality\": \"Porur\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Porur is one of the areas where roads are in poor condition and have been identified for relaying.\"\n    },\n    {\n        \"locality\": \"Madhavaram\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Madhavaram is one of the areas where roads are in poor condition and have been identified for relaying.\"\n    },\n    {\n        \"locality\": \"Madipakkam\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Madipakkam is one of the areas where roads are in poor condition and have been identified for relaying.\"\n    },\n    {\n        \"locality\": \"Ambattur\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Ambattur has a high number of spots which saw water stagnation during the rains and will receive adequate attention to prevent a repeat of the issues.\"\n    },\n    {\n        \"locality\": \"Anna Nagar\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Anna Nagar has a high number of spots which saw water stagnation during the rains and will receive adequate attention to prevent a repeat of the issues.\"\n    },\n    {\n        \"locality\": \"Mambalam\",\n        \"date\": \"2023-09-23\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Mambalam Canal will also be desilted prior to the monsoon.\"\n    }\n]\n```"
+}

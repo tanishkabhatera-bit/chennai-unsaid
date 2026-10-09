@@ -1,0 +1,55 @@
+{
+  "article": {
+    "id": "2026-08-04-citizenmatters-monsoon-flooding-residents-experts-chennai-global-sports-cit",
+    "url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+    "title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+    "outlet": "Citizen Matters",
+    "published": "2026-08-04"
+  },
+  "records": [
+    {
+      "locality": "perumbakkam",
+      "sk": "2026-08-04#e6b59b7cc5",
+      "date": "2026-08-04",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The neighborhood remained submerged for days, with homes flooded and roads impassable.",
+      "source_url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+      "source_title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+      "locality_as_written": "Perumbakkam"
+    },
+    {
+      "locality": "pallikaranai",
+      "sk": "2026-08-04#e6b59b7cc5",
+      "date": "2026-08-04",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The area remained submerged for days, with homes flooded and roads impassable.",
+      "source_url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+      "source_title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+      "locality_as_written": "Pallikaranai"
+    },
+    {
+      "locality": "jawahar-nagar",
+      "sk": "2026-08-04#e6b59b7cc5",
+      "date": "2026-08-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents report flooding issues since more infrastructure came up, causing water to stagnate around their neighborhood.",
+      "source_url": "https://citizenmatters.in/monsoon-flooding-residents-experts-chennai-global-sports-city-wetland",
+      "source_title": "Building on a floodplain: Why residents and experts are warning against Chennai's Sports City",
+      "locality_as_written": "Ezhilmuga Nagar and Jawahar Nagar"
+    }
+  ],
+  "unmatched": [
+    "Ezhilmuga Nagar",
+    "Ezhilmuga Nagar",
+    "Semmencheri",
+    "Thazhambur",
+    "Sathyabama University stretch"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ezhilmuga Nagar\",\n        \"date\": \"2026-08-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The area transforms into a sheet of water every monsoon, carrying runoff from surrounding neighborhoods towards the Pallikaranai Marshland.\"\n    },\n    {\n        \"locality\": \"Ezhilmuga Nagar\",\n        \"date\": \"2026-08-04\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"In 2015, the entire neighborhood went under water and homes were inundated.\"\n    },\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2026-08-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The neighborhood remained submerged for days, with homes flooded and roads impassable.\"\n    },\n    {\n        \"locality\": \"Semmencheri\",\n        \"date\": \"2026-08-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The area remained submerged for days, with homes flooded and roads impassable.\"\n    },\n    {\n        \"locality\": \"Pallikaranai\",\n        \"date\": \"2026-08-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The area remained submerged for days, with homes flooded and roads impassable.\"\n    },\n    {\n        \"locality\": \"Thazhambur\",\n        \"date\": \"2026-08-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The area gets waterlogged every monsoon.\"\n    },\n    {\n        \"locality\": \"Sathyabama University stretch\",\n        \"date\": \"2026-08-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The location routinely makes headlines during heavy rains.\"\n    },\n    {\n        \"locality\": \"Ezhilmuga Nagar and Jawahar Nagar\",\n        \"date\": \"2026-08-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents report flooding issues since more infrastructure came up, causing water to stagnate around their neighborhood.\"\n    }\n]\n```"
+}

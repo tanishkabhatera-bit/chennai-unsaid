@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2016-10-26-citizenmatters-with-no-elected-councillors-how-will-chennai-take-on-the-mon",
+    "url": "https://citizenmatters.in/with-no-elected-councillors-how-will-chennai-take-on-the-monsoon",
+    "title": "With no elected councillors in office, how will Chennai take on the monsoon?",
+    "outlet": "Citizen Matters",
+    "published": "2016-10-26"
+  },
+  "records": [
+    {
+      "locality": "perungalathur",
+      "sk": "2016-10-26#3ab9118f86",
+      "date": "2016-10-26",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Though not much affected by the floods last year, the locality ensured the safety of its residents without claiming any help from the civic body.",
+      "source_url": "https://citizenmatters.in/with-no-elected-councillors-how-will-chennai-take-on-the-monsoon",
+      "source_title": "With no elected councillors in office, how will Chennai take on the monsoon?",
+      "locality_as_written": "Perungalathur"
+    },
+    {
+      "locality": "mudichur",
+      "sk": "2016-10-26#3ab9118f86",
+      "date": "2016-10-26",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents of Perungalathur gathered boats to rescue people from the neighboring area of Mudichur.",
+      "source_url": "https://citizenmatters.in/with-no-elected-councillors-how-will-chennai-take-on-the-monsoon",
+      "source_title": "With no elected councillors in office, how will Chennai take on the monsoon?",
+      "locality_as_written": "Mudichur"
+    }
+  ],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Perungalathur\",\n    \"date\": \"2016-10-26\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Though not much affected by the floods last year, the locality ensured the safety of its residents without claiming any help from the civic body.\"\n  },\n  {\n    \"locality\": \"Mudichur\",\n    \"date\": \"2016-10-26\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents of Perungalathur gathered boats to rescue people from the neighboring area of Mudichur.\"\n  },\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2016-10-26\",\n    \"event\": \"2015 floods\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Significant participation of civil society in civic issues during the 2015 floods, with residents, corporates, and NGOs rescuing many in need of help.\"\n  }\n]"
+}

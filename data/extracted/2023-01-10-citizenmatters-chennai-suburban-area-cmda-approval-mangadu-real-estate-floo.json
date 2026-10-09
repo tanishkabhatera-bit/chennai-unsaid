@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2023-01-10-citizenmatters-chennai-suburban-area-cmda-approval-mangadu-real-estate-floo",
+    "url": "https://citizenmatters.in/chennai-suburban-area-cmda-approval-mangadu-real-estate-flooding",
+    "title": "Chennai suburbs battle civic issues even as real estate prices rocket",
+    "outlet": "Citizen Matters",
+    "published": "2023-01-10"
+  },
+  "records": [
+    {
+      "locality": "mangadu",
+      "sk": "2023-01-10#f2509acd76",
+      "date": "2023-01-10",
+      "event": "Cyclone Mandous",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Cyclone Mandous inundated several areas of the municipality, with no channel for the water to flow due to encroached outlets towards Porur Lake.",
+      "source_url": "https://citizenmatters.in/chennai-suburban-area-cmda-approval-mangadu-real-estate-flooding",
+      "source_title": "Chennai suburbs battle civic issues even as real estate prices rocket",
+      "locality_as_written": "Mangadu Municipality"
+    },
+    {
+      "locality": "iyyappanthangal",
+      "sk": "2023-01-10#f2509acd76",
+      "date": "2023-01-10",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents opposed the merger of the local village panchayat with the Mangadu Municipality due to its poor handling of flood issues in nearby Jeeva Nagar.",
+      "source_url": "https://citizenmatters.in/chennai-suburban-area-cmda-approval-mangadu-real-estate-flooding",
+      "source_title": "Chennai suburbs battle civic issues even as real estate prices rocket",
+      "locality_as_written": "Iyyappanthangal"
+    }
+  ],
+  "unmatched": [
+    "Jeeva Nagar"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Mangadu Municipality\",\n    \"date\": \"2023-01-10\",\n    \"event\": \"Cyclone Mandous\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Cyclone Mandous inundated several areas of the municipality, with no channel for the water to flow due to encroached outlets towards Porur Lake.\"\n  },\n  {\n    \"locality\": \"Jeeva Nagar\",\n    \"date\": \"2023-01-10\",\n    \"event\": \"Cyclone Mandous\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Jeeva Nagar, a CMDA-approved layout in Mangadu, was unapproachable due to being underwater after Cyclone Mandous, with no drainage system despite 18 years of existence.\"\n  },\n  {\n    \"locality\": \"Iyyappanthangal\",\n    \"date\": \"2023-01-10\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents opposed the merger of the local village panchayat with the Mangadu Municipality due to its poor handling of flood issues in nearby Jeeva Nagar.\"\n  }\n]"
+}

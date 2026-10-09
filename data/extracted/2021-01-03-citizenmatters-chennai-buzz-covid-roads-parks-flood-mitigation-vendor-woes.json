@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2021-01-03-citizenmatters-chennai-buzz-covid-roads-parks-flood-mitigation-vendor-woes",
+    "url": "https://citizenmatters.in/chennai-buzz-covid-roads-parks-flood-mitigation-vendor-woes",
+    "title": "Chennai Buzz: First case of new COVID strain | 15 grade separators planned | Thrust on park adoption...and more",
+    "outlet": "Citizen Matters",
+    "published": "2021-01-03"
+  },
+  "records": [],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2021-01-03\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Roads in Ramtekdi Industrial Estate are broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

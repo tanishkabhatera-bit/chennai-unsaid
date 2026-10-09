@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2017-11-08-citizenmatters-chennai-rainwater-harvesting-infrastructure-government-build",
+    "url": "https://citizenmatters.in/chennai-rainwater-harvesting-infrastructure-government-buildings",
+    "title": "Did Chennai just lose a golden opportunity to improve its water reserves?",
+    "outlet": "Citizen Matters",
+    "published": "2017-11-08"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2017-11-08\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The state of our roads, which begin to resemble water bodies after even a brief spell of intense rain, is just one indicator of the poor state of water harvesting and storage in the city.\"\n  }\n]"
+}

@@ -1,0 +1,49 @@
+{
+  "article": {
+    "id": "2016-05-11-citizenmatters-perambur-monsoon-management-at-the-centre-of-residents-woes",
+    "url": "https://citizenmatters.in/perambur-monsoon-management-at-the-centre-of-residents-woes",
+    "title": "Perambur: Monsoon management at the centre of residents' woes",
+    "outlet": "Citizen Matters",
+    "published": "2016-05-11"
+  },
+  "records": [
+    {
+      "locality": "perambur",
+      "sk": "2016-05-11#df5932b579",
+      "date": "2016-05-11",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Perambur being a low-lying area, inundation during monsoons is a problem that has been plaguing the residents for decades.",
+      "source_url": "https://citizenmatters.in/perambur-monsoon-management-at-the-centre-of-residents-woes",
+      "source_title": "Perambur: Monsoon management at the centre of residents' woes",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2016-05-11#df5932b579",
+      "date": "2016-05-11",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Every monsoon the roads and pavements here are inundated and the Vyasarpadi-Ganesapuram underpass is flooded every rainy season.",
+      "source_url": "https://citizenmatters.in/perambur-monsoon-management-at-the-centre-of-residents-woes",
+      "source_title": "Perambur: Monsoon management at the centre of residents' woes",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2016-05-11#df5932b579",
+      "date": "2016-05-11",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The Kodungaiyur garbage dumpyard presents another perennial concern that the residents of the area have been complaining about for years.",
+      "source_url": "https://citizenmatters.in/perambur-monsoon-management-at-the-centre-of-residents-woes",
+      "source_title": "Perambur: Monsoon management at the centre of residents' woes",
+      "locality_as_written": "Kodungaiyur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Perambur\",\n        \"date\": \"2016-05-11\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Perambur being a low-lying area, inundation during monsoons is a problem that has been plaguing the residents for decades.\"\n    },\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2016-05-11\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Every monsoon the roads and pavements here are inundated and the Vyasarpadi-Ganesapuram underpass is flooded every rainy season.\"\n    },\n    {\n        \"locality\": \"Kodungaiyur\",\n        \"date\": \"2016-05-11\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Kodungaiyur garbage dumpyard presents another perennial concern that the residents of the area have been complaining about for years.\"\n    }\n]\n```"
+}

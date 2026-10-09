@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2018-07-02-citizenmatters-chennai-news-round-up-metrowater-roads-flood-mitigation-gn-c",
+    "url": "https://citizenmatters.in/chennai-news-round-up-metrowater-roads-flood-mitigation-gn-chetty-road-flyover",
+    "title": "Chennai Buzz: Road widening, beautification, flood mitigation -- and all that made news last week",
+    "outlet": "Citizen Matters",
+    "published": "2018-07-02"
+  },
+  "records": [],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2018-07-02\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road in Ramtekdi Industrial Estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

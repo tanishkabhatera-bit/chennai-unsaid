@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2025-12-16-citizenmatters-datajam-porur-lake-encroachment-swd-flooding",
+    "url": "https://citizenmatters.in/datajam-porur-lake-encroachment-swd-flooding",
+    "title": "Encroachment and drainage woes: Lessons to prevent flooding in Porur Lake",
+    "outlet": "Citizen Matters",
+    "published": "2025-12-16"
+  },
+  "records": [
+    {
+      "locality": "porur",
+      "sk": "2025-12-16#2346abc229",
+      "date": "2025-12-16",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Severe flooding in Porur Lake due to lack of proper stormwater drain patterns and blockages.",
+      "source_url": "https://citizenmatters.in/datajam-porur-lake-encroachment-swd-flooding",
+      "source_title": "Encroachment and drainage woes: Lessons to prevent flooding in Porur Lake",
+      "locality_as_written": "Porur Lake"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Porur Lake\",\n    \"date\": \"2025-12-16\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Severe flooding in Porur Lake due to lack of proper stormwater drain patterns and blockages.\"\n  }\n]\n```"
+}

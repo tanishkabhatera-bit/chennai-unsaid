@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2020-12-16-citizenmatters-water-logging-a-regular-occurrence-for-semmencheri-residents",
+    "url": "https://citizenmatters.in/water-logging-a-regular-occurrence-for-semmencheri-residents",
+    "title": "Semmancheri residents don't want food packets. This is what they really need",
+    "outlet": "Citizen Matters",
+    "published": "2020-12-16"
+  },
+  "records": [],
+  "unmatched": [
+    "Semmanjeri"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Semmanjeri\",\n    \"date\": \"2020-11-25\",\n    \"event\": \"Cyclone Nivar\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water rushed into homes, destroying personal belongings, shutting down electricity supply, flooding toilets, overflowing sewers, and causing walls to crumble.\"\n  }\n]\n```"
+}

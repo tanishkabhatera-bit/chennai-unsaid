@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2016-05-22-citizenmatters-think-chennais-water-worries-are-gone-after-dec-rains-think-",
+    "url": "https://citizenmatters.in/think-chennais-water-worries-are-gone-after-dec-rains-think-again",
+    "title": "Think Chennai's water worries are gone after Dec rains? Think again!",
+    "outlet": "Citizen Matters",
+    "published": "2016-05-22"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2015-12-01\",\n        \"event\": \"record rainfall\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Record rainfall resulted in severe flooding in many areas around the city.\"\n    }\n]"
+}

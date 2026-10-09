@@ -1,0 +1,73 @@
+{
+  "article": {
+    "id": "2021-11-30-citizenmatters-preventing-floods-in-chennai-during-monsoon-webinar-takeaway",
+    "url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+    "title": "Four recommended steps for a flood-proof Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2021-11-30"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2021-11-30#f22f016d79",
+      "date": "2021-11-30",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Water logging and inundation in several areas such as T Nagar.",
+      "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+      "source_title": "Four recommended steps for a flood-proof Chennai",
+      "locality_as_written": "T Nagar"
+    },
+    {
+      "locality": "adyar",
+      "sk": "2021-11-30#f22f016d79",
+      "date": "2021-11-30",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Water logging and inundation in several areas such as Adyar.",
+      "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+      "source_title": "Four recommended steps for a flood-proof Chennai",
+      "locality_as_written": "Adyar"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2021-11-30#f22f016d79",
+      "date": "2021-11-30",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Water logging and inundation in several areas such as Velachery.",
+      "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+      "source_title": "Four recommended steps for a flood-proof Chennai",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2021-11-30#f22f016d79",
+      "date": "2021-11-30",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Water logging and inundation in several areas such as Pulianthope.",
+      "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+      "source_title": "Four recommended steps for a flood-proof Chennai",
+      "locality_as_written": "Pulianthope"
+    },
+    {
+      "locality": "mandaveli",
+      "sk": "2021-11-30#f22f016d79",
+      "date": "2021-11-30",
+      "event": "2015 floods",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents were marooned for several days without power during the floods in 2015.",
+      "source_url": "https://citizenmatters.in/preventing-floods-in-chennai-during-monsoon-webinar-takeaways",
+      "source_title": "Four recommended steps for a flood-proof Chennai",
+      "locality_as_written": "Mandaveli Raja Street"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"T Nagar\",\n    \"date\": \"2021-11-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water logging and inundation in several areas such as T Nagar.\"\n  },\n  {\n    \"locality\": \"Adyar\",\n    \"date\": \"2021-11-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water logging and inundation in several areas such as Adyar.\"\n  },\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2021-11-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water logging and inundation in several areas such as Velachery.\"\n  },\n  {\n    \"locality\": \"Pulianthope\",\n    \"date\": \"2021-11-30\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Water logging and inundation in several areas such as Pulianthope.\"\n  },\n  {\n    \"locality\": \"Mandaveli Raja Street\",\n    \"date\": \"2021-11-30\",\n    \"event\": \"2015 floods\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents were marooned for several days without power during the floods in 2015.\"\n  }\n]\n```"
+}

@@ -1,0 +1,30 @@
+{
+  "article": {
+    "id": "2023-11-30-citizenmatters-chennai-drains-improper-sewage-work-residents-petition",
+    "url": "https://citizenmatters.in/chennai-drains-improper-sewage-work-residents-petition",
+    "title": "Draining the exchequer: Improper SWD work irks Chennai residents",
+    "outlet": "Citizen Matters",
+    "published": "2023-11-30"
+  },
+  "records": [
+    {
+      "locality": "perambur",
+      "sk": "2023-11-30#16f431fe05",
+      "date": "2023-11-30",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The entire stretch of the SWD between Perambur and Vyasarpadi Jeeva railway stations is in a very dilapidated condition, with concrete slabs placed over casuarina poles and iron channels in poor condition.",
+      "source_url": "https://citizenmatters.in/chennai-drains-improper-sewage-work-residents-petition",
+      "source_title": "Draining the exchequer: Improper SWD work irks Chennai residents",
+      "locality_as_written": "Perambur High Road North Side"
+    }
+  ],
+  "unmatched": [
+    "Venkatraman Street, Ward 71, Zone 6",
+    "Vadivelu Main Road, Ward 71, Zone 6",
+    "Muniappan Street, Ward 44, Zone 4",
+    "Ramtekdi Industrial Estate, Hadapsar"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ward 71, Zone 6, Perambur\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Many roads in Ward 71, Zone 6, Perambur are either waterlogged or stinking of sewage after the recent rains, due to incomplete work done by the authorities in the previous years.\"\n    },\n    {\n        \"locality\": \"Patel Road, Ward 71, Zone 6, Perambur\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Waterlogging near the Patel Road and Bharathi Road intersection inconveniencing commuters and pedestrians, despite no recent rainfall.\"\n    },\n    {\n        \"locality\": \"Venkatraman Street, Ward 71, Zone 6\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Desilting of the SWD was done in mid-2022, but only in bits and pieces, leading to waterlogging in Patel Road and Venkatraman Street after the rains.\"\n    },\n    {\n        \"locality\": \"Vadivelu Main Road, Ward 71, Zone 6\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A stretch of the SWD is in a horrible condition with broken and missing chamber doors, drain filled with debris and muck.\"\n    },\n    {\n        \"locality\": \"Muniappan Street, Ward 44, Zone 4\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road was milled and left behind for over 6 months, a new SWD was constructed, but the sewage was seen overflowing on to the street and entering the Silt Catch pits, contaminating the groundwater.\"\n    },\n    {\n        \"locality\": \"Perambur High Road North Side\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The entire stretch of the SWD between Perambur and Vyasarpadi Jeeva railway stations is in a very dilapidated condition, with concrete slabs placed over casuarina poles and iron channels in poor condition.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate, Hadapsar\",\n        \"date\": \"2023-11-30\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

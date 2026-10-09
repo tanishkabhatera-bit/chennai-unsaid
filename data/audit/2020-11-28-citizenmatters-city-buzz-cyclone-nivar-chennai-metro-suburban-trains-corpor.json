@@ -1,0 +1,37 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  },
+  {
+    "locality": "puzhuthivakkam",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  },
+  {
+    "locality": "pulianthope",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  },
+  {
+    "locality": "kk-nagar",
+    "date": "2020-11-25",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Nivar"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "locality": "t-nagar",
+    "date": "2021-11-30",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "adyar",
+    "date": "2021-11-30",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "velachery",
+    "date": "2021-11-30",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "pulianthope",
+    "date": "2021-11-30",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "mandaveli",
+    "date": "2021-11-30",
+    "ok": true,
+    "reasons": [
+      "event label \"2015 floods\" removed: not in 2015-11/2015-12"
+    ],
+    "event": null
+  }
+]

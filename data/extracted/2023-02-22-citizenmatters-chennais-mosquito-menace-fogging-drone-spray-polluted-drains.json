@@ -1,0 +1,42 @@
+{
+  "article": {
+    "id": "2023-02-22-citizenmatters-chennais-mosquito-menace-fogging-drone-spray-polluted-drains",
+    "url": "https://citizenmatters.in/chennais-mosquito-menace-fogging-drone-spray-polluted-drains-rivers-gcc",
+    "title": "Chennai's mosquito problem needs permanent solutions over temporary fixes",
+    "outlet": "Citizen Matters",
+    "published": "2023-02-22"
+  },
+  "records": [
+    {
+      "locality": "ambattur",
+      "sk": "2023-02-22#4ecad3297c",
+      "date": "2023-02-22",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Ambattur has not received underground drainage connections, leading to an open drainage system that exacerbates the mosquito issue.",
+      "source_url": "https://citizenmatters.in/chennais-mosquito-menace-fogging-drone-spray-polluted-drains-rivers-gcc",
+      "source_title": "Chennai's mosquito problem needs permanent solutions over temporary fixes",
+      "locality_as_written": "Ambattur"
+    },
+    {
+      "locality": "avadi",
+      "sk": "2023-02-22#4ecad3297c",
+      "date": "2023-02-22",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Avadi is infested with rampant mosquito breeding, primarily due to unhygienic surroundings with open sewage.",
+      "source_url": "https://citizenmatters.in/chennais-mosquito-menace-fogging-drone-spray-polluted-drains-rivers-gcc",
+      "source_title": "Chennai's mosquito problem needs permanent solutions over temporary fixes",
+      "locality_as_written": "Avadi"
+    }
+  ],
+  "unmatched": [
+    "Thideer Nagar",
+    "Valmiki Nagar",
+    "Gandhi Nagar",
+    "Paruthipattu"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Thideer Nagar\",\n        \"date\": \"2023-02-22\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Shanthi, a domestic worker, lives in Thideer Nagar near the banks of the Cooum river, where she fell sick with dengue.\"\n    },\n    {\n        \"locality\": \"Ambattur\",\n        \"date\": \"2023-02-22\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Ambattur has not received underground drainage connections, leading to an open drainage system that exacerbates the mosquito issue.\"\n    },\n    {\n        \"locality\": \"Valmiki Nagar\",\n        \"date\": \"2023-02-22\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Valmiki Nagar experienced a significant increase in mosquitoes after the commencement of stormwater drain works.\"\n    },\n    {\n        \"locality\": \"Gandhi Nagar\",\n        \"date\": \"2023-02-22\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Gandhi Nagar has seen an increase in mosquitoes due to the Buckingham Canal being a major breeding ground.\"\n    },\n    {\n        \"locality\": \"Paruthipattu\",\n        \"date\": \"2023-02-22\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Paruthipattu is infested with rampant mosquito breeding due to unhygienic surroundings with open sewage.\"\n    },\n    {\n        \"locality\": \"Avadi\",\n        \"date\": \"2023-02-22\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Avadi is infested with rampant mosquito breeding, primarily due to unhygienic surroundings with open sewage.\"\n    }\n]"
+}

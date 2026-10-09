@@ -1,0 +1,36 @@
+[
+  {
+    "locality": "kottivakkam",
+    "date": "2022-01-20",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "palavakkam",
+    "date": "2022-01-20",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event in which Palavakkam was flooded or waterlogged."
+    ],
+    "event": null
+  },
+  {
+    "locality": "neelankarai",
+    "date": "2022-01-20",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Neelankarai."
+    ],
+    "event": null
+  },
+  {
+    "locality": "uthandi",
+    "date": "2022-01-20",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Uthandi being flooded or waterlogged on 2022-01-20."
+    ],
+    "event": null
+  }
+]

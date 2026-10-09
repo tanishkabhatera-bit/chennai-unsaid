@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-07-08-citizenmatters-extreme-monsoon-rainfall-in-cities-climate-change",
+    "url": "https://citizenmatters.in/extreme-monsoon-rainfall-in-cities-climate-change",
+    "title": "Extreme rainfall events on the increase extracting a heavy cost--$3 billion a year",
+    "outlet": "Citizen Matters",
+    "published": "2022-07-08"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2022-07-08\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Chennai is being impacted due to increased rainfall events, with urban flooding having a ripple effect on economic activity.\"\n    }\n]"
+}

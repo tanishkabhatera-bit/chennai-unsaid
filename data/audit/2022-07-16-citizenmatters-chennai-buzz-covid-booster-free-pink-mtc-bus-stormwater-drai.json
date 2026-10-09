@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "manali",
+    "date": "2022-07-16",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Manali being flooded or waterlogged."
+    ],
+    "event": null
+  },
+  {
+    "locality": "tiruvottiyur",
+    "date": "2022-07-16",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Thiruvottiyur being flooded or waterlogged."
+    ],
+    "event": null
+  }
+]

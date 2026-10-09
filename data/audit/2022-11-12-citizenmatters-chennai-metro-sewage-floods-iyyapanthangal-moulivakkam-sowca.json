@@ -1,0 +1,48 @@
+[
+  {
+    "locality": "iyyappanthangal",
+    "date": "2022-11-12",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kundrathur",
+    "date": "2022-11-12",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "anna-nagar",
+    "date": "2022-11-12",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kodambakkam",
+    "date": "2022-11-12",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Kodambakkam being flooded or waterlogged on 2022-11-12."
+    ],
+    "event": null
+  },
+  {
+    "locality": "thiru-vi-ka-nagar",
+    "date": "2022-11-12",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "mogappair",
+    "date": "2022-11-12",
+    "ok": false,
+    "reasons": [
+      "AI: Mogappair is not mentioned as flooded in the article text."
+    ],
+    "event": null
+  }
+]

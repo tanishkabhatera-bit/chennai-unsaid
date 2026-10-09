@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2021-11-27-citizenmatters-chennai-rain-flooding-cmda-expansion-bus-terminals-ppp",
+    "url": "https://citizenmatters.in/chennai-rain-flooding-cmda-expansion-bus-terminals-ppp",
+    "title": "Chennai Buzz: Revenue-sharing for bus terminals | Vegetable prices rise...and more!",
+    "outlet": "Citizen Matters",
+    "published": "2021-11-27"
+  },
+  "records": [
+    {
+      "locality": "adyar",
+      "sk": "2021-11-27#ff571c8a77",
+      "date": "2021-11-27",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The Chennai Corporation has opened 91 flood shelters to accommodate residents from low-lying areas affected by inundation.",
+      "source_url": "https://citizenmatters.in/chennai-rain-flooding-cmda-expansion-bus-terminals-ppp",
+      "source_title": "Chennai Buzz: Revenue-sharing for bus terminals | Vegetable prices rise...and more!",
+      "locality_as_written": "banks of the Adyar, Cooum and Kosasthalaiyar rivers"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2021-11-27#ff571c8a77",
+      "date": "2021-11-27",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Large pipes have been laid in parts of flooded areas such as T Nagar to prevent waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-rain-flooding-cmda-expansion-bus-terminals-ppp",
+      "source_title": "Chennai Buzz: Revenue-sharing for bus terminals | Vegetable prices rise...and more!",
+      "locality_as_written": "T Nagar"
+    }
+  ],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2021-11-27\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    },\n    {\n        \"locality\": \"banks of the Adyar, Cooum and Kosasthalaiyar rivers\",\n        \"date\": \"2021-11-27\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Chennai Corporation has opened 91 flood shelters to accommodate residents from low-lying areas affected by inundation.\"\n    },\n    {\n        \"locality\": \"T Nagar\",\n        \"date\": \"2021-11-27\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Large pipes have been laid in parts of flooded areas such as T Nagar to prevent waterlogging.\"\n    }\n]\n```"
+}

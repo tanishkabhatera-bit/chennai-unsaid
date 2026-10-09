@@ -1,0 +1,44 @@
+{
+  "article": {
+    "id": "2017-11-04-citizenmatters-heavy-rains-chennai-no-flooding-thiruvanmiyur-storm-water-dr",
+    "url": "https://citizenmatters.in/heavy-rains-chennai-no-flooding-thiruvanmiyur-storm-water-drain",
+    "title": "Despite heavy rains, this Thiruvanmiyur road saw no flooding; here’s why!",
+    "outlet": "Citizen Matters",
+    "published": "2017-11-04"
+  },
+  "records": [
+    {
+      "locality": "thiruvanmiyur",
+      "sk": "2017-11-04#a943fe4148",
+      "date": "2017-11-04",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Despite heavy rains, one road in Thiruvanmiyur remained clean and almost dry.",
+      "source_url": "https://citizenmatters.in/heavy-rains-chennai-no-flooding-thiruvanmiyur-storm-water-drain",
+      "source_title": "Despite heavy rains, this Thiruvanmiyur road saw no flooding; here’s why!",
+      "locality_as_written": "Thiruvanmiyur"
+    },
+    {
+      "locality": "ram-nagar",
+      "sk": "2017-11-04#a943fe4148",
+      "date": "2017-11-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The area was waterlogged to knee-deep level during the heavy rains.",
+      "source_url": "https://citizenmatters.in/heavy-rains-chennai-no-flooding-thiruvanmiyur-storm-water-drain",
+      "source_title": "Despite heavy rains, this Thiruvanmiyur road saw no flooding; here’s why!",
+      "locality_as_written": "Sriram Nagar cross street"
+    }
+  ],
+  "unmatched": [
+    "Dr Radhakrishnan Nagar Main Road",
+    "Radhakrishnan Nagar",
+    "Shanthi Colony",
+    "LIC Colony",
+    "Malaviya Avenue",
+    "Lakshmipuram"
+  ],
+  "reply": "[\n  {\n    \"locality\": \"Dr Radhakrishnan Nagar Main Road\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The road was knee-deep in water during the heavy rains in 2015 but was improved with a comprehensive storm water drain network.\"\n  },\n  {\n    \"locality\": \"Thiruvanmiyur\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Despite heavy rains, one road in Thiruvanmiyur remained clean and almost dry.\"\n  },\n  {\n    \"locality\": \"Sriram Nagar cross street\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area was waterlogged to knee-deep level during the heavy rains.\"\n  },\n  {\n    \"locality\": \"Radhakrishnan Nagar\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area was floating on knee-deep water for days during the heavy rains.\"\n  },\n  {\n    \"locality\": \"Shanthi Colony\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area was impacted by the heavy rains, with no electricity and erratic water supply.\"\n  },\n  {\n    \"locality\": \"LIC Colony\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area was impacted by the heavy rains, with no electricity and erratic water supply.\"\n  },\n  {\n    \"locality\": \"Malaviya Avenue\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area was impacted by the heavy rains, with no electricity and erratic water supply.\"\n  },\n  {\n    \"locality\": \"Lakshmipuram\",\n    \"date\": \"2017-11-04\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The area was impacted by the heavy rains, with no electricity and erratic water supply.\"\n  }\n]"
+}

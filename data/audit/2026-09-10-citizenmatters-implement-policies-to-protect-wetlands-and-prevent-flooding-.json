@@ -1,0 +1,29 @@
+[
+  {
+    "locality": "pallikaranai",
+    "date": "2026-09-10",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Pallikaranai on 2026-09-10."
+    ],
+    "event": null
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "date": "2026-09-10",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The article mentions that the Pallikaranai Ramsar site's occ\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "semmancheri",
+    "date": "2026-09-10",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The article states that the concerns of people impacted in S\""
+    ],
+    "event": null
+  }
+]

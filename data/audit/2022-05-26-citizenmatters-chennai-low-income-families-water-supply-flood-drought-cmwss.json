@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "pulianthope",
+    "date": "2022-05-26",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Pulianthope around 2022-05-26."
+    ],
+    "event": null
+  },
+  {
+    "locality": "pattalam",
+    "date": "2022-05-26",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention any flooding event in Pattalam on 2022-05-26."
+    ],
+    "event": null
+  },
+  {
+    "locality": "kodungaiyur",
+    "date": "2022-05-26",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention flooding in Kodungaiyur on 2022-05-26."
+    ],
+    "event": null
+  },
+  {
+    "locality": "otteri",
+    "date": "2022-05-26",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention flooding in Otteri on 2022-05-26."
+    ],
+    "event": null
+  }
+]

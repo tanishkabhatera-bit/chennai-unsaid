@@ -1,0 +1,58 @@
+{
+  "article": {
+    "id": "2020-11-25-citizenmatters-cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+    "url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+    "title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+    "outlet": "Citizen Matters",
+    "published": "2020-11-25"
+  },
+  "records": [
+    {
+      "locality": "jafferkhanpet",
+      "sk": "2020-11-25#e11280c0af",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents living in the area have been directed to move to the nearest GCC shelters.",
+      "source_url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+      "source_title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+      "locality_as_written": "Jafferkhanpet"
+    },
+    {
+      "locality": "kotturpuram",
+      "sk": "2020-11-25#e11280c0af",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents living in the area have been directed to move to the nearest GCC shelters.",
+      "source_url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+      "source_title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+      "locality_as_written": "Kotturpuram"
+    },
+    {
+      "locality": "kundrathur",
+      "sk": "2020-11-25#e11280c0af",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents living in the area have been directed to move to the nearest GCC shelters.",
+      "source_url": "https://citizenmatters.in/cyclone-nivar-dos-and-donts-helplines-affected-areas-chennai",
+      "source_title": "Bracing for Cyclone Nivar: Helplines and all else you need to know",
+      "locality_as_written": "Kundrathur"
+    }
+  ],
+  "unmatched": [
+    "Kanu Nagar",
+    "Soolai Pallam",
+    "Thideer Nagar",
+    "Burma Colony",
+    "Chithra Nagar",
+    "Sirukalathur",
+    "Tirumudivakkam",
+    "Tiruneermalai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Kanu Nagar\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Soolai Pallam\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Thideer Nagar\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Burma Colony\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Jafferkhanpet\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Kotturpuram\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Chithra Nagar\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Kundrathur\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Sirukalathur\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Tirumudivakkam\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    },\n    {\n        \"locality\": \"Tiruneermalai\",\n        \"date\": \"2020-11-25\",\n        \"event\": \"Cyclone Nivar\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents living in the area have been directed to move to the nearest GCC shelters.\"\n    }\n]\n```"
+}

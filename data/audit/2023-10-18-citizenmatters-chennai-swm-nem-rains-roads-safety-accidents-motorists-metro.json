@@ -1,0 +1,23 @@
+[
+  {
+    "locality": "madipakkam",
+    "date": "2023-10-18",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "manapakkam",
+    "date": "2023-10-18",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "mugalivakkam",
+    "date": "2023-10-18",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

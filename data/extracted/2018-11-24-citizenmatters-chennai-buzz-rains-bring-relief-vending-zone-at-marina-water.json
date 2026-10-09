@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2018-11-24-citizenmatters-chennai-buzz-rains-bring-relief-vending-zone-at-marina-water",
+    "url": "https://citizenmatters.in/chennai-buzz-rains-bring-relief-vending-zone-at-marina-water-crisis-foamy-beach",
+    "title": "Chennai Buzz: Rains bring relief | Plans for Marina | Beach water turns foamy | Corporation workers protest",
+    "outlet": "Citizen Matters",
+    "published": "2018-11-24"
+  },
+  "records": [],
+  "unmatched": [
+    "87 locations",
+    "37 places"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"87 locations\",\n        \"date\": \"2018-11-24\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water logging complaints received from 87 locations following the showers.\"\n    },\n    {\n        \"locality\": \"37 places\",\n        \"date\": \"2018-11-24\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"37 places were inundated according to a disaster management website.\"\n    }\n]\n```"
+}

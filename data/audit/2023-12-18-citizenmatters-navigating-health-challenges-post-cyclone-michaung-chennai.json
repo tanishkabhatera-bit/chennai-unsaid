@@ -1,0 +1,39 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2023-12-05",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  },
+  {
+    "locality": "thoraipakkam",
+    "date": "2023-12-08",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  },
+  {
+    "locality": "teynampet",
+    "date": "2023-12-18",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  },
+  {
+    "locality": "t-nagar",
+    "date": "2023-12-18",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The primary health centre in T Nagar is seeing an inflow of \""
+    ],
+    "event": "Cyclone Michaung"
+  },
+  {
+    "locality": "chromepet",
+    "date": "2023-12-18",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  }
+]

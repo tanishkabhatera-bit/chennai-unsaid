@@ -1,0 +1,52 @@
+{
+  "article": {
+    "id": "2022-10-19-citizenmatters-stormwater-drain-chennai-road-digging-rainwater-recharge-pit",
+    "url": "https://citizenmatters.in/stormwater-drain-chennai-road-digging-rainwater-recharge-pit-trees",
+    "title": "Chennai races against time to finish storm water drain work, but concerns persist",
+    "outlet": "Citizen Matters",
+    "published": "2022-10-19"
+  },
+  "records": [
+    {
+      "locality": "kk-nagar",
+      "sk": "2022-10-19#71cf6b41f5",
+      "date": "2022-10-19",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "After the rains in early October, there has been no water stagnation in some parts of KK Nagar due to working stormwater drains.",
+      "source_url": "https://citizenmatters.in/stormwater-drain-chennai-road-digging-rainwater-recharge-pit-trees",
+      "source_title": "Chennai races against time to finish storm water drain work, but concerns persist",
+      "locality_as_written": "KK Nagar"
+    },
+    {
+      "locality": "mugalivakkam",
+      "sk": "2022-10-19#71cf6b41f5",
+      "date": "2022-10-19",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The roads in Mugalivakkam are shoddier than ever due to stormwater drain work.",
+      "source_url": "https://citizenmatters.in/stormwater-drain-chennai-road-digging-rainwater-recharge-pit-trees",
+      "source_title": "Chennai races against time to finish storm water drain work, but concerns persist",
+      "locality_as_written": "Mugalivakkam"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2022-10-19#71cf6b41f5",
+      "date": "2022-10-19",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents of Perambur are not happy with the execution of stormwater drain work, citing lack of coordination and temporary diesel pumps for inundated areas.",
+      "source_url": "https://citizenmatters.in/stormwater-drain-chennai-road-digging-rainwater-recharge-pit-trees",
+      "source_title": "Chennai races against time to finish storm water drain work, but concerns persist",
+      "locality_as_written": "Perambur"
+    }
+  ],
+  "unmatched": [
+    "Chennai",
+    "Satya Niketan"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2022-10-19\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Rains in November 2021 flooded several areas, with water entering houses and streets being waterlogged.\"\n    },\n    {\n        \"locality\": \"KK Nagar\",\n        \"date\": \"2022-10-19\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"After the rains in early October, there has been no water stagnation in some parts of KK Nagar due to working stormwater drains.\"\n    },\n    {\n        \"locality\": \"Mugalivakkam\",\n        \"date\": \"2022-10-19\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The roads in Mugalivakkam are shoddier than ever due to stormwater drain work.\"\n    },\n    {\n        \"locality\": \"Perambur\",\n        \"date\": \"2022-10-19\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents of Perambur are not happy with the execution of stormwater drain work, citing lack of coordination and temporary diesel pumps for inundated areas.\"\n    },\n    {\n        \"locality\": \"Satya Niketan\",\n        \"date\": \"2022-10-19\",\n        \"event\": \"Building collapse\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A five-storey boys' Paying Guest (PG) accommodation collapsed in Satya Niketan, near Delhi University's South Campus, leaving seven people dead.\"\n    }\n]\n```"
+}

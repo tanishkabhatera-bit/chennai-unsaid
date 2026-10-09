@@ -1,0 +1,28 @@
+{
+  "article": {
+    "id": "2018-10-09-citizenmatters-north-east-monsoon-chennai-roads-dengue-metro-solar",
+    "url": "https://citizenmatters.in/north-east-monsoon-chennai-roads-dengue-metro-solar",
+    "title": "Chennai Buzz: NE monsoon worries | Dengue scare in city | Metro stations go solar",
+    "outlet": "Citizen Matters",
+    "published": "2018-10-09"
+  },
+  "records": [
+    {
+      "locality": "anna-salai",
+      "sk": "2018-10-09#76bf2271bd",
+      "date": "2018-10-09",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Water stagnation at many important junctions along arterial roads.",
+      "source_url": "https://citizenmatters.in/north-east-monsoon-chennai-roads-dengue-metro-solar",
+      "source_title": "Chennai Buzz: NE monsoon worries | Dengue scare in city | Metro stations go solar",
+      "locality_as_written": "Mount Road"
+    }
+  ],
+  "unmatched": [
+    "Arcot Road",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Arcot Road\",\n        \"date\": \"2018-10-09\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water stagnation at many important junctions along arterial roads.\"\n    },\n    {\n        \"locality\": \"Mount Road\",\n        \"date\": \"2018-10-09\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water stagnation at many important junctions along arterial roads.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2018-10-09\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Road broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

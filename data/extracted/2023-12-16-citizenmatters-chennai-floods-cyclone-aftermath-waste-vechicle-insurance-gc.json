@@ -1,0 +1,51 @@
+{
+  "article": {
+    "id": "2023-12-16-citizenmatters-chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gc",
+    "url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+    "title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-16"
+  },
+  "records": [
+    {
+      "locality": "ennore",
+      "sk": "2023-12-16#bdab02cb91",
+      "date": "2023-12-16",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The Ennore-Manali region was impacted by an oil spill and subsequent flooding due to Cyclone Michaung.",
+      "source_url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+      "source_title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+      "locality_as_written": "Ennore-Manali"
+    },
+    {
+      "locality": "otteri",
+      "sk": "2023-12-16#bdab02cb91",
+      "date": "2023-12-16",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The Otteri Corporation burial ground was inundated with 5 feet of water due to the cyclone-induced heavy rainfall.",
+      "source_url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+      "source_title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+      "locality_as_written": "Otteri Corporation burial ground"
+    },
+    {
+      "locality": "mylapore",
+      "sk": "2023-12-16#bdab02cb91",
+      "date": "2023-12-16",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The burial grounds at Mylapore experienced damage to gasifier machines due to the floods.",
+      "source_url": "https://citizenmatters.in/chennai-floods-cyclone-aftermath-waste-vechicle-insurance-gcc",
+      "source_title": "Chennai Buzz: Ennore oil spill | Toll-free numbers introduced for vehicle services...and more!",
+      "locality_as_written": "Mylapore"
+    }
+  ],
+  "unmatched": [
+    "Krishnampet"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ennore-Manali\",\n        \"date\": \"2023-12-16\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Ennore-Manali region was impacted by an oil spill and subsequent flooding due to Cyclone Michaung.\"\n    },\n    {\n        \"locality\": \"Otteri Corporation burial ground\",\n        \"date\": \"2023-12-16\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Otteri Corporation burial ground was inundated with 5 feet of water due to the cyclone-induced heavy rainfall.\"\n    },\n    {\n        \"locality\": \"Mylapore\",\n        \"date\": \"2023-12-16\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The burial grounds at Mylapore experienced damage to gasifier machines due to the floods.\"\n    },\n    {\n        \"locality\": \"Krishnampet\",\n        \"date\": \"2023-12-16\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The burial grounds at Krishnampet also suffered damage to gasifier machines due to the floods.\"\n    }\n]\n```"
+}

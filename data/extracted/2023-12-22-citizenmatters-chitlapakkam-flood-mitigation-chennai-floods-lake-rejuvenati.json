@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2023-12-22-citizenmatters-chitlapakkam-flood-mitigation-chennai-floods-lake-rejuvenati",
+    "url": "https://citizenmatters.in/chitlapakkam-flood-mitigation-chennai-floods-lake-rejuvenation",
+    "title": "How Chitlapakkam remained flood-free during the recent Chennai rains",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-22"
+  },
+  "records": [
+    {
+      "locality": "chitlapakkam",
+      "sk": "2023-12-22#80f02f1ee3",
+      "date": "2023-12-22",
+      "event": "Cyclone Michaung",
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Chitlapakkam remained largely flood-free after 50 centimetres of rainfall within 48 hours.",
+      "source_url": "https://citizenmatters.in/chitlapakkam-flood-mitigation-chennai-floods-lake-rejuvenation",
+      "source_title": "How Chitlapakkam remained flood-free during the recent Chennai rains",
+      "locality_as_written": "Chitlapakkam"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n  {\n    \"locality\": \"Chitlapakkam\",\n    \"date\": \"2023-12-22\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Chitlapakkam remained largely flood-free after 50 centimetres of rainfall within 48 hours.\"\n  }\n]"
+}

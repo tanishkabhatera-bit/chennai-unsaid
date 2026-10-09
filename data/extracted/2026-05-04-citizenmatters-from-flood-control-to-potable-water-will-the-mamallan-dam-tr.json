@@ -1,0 +1,40 @@
+{
+  "article": {
+    "id": "2026-05-04-citizenmatters-from-flood-control-to-potable-water-will-the-mamallan-dam-tr",
+    "url": "https://citizenmatters.in/from-flood-control-to-potable-water-will-the-mamallan-dam-truly-deliver-on-promises",
+    "title": "From flood control to potable water, will the Mamallan dam truly deliver on promises?",
+    "outlet": "Citizen Matters",
+    "published": "2026-05-04"
+  },
+  "records": [
+    {
+      "locality": "thoraipakkam",
+      "sk": "2026-05-04#7b337a0995",
+      "date": "2026-05-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Thoraipakkam is vulnerable to flooding and waterlogging.",
+      "source_url": "https://citizenmatters.in/from-flood-control-to-potable-water-will-the-mamallan-dam-truly-deliver-on-promises",
+      "source_title": "From flood control to potable water, will the Mamallan dam truly deliver on promises?",
+      "locality_as_written": "Thoraipakkam"
+    },
+    {
+      "locality": "perumbakkam",
+      "sk": "2026-05-04#7b337a0995",
+      "date": "2026-05-04",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Perumbakkam is vulnerable to flooding and waterlogging.",
+      "source_url": "https://citizenmatters.in/from-flood-control-to-potable-water-will-the-mamallan-dam-truly-deliver-on-promises",
+      "source_title": "From flood control to potable water, will the Mamallan dam truly deliver on promises?",
+      "locality_as_written": "Perumbakkam"
+    }
+  ],
+  "unmatched": [
+    "Kanima Nagar",
+    "Semmemcheri"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Kanima Nagar\",\n        \"date\": \"2026-05-04\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": 5,\n        \"detail\": \"In 2015, devastating floods inundated homes in Kanima Nagar, with residents spending five days at the panchayat office.\"\n    },\n    {\n        \"locality\": \"Thoraipakkam\",\n        \"date\": \"2026-05-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Thoraipakkam is vulnerable to flooding and waterlogging.\"\n    },\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2026-05-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Perumbakkam is vulnerable to flooding and waterlogging.\"\n    },\n    {\n        \"locality\": \"Semmemcheri\",\n        \"date\": \"2026-05-04\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Semmemcheri is vulnerable to flooding and waterlogging.\"\n    }\n]\n```"
+}

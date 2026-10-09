@@ -1,0 +1,15 @@
+{
+  "article": {
+    "id": "2025-05-23-citizenmatters-floods-faith-civic-action-chennai-keezhkattalai-narayanapura",
+    "url": "https://citizenmatters.in/floods-faith-civic-action-chennai-keezhkattalai-narayanapuram-lakes-wrd",
+    "title": "Floods, faith, and civic action: Two Chennai lakes, one struggle for survival",
+    "outlet": "Citizen Matters",
+    "published": "2025-05-23"
+  },
+  "records": [],
+  "unmatched": [
+    "Narayanapuram Lake",
+    "Keezhkattalai Lake"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Narayanapuram Lake\",\n        \"date\": \"2025-05-23\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residential areas around the lake were engulfed by floodwaters each monsoon, sparing neither homes nor religious structures.\"\n    },\n    {\n        \"locality\": \"Keezhkattalai Lake\",\n        \"date\": \"2025-05-23\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachments and inadequate drainage infrastructure led to frequent flooding, especially since the lake is only 12 feet above mean sea level.\"\n    }\n]\n```"
+}

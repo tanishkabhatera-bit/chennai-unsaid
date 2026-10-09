@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2022-03-14-citizenmatters-chennai-kolathur-rain-flooding-monsoon-pond-encroachment-gov",
+    "url": "https://citizenmatters.in/chennai-kolathur-rain-flooding-monsoon-pond-encroachment-government-buildings",
+    "title": "Loss of a Kolathur pond and all that Chennai lost with it",
+    "outlet": "Citizen Matters",
+    "published": "2022-03-14"
+  },
+  "records": [
+    {
+      "locality": "kolathur",
+      "sk": "2022-03-14#5f957e69b1",
+      "date": "2022-03-14",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The disappearance of a pond in Kolathur led to extensive water-logging and flooding in the area during the monsoon of 2021.",
+      "source_url": "https://citizenmatters.in/chennai-kolathur-rain-flooding-monsoon-pond-encroachment-government-buildings",
+      "source_title": "Loss of a Kolathur pond and all that Chennai lost with it",
+      "locality_as_written": "Kolathur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Kolathur\",\n        \"date\": \"2022-03-14\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The disappearance of a pond in Kolathur led to extensive water-logging and flooding in the area during the monsoon of 2021.\"\n    }\n]\n```"
+}

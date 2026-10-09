@@ -1,0 +1,18 @@
+[
+  {
+    "locality": "thiruvanmiyur",
+    "date": "2017-11-04",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Thiruvanmiyur being waterlogged or flooded on 2017-11-04."
+    ],
+    "event": null
+  },
+  {
+    "locality": "ram-nagar",
+    "date": "2017-11-04",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

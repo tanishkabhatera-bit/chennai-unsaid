@@ -1,0 +1,59 @@
+[
+  {
+    "locality": "mugalivakkam",
+    "date": "2023-09-23",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Mugalivakkam being flooded or waterlogged."
+    ],
+    "event": null
+  },
+  {
+    "locality": "porur",
+    "date": "2023-09-23",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention any flooding or waterlogging in Porur."
+    ],
+    "event": null
+  },
+  {
+    "locality": "madhavaram",
+    "date": "2023-09-23",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Madhavaram being flooded or waterlogged."
+    ],
+    "event": null
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2023-09-23",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention any flooding event in Madipakkam."
+    ],
+    "event": null
+  },
+  {
+    "locality": "ambattur",
+    "date": "2023-09-23",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "anna-nagar",
+    "date": "2023-09-23",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "west-mambalam",
+    "date": "2023-09-23",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

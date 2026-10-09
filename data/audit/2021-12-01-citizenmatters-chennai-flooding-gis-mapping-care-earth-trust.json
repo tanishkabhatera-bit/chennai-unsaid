@@ -1,0 +1,23 @@
+[
+  {
+    "locality": "t-nagar",
+    "date": "2021-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "guduvanchery",
+    "date": "2021-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kk-nagar",
+    "date": "2021-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

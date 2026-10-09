@@ -1,0 +1,35 @@
+{
+  "article": {
+    "id": "2021-12-06-citizenmatters-chennai-tnagar-smart-city-floods-stormwater-drain-monsoon",
+    "url": "https://citizenmatters.in/chennai-tnagar-smart-city-floods-stormwater-drain-monsoon",
+    "title": "ஸ்மார்ட் சிட்டி திட்டம்: தி.நகரில் வெள்ள பாதிப்பு எழுப்பும் கேள்விகள்",
+    "outlet": "Citizen Matters",
+    "published": "2021-12-06"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2021-12-06#12cbaf3039",
+      "date": "2021-12-06",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The entire ground floor of a residence was submerged in flood water.",
+      "source_url": "https://citizenmatters.in/chennai-tnagar-smart-city-floods-stormwater-drain-monsoon",
+      "source_title": "ஸ்மார்ட் சிட்டி திட்டம்: தி.நகரில் வெள்ள பாதிப்பு எழுப்பும் கேள்விகள்",
+      "locality_as_written": "T.Nagar"
+    }
+  ],
+  "unmatched": [
+    "Motilal Road",
+    "Basyam Street",
+    "Pandi Bazaar",
+    "GN Chetty Road",
+    "Bazulla Road",
+    "Giri Street",
+    "Usman Road",
+    "Ranganatha Street",
+    "Ramanathan Street"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"T.Nagar\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The entire ground floor of a residence was submerged in flood water.\"\n    },\n    {\n        \"locality\": \"Motilal Road\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The residence was completely surrounded by flood water.\"\n    },\n    {\n        \"locality\": \"Basyam Street\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"Pandi Bazaar\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"GN Chetty Road\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"Bazulla Road\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"Giri Street\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"Usman Road\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"Ranganatha Street\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    },\n    {\n        \"locality\": \"Ramanathan Street\",\n        \"date\": \"2021-12-06\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flood water surrounded the area.\"\n    }\n]"
+}

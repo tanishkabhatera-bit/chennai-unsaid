@@ -1,0 +1,112 @@
+{
+  "article": {
+    "id": "2022-11-07-citizenmatters-north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur",
+    "url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+    "title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+    "outlet": "Citizen Matters",
+    "published": "2022-11-07"
+  },
+  "records": [
+    {
+      "locality": "tiruvottiyur",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": 2,
+      "detail": "The Ajax subway in Thiruvotriyur was filled with water for two days in the first few days of November.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Thiruvotriyur"
+    },
+    {
+      "locality": "vyasarpadi",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Two men in Vyasarpadi died due to electrocution in stagnated water.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Near an urban public health centre in Pulianthope, it floods almost every time it rains.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Pulianthope"
+    },
+    {
+      "locality": "madhavaram",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Drainage water stagnates on the roads and there is no way for the rainwater to drain.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Poniammonmedu and neighbouring areas in Madhavaram"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Kodungaiyur did not face a lot of damage.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Kodungaiyur"
+    },
+    {
+      "locality": "ennore",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Areas surrounding the fishing villages in lower-level areas were flooded during the first week's rains.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Ennore"
+    },
+    {
+      "locality": "kolathur",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Water levels increased and entered into houses, and people had to pump out water with no help from the government.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Kumaran Nagar in Kolathur"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2022-11-07#312fe3e629",
+      "date": "2022-11-07",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The street was inundated, with water entering people's houses.",
+      "source_url": "https://citizenmatters.in/north-chennai-flood-rains-thiruvotriyur-kodungaiyur-perambur-kolathur-road-madhavaram",
+      "source_title": "As rains lash the city, North Chennai residents still await flood mitigation measures",
+      "locality_as_written": "Ramakrishna Street in Perambur"
+    }
+  ],
+  "unmatched": [
+    "Aaduthotti",
+    "Kannigapuram"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Thiruvotriyur\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": 2,\n        \"detail\": \"The Ajax subway in Thiruvotriyur was filled with water for two days in the first few days of November.\"\n    },\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Two men in Vyasarpadi died due to electrocution in stagnated water.\"\n    },\n    {\n        \"locality\": \"Pulianthope\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Near an urban public health centre in Pulianthope, it floods almost every time it rains.\"\n    },\n    {\n        \"locality\": \"Aaduthotti\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Roads in Aaduthotti were fully submerged in water during the first spell of the monsoon.\"\n    },\n    {\n        \"locality\": \"Kannigapuram\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Roads in Kannigapuram were fully submerged in water during the first spell of the monsoon.\"\n    },\n    {\n        \"locality\": \"Vyasarpadi Jeeva railway station subway\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The Vyasarpadi Jeeva railway station subway was inundated.\"\n    },\n    {\n        \"locality\": \"Poniammonmedu and neighbouring areas in Madhavaram\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Drainage water stagnates on the roads and there is no way for the rainwater to drain.\"\n    },\n    {\n        \"locality\": \"Kodungaiyur\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Kodungaiyur did not face a lot of damage.\"\n    },\n    {\n        \"locality\": \"Ennore\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Areas surrounding the fishing villages in lower-level areas were flooded during the first week's rains.\"\n    },\n    {\n        \"locality\": \"Kumaran Nagar in Kolathur\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water levels increased and entered into houses, and people had to pump out water with no help from the government.\"\n    },\n    {\n        \"locality\": \"Shanthi Nagar in Kolathur\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Drainage water was overflowing and rainwater entered houses before officials arrived with pumps to drain the water.\"\n    },\n    {\n        \"locality\": \"Ramakrishna Street in Perambur\",\n        \"date\": \"2022-11-07\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The street was inundated, with water entering people's houses.\"\n    }\n]\n```"
+}

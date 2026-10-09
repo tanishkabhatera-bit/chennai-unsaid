@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2022-06-24-citizenmatters-chennai-ward-105-n-adiyaman-dmk-flood-waste-management-arumb",
+    "url": "https://citizenmatters.in/chennai-ward-105-n-adiyaman-dmk-flood-waste-management-arumbakkam",
+    "title": "Councillor talk: Flooding and civic issues of Ward 105 the focus for N Adiyaman",
+    "outlet": "Citizen Matters",
+    "published": "2022-06-24"
+  },
+  "records": [
+    {
+      "locality": "arumbakkam",
+      "sk": "2022-06-24#79bce3574e",
+      "date": "2022-06-24",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": 3,
+      "detail": "Severe flooding on more than 25% of the roads, with water standing up to a height of three feet, submerging pillar boxes and causing electricity suspension for more than three days.",
+      "source_url": "https://citizenmatters.in/chennai-ward-105-n-adiyaman-dmk-flood-waste-management-arumbakkam",
+      "source_title": "Councillor talk: Flooding and civic issues of Ward 105 the focus for N Adiyaman",
+      "locality_as_written": "Arumbakkam"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n  {\n    \"locality\": \"Arumbakkam\",\n    \"date\": \"2022-06-24\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Severe flooding on more than 25% of the roads, with water standing up to a height of three feet, submerging pillar boxes and causing electricity suspension for more than three days.\"\n  }\n]"
+}

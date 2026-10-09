@@ -1,0 +1,37 @@
+[
+  {
+    "locality": "adambakkam",
+    "date": "2020-09-26",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "nanganallur",
+    "date": "2020-09-26",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "tambaram",
+    "date": "2020-09-26",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "pallavaram",
+    "date": "2020-09-26",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "mudichur",
+    "date": "2020-09-26",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

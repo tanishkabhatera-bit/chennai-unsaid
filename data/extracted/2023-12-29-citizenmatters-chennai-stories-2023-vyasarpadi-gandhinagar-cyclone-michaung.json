@@ -1,0 +1,27 @@
+{
+  "article": {
+    "id": "2023-12-29-citizenmatters-chennai-stories-2023-vyasarpadi-gandhinagar-cyclone-michaung",
+    "url": "https://citizenmatters.in/chennai-stories-2023-vyasarpadi-gandhinagar-cyclone-michaung-ennore",
+    "title": "Editor’s Pick: Chennai stories that made a mark in 2023",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-29"
+  },
+  "records": [
+    {
+      "locality": "vyasarpadi",
+      "sk": "2023-12-29#1451e055e3",
+      "date": "2023-12-29",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Marginalized communities in North Chennai were sidelined by authorities during the devastating floods caused by Cyclone Michaung.",
+      "source_url": "https://citizenmatters.in/chennai-stories-2023-vyasarpadi-gandhinagar-cyclone-michaung-ennore",
+      "source_title": "Editor’s Pick: Chennai stories that made a mark in 2023",
+      "locality_as_written": "Vyasarpadi"
+    }
+  ],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2023-12-29\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Cyclone Michaung besieged the city, causing severe flooding and highlighting issues with sewage infrastructure and development plans.\"\n  },\n  {\n    \"locality\": \"Vyasarpadi\",\n    \"date\": \"2023-12-29\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Marginalized communities in North Chennai were sidelined by authorities during the devastating floods caused by Cyclone Michaung.\"\n  }\n]\n```"
+}

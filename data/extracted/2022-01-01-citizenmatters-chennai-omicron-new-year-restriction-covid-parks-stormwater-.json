@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-01-01-citizenmatters-chennai-omicron-new-year-restriction-covid-parks-stormwater-",
+    "url": "https://citizenmatters.in/chennai-omicron-new-year-restriction-covid-parks-stormwater-drains",
+    "title": "Chennai Buzz: COVID cases on the rise | Rain batters city..and more!",
+    "outlet": "Citizen Matters",
+    "published": "2022-01-01"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2022-01-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Heavy rainfall caused gridlocks, water-stagnation, and three deaths due to electrocution in Mylapore, Otteri, and Pulianthope.\"\n    }\n]\n```"
+}

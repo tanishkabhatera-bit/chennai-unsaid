@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2023-12-02-citizenmatters-chennai-rains-orange-alert-stray-dog-census-perungudi-dump-y",
+    "url": "https://citizenmatters.in/chennai-rains-orange-alert-stray-dog-census-perungudi-dump-yard-cumta-gcc",
+    "title": "Chennai Buzz: Orange alert for Chennai | Stray dog census begins and more...!",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-02"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2023-12-02\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Many roads were inundated making regular commute a herculean task for residents.\"\n    }\n]\n```"
+}

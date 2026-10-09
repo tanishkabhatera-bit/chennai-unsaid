@@ -1,0 +1,27 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2025-10-28",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"Waterlogging is a serious concern, making roads almost unman\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2025-10-28",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "perumbakkam",
+    "date": "2025-10-28",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

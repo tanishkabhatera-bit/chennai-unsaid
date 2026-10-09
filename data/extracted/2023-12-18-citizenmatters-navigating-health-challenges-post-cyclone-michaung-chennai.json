@@ -1,0 +1,76 @@
+{
+  "article": {
+    "id": "2023-12-18-citizenmatters-navigating-health-challenges-post-cyclone-michaung-chennai",
+    "url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+    "title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-18"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2023-12-05#c5ad5e638b",
+      "date": "2023-12-05",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": 3,
+      "detail": "Floodwaters filled the streets adjacent to Jayakumari's house, causing a 72-hour power cut and worsening her unhealed wounds from mosquito bites.",
+      "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+      "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "thoraipakkam",
+      "sk": "2023-12-08#c5ad5e638b",
+      "date": "2023-12-08",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Anjitha Pravin returned to find her rented apartment severely damaged, with mouldy walls and a lost scooter.",
+      "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+      "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+      "locality_as_written": "Thoraipakkam"
+    },
+    {
+      "locality": "teynampet",
+      "sk": "2023-12-18#c5ad5e638b",
+      "date": "2023-12-18",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flood water marks and dirty walls with a foul smell were observed in the parking area.",
+      "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+      "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+      "locality_as_written": "Teynampet"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2023-12-18#c5ad5e638b",
+      "date": "2023-12-18",
+      "event": "Cyclone Michaung",
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The primary health centre in T Nagar is seeing an inflow of people with various health concerns due to the floods.",
+      "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+      "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+      "locality_as_written": "T Nagar"
+    },
+    {
+      "locality": "chromepet",
+      "sk": "2023-12-18#c5ad5e638b",
+      "date": "2023-12-18",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Flooding interrupted the delivery of medical services at a few government hospitals.",
+      "source_url": "https://citizenmatters.in/navigating-health-challenges-post-cyclone-michaung-chennai",
+      "source_title": "Weathering the storm: Health challenges post-Cyclone Michaung in Chennai",
+      "locality_as_written": "Chromepet"
+    }
+  ],
+  "unmatched": [
+    "Elango street",
+    "Amudham colony"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Velachery\",\n    \"date\": \"2023-12-05\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": 3,\n    \"detail\": \"Floodwaters filled the streets adjacent to Jayakumari's house, causing a 72-hour power cut and worsening her unhealed wounds from mosquito bites.\"\n  },\n  {\n    \"locality\": \"Thoraipakkam\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Anjitha Pravin returned to find her rented apartment severely damaged, with mouldy walls and a lost scooter.\"\n  },\n  {\n    \"locality\": \"Teynampet\",\n    \"date\": \"2023-12-18\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flood water marks and dirty walls with a foul smell were observed in the parking area.\"\n  },\n  {\n    \"locality\": \"T Nagar\",\n    \"date\": \"2023-12-18\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The primary health centre in T Nagar is seeing an inflow of people with various health concerns due to the floods.\"\n  },\n  {\n    \"locality\": \"Chromepet\",\n    \"date\": \"2023-12-18\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Flooding interrupted the delivery of medical services at a few government hospitals.\"\n  },\n  {\n    \"locality\": \"Elango street\",\n    \"date\": \"2023-12-18\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Tamil Selvi struggled with breathing issues and had to deal with the additional anxiety of not having access to her medicines during the floods.\"\n  },\n  {\n    \"locality\": \"Amudham colony\",\n    \"date\": \"2023-12-18\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Malli experienced a severe asthma attack and breathing difficulties due to the continuous rains.\"\n  }\n]\n```"
+}

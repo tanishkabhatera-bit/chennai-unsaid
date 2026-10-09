@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2018-06-11-citizenmatters-chennai-buzz-worry-over-monsoon-readiness-first-future-ready",
+    "url": "https://citizenmatters.in/chennai-buzz-worry-over-monsoon-readiness-first-future-ready-street-cyber-crime-and-more",
+    "title": "Chennai Buzz : Worry over monsoon readiness, first future-ready street, cyber crime and more!",
+    "outlet": "Citizen Matters",
+    "published": "2018-06-11"
+  },
+  "records": [],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2018-06-11\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Roads in Ramtekdi Industrial Estate are broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

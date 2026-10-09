@@ -1,0 +1,23 @@
+[
+  {
+    "locality": "ennore",
+    "date": "2023-12-16",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  },
+  {
+    "locality": "otteri",
+    "date": "2023-12-16",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  },
+  {
+    "locality": "mylapore",
+    "date": "2023-12-16",
+    "ok": true,
+    "reasons": [],
+    "event": "Cyclone Michaung"
+  }
+]

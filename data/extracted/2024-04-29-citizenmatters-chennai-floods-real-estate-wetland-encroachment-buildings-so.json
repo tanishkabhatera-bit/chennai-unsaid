@@ -1,0 +1,27 @@
+{
+  "article": {
+    "id": "2024-04-29-citizenmatters-chennai-floods-real-estate-wetland-encroachment-buildings-so",
+    "url": "https://citizenmatters.in/chennai-floods-real-estate-wetland-encroachment-buildings-solutions",
+    "title": "Chennai floods and the real estate conundrum: Need for sustainable solutions",
+    "outlet": "Citizen Matters",
+    "published": "2024-04-29"
+  },
+  "records": [
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2024-04-29#5f4a79ef4a",
+      "date": "2024-04-29",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Encroachment on Pallikaranai Marshland by ELCOT and NIOT projects has led to severe flooding in Sholinganallur.",
+      "source_url": "https://citizenmatters.in/chennai-floods-real-estate-wetland-encroachment-buildings-solutions",
+      "source_title": "Chennai floods and the real estate conundrum: Need for sustainable solutions",
+      "locality_as_written": "Sholinganallur"
+    }
+  ],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2023-12-01\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Cyclone Michaung caused severe flooding in Chennai in December 2023, highlighting systemic failures in resource management.\"\n    },\n    {\n        \"locality\": \"Sholinganallur\",\n        \"date\": \"2024-04-29\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachment on Pallikaranai Marshland by ELCOT and NIOT projects has led to severe flooding in Sholinganallur.\"\n    }\n]\n```"
+}

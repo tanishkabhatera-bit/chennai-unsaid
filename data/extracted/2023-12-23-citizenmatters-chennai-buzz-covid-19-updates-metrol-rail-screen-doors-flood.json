@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2023-12-23-citizenmatters-chennai-buzz-covid-19-updates-metrol-rail-screen-doors-flood",
+    "url": "https://citizenmatters.in/chennai-buzz-covid-19-updates-metrol-rail-screen-doors-flood-relief-works-and-more",
+    "title": "Chennai Buzz: Covid-19 updates | Platform screen doors for Metro Rail | Flood relief works and more...",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-23"
+  },
+  "records": [],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2023-12-23\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Roads in Ramtekdi Industrial Estate are broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

@@ -1,0 +1,27 @@
+{
+  "article": {
+    "id": "2022-10-29-citizenmatters-chennai-egmore-railway-station-expansion-air-quality-deepava",
+    "url": "https://citizenmatters.in/chennai-egmore-railway-station-expansion-air-quality-deepavali-stormwater-drain",
+    "title": "Chennai Buzz: Chennai Metropolitan Area set to expand | Air pollution skyrockets on Deepavali ...and more!",
+    "outlet": "Citizen Matters",
+    "published": "2022-10-29"
+  },
+  "records": [
+    {
+      "locality": "jafferkhanpet",
+      "sk": "2022-10-29#cbe2b193e8",
+      "date": "2022-10-29",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "A journalist fell into a stormwater drain pit near Kasi theatre, and succumbed to his injuries.",
+      "source_url": "https://citizenmatters.in/chennai-egmore-railway-station-expansion-air-quality-deepavali-stormwater-drain",
+      "source_title": "Chennai Buzz: Chennai Metropolitan Area set to expand | Air pollution skyrockets on Deepavali ...and more!",
+      "locality_as_written": "Jafferkhanpet"
+    }
+  ],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Jafferkhanpet\",\n        \"date\": \"2022-10-29\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A journalist fell into a stormwater drain pit near Kasi theatre, and succumbed to his injuries.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2022-10-29\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

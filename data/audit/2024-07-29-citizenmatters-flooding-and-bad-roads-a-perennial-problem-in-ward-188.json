@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "madipakkam",
+    "date": "2024-07-29",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "ram-nagar",
+    "date": "2024-07-29",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  }
+]

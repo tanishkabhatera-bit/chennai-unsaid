@@ -1,0 +1,30 @@
+[
+  {
+    "locality": "pallikaranai",
+    "date": "2023-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "perumbakkam",
+    "date": "2023-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "otteri",
+    "date": "2023-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "korattur",
+    "date": "2023-12-01",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

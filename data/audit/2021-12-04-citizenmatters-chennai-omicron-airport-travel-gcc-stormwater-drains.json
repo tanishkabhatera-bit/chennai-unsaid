@@ -1,0 +1,23 @@
+[
+  {
+    "locality": "kolathur",
+    "date": "2021-12-04",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "kk-nagar",
+    "date": "2021-12-04",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "t-nagar",
+    "date": "2021-12-04",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

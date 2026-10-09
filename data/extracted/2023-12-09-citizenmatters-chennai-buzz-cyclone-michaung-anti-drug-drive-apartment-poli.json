@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2023-12-09-citizenmatters-chennai-buzz-cyclone-michaung-anti-drug-drive-apartment-poli",
+    "url": "https://citizenmatters.in/chennai-buzz-cyclone-michaung-anti-drug-drive-apartment-policy-earthquake",
+    "title": "Chennai Buzz: Cyclone Michaung updates | Anti-drug drive... and more",
+    "outlet": "Citizen Matters",
+    "published": "2023-12-09"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Chennai\",\n    \"date\": \"2023-12-08\",\n    \"event\": \"Cyclone Michaung\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Incessant rainfall caused extensive flooding, waterlogging, power outages, and school closures.\"\n  }\n]\n```"
+}

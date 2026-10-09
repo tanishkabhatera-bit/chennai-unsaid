@@ -1,0 +1,104 @@
+[
+  {
+    "locality": "anna-nagar",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Anna Nagar being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "vadapalani",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Vadapalani being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "mylapore",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention the Mylapore Madhava Perumal temple being flooded or waterlogged."
+    ],
+    "event": null
+  },
+  {
+    "locality": "ashok-nagar",
+    "date": "2019-02-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "nesapakkam",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Nesapakkam being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "shastri-nagar",
+    "date": "2019-02-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "koyambedu",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Koyambedu being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "saligramam",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Saligramam being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "chetpet",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Chetpet being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "kotturpuram",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Kotturpuram being flooded or waterlogged on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "pallavaram",
+    "date": "2019-02-13",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention flooding or waterlogging in Vivek Nagar, Pallavaram on 2019-02-13."
+    ],
+    "event": null
+  },
+  {
+    "locality": "west-mambalam",
+    "date": "2019-02-13",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

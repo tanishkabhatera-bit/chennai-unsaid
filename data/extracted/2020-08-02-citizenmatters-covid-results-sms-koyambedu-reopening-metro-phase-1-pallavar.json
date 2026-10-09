@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": "2020-08-02-citizenmatters-covid-results-sms-koyambedu-reopening-metro-phase-1-pallavar",
+    "url": "https://citizenmatters.in/covid-results-sms-koyambedu-reopening-metro-phase-1-pallavaram-waterlogging",
+    "title": "Chennai Buzz: COVID results via SMS | North Chennai Metro construction resumed | Koyambedu market to be reopened...and more",
+    "outlet": "Citizen Matters",
+    "published": "2020-08-02"
+  },
+  "records": [
+    {
+      "locality": "chromepet",
+      "sk": "2020-08-02#f1cc70d6bd",
+      "date": "2020-08-02",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Heavy rain caused severe waterlogging in the streets of Chrompet.",
+      "source_url": "https://citizenmatters.in/covid-results-sms-koyambedu-reopening-metro-phase-1-pallavaram-waterlogging",
+      "source_title": "Chennai Buzz: COVID results via SMS | North Chennai Metro construction resumed | Koyambedu market to be reopened...and more",
+      "locality_as_written": "Chrompet"
+    },
+    {
+      "locality": "pallavaram",
+      "sk": "2020-08-02#f1cc70d6bd",
+      "date": "2020-08-02",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Encroachment of water canals and culverts led to severe waterlogging in Pallavaram.",
+      "source_url": "https://citizenmatters.in/covid-results-sms-koyambedu-reopening-metro-phase-1-pallavaram-waterlogging",
+      "source_title": "Chennai Buzz: COVID results via SMS | North Chennai Metro construction resumed | Koyambedu market to be reopened...and more",
+      "locality_as_written": "Pallavaram"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chrompet\",\n        \"date\": \"2020-08-02\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Heavy rain caused severe waterlogging in the streets of Chrompet.\"\n    },\n    {\n        \"locality\": \"Pallavaram\",\n        \"date\": \"2020-08-02\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachment of water canals and culverts led to severe waterlogging in Pallavaram.\"\n    }\n]\n```"
+}

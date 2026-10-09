@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-03-03-citizenmatters-aya-nagar-unauthorised-colony-in-delhi-drainage-sewage-issue",
+    "url": "https://citizenmatters.in/aya-nagar-unauthorised-colony-in-delhi-drainage-sewage-issues",
+    "title": "In Delhi's Aya Nagar, sewage inside homes is a way of life",
+    "outlet": "Citizen Matters",
+    "published": "2022-03-03"
+  },
+  "records": [],
+  "unmatched": [
+    "Aya Nagar"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Aya Nagar\",\n        \"date\": \"2022-03-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents experienced severe waterlogging and sewage overflow, with houses being submerged and furniture destroyed.\"\n    }\n]"
+}

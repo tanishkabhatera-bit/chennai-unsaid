@@ -1,0 +1,58 @@
+{
+  "article": {
+    "id": "2025-11-03-citizenmatters-flood-threat-in-tansi-nagar-chennai-communitys-plea-to-save-",
+    "url": "https://citizenmatters.in/flood-threat-in-tansi-nagar-chennai-communitys-plea-to-save-canal-stop-beautification",
+    "title": "Flood threat in Tansi Nagar: Chennai community's plea to save canal, stop 'beautification'",
+    "outlet": "Citizen Matters",
+    "published": "2025-11-03"
+  },
+  "records": [
+    {
+      "locality": "velachery-tansi-nagar",
+      "sk": "2025-11-03#296fb21252",
+      "date": "2025-11-03",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": 7,
+      "detail": "These families are forced to vacate their houses, needing boats, tractors, and other makeshift transport to relocate.",
+      "source_url": "https://citizenmatters.in/flood-threat-in-tansi-nagar-chennai-communitys-plea-to-save-canal-stop-beautification",
+      "source_title": "Flood threat in Tansi Nagar: Chennai community's plea to save canal, stop 'beautification'",
+      "locality_as_written": "Tansi Nagar"
+    },
+    {
+      "locality": "indira-nagar",
+      "sk": "2025-11-03#296fb21252",
+      "date": "2025-11-03",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Annai Indira Nagar.",
+      "source_url": "https://citizenmatters.in/flood-threat-in-tansi-nagar-chennai-communitys-plea-to-save-canal-stop-beautification",
+      "source_title": "Flood threat in Tansi Nagar: Chennai community's plea to save canal, stop 'beautification'",
+      "locality_as_written": "Annai Indira Nagar"
+    },
+    {
+      "locality": "anna-nagar",
+      "sk": "2025-11-03#296fb21252",
+      "date": "2025-11-03",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Anna Nagar.",
+      "source_url": "https://citizenmatters.in/flood-threat-in-tansi-nagar-chennai-communitys-plea-to-save-canal-stop-beautification",
+      "source_title": "Flood threat in Tansi Nagar: Chennai community's plea to save canal, stop 'beautification'",
+      "locality_as_written": "Anna Nagar"
+    }
+  ],
+  "unmatched": [
+    "Balamurugan Nagar",
+    "Venus Colony",
+    "Sarathi Nagar",
+    "Bhuvaneshwari Nagar",
+    "VGP Selva Nagar",
+    "Seshathripuram",
+    "EB Colony",
+    "Balakrishnan Nagar"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Tansi Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": 7,\n        \"detail\": \"These families are forced to vacate their houses, needing boats, tractors, and other makeshift transport to relocate.\"\n    },\n    {\n        \"locality\": \"Annai Indira Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Annai Indira Nagar.\"\n    },\n    {\n        \"locality\": \"Anna Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Anna Nagar.\"\n    },\n    {\n        \"locality\": \"Balamurugan Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Balamurugan Nagar.\"\n    },\n    {\n        \"locality\": \"Venus Colony\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Venus Colony.\"\n    },\n    {\n        \"locality\": \"Sarathi Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Sarathi Nagar.\"\n    },\n    {\n        \"locality\": \"Bhuvaneshwari Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Bhuvaneshwari Nagar.\"\n    },\n    {\n        \"locality\": \"VGP Selva Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as VGP Selva Nagar.\"\n    },\n    {\n        \"locality\": \"Seshathripuram\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Seshathripuram.\"\n    },\n    {\n        \"locality\": \"EB Colony\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as EB Colony.\"\n    },\n    {\n        \"locality\": \"Balakrishnan Nagar\",\n        \"date\": \"2025-11-03\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"This grim reality affects more than 10,000 families living in the Velachery area, including neighbourhoods such as Balakrishnan Nagar.\"\n    }\n]\n```"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "mugalivakkam",
+    "date": "2023-04-15",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Mugalivakkam being waterlogged or flooded on 2023-04-15."
+    ],
+    "event": null
+  },
+  {
+    "locality": "ramapuram",
+    "date": "2023-04-15",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Ramapuram being flooded on 2023-04-15."
+    ],
+    "event": null
+  }
+]

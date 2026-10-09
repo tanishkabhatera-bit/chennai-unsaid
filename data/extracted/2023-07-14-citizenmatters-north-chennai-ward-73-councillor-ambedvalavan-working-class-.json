@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2023-07-14-citizenmatters-north-chennai-ward-73-councillor-ambedvalavan-working-class-",
+    "url": "https://citizenmatters.in/north-chennai-ward-73-councillor-ambedvalavan-working-class-sewage-storm-water-drains",
+    "title": "Councillor Talk: Ambedvalavan aims to improve civic amenities and prevent flooding in Ward 73 - Pulianthope",
+    "outlet": "Citizen Matters",
+    "published": "2023-07-14"
+  },
+  "records": [
+    {
+      "locality": "pulianthope",
+      "sk": "2023-07-14#d7d94ffc34",
+      "date": "2023-07-14",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Water stagnation during rains and power cuts were major issues in the area, with stagnant water on the roads taking more than four days to drain.",
+      "source_url": "https://citizenmatters.in/north-chennai-ward-73-councillor-ambedvalavan-working-class-sewage-storm-water-drains",
+      "source_title": "Councillor Talk: Ambedvalavan aims to improve civic amenities and prevent flooding in Ward 73 - Pulianthope",
+      "locality_as_written": "Pulianthope"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Pulianthope\",\n        \"date\": \"2023-07-14\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Water stagnation during rains and power cuts were major issues in the area, with stagnant water on the roads taking more than four days to drain.\"\n    }\n]\n```"
+}

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "id": "2023-05-18-citizenmatters-climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+    "url": "https://citizenmatters.in/climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+    "title": "Making Chennai's public transport climate resilient",
+    "outlet": "Citizen Matters",
+    "published": "2023-05-18"
+  },
+  "records": [
+    {
+      "locality": "kk-nagar",
+      "sk": "2023-05-18#a2c9c7ade0",
+      "date": "2023-05-18",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The article mentions that there is no bus shelter in Munusamy Salai in KK Nagar, and the trees around the stop were chopped and not replanted.",
+      "source_url": "https://citizenmatters.in/climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+      "source_title": "Making Chennai's public transport climate resilient",
+      "locality_as_written": "Munusamy Salai in KK Nagar"
+    },
+    {
+      "locality": "nandanam",
+      "sk": "2023-05-18#a2c9c7ade0",
+      "date": "2023-05-18",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The article mentions that there were around seven people sitting on a metal seat under a bus shelter in Nandanam, near the metro station, and the seat was burning hot.",
+      "source_url": "https://citizenmatters.in/climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+      "source_title": "Making Chennai's public transport climate resilient",
+      "locality_as_written": "Nandanam"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2023-05-18#a2c9c7ade0",
+      "date": "2023-05-18",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The article mentions that the bus shelters in T Nagar are not completely waterlogging-free.",
+      "source_url": "https://citizenmatters.in/climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+      "source_title": "Making Chennai's public transport climate resilient",
+      "locality_as_written": "T Nagar"
+    },
+    {
+      "locality": "park-town",
+      "sk": "2023-05-18#a2c9c7ade0",
+      "date": "2023-05-18",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The article mentions that the subway from Park Town MRTS faces frequent flooding and is unusable when it rains.",
+      "source_url": "https://citizenmatters.in/climate-resilience-mtc-bus-mrts-train-metro-train-heat",
+      "source_title": "Making Chennai's public transport climate resilient",
+      "locality_as_written": "Park Town MRTS"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Munusamy Salai in KK Nagar\",\n        \"date\": \"2023-05-18\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that there is no bus shelter in Munusamy Salai in KK Nagar, and the trees around the stop were chopped and not replanted.\"\n    },\n    {\n        \"locality\": \"Nandanam\",\n        \"date\": \"2023-05-18\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that there were around seven people sitting on a metal seat under a bus shelter in Nandanam, near the metro station, and the seat was burning hot.\"\n    },\n    {\n        \"locality\": \"T Nagar\",\n        \"date\": \"2023-05-18\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that the bus shelters in T Nagar are not completely waterlogging-free.\"\n    },\n    {\n        \"locality\": \"Park Town MRTS\",\n        \"date\": \"2023-05-18\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that the subway from Park Town MRTS faces frequent flooding and is unusable when it rains.\"\n    }\n]\n```"
+}

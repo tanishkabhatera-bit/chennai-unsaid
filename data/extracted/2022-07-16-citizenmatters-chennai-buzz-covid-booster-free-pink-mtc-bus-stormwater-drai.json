@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": "2022-07-16-citizenmatters-chennai-buzz-covid-booster-free-pink-mtc-bus-stormwater-drai",
+    "url": "https://citizenmatters.in/chennai-buzz-covid-booster-free-pink-mtc-bus-stormwater-drains-gas-leak-manali",
+    "title": "Chennai Buzz: Covid vaccine boosters made free | MTC buses to turn pink... and more!",
+    "outlet": "Citizen Matters",
+    "published": "2022-07-16"
+  },
+  "records": [
+    {
+      "locality": "manali",
+      "sk": "2022-07-16#bfb6574f7a",
+      "date": "2022-07-16",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents experienced a gas leak that led to breathlessness and a pungent smell for the past 10 days.",
+      "source_url": "https://citizenmatters.in/chennai-buzz-covid-booster-free-pink-mtc-bus-stormwater-drains-gas-leak-manali",
+      "source_title": "Chennai Buzz: Covid vaccine boosters made free | MTC buses to turn pink... and more!",
+      "locality_as_written": "Manali"
+    },
+    {
+      "locality": "tiruvottiyur",
+      "sk": "2022-07-16#bfb6574f7a",
+      "date": "2022-07-16",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Residents experienced a gas leak that led to breathlessness and a pungent smell for the past 10 days.",
+      "source_url": "https://citizenmatters.in/chennai-buzz-covid-booster-free-pink-mtc-bus-stormwater-drains-gas-leak-manali",
+      "source_title": "Chennai Buzz: Covid vaccine boosters made free | MTC buses to turn pink... and more!",
+      "locality_as_written": "Thiruvottiyur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n  {\n    \"locality\": \"Manali\",\n    \"date\": \"2022-07-16\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents experienced a gas leak that led to breathlessness and a pungent smell for the past 10 days.\"\n  },\n  {\n    \"locality\": \"Thiruvottiyur\",\n    \"date\": \"2022-07-16\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Residents experienced a gas leak that led to breathlessness and a pungent smell for the past 10 days.\"\n  }\n]"
+}

@@ -1,0 +1,42 @@
+{
+  "article": {
+    "id": "2021-11-09-citizenmatters-chennai-floods-mandaveli-rains-stormwater-drains-citizen-act",
+    "url": "https://citizenmatters.in/chennai-floods-mandaveli-rains-stormwater-drains-citizen-action",
+    "title": "Chennai floods: How these Mandaveli streets averted waterlogging even as it poured",
+    "outlet": "Citizen Matters",
+    "published": "2021-11-09"
+  },
+  "records": [
+    {
+      "locality": "mandaveli",
+      "sk": "2021-11-09#adef68e3b0",
+      "date": "2021-11-09",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "The article discusses how Mandaveli streets managed to avoid waterlogging despite heavy rains, highlighting community efforts to improve stormwater drainage.",
+      "source_url": "https://citizenmatters.in/chennai-floods-mandaveli-rains-stormwater-drains-citizen-action",
+      "source_title": "Chennai floods: How these Mandaveli streets averted waterlogging even as it poured",
+      "locality_as_written": "Mandaveli"
+    },
+    {
+      "locality": "t-nagar",
+      "sk": "2021-11-09#adef68e3b0",
+      "date": "2021-11-09",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "This area experiences severe flooding and sewage backwashing into houses after 15 minutes of rain.",
+      "source_url": "https://citizenmatters.in/chennai-floods-mandaveli-rains-stormwater-drains-citizen-action",
+      "source_title": "Chennai floods: How these Mandaveli streets averted waterlogging even as it poured",
+      "locality_as_written": "T.Nagar Northusman road, Parthasarathy road intersection"
+    }
+  ],
+  "unmatched": [
+    "TP Scheme Road",
+    "Velayutha Raja Street",
+    "Kandaswamy Street",
+    "Poonga View Road"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Mandaveli\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"The article discusses how Mandaveli streets managed to avoid waterlogging despite heavy rains, highlighting community efforts to improve stormwater drainage.\"\n  },\n  {\n    \"locality\": \"TP Scheme Road\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"TP Scheme Road was totally submerged during the 2015 floods, but recent efforts have helped avoid waterlogging.\"\n  },\n  {\n    \"locality\": \"Velayutha Raja Street\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Velayutha Raja Street used to develop huge ponds after mild showers, but recent community efforts have helped avoid waterlogging.\"\n  },\n  {\n    \"locality\": \"Kandaswamy Street\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Kandaswamy Street, an entrance road to the inner streets of Raja Street, used to develop huge ponds after mild showers, but recent community efforts have helped avoid waterlogging.\"\n  },\n  {\n    \"locality\": \"Mandaveli Raja Street\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Mandaveli Raja Street experienced waterlogging in the past, but community efforts have helped avoid it recently.\"\n  },\n  {\n    \"locality\": \"Poonga View Road\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Parts of Poonga View Road experienced waterlogging in the past, but community efforts have helped avoid it recently.\"\n  },\n  {\n    \"locality\": \"T.Nagar Northusman road, Parthasarathy road intersection\",\n    \"date\": \"2021-11-09\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"This area experiences severe flooding and sewage backwashing into houses after 15 minutes of rain.\"\n  }\n]\n```"
+}

@@ -1,0 +1,28 @@
+{
+  "article": {
+    "id": "2018-08-06-citizenmatters-chennai-city-news-monsoon-adyar-cooum-cmda-metro-stations-wo",
+    "url": "https://citizenmatters.in/chennai-city-news-monsoon-adyar-cooum-cmda-metro-stations-women-bengaluru-metro-corridor-4",
+    "title": "Chennai Buzz: Crackdown on plastic, scanner on illegal high-rises and all-women Metro stations",
+    "outlet": "Citizen Matters",
+    "published": "2018-08-06"
+  },
+  "records": [
+    {
+      "locality": "adyar",
+      "sk": "2018-08-06#211e4ecf53",
+      "date": "2018-08-06",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The integrated stormwater drain (ISWD) system has been completed in Adyar along the Cooum basin, raising hopes that this area would be much less affected by rains or flooding.",
+      "source_url": "https://citizenmatters.in/chennai-city-news-monsoon-adyar-cooum-cmda-metro-stations-women-bengaluru-metro-corridor-4",
+      "source_title": "Chennai Buzz: Crackdown on plastic, scanner on illegal high-rises and all-women Metro stations",
+      "locality_as_written": "Adyar"
+    }
+  ],
+  "unmatched": [
+    "Chennai",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2018-08-06\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The city experienced good showers last week, but the short spell left many Chennai roads dirty and waterlogged.\"\n    },\n    {\n        \"locality\": \"Adyar\",\n        \"date\": \"2018-08-06\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The integrated stormwater drain (ISWD) system has been completed in Adyar along the Cooum basin, raising hopes that this area would be much less affected by rains or flooding.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2018-08-06\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The industrial estate in Hadapsar is home to small and medium manufacturing units, including businesses supplying Indian companies and exporting overseas. For our unit on Lane 1, getting to work means navigating a road broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

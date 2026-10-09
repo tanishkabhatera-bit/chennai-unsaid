@@ -1,0 +1,27 @@
+[
+  {
+    "locality": "perambur",
+    "date": "2016-05-11",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "vyasarpadi",
+    "date": "2016-05-11",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"Every monsoon the roads and pavements here are inundated and\""
+    ],
+    "event": null
+  },
+  {
+    "locality": "kodungaiyur",
+    "date": "2016-05-11",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The Kodungaiyur garbage dumpyard presents another perennial \""
+    ],
+    "event": null
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "article": {
+    "id": "2026-04-13-citizenmatters-pre-poll-report-card-flood-risks-and-incomplete-stormwater-d",
+    "url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+    "title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2026-04-13"
+  },
+  "records": [
+    {
+      "locality": "vyasarpadi",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents report persistent flooding yearly due to missing SWD links, poor canal maintenance, and inadequate design.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Vyasarpadi"
+    },
+    {
+      "locality": "perambur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Flooding is a recurrent threat, with residents lacking information on emergency numbers, relief centers, or contacts of concerned officials.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Perambur"
+    },
+    {
+      "locality": "kolathur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "During the 2015 floods, water entered homes and roads, but there was no media coverage.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Sunnambu Kolathur"
+    },
+    {
+      "locality": "thalambur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents experienced severe flooding during the 2015 floods, with no SWDs or other infrastructure in place.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Thalambur"
+    },
+    {
+      "locality": "velachery",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Residents experienced severe flooding during the 2015 floods, with no SWDs or other infrastructure in place.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Velachery"
+    },
+    {
+      "locality": "padur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents note missing SWD links and canals, leading to backflow and flooding.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Padur to Okkiyam Maduvu"
+    },
+    {
+      "locality": "pallikaranai",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Dumping of garbage and changing the land has exacerbated the flooding in surrounding neighborhoods.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Pallikaranai marshland"
+    },
+    {
+      "locality": "kodungaiyur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Dumping of garbage and changing the land has exacerbated the flooding in surrounding neighborhoods.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Kodungaiyur wetland"
+    },
+    {
+      "locality": "korattur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents point out that these lakes are full of sewage.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Alapakkam lake and Korattur Lakes"
+    },
+    {
+      "locality": "omr-sholinganallur",
+      "sk": "2026-04-13#6af7f274e1",
+      "date": "2026-04-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Residents allege that this area has remained largely out of the scope of urban planning policies and media coverage.",
+      "source_url": "https://citizenmatters.in/pre-poll-report-card-flood-risks-and-incomplete-stormwater-drains-in-chennai",
+      "source_title": "Pre-poll report card: Flood risks and incomplete stormwater drains in Chennai",
+      "locality_as_written": "Shollinganallur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Vyasarpadi\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents report persistent flooding yearly due to missing SWD links, poor canal maintenance, and inadequate design.\"\n    },\n    {\n        \"locality\": \"Perambur\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flooding is a recurrent threat, with residents lacking information on emergency numbers, relief centers, or contacts of concerned officials.\"\n    },\n    {\n        \"locality\": \"Sunnambu Kolathur\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"During the 2015 floods, water entered homes and roads, but there was no media coverage.\"\n    },\n    {\n        \"locality\": \"Thalambur\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents experienced severe flooding during the 2015 floods, with no SWDs or other infrastructure in place.\"\n    },\n    {\n        \"locality\": \"Velachery\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents experienced severe flooding during the 2015 floods, with no SWDs or other infrastructure in place.\"\n    },\n    {\n        \"locality\": \"Padur to Okkiyam Maduvu\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents note missing SWD links and canals, leading to backflow and flooding.\"\n    },\n    {\n        \"locality\": \"Pallikaranai marshland\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Dumping of garbage and changing the land has exacerbated the flooding in surrounding neighborhoods.\"\n    },\n    {\n        \"locality\": \"Kodungaiyur wetland\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Dumping of garbage and changing the land has exacerbated the flooding in surrounding neighborhoods.\"\n    },\n    {\n        \"locality\": \"Alapakkam lake and Korattur Lakes\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents point out that these lakes are full of sewage.\"\n    },\n    {\n        \"locality\": \"Shollinganallur\",\n        \"date\": \"2026-04-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Residents allege that this area has remained largely out of the scope of urban planning policies and media coverage.\"\n    }\n]\n```"
+}

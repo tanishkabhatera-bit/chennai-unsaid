@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2023-11-09-citizenmatters-chennai-monsoon-northeast-gcc-fogging-infections-precautions",
+    "url": "https://citizenmatters.in/chennai-monsoon-northeast-gcc-fogging-infections-precautions-residents",
+    "title": "When Chennai monsoons bring more than rain: Navigating seasonal infections",
+    "outlet": "Citizen Matters",
+    "published": "2023-11-09"
+  },
+  "records": [],
+  "unmatched": [
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2023-11-09\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

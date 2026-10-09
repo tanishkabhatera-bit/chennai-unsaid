@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2023-04-15-citizenmatters-chennai-buzz-tnues-workers-flood-mitigation-marina-loop-road",
+    "url": "https://citizenmatters.in/chennai-buzz-tnues-workers-flood-mitigation-marina-loop-road-ramsar-pallikaranai",
+    "title": "Chennai buzz: Fisherfolk protest Marina Loop Road evictions | Waste dumped in Ramsar site..and more!",
+    "outlet": "Citizen Matters",
+    "published": "2023-04-15"
+  },
+  "records": [
+    {
+      "locality": "mugalivakkam",
+      "sk": "2023-04-15#09ab2baf2a",
+      "date": "2023-04-15",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Suffered heavily due to flooding during the 2021 monsoon.",
+      "source_url": "https://citizenmatters.in/chennai-buzz-tnues-workers-flood-mitigation-marina-loop-road-ramsar-pallikaranai",
+      "source_title": "Chennai buzz: Fisherfolk protest Marina Loop Road evictions | Waste dumped in Ramsar site..and more!",
+      "locality_as_written": "Mugalivakkam"
+    },
+    {
+      "locality": "ramapuram",
+      "sk": "2023-04-15#09ab2baf2a",
+      "date": "2023-04-15",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Suffered heavily due to flooding during the 2021 monsoon.",
+      "source_url": "https://citizenmatters.in/chennai-buzz-tnues-workers-flood-mitigation-marina-loop-road-ramsar-pallikaranai",
+      "source_title": "Chennai buzz: Fisherfolk protest Marina Loop Road evictions | Waste dumped in Ramsar site..and more!",
+      "locality_as_written": "Ramapuram"
+    }
+  ],
+  "unmatched": [
+    "Moulivakkam"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Mugalivakkam\",\n        \"date\": \"2023-04-15\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Suffered heavily due to flooding during the 2021 monsoon.\"\n    },\n    {\n        \"locality\": \"Moulivakkam\",\n        \"date\": \"2023-04-15\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Suffered heavily due to flooding during the 2021 monsoon.\"\n    },\n    {\n        \"locality\": \"Ramapuram\",\n        \"date\": \"2023-04-15\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Suffered heavily due to flooding during the 2021 monsoon.\"\n    }\n]\n```"
+}

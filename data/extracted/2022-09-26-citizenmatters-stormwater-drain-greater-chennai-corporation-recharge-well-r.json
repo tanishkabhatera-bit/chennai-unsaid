@@ -1,0 +1,14 @@
+{
+  "article": {
+    "id": "2022-09-26-citizenmatters-stormwater-drain-greater-chennai-corporation-recharge-well-r",
+    "url": "https://citizenmatters.in/stormwater-drain-greater-chennai-corporation-recharge-well-rain-centre-flood-mitigation-groundwater",
+    "title": "Looking beyond stormwater drains to realise the dream of a flood-free Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2022-09-26"
+  },
+  "records": [],
+  "unmatched": [
+    "Chennai"
+  ],
+  "reply": "[\n    {\n        \"locality\": \"Chennai\",\n        \"date\": \"2022-09-26\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": \"3 to 4\",\n        \"detail\": \"The article mentions that in 568 locations which faced high waterlogging last year, it took more than 3 to 4 days for the water to clear.\"\n    }\n]"
+}

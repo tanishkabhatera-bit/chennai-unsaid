@@ -1,0 +1,87 @@
+{
+  "article": {
+    "id": "2022-11-12-citizenmatters-chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowca",
+    "url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+    "title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+    "outlet": "Citizen Matters",
+    "published": "2022-11-12"
+  },
+  "records": [
+    {
+      "locality": "iyyappanthangal",
+      "sk": "2022-11-12#74442a2d7e",
+      "date": "2022-11-12",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Many areas in Iyyapanthangal had water up to three feet due to delayed flood mitigation measures, even after five years of regularising unauthorised development.",
+      "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+      "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+      "locality_as_written": "Iyyapanthangal"
+    },
+    {
+      "locality": "kundrathur",
+      "sk": "2022-11-12#74442a2d7e",
+      "date": "2022-11-12",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "In Kundrathur, officials have sent lorries to deliver water to the residents, and have closed off the area to prevent accidents, among other measures.",
+      "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+      "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+      "locality_as_written": "Kundrathur"
+    },
+    {
+      "locality": "anna-nagar",
+      "sk": "2022-11-12#74442a2d7e",
+      "date": "2022-11-12",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Anna Nagar.",
+      "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+      "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+      "locality_as_written": "Anna Nagar"
+    },
+    {
+      "locality": "kodambakkam",
+      "sk": "2022-11-12#74442a2d7e",
+      "date": "2022-11-12",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Kodambakkam.",
+      "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+      "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+      "locality_as_written": "Kodambakkam"
+    },
+    {
+      "locality": "thiru-vi-ka-nagar",
+      "sk": "2022-11-12#74442a2d7e",
+      "date": "2022-11-12",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Thiru. vi. ka. Nagar.",
+      "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+      "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+      "locality_as_written": "Thiru. vi. ka. Nagar"
+    },
+    {
+      "locality": "mogappair",
+      "sk": "2022-11-12#74442a2d7e",
+      "date": "2022-11-12",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Mogappair.",
+      "source_url": "https://citizenmatters.in/chennai-metro-sewage-floods-iyyapanthangal-moulivakkam-sowcarpet-mint-street-pallikaranai",
+      "source_title": "Chennai Buzz: Medical camps held across city | Old building on Mint Street collapses...and more!",
+      "locality_as_written": "Mogappair"
+    }
+  ],
+  "unmatched": [
+    "Dhanalakshmi Nagar"
+  ],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Iyyapanthangal\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Many areas in Iyyapanthangal had water up to three feet due to delayed flood mitigation measures, even after five years of regularising unauthorised development.\"\n  },\n  {\n    \"locality\": \"Dhanalakshmi Nagar\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Dhanalakshmi Nagar, Sai Nagar and Ponniamman Nagar are a few of the areas heavily affected due to the northeast monsoon this year.\"\n  },\n  {\n    \"locality\": \"Kundrathur\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"moderate\",\n    \"water_stayed_days\": null,\n    \"detail\": \"In Kundrathur, officials have sent lorries to deliver water to the residents, and have closed off the area to prevent accidents, among other measures.\"\n  },\n  {\n    \"locality\": \"Anna Nagar\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Anna Nagar.\"\n  },\n  {\n    \"locality\": \"Kodambakkam\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Kodambakkam.\"\n  },\n  {\n    \"locality\": \"Thiru. vi. ka. Nagar\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Thiru. vi. ka. Nagar.\"\n  },\n  {\n    \"locality\": \"Mogappair\",\n    \"date\": \"2022-11-12\",\n    \"event\": null,\n    \"severity\": \"minor\",\n    \"water_stayed_days\": null,\n    \"detail\": \"A total of 151 sewage outflows were fixed by the Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB) in Mogappair.\"\n  }\n]\n```"
+}

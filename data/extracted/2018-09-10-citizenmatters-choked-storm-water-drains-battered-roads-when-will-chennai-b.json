@@ -1,0 +1,88 @@
+{
+  "article": {
+    "id": "2018-09-10-citizenmatters-choked-storm-water-drains-battered-roads-when-will-chennai-b",
+    "url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+    "title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+    "outlet": "Citizen Matters",
+    "published": "2018-09-10"
+  },
+  "records": [
+    {
+      "locality": "madambakkam",
+      "sk": "2018-09-10#bada175019",
+      "date": "2018-09-10",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A closed storm water drain is a luxury for the residents.",
+      "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+      "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+      "locality_as_written": "Parvathy Nagar in Madambakkam"
+    },
+    {
+      "locality": "ambattur",
+      "sk": "2018-09-10#bada175019",
+      "date": "2018-09-10",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Storm water drain works commenced three months ago, but have been suspended, posing a threat to road users.",
+      "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+      "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+      "locality_as_written": "TNHB Colony of Kolathur (in Ambattur zone)"
+    },
+    {
+      "locality": "chitlapakkam",
+      "sk": "2018-09-10#bada175019",
+      "date": "2018-09-10",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "A choked storm water drain is a haven for mosquitoes due to plastic waste and sewerage contamination.",
+      "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+      "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+      "locality_as_written": "Chitlapakkam"
+    },
+    {
+      "locality": "sithalapakkam",
+      "sk": "2018-09-10#bada175019",
+      "date": "2018-09-10",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Industrial effluents and sewage have prompted the growth of water hyacinth.",
+      "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+      "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+      "locality_as_written": "Sithalapakkam Lake in the outskirts of Tambaram"
+    },
+    {
+      "locality": "kodambakkam",
+      "sk": "2018-09-10#bada175019",
+      "date": "2018-09-10",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Poor infrastructure increases the chances of flooding in this residential locality.",
+      "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+      "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+      "locality_as_written": "Trustpuram of Kodambakkam"
+    },
+    {
+      "locality": "villivakkam",
+      "sk": "2018-09-10#bada175019",
+      "date": "2018-09-10",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "Intertwined EB cables pose a dangerous situation.",
+      "source_url": "https://citizenmatters.in/choked-storm-water-drains-battered-roads-when-will-chennai-be-monsoon-ready",
+      "source_title": "Choked storm water drains, battered roads: When will Chennai be monsoon-ready?",
+      "locality_as_written": "Rajamangalam of Villivakkam"
+    }
+  ],
+  "unmatched": [
+    "Eekaduthangal",
+    "Ramtekdi Industrial Estate in Hadapsar"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Parvathy Nagar in Madambakkam\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A closed storm water drain is a luxury for the residents.\"\n    },\n    {\n        \"locality\": \"TNHB Colony of Kolathur (in Ambattur zone)\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Storm water drain works commenced three months ago, but have been suspended, posing a threat to road users.\"\n    },\n    {\n        \"locality\": \"Chitlapakkam\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A choked storm water drain is a haven for mosquitoes due to plastic waste and sewerage contamination.\"\n    },\n    {\n        \"locality\": \"Sithalapakkam Lake in the outskirts of Tambaram\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Industrial effluents and sewage have prompted the growth of water hyacinth.\"\n    },\n    {\n        \"locality\": \"Trustpuram of Kodambakkam\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Poor infrastructure increases the chances of flooding in this residential locality.\"\n    },\n    {\n        \"locality\": \"Eekaduthangal\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Entangled electricity board wires and cable wires take up a major portion of the roads, posing high risk of electrocution during rains.\"\n    },\n    {\n        \"locality\": \"Rajamangalam of Villivakkam\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Intertwined EB cables pose a dangerous situation.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate in Hadapsar\",\n        \"date\": \"2018-09-10\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The road leading to the industrial estate is broken into deep craters that fill with stagnant water during the monsoon season.\"\n    }\n]\n```"
+}

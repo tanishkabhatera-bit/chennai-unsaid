@@ -1,0 +1,36 @@
+[
+  {
+    "locality": "kk-nagar",
+    "date": "2023-05-18",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention any flooding or waterlogging event in Munusamy Salai in KK Nagar."
+    ],
+    "event": null
+  },
+  {
+    "locality": "nandanam",
+    "date": "2023-05-18",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Nandanam being flooded or waterlogged."
+    ],
+    "event": null
+  },
+  {
+    "locality": "t-nagar",
+    "date": "2023-05-18",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  },
+  {
+    "locality": "park-town",
+    "date": "2023-05-18",
+    "ok": false,
+    "reasons": [
+      "detail reads as a complaint/plan, not an event: \"The article mentions that the subway from Park Town MRTS fac\""
+    ],
+    "event": null
+  }
+]

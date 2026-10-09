@@ -1,0 +1,64 @@
+{
+  "article": {
+    "id": "2024-02-13-citizenmatters-chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappo",
+    "url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+    "title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+    "outlet": "Citizen Matters",
+    "published": "2024-02-13"
+  },
+  "records": [
+    {
+      "locality": "pallikaranai",
+      "sk": "2023-12-01#fce8a5b27f",
+      "date": "2023-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Encroachments and institutional constructions are major obstacles for water drainage.",
+      "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+      "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+      "locality_as_written": "Pallikaranai"
+    },
+    {
+      "locality": "perumbakkam",
+      "sk": "2023-12-01#fce8a5b27f",
+      "date": "2023-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Poorly maintained Perumbakkam Lake with sewage water and hyacinths leads to flooding.",
+      "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+      "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+      "locality_as_written": "Perumbakkam"
+    },
+    {
+      "locality": "otteri",
+      "sk": "2023-12-01#fce8a5b27f",
+      "date": "2023-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Overflowing Otteri Nalla Canal causes water accumulation in low-lying areas.",
+      "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+      "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+      "locality_as_written": "Otteri"
+    },
+    {
+      "locality": "korattur",
+      "sk": "2023-12-01#fce8a5b27f",
+      "date": "2023-12-01",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Narrowing of Lucas TVS canal obstructs rainwater drainage, turning the area into a flood zone.",
+      "source_url": "https://citizenmatters.in/chennai-floods-makkal-medai-kelu-chennai-kelu-gcc-wrd-arappor",
+      "source_title": "'Kelu Chennai Kelu': Citizen audit pins accountability on the government for 2023 Chennai floods",
+      "locality_as_written": "Korattur"
+    }
+  ],
+  "unmatched": [
+    "Sadayanguppam",
+    "Ramtekdi Industrial Estate"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Pallikaranai\",\n        \"date\": \"2023-12-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Encroachments and institutional constructions are major obstacles for water drainage.\"\n    },\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2023-12-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Poorly maintained Perumbakkam Lake with sewage water and hyacinths leads to flooding.\"\n    },\n    {\n        \"locality\": \"Sadayanguppam\",\n        \"date\": \"2023-12-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Only one canal remains functional for rainwater drainage, leading to flooding.\"\n    },\n    {\n        \"locality\": \"Otteri\",\n        \"date\": \"2023-12-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Overflowing Otteri Nalla Canal causes water accumulation in low-lying areas.\"\n    },\n    {\n        \"locality\": \"Korattur\",\n        \"date\": \"2023-12-01\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Narrowing of Lucas TVS canal obstructs rainwater drainage, turning the area into a flood zone.\"\n    },\n    {\n        \"locality\": \"Ramtekdi Industrial Estate\",\n        \"date\": \"2023-12-01\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Broken roads and stagnant water during monsoon season affect businesses.\"\n    }\n]\n```"
+}

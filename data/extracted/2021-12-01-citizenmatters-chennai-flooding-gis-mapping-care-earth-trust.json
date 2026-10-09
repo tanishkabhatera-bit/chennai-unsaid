@@ -1,0 +1,49 @@
+{
+  "article": {
+    "id": "2021-12-01-citizenmatters-chennai-flooding-gis-mapping-care-earth-trust",
+    "url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+    "title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+    "outlet": "Citizen Matters",
+    "published": "2021-12-01"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2021-12-01#2d372e7f34",
+      "date": "2021-12-01",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "T. Nagar experienced extreme waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+      "source_title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+      "locality_as_written": "T. Nagar"
+    },
+    {
+      "locality": "guduvanchery",
+      "sk": "2021-12-01#2d372e7f34",
+      "date": "2021-12-01",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Guduvanchery experienced extreme waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+      "source_title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+      "locality_as_written": "Guduvanchery"
+    },
+    {
+      "locality": "kk-nagar",
+      "sk": "2021-12-01#2d372e7f34",
+      "date": "2021-12-01",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "K K Nagar experienced extreme waterlogging.",
+      "source_url": "https://citizenmatters.in/chennai-flooding-gis-mapping-care-earth-trust",
+      "source_title": "Your inputs could help mitigate flooding in Chennai. Find out how",
+      "locality_as_written": "K K Nagar"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"T. Nagar\",\n        \"date\": \"2021-12-01\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"T. Nagar experienced extreme waterlogging.\"\n    },\n    {\n        \"locality\": \"Guduvanchery\",\n        \"date\": \"2021-12-01\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Guduvanchery experienced extreme waterlogging.\"\n    },\n    {\n        \"locality\": \"K K Nagar\",\n        \"date\": \"2021-12-01\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"K K Nagar experienced extreme waterlogging.\"\n    }\n]\n```"
+}

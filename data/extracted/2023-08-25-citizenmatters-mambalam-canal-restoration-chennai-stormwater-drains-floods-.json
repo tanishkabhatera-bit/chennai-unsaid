@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2023-08-25-citizenmatters-mambalam-canal-restoration-chennai-stormwater-drains-floods-",
+    "url": "https://citizenmatters.in/mambalam-canal-restoration-chennai-stormwater-drains-floods-gcc",
+    "title": "Bungled Mambalam Canal restoration raises questions about its future",
+    "outlet": "Citizen Matters",
+    "published": "2023-08-25"
+  },
+  "records": [
+    {
+      "locality": "t-nagar",
+      "sk": "2023-08-25#caed70103f",
+      "date": "2023-08-25",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "After a night-long heavy downpour, the water started entering the house on the ground floor and the residents had to shift their 96-year-old mother to a friend's place in Chrompet through an ambulance.",
+      "source_url": "https://citizenmatters.in/mambalam-canal-restoration-chennai-stormwater-drains-floods-gcc",
+      "source_title": "Bungled Mambalam Canal restoration raises questions about its future",
+      "locality_as_written": "T Nagar"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n    {\n        \"locality\": \"CIT Nagar\",\n        \"date\": \"2023-08-25\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"During monsoon, the black water from the canal will overflow into the roads and inundate the streets for several days.\"\n    },\n    {\n        \"locality\": \"T Nagar\",\n        \"date\": \"2023-08-25\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"After a night-long heavy downpour, the water started entering the house on the ground floor and the residents had to shift their 96-year-old mother to a friend's place in Chrompet through an ambulance.\"\n    }\n]"
+}

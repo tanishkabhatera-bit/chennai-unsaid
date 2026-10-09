@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2023-07-07-citizenmatters-residents-joined-hands-to-tackle-flooding-issues-in-ashok-na",
+    "url": "https://citizenmatters.in/residents-joined-hands-to-tackle-flooding-issues-in-ashok-nagar",
+    "title": "Residents work with civic body to tackle flooding in Ashok Nagar through SWDs",
+    "outlet": "Citizen Matters",
+    "published": "2023-07-07"
+  },
+  "records": [
+    {
+      "locality": "ashok-nagar",
+      "sk": "2023-07-07#ef5e3446e7",
+      "date": "2023-07-07",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Key roads in Ashok Nagar have been subject to floods in recent years whenever there have been severe cyclonic storms in the city.",
+      "source_url": "https://citizenmatters.in/residents-joined-hands-to-tackle-flooding-issues-in-ashok-nagar",
+      "source_title": "Residents work with civic body to tackle flooding in Ashok Nagar through SWDs",
+      "locality_as_written": "Ashok Nagar"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Ashok Nagar\",\n    \"date\": \"2023-07-07\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Key roads in Ashok Nagar have been subject to floods in recent years whenever there have been severe cyclonic storms in the city.\"\n  },\n  {\n    \"locality\": \"Ashok Nagar\",\n    \"date\": \"2023-07-07\",\n    \"event\": \"Cyclone 2015\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"During the cyclone 2015, 18th and 19th Avenues were severely battered with water logging up to hip level, and many houses on the ground floor saw water gushing inside their houses.\"\n  },\n  {\n    \"locality\": \"Ashok Nagar\",\n    \"date\": \"2023-07-07\",\n    \"event\": \"Cyclone Vardah 2016\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"During the 2016 cyclone Vardah, the existing SWD overflowed, rendering the usual inconvenience to residents and the public.\"\n  },\n  {\n    \"locality\": \"Ashok Nagar\",\n    \"date\": \"2023-07-07\",\n    \"event\": \"2021 floods\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"During the 2021 floods, there was a huge downpour for days and nights continuously which exposed the weakness of the system glaringly.\"\n  }\n]\n```"
+}

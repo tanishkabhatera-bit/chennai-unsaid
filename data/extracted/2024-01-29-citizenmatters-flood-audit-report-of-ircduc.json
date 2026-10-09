@@ -1,0 +1,39 @@
+{
+  "article": {
+    "id": "2024-01-29-citizenmatters-flood-audit-report-of-ircduc",
+    "url": "https://citizenmatters.in/flood-audit-report-of-ircduc",
+    "title": "Marooned and abandoned: Study reveals displaced families were put in the path of floods",
+    "outlet": "Citizen Matters",
+    "published": "2024-01-29"
+  },
+  "records": [
+    {
+      "locality": "perumbakkam",
+      "sk": "2024-01-29#7eeae33bea",
+      "date": "2024-01-29",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Houses on the ground floor were quickly inundated, forcing residents to seek refuge in other homes with leaky roofs and damp walls.",
+      "source_url": "https://citizenmatters.in/flood-audit-report-of-ircduc",
+      "source_title": "Marooned and abandoned: Study reveals displaced families were put in the path of floods",
+      "locality_as_written": "Perumbakkam"
+    },
+    {
+      "locality": "kannagi-nagar",
+      "sk": "2024-01-29#7eeae33bea",
+      "date": "2024-01-29",
+      "event": "Cyclone Michaung",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Flooding was not the only issue; poor quality of houses and leaking roofs added to the problem.",
+      "source_url": "https://citizenmatters.in/flood-audit-report-of-ircduc",
+      "source_title": "Marooned and abandoned: Study reveals displaced families were put in the path of floods",
+      "locality_as_written": "Kannagi Nagar"
+    }
+  ],
+  "unmatched": [
+    "Semmencherry"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2024-01-29\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Houses on the ground floor were quickly inundated, forcing residents to seek refuge in other homes with leaky roofs and damp walls.\"\n    },\n    {\n        \"locality\": \"Semmencherry\",\n        \"date\": \"2024-01-29\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Families in resettlement colonies faced severe flooding, with sewage-contaminated water entering houses on the ground floor.\"\n    },\n    {\n        \"locality\": \"Perumbakkam\",\n        \"date\": \"2024-01-29\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Almost the entire settlement was engulfed with flood water, leaving people stuck in high-rise buildings without water supply and electricity.\"\n    },\n    {\n        \"locality\": \"Kannagi Nagar\",\n        \"date\": \"2024-01-29\",\n        \"event\": \"Cyclone Michaung\",\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Flooding was not the only issue; poor quality of houses and leaking roofs added to the problem.\"\n    }\n]\n```"
+}

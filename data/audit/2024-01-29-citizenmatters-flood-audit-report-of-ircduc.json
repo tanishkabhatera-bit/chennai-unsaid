@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "perumbakkam",
+    "date": "2024-01-29",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "kannagi-nagar",
+    "date": "2024-01-29",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "article": {
+    "id": "2022-01-20-citizenmatters-chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollut",
+    "url": "https://citizenmatters.in/chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollution",
+    "title": "Living with sewage: Fishing hamlets in Chennai's Kottivakkam see no end to drainage woes",
+    "outlet": "Citizen Matters",
+    "published": "2022-01-20"
+  },
+  "records": [
+    {
+      "locality": "kottivakkam",
+      "sk": "2022-01-20#b0c3bc5527",
+      "date": "2022-01-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article describes severe drainage issues leading to sewage water overflowing and entering homes during the monsoon.",
+      "source_url": "https://citizenmatters.in/chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollution",
+      "source_title": "Living with sewage: Fishing hamlets in Chennai's Kottivakkam see no end to drainage woes",
+      "locality_as_written": "Kottivakkam"
+    },
+    {
+      "locality": "palavakkam",
+      "sk": "2022-01-20#b0c3bc5527",
+      "date": "2022-01-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article mentions that Palavakkam, along with other coastal villages, suffers from a lack of a drainage system leading to severe drainage issues.",
+      "source_url": "https://citizenmatters.in/chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollution",
+      "source_title": "Living with sewage: Fishing hamlets in Chennai's Kottivakkam see no end to drainage woes",
+      "locality_as_written": "Palavakkam"
+    },
+    {
+      "locality": "neelankarai",
+      "sk": "2022-01-20#b0c3bc5527",
+      "date": "2022-01-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article mentions that Neelankarai, along with other coastal villages, suffers from a lack of a drainage system leading to severe drainage issues.",
+      "source_url": "https://citizenmatters.in/chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollution",
+      "source_title": "Living with sewage: Fishing hamlets in Chennai's Kottivakkam see no end to drainage woes",
+      "locality_as_written": "Neelankarai"
+    },
+    {
+      "locality": "uthandi",
+      "sk": "2022-01-20#b0c3bc5527",
+      "date": "2022-01-20",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "The article mentions that Uthandi, along with other coastal villages, suffers from a lack of a drainage system leading to severe drainage issues.",
+      "source_url": "https://citizenmatters.in/chennai-kottivakkam-kuppam-drainage-sewage-woes-beach-pollution",
+      "source_title": "Living with sewage: Fishing hamlets in Chennai's Kottivakkam see no end to drainage woes",
+      "locality_as_written": "Uthandi"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n    {\n        \"locality\": \"Kottivakkam\",\n        \"date\": \"2022-01-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article describes severe drainage issues leading to sewage water overflowing and entering homes during the monsoon.\"\n    },\n    {\n        \"locality\": \"Palavakkam\",\n        \"date\": \"2022-01-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that Palavakkam, along with other coastal villages, suffers from a lack of a drainage system leading to severe drainage issues.\"\n    },\n    {\n        \"locality\": \"Neelankarai\",\n        \"date\": \"2022-01-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that Neelankarai, along with other coastal villages, suffers from a lack of a drainage system leading to severe drainage issues.\"\n    },\n    {\n        \"locality\": \"Uthandi\",\n        \"date\": \"2022-01-20\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article mentions that Uthandi, along with other coastal villages, suffers from a lack of a drainage system leading to severe drainage issues.\"\n    }\n]"
+}

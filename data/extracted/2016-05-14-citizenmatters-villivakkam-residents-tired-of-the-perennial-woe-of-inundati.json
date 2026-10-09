@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2016-05-14-citizenmatters-villivakkam-residents-tired-of-the-perennial-woe-of-inundati",
+    "url": "https://citizenmatters.in/villivakkam-residents-tired-of-the-perennial-woe-of-inundation",
+    "title": "Villivakkam: Residents tired of the perennial woe of inundation",
+    "outlet": "Citizen Matters",
+    "published": "2016-05-14"
+  },
+  "records": [
+    {
+      "locality": "sidco-nagar",
+      "sk": "2016-05-14#681fa707a4",
+      "date": "2016-05-14",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "SIDCO Nagar was one of the worst affected areas during the December floods.",
+      "source_url": "https://citizenmatters.in/villivakkam-residents-tired-of-the-perennial-woe-of-inundation",
+      "source_title": "Villivakkam: Residents tired of the perennial woe of inundation",
+      "locality_as_written": "SIDCO Nagar"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"SIDCO Nagar\",\n        \"date\": \"2016-05-14\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"SIDCO Nagar was one of the worst affected areas during the December floods.\"\n    }\n]\n```"
+}

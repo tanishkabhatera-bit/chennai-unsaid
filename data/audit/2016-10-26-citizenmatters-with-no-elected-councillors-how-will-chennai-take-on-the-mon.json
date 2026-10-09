@@ -1,0 +1,18 @@
+[
+  {
+    "locality": "perungalathur",
+    "date": "2016-10-26",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Perungalathur being waterlogged or flooded on 2016-10-26."
+    ],
+    "event": null
+  },
+  {
+    "locality": "mudichur",
+    "date": "2016-10-26",
+    "ok": true,
+    "reasons": [],
+    "event": null
+  }
+]

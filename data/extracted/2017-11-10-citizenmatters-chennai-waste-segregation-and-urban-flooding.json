@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2017-11-10-citizenmatters-chennai-waste-segregation-and-urban-flooding",
+    "url": "https://citizenmatters.in/chennai-waste-segregation-and-urban-flooding",
+    "title": "Waste segregation: The challenge Chennai must overcome",
+    "outlet": "Citizen Matters",
+    "published": "2017-11-10"
+  },
+  "records": [
+    {
+      "locality": "pallikaranai",
+      "sk": "2017-11-10#f6e4446a2e",
+      "date": "2017-11-10",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Severe waterlogging for days on end due to dump yard restricting the flow of flood waters.",
+      "source_url": "https://citizenmatters.in/chennai-waste-segregation-and-urban-flooding",
+      "source_title": "Waste segregation: The challenge Chennai must overcome",
+      "locality_as_written": "Pallikaranai"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n  {\n    \"locality\": \"Pallikaranai\",\n    \"date\": \"2017-11-10\",\n    \"event\": null,\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Severe waterlogging for days on end due to dump yard restricting the flow of flood waters.\"\n  }\n]"
+}

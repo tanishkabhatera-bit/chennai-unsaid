@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2025-08-02-citizenmatters-from-degraded-wetland-to-community-space-porur-sponge-park-r",
+    "url": "https://citizenmatters.in/from-degraded-wetland-to-community-space-porur-sponge-park-redefines-flood-control-in-chennai",
+    "title": "From degraded wetland to community space: Porur sponge park redefines flood control in Chennai",
+    "outlet": "Citizen Matters",
+    "published": "2025-08-02"
+  },
+  "records": [
+    {
+      "locality": "porur",
+      "sk": "2025-08-02#b931eca0de",
+      "date": "2025-08-02",
+      "event": null,
+      "severity": "minor",
+      "water_stayed_days": null,
+      "detail": "The article discusses the Porur sponge park, which helps manage stormwater and prevent waterlogging in the area.",
+      "source_url": "https://citizenmatters.in/from-degraded-wetland-to-community-space-porur-sponge-park-redefines-flood-control-in-chennai",
+      "source_title": "From degraded wetland to community space: Porur sponge park redefines flood control in Chennai",
+      "locality_as_written": "Porur"
+    }
+  ],
+  "unmatched": [],
+  "reply": "[\n    {\n        \"locality\": \"Porur\",\n        \"date\": \"2025-08-02\",\n        \"event\": null,\n        \"severity\": \"minor\",\n        \"water_stayed_days\": null,\n        \"detail\": \"The article discusses the Porur sponge park, which helps manage stormwater and prevent waterlogging in the area.\"\n    }\n]"
+}

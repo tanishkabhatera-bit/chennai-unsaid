@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "mangadu",
+    "date": "2023-01-10",
+    "ok": true,
+    "reasons": [
+      "event label \"Cyclone Mandous\" removed: not in 2022-12"
+    ],
+    "event": null
+  },
+  {
+    "locality": "iyyappanthangal",
+    "date": "2023-01-10",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Iyyappanthangal being flooded or waterlogged on 2023-01-10."
+    ],
+    "event": null
+  }
+]

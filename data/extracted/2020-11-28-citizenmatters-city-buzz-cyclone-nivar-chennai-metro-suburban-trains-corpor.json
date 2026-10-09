@@ -1,0 +1,73 @@
+{
+  "article": {
+    "id": "2020-11-28-citizenmatters-city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corpor",
+    "url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+    "title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+    "outlet": "Citizen Matters",
+    "published": "2020-11-28"
+  },
+  "records": [
+    {
+      "locality": "velachery",
+      "sk": "2020-11-25#e3e262321f",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Ram Nagar in Velachery witnessed severe inundation due to Cyclone Nivar.",
+      "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+      "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+      "locality_as_written": "Ram Nagar in Velachery"
+    },
+    {
+      "locality": "madipakkam",
+      "sk": "2020-11-25#e3e262321f",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Parts of Madipakkam experienced severe inundation as a result of Cyclone Nivar.",
+      "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+      "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+      "locality_as_written": "Madipakkam"
+    },
+    {
+      "locality": "puzhuthivakkam",
+      "sk": "2020-11-25#e3e262321f",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Puzhuthivakkam was severely inundated due to Cyclone Nivar.",
+      "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+      "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+      "locality_as_written": "Puzhuthivakkam"
+    },
+    {
+      "locality": "pulianthope",
+      "sk": "2020-11-25#e3e262321f",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Pulianthope faced severe inundation as a result of Cyclone Nivar.",
+      "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+      "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+      "locality_as_written": "Pulianthope"
+    },
+    {
+      "locality": "kk-nagar",
+      "sk": "2020-11-25#e3e262321f",
+      "date": "2020-11-25",
+      "event": "Cyclone Nivar",
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "KK Nagar was severely inundated due to Cyclone Nivar.",
+      "source_url": "https://citizenmatters.in/city-buzz-cyclone-nivar-chennai-metro-suburban-trains-corporation",
+      "source_title": "Chennai Buzz: Cyclone Nivar aftermath | Cyclists' plea to CMRL | More suburban trains on track...and more",
+      "locality_as_written": "KK Nagar"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n  {\n    \"locality\": \"Ram Nagar in Velachery\",\n    \"date\": \"2020-11-25\",\n    \"event\": \"Cyclone Nivar\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Ram Nagar in Velachery witnessed severe inundation due to Cyclone Nivar.\"\n  },\n  {\n    \"locality\": \"Madipakkam\",\n    \"date\": \"2020-11-25\",\n    \"event\": \"Cyclone Nivar\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Parts of Madipakkam experienced severe inundation as a result of Cyclone Nivar.\"\n  },\n  {\n    \"locality\": \"Puzhuthivakkam\",\n    \"date\": \"2020-11-25\",\n    \"event\": \"Cyclone Nivar\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Puzhuthivakkam was severely inundated due to Cyclone Nivar.\"\n  },\n  {\n    \"locality\": \"Pulianthope\",\n    \"date\": \"2020-11-25\",\n    \"event\": \"Cyclone Nivar\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"Pulianthope faced severe inundation as a result of Cyclone Nivar.\"\n  },\n  {\n    \"locality\": \"KK Nagar\",\n    \"date\": \"2020-11-25\",\n    \"event\": \"Cyclone Nivar\",\n    \"severity\": \"severe\",\n    \"water_stayed_days\": null,\n    \"detail\": \"KK Nagar was severely inundated due to Cyclone Nivar.\"\n  }\n]\n```"
+}

@@ -1,0 +1,25 @@
+{
+  "article": {
+    "id": "2024-11-13-citizenmatters-citizen-monsoon-helpline-in-tambaram",
+    "url": "https://citizenmatters.in/citizen-monsoon-helpline-in-tambaram",
+    "title": "Monsoon relief: How our community helpline supports Tambaram residents",
+    "outlet": "Citizen Matters",
+    "published": "2024-11-13"
+  },
+  "records": [
+    {
+      "locality": "tambaram",
+      "sk": "2024-11-13#7c8be7f76a",
+      "date": "2024-11-13",
+      "event": null,
+      "severity": "moderate",
+      "water_stayed_days": null,
+      "detail": "Heavy rains caused flooding and damage, leading to frustration with government emergency call centers.",
+      "source_url": "https://citizenmatters.in/citizen-monsoon-helpline-in-tambaram",
+      "source_title": "Monsoon relief: How our community helpline supports Tambaram residents",
+      "locality_as_written": "Tambaram"
+    }
+  ],
+  "unmatched": [],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Tambaram\",\n        \"date\": \"2024-11-13\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Heavy rains caused flooding and damage, leading to frustration with government emergency call centers.\"\n    }\n]\n```"
+}

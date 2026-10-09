@@ -1,0 +1,28 @@
+{
+  "article": {
+    "id": "2022-06-30-citizenmatters-chennai-councillor-durairaj-ward-172-dmk-guindy-velachery-ko",
+    "url": "https://citizenmatters.in/chennai-councillor-durairaj-ward-172-dmk-guindy-velachery-kotturpuram-flooding-swm",
+    "title": "Councillor talk: Flood mitigation and green cover improvement are goals for R Durairaj of Ward 172",
+    "outlet": "Citizen Matters",
+    "published": "2022-06-30"
+  },
+  "records": [
+    {
+      "locality": "alandur",
+      "sk": "2022-06-30#af1d24b4e8",
+      "date": "2022-06-30",
+      "event": null,
+      "severity": "severe",
+      "water_stayed_days": null,
+      "detail": "Alandur is one of the areas that experiences the worst flooding.",
+      "source_url": "https://citizenmatters.in/chennai-councillor-durairaj-ward-172-dmk-guindy-velachery-kotturpuram-flooding-swm",
+      "source_title": "Councillor talk: Flood mitigation and green cover improvement are goals for R Durairaj of Ward 172",
+      "locality_as_written": "Alandur"
+    }
+  ],
+  "unmatched": [
+    "Netaji Road",
+    "Masoodhi colony"
+  ],
+  "reply": "```json\n[\n    {\n        \"locality\": \"Alandur\",\n        \"date\": \"2022-06-30\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Alandur is one of the areas that experiences the worst flooding.\"\n    },\n    {\n        \"locality\": \"Netaji Road\",\n        \"date\": \"2022-06-30\",\n        \"event\": null,\n        \"severity\": \"severe\",\n        \"water_stayed_days\": null,\n        \"detail\": \"Netaji Road is another vulnerable spot, owing to its location at the tail end of the river.\"\n    },\n    {\n        \"locality\": \"Masoodhi colony\",\n        \"date\": \"2022-06-30\",\n        \"event\": null,\n        \"severity\": \"moderate\",\n        \"water_stayed_days\": null,\n        \"detail\": \"A mini pumping station to drain rainwater has also been planned in Masoodhi colony.\"\n    }\n]\n```"
+}
