@@ -85,30 +85,6 @@
   },
   {
     "locality": "ambattur",
-    "sk": "2025-06-14#33ce787f29",
-    "date": "2025-06-14",
-    "event": null,
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.",
-    "source_url": "https://www.dtnext.in/news/chennai/canal-over-5-km-to-divert-surplus-water-from-ambattur-lake-837124",
-    "source_title": "Canal over 5 km to divert surplus water from Ambattur lake",
-    "locality_as_written": "Ambattur Industrial Estate"
-  },
-  {
-    "locality": "ambattur",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Ambattur due to backflow from the filled up ETPS Site.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Ambattur"
-  },
-  {
-    "locality": "ambattur",
     "sk": "2024-11-30#f804d0d736",
     "date": "2024-11-30",
     "event": "Cyclone Fengal",
@@ -117,6 +93,18 @@
     "detail": "Residents complained of power outages.",
     "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-long-power-outage-leaves-chennai-city-in-the-dark-813234",
     "source_title": "Cyclone Fengal: Long power outage leaves Chennai city in the dark",
+    "locality_as_written": "Ambattur"
+  },
+  {
+    "locality": "ambattur",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Roads dug for natural gas pipelines were not properly repaired.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Ambattur"
   },
   {
@@ -925,18 +913,6 @@
   },
   {
     "locality": "kodungaiyur",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will flood the Kodungaiyur Dumpyard.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Kodungaiyur Dumpyard"
-  },
-  {
-    "locality": "kodungaiyur",
     "sk": "2024-12-02#d7b321f8b6",
     "date": "2024-12-02",
     "event": "Cyclone Fengal",
@@ -997,6 +973,18 @@
   },
   {
     "locality": "kolathur",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Hip-level water entered houses and shops.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Kolathur"
+  },
+  {
+    "locality": "kolathur",
     "sk": "2023-11-29#d3b1781633",
     "date": "2023-11-29",
     "event": null,
@@ -1006,18 +994,6 @@
     "source_url": "https://www.dtnext.in/news/city/heavy-downpour-throws-life-out-of-gear-in-chennai-751565",
     "source_title": "Heavy downpour throws life out of gear in Chennai",
     "locality_as_written": "Kolathur"
-  },
-  {
-    "locality": "korattur",
-    "sk": "2025-06-14#33ce787f29",
-    "date": "2025-06-14",
-    "event": null,
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Every year during the northeast monsoon, the Ambattur Industrial Estate and surrounding residential areas in Ambattur and Korattur are flooded from the overflow of Ambattur Lake.",
-    "source_url": "https://www.dtnext.in/news/chennai/canal-over-5-km-to-divert-surplus-water-from-ambattur-lake-837124",
-    "source_title": "Canal over 5 km to divert surplus water from Ambattur lake",
-    "locality_as_written": "Korattur"
   },
   {
     "locality": "korattur",
@@ -1105,18 +1081,6 @@
   },
   {
     "locality": "madhavaram",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Madhavaram due to backflow from the filled up ETPS Site.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Madhavaram"
-  },
-  {
-    "locality": "madhavaram",
     "sk": "2024-11-30#f804d0d736",
     "date": "2024-11-30",
     "event": "Cyclone Fengal",
@@ -1137,6 +1101,18 @@
     "detail": "Madhavaram was waterlogged due to heavy rain.",
     "source_url": "https://www.dtnext.in/news/chennai/chennai-wakes-up-to-heavy-rains-waterlogging-on-october-15-807501",
     "source_title": "Chennai wakes up to heavy rains, waterlogging on October 15",
+    "locality_as_written": "Madhavaram"
+  },
+  {
+    "locality": "madhavaram",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Roads dug for natural gas pipelines were not properly repaired.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Madhavaram"
   },
   {
@@ -1225,15 +1201,15 @@
   },
   {
     "locality": "madipakkam",
-    "sk": "2024-10-13#044ad88c51",
-    "date": "2024-10-13",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
     "event": null,
-    "severity": "moderate",
+    "severity": "minor",
     "water_stayed_days": null,
-    "detail": "Residents struggle with chest-level water every year during intense rainfall.",
-    "source_url": "https://www.dtnext.in/news/chennai/northeast-monsoon-threat-of-flooding-looms-over-chennai-city-807344",
-    "source_title": "Northeast monsoon: Threat of flooding looms over Chennai city",
-    "locality_as_written": "Lakshmi Nagar, Madipakkam"
+    "detail": "The article mentions Madipakkam as one of the inundated areas.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Madipakkam"
   },
   {
     "locality": "madipakkam",
@@ -1273,18 +1249,6 @@
   },
   {
     "locality": "manali",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will flood the Manali Industrial Area.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Manali Industrial Area"
-  },
-  {
-    "locality": "manali",
     "sk": "2024-11-30#690b3965e9",
     "date": "2024-11-30",
     "event": "Cyclone Fengal",
@@ -1317,18 +1281,6 @@
     "detail": "Several areas in Chennai including Manali received 1 to 2 cm of rainfall.",
     "source_url": "https://www.dtnext.in/news/chennai/chennai-neighbouring-districts-may-get-rain-for-next-two-days-802669",
     "source_title": "Chennai, neighbouring districts may get rain for next two days",
-    "locality_as_written": "Manali"
-  },
-  {
-    "locality": "manali",
-    "sk": "2020-11-01#4fe96703be",
-    "date": "2020-11-01",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "Identified as a vulnerable area with a probability of going under 3-6 ft water if it rains continuously for 24 hours.",
-    "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
-    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
     "locality_as_written": "Manali"
   },
   {
@@ -1450,6 +1402,18 @@
     "source_url": "https://www.dtnext.in/news/chennai/chennai-wakes-up-to-heavy-rains-waterlogging-on-october-15-807501",
     "source_title": "Chennai wakes up to heavy rains, waterlogging on October 15",
     "locality_as_written": "Meenambakkam"
+  },
+  {
+    "locality": "mogappair",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "The busy arterial roads have dangerous stretches which led to minor accidents.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Mogappair"
   },
   {
     "locality": "mudichur",
@@ -1849,15 +1813,15 @@
   },
   {
     "locality": "omr-sholinganallur",
-    "sk": "2024-10-13#044ad88c51",
-    "date": "2024-10-13",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
     "event": null,
     "severity": "moderate",
     "water_stayed_days": null,
-    "detail": "The area gets inundated every monsoon as the existing SWD has not been interlinked to the Perumbakkam lake and Ramanthangal lake.",
-    "source_url": "https://www.dtnext.in/news/chennai/northeast-monsoon-threat-of-flooding-looms-over-chennai-city-807344",
-    "source_title": "Northeast monsoon: Threat of flooding looms over Chennai city",
-    "locality_as_written": "Shollinganallur"
+    "detail": "Inundation led to a traffic gridlock.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Sholinganallur"
   },
   {
     "locality": "omr-sholinganallur",
@@ -1966,6 +1930,18 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Pallavaram"
+  },
+  {
+    "locality": "pallikaranai",
+    "sk": "2025-12-16#d2797e33fe",
+    "date": "2025-12-16",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Pallikaranai received 13.5 mm of rainfall.",
+    "source_url": "https://www.dtnext.in/news/chennai/mild-showers-flood-chennai-suburbs-856919",
+    "source_title": "Mild showers flood Chennai, suburbs",
+    "locality_as_written": "Pallikaranai"
   },
   {
     "locality": "pallikaranai",
@@ -2185,6 +2161,18 @@
   },
   {
     "locality": "pattalam",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Water-logging due to non-interlinked storm water drains.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Pattalam"
+  },
+  {
+    "locality": "pattalam",
     "sk": "2023-12-08#300d90f2aa",
     "date": "2023-12-08",
     "event": null,
@@ -2193,18 +2181,6 @@
     "detail": "In the Pattalam area in Chennai, roads are still waterlogged and the people are complaining of a lack of cleanliness and absence of necessities.",
     "source_url": "https://www.dtnext.in/news/city/sad-to-see-such-a-big-industrial-area-underwater-annamalai-on-chennai-floods-753138",
     "source_title": "Sad to see such a big industrial area underwater: Annamalai on Chennai floods",
-    "locality_as_written": "Pattalam"
-  },
-  {
-    "locality": "pattalam",
-    "sk": "2020-11-01#4fe96703be",
-    "date": "2020-11-01",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "Identified as a vulnerable area with a probability of going under 3-6 ft water if it rains continuously for 24 hours.",
-    "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
-    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
     "locality_as_written": "Pattalam"
   },
   {
@@ -2242,18 +2218,6 @@
     "source_url": "https://www.dtnext.in/news/city/several-areas-in-tambaram-are-flooded-due-to-rain-751564",
     "source_title": "Several areas in Tambaram are flooded due to rain",
     "locality_as_written": "Peerkankaranai"
-  },
-  {
-    "locality": "perambur",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Perambur due to backflow from the filled up ETPS Site.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Perambur"
   },
   {
     "locality": "perambur",
@@ -2329,6 +2293,18 @@
   },
   {
     "locality": "perambur",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "severe",
+    "water_stayed_days": null,
+    "detail": "Hip-level water entered houses and shops.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Perambur"
+  },
+  {
+    "locality": "perambur",
     "sk": "2024-09-26#dfbf5ae30d",
     "date": "2024-09-26",
     "event": null,
@@ -2398,30 +2374,6 @@
     "source_url": "https://www.deccanherald.com/india/overnight-rains-lash-chennai-many-localities-under-water-1048039.html",
     "source_title": "Overnight rains lash Chennai; many localities under water",
     "locality_as_written": "Perambur"
-  },
-  {
-    "locality": "perambur",
-    "sk": "2020-11-01#4fe96703be",
-    "date": "2020-11-01",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "Identified as a vulnerable area with a probability of going under 3-6 ft water if it rains continuously for 24 hours.",
-    "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
-    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
-    "locality_as_written": "Perambur"
-  },
-  {
-    "locality": "peravallur",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Peravallur due to backflow from the filled up ETPS Site.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Peravallur"
   },
   {
     "locality": "perumbakkam",
@@ -2509,18 +2461,6 @@
   },
   {
     "locality": "perungudi",
-    "sk": "2025-06-19#93a00a68a7",
-    "date": "2025-06-19",
-    "event": null,
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Perungudi is one of the localities that experience waterlogging.",
-    "source_url": "https://www.dtnext.in/news/chennai/wrd-awaits-nod-for-12-km-cut-and-cover-canal-to-avert-flooding-in-south-chennai-837676",
-    "source_title": "WRD plans 1.2 km canal to avert flooding in south Chennai, awaits nod",
-    "locality_as_written": "Perungudi"
-  },
-  {
-    "locality": "perungudi",
     "sk": "2023-12-06#50c2728be5",
     "date": "2023-12-06",
     "event": "Cyclone Michaung",
@@ -2580,6 +2520,18 @@
     "locality_as_written": "Porur"
   },
   {
+    "locality": "porur",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "The article mentions Porur as one of the inundated areas.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Porur"
+  },
+  {
     "locality": "pulianthope",
     "sk": "2024-12-01#2d54c052f5",
     "date": "2024-12-01",
@@ -2589,6 +2541,18 @@
     "detail": "Low-lying areas and densely populated locality came under water.",
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
     "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
+    "locality_as_written": "Pulianthope"
+  },
+  {
+    "locality": "pulianthope",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Fallen trees added to the woes of the public.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Pulianthope"
   },
   {
@@ -2613,6 +2577,18 @@
     "detail": "Purasawalkam experienced knee-deep water, preventing residents from leaving their homes.",
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
     "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
+    "locality_as_written": "Purasawalkam"
+  },
+  {
+    "locality": "purasawalkam",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Inundation led to a traffic gridlock.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Purasawalkam"
   },
   {
@@ -2793,6 +2769,18 @@
     "detail": "Waterlogging and inundation in the business district of T Nagar.",
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
     "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
+    "locality_as_written": "T Nagar"
+  },
+  {
+    "locality": "t-nagar",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Fallen trees added to the woes of the public.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "T Nagar"
   },
   {
@@ -3132,16 +3120,16 @@
     "locality_as_written": "Thiruvotriyur"
   },
   {
-    "locality": "tiruvottiyur",
-    "sk": "2020-11-01#4fe96703be",
-    "date": "2020-11-01",
+    "locality": "tondiarpet",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
     "event": null,
-    "severity": "severe",
+    "severity": "moderate",
     "water_stayed_days": null,
-    "detail": "Identified as a vulnerable area with a probability of going under 3-6 ft water if it rains continuously for 24 hours.",
-    "source_url": "https://chennai.citizenmatters.in/chennai-northeast-monsoon-flooding-gcc-vulnerability-list-19969",
-    "source_title": "Monsoon is here; is your area among those listed 'vulnerable' by GCC?",
-    "locality_as_written": "Thiruvottiyur"
+    "detail": "Rainwater mixed with sewage overflowed from the manhole.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Tondiarpet"
   },
   {
     "locality": "tondiarpet",
@@ -3165,6 +3153,18 @@
     "detail": "Heavy rain causes flooding in Chennai’s Triplicane area, inundating Dr Besant Road.",
     "source_url": "https://www.dtnext.in/news/chennai/live-cyclone-fengal-effect-hits-chennai-neighbourhood-check-details-heavy-rainfall-kancheepuram-chengalpattu-tiruvallur-heavy-rains-red-alert-813152",
     "source_title": "HIGHLIGHTS: Cyclone Fengal reaches coast, makes landfall near Puducherry",
+    "locality_as_written": "Triplicane"
+  },
+  {
+    "locality": "triplicane",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "Fallen trees added to the woes of the public.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Triplicane"
   },
   {
@@ -3277,18 +3277,6 @@
   },
   {
     "locality": "valasaravakkam",
-    "sk": "2026-04-13#6f85e14abe",
-    "date": "2026-04-13",
-    "event": null,
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Flooding used to be worse earlier. After the drain works, waterlogging has reduced.",
-    "source_url": "https://www.dtnext.in/news/chennai/constituency-watch-virugambakkam-poor-sewer-lines-choked-roads-lay-bare-tinsel-towns-underbelly",
-    "source_title": "DT Next Constituency Watch | Virugambakkam: Poor sewer lines, choked roads lay bare tinsel town’s underbelly",
-    "locality_as_written": "Valasaravakkam"
-  },
-  {
-    "locality": "valasaravakkam",
     "sk": "2025-08-23#255283b853",
     "date": "2025-08-23",
     "event": null,
@@ -3349,18 +3337,6 @@
   },
   {
     "locality": "velachery",
-    "sk": "2026-03-20#c5be635fe0",
-    "date": "2026-03-20",
-    "event": null,
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Residents flagged chronic flooding and the absence of direct road connectivity as their primary concerns.",
-    "source_url": "https://www.dtnext.in/news/chennai/velachery-residents-want-new-mla-to-address-flood-risk-missing-road-links",
-    "source_title": "Velachery residents want new MLA to address flood risk, missing road links",
-    "locality_as_written": "AGS Colony in Velachery"
-  },
-  {
-    "locality": "velachery",
     "sk": "2025-12-16#d2797e33fe",
     "date": "2025-12-16",
     "event": null,
@@ -3370,18 +3346,6 @@
     "source_url": "https://www.dtnext.in/news/chennai/mild-showers-flood-chennai-suburbs-856919",
     "source_title": "Mild showers flood Chennai, suburbs",
     "locality_as_written": "Tambaram-Velachery Main Road"
-  },
-  {
-    "locality": "velachery",
-    "sk": "2025-12-01#da55567ecc",
-    "date": "2025-12-01",
-    "event": "Cyclone Ditwah",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Low-lying areas like Velachery were prepared for evacuation if needed.",
-    "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
-    "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
-    "locality_as_written": "Velachery"
   },
   {
     "locality": "velachery",
@@ -3577,6 +3541,18 @@
   },
   {
     "locality": "velachery",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Inundation led to a traffic gridlock.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Velachery"
+  },
+  {
+    "locality": "velachery",
     "sk": "2024-09-06#f9cd6f96e9",
     "date": "2024-09-06",
     "event": null,
@@ -3658,6 +3634,18 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Velachery"
+  },
+  {
+    "locality": "villivakkam",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "minor",
+    "water_stayed_days": null,
+    "detail": "The article mentions Thirumangalam Road in Villivakkam as one of the inundated areas.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Thirumangalam Road in Villivakkam"
   },
   {
     "locality": "villivakkam",
@@ -3754,6 +3742,18 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Vyasarpadi"
+  },
+  {
+    "locality": "washermanpet",
+    "sk": "2024-10-15#637e4ce7f3",
+    "date": "2024-10-15",
+    "event": null,
+    "severity": "moderate",
+    "water_stayed_days": null,
+    "detail": "Rainwater mixed with sewage overflowed from the manhole.",
+    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
+    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
+    "locality_as_written": "Old Washermenpet"
   },
   {
     "locality": "washermanpet",

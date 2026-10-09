@@ -3,12 +3,14 @@
     "locality": "pallavaram",
     "date": "2026-04-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "chromepet",
     "date": "2026-04-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

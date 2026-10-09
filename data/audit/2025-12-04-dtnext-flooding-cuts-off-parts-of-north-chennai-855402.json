@@ -3,30 +3,35 @@
     "locality": "ernavoor",
     "date": "2025-12-04",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kathivakkam",
     "date": "2025-12-04",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "tiruvottiyur",
     "date": "2025-12-04",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "madhavaram",
     "date": "2025-12-04",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "ennore",
     "date": "2025-12-04",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   }
 ]

@@ -3,42 +3,49 @@
     "locality": "poonamallee",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "pattalam",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "choolai",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "george-town",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "t-nagar",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "omr-sholinganallur",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "kodungaiyur",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   }
 ]

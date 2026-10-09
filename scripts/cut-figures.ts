@@ -3,10 +3,12 @@
 //   npm run cut-figures
 import sharp from "sharp";
 
+//   npm run cut-figures -- <source> <output.png>   key out one figure, no split
 const SRC = "public/auto-driver-source.webp";
 
 async function main() {
-  const img = sharp(SRC).ensureAlpha();
+  const [singleSrc, singleOut] = process.argv.slice(2);
+  const img = sharp(singleSrc ?? SRC).ensureAlpha();
   const { data, info } = await img.raw().toBuffer({ resolveWithObject: true });
   const { width, height, channels } = info;
 
@@ -22,6 +24,14 @@ async function main() {
     const bgLike = r > 238 && g > 178 && g < 212 && b >= 50 && b <= 100 && g - b > 100;
     if (bgLike) data[i + 3] = 0;
     else if (r > 238 && g > 178 && g < 212 && b > 40 && b < 50 && g - b > 100) data[i + 3] = Math.round(((50 - b) / 10) * 255); // soft edge
+  }
+
+  if (singleSrc) {
+    const keyed = await sharp(data, { raw: { width, height, channels } }).png().toBuffer();
+    await sharp(keyed).trim().png().toFile(singleOut);
+    const m = await sharp(singleOut).metadata();
+    console.log(`${singleOut}: ${m.width}x${m.height}`);
+    return;
   }
 
   // Split at the widest fully-transparent column gap between the two figures.

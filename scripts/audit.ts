@@ -29,7 +29,7 @@ const EVENT_WINDOWS: [RegExp, string[]][] = [
 ];
 
 const NOT_AN_EVENT =
-  /\b(flagged|demand|demanded|urged|want(s|ed)? (the|their|a)|concerns?|propos|tender|planned|plans? to|warn|study|constituency|vulnerable|prone|likely|expected|forecast|prepared|kept ready|would|could|may be|might|chronic|frequent(ly)?|every (year|monsoon)|perennial)\b/i;
+  /\b(flagged|demand|demanded|urged|want(s|ed)? (the|their|a)|concerns?|propos|tender|planned|plans? to|warn|study|constituency|vulnerable|prone|likely|expected|forecast|prepared|kept ready|would|could|may be|might|chronic|frequent(ly)?|every (year|monsoon)|perennial|used to|has reduced|reduced after|no longer)\b/i;
 
 interface Extracted {
   article: { id: string; url: string; title: string; published: string };

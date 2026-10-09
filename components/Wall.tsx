@@ -103,8 +103,8 @@ export default function Wall({ mode, level, weather, title, caption }: Props) {
         <img src="/auto.png" alt="" className="absolute bottom-[2%] left-[12%] z-[5] h-[58%] w-auto sm:left-[22%] sm:h-[74%]" />
         <div className="absolute bottom-[2%] left-[64%] z-[6] h-[76%] sm:left-[72%] sm:h-[86%]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/driver.png" alt="" className="h-full w-auto" />
-          <MoodOverlay mood={mood} />
+          <img src={mood === "sweating" ? "/driver-sweating.png" : "/driver.png"} alt="" className="h-full w-auto" />
+          {mood !== "sweating" && <MoodOverlay mood={mood} />}
         </div>
 
         {/* Water */}

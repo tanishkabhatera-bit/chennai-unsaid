@@ -2,7 +2,10 @@
   {
     "locality": "velachery",
     "date": "2026-03-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event or flooding on 2026-03-20."
+    ],
+    "event": null
   }
 ]

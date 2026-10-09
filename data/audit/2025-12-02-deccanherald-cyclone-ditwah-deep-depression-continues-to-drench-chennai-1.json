@@ -3,42 +3,49 @@
     "locality": "george-town",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "ennore",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "manali",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "vadapalani",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "medavakkam",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "nungambakkam",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "purasawalkam",
     "date": "2025-12-02",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   }
 ]

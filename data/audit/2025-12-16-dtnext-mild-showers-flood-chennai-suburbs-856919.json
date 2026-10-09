@@ -3,104 +3,119 @@
     "locality": "tambaram",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallavaram",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "meenambakkam",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "medavakkam",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "urapakkam",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "selaiyur",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "egmore",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kilpauk",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "nungambakkam",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "royapettah",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "guindy",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "adyar",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "omr-sholinganallur",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mudichur",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallikaranai",
     "date": "2025-12-16",
-    "ok": false,
-    "reasons": [
-      "AI: Pallikaranai is mentioned but not as flooded, waterlogged, or inundated."
-    ]
+    "ok": true,
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "taramani",
     "date": "2025-12-16",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]
