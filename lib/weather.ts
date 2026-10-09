@@ -65,9 +65,9 @@ export async function fetchHottestLastYear(lat: number, lon: number): Promise<Ho
 export type HeatMood = "chill" | "warm" | "hot" | "scorching";
 
 export function heatMood(feelsLike: number): HeatMood {
-  if (feelsLike < 30) return "chill";
-  if (feelsLike < 36) return "warm";
-  if (feelsLike < 42) return "hot";
+  if (feelsLike < 29) return "chill";
+  if (feelsLike < 33) return "warm";
+  if (feelsLike < 40) return "hot";
   return "scorching";
 }
 
