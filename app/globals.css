@@ -24,12 +24,12 @@ body {
   color: var(--color-ink);
 }
 
-/* Heat mode: the wall bakes */
+/* Heat mode: the same wall, under a hotter sky */
 .wall-heat .wall-face {
-  background-color: #f3b45a !important;
+  background-color: #f3b45a;
   background-image:
-    linear-gradient(180deg, rgba(255, 236, 170, 0.55) 0%, rgba(255, 236, 170, 0) 45%),
-    radial-gradient(ellipse at 30% 80%, rgba(181, 69, 27, 0.18), transparent 50%) !important;
+    url("/compound-wall.png"),
+    linear-gradient(180deg, rgba(255, 236, 170, 0.6) 0%, rgba(240, 140, 50, 0.15) 100%);
 }
 .sunglow {
   border-radius: 50%;
@@ -56,13 +56,15 @@ body {
   100% { transform: translateY(18px); opacity: 0; }
 }
 
-/* Wall face: plaster with faint stains */
+/* Wall face: the painted compound wall (public/compound-wall.png) along the bottom, yellow sky above */
 .wall-face {
   background-color: var(--color-sun);
   background-image:
-    radial-gradient(ellipse at 30% 80%, rgba(181, 69, 27, 0.14), transparent 50%),
-    radial-gradient(ellipse at 75% 20%, rgba(255, 255, 255, 0.45), transparent 45%),
-    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0 1px, transparent 1px 9px);
+    url("/compound-wall.png"),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 60%);
+  background-position: bottom center, top;
+  background-size: 100% auto, 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /* Water rises in, then the waves keep moving */

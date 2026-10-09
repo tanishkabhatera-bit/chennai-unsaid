@@ -19,8 +19,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col font-body">
         <header className="border-b-[4px] border-ink">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-            <Link href="/" className="font-display text-lg uppercase text-ink sm:text-xl">
-              Chennai Unsaid
+            <Link href="/" className="block" aria-label="Chennai Unsaid, home">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/signboard.png" alt="Chennai Unsaid" className="h-10 w-auto sm:h-12" />
             </Link>
             <span className="hidden font-marker text-rust sm:inline">the things listings leave out</span>
           </div>
