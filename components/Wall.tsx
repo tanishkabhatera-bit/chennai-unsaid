@@ -87,16 +87,11 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
           </button>
         </div>
 
-        {/* Water */}
-        {mode === "water" && (
-          <div className="water absolute inset-x-0 bottom-0 z-[7]" style={{ height: `${water * 100}%` }} aria-label={LEVEL_LABEL[level]}>
-            <svg className="wave absolute -top-5 left-0 h-6 w-[200%]" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true">
-              <path d="M0 12 Q75 0 150 12 T300 12 T450 12 T600 12 T750 12 T900 12 T1050 12 T1200 12 V24 H0 Z" fill="#2E78B7" />
-            </svg>
-            <svg className="wave wave-2 absolute -top-3 left-0 h-5 w-[200%]" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true">
-              <path d="M0 12 Q75 24 150 12 T300 12 T450 12 T600 12 T750 12 T900 12 T1050 12 T1200 12 V24 H0 Z" fill="#4A93CF" opacity="0.8" />
-            </svg>
-            <div className="h-full w-full bg-water/70" />
+        {/* Water: the painted flood strip drifts along the waterline, muddy fill below it */}
+        {mode === "water" && water > 0 && (
+          <div className="water absolute inset-x-0 bottom-0 z-[7] overflow-hidden" style={{ height: `${water * 100}%` }} aria-label={LEVEL_LABEL[level]}>
+            <div className="flood-strip absolute left-0 top-0 h-[120px] w-[400%] sm:h-[150px]" />
+            <div className="absolute inset-x-0 bottom-0 top-[110px] bg-[#8d5a26] sm:top-[140px]" />
           </div>
         )}
 

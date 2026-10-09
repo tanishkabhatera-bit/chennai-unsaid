@@ -74,16 +74,16 @@ body {
   from { transform: scaleY(0); }
   to { transform: scaleY(1); }
 }
-.wave {
-  animation: drift 4s linear infinite;
-}
-.wave-2 {
-  animation-duration: 6.5s;
-  animation-direction: reverse;
+/* The painted flood strip (public/water.png, transparent above the waves), tiled and drifting */
+.flood-strip {
+  background-image: url("/water.png");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  animation: drift 40s linear infinite;
 }
 @keyframes drift {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(-25%); }
 }
 
 /* Speech bubble pops in; the driver's pose crossfades */
@@ -113,5 +113,5 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .water, .wave, .mark, .sunglow, .sweat, .bubble, .pose { animation: none; }
+  .water, .flood-strip, .mark, .sunglow, .sweat, .bubble, .pose { animation: none; }
 }

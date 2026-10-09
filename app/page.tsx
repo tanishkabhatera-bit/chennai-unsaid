@@ -13,27 +13,31 @@ const DOORS = [
     text: "Area, floor, parking. The auto anna checks ten years of floods, the heat and what residents say against your exact case, and tells you what to ask.",
     href: "/check",
     cta: "Check one now",
+    icon: "/icon-check.png",
     color: "bg-sun",
   },
   {
-    title: "See the wall",
-    text: "How high the water came in each flood year, with the article behind it. And how hot it is right now.",
-    href: "/area/velachery",
-    cta: "Try Velachery",
+    title: "Paste the listing",
+    text: "Copy the ad or the broker's WhatsApp message. He reads the area, floor and parking, and checks every claim against the record.",
+    href: "/check",
+    cta: "Paste one",
+    icon: "/icon-paste.png",
     color: "bg-chalk",
   },
   {
-    title: "Add your mark",
-    text: "Ankle, knee, waist or inside the house? One tap puts your year on the wall. No name, no login.",
+    title: "This monsoon, live",
+    text: "Rain right now and the next three days for your area, plus what residents are marking on the wall this week.",
     href: "/area/velachery",
-    cta: "Add yours",
+    cta: "See Velachery now",
+    icon: "/icon-monsoon.png",
     color: "bg-chalk",
   },
   {
-    title: "Send it to the group",
-    text: "One tap makes the wall into an image for WhatsApp, with the sources and a link back.",
-    href: "/area/velachery",
+    title: "Compare two flats",
+    text: "Two areas or two floors side by side, same rule, same sources. The way people actually decide.",
+    href: "/check",
     cta: "Coming next",
+    icon: "/icon-compare.png",
     color: "bg-chalk",
   },
 ];
@@ -53,9 +57,15 @@ export default function Home() {
               className={`door block rounded-[24px] border-[4px] border-ink p-5 shadow-[6px_6px_0_#121212] transition hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[3px_3px_0_#121212] ${d.color}`}
               style={{ transform: `rotate(${(i % 2 ? 1 : -1) * 0.6}deg)` }}
             >
-              <h3 className="font-display text-xl uppercase text-ink">{d.title}</h3>
-              <p className="mt-2 font-body text-ink/80">{d.text}</p>
-              <span className="mt-4 inline-block font-marker text-lg text-rust">{d.cta} →</span>
+              <div className="flex items-start gap-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={d.icon} alt="" className="h-20 w-20 shrink-0 object-contain sm:h-24 sm:w-24" />
+                <div>
+                  <h3 className="font-display text-xl uppercase text-ink">{d.title}</h3>
+                  <p className="mt-2 font-body text-ink/80">{d.text}</p>
+                  <span className="mt-3 inline-block font-marker text-lg text-rust">{d.cta} →</span>
+                </div>
+              </div>
             </Link>
           ))}
         </div>

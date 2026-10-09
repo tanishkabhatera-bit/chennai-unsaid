@@ -16,14 +16,21 @@ async function main() {
   // body is a deeper yellow with much less blue (B≈25), so the blue channel separates
   // them where plain colour distance can't. Keying every pixel (not a flood fill) also
   // clears the background seen through the open cabin.
+  // Sample the background from the four corners (the sheets are flat yellow, but the exact
+  // shade varies between images). A pixel is background if it is close to that colour.
+  // Threshold is tight enough to leave khaki shirts and the auto's deeper yellow alone.
+  const corner = (x: number, y: number) => { const i = (y * width + x) * channels; return [data[i], data[i + 1], data[i + 2]]; };
+  const cs = [corner(2, 2), corner(width - 3, 2), corner(2, height - 3), corner(width - 3, height - 3)];
+  // Use the corner colour that most other corners agree with (a strip may have content at the bottom edge).
+  const dist = (a: number[], b: number[]) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+  const bg = cs.reduce((best, c) => (cs.filter((o) => dist(o, c) < 25).length > cs.filter((o) => dist(o, best) < 25).length ? c : best), cs[0]);
+  console.log(`background ≈ rgb(${bg.join(",")})`);
+  const HARD = 34, SOFT = 52;
   for (let p = 0; p < width * height; p++) {
     const i = p * channels;
-    const r = data[i], g = data[i + 1], b = data[i + 2];
-    // Background: strongly saturated yellow (green minus blue ≈ 110–150). The khaki shirt is
-    // much less saturated (G−B ≈ 50–80) and the auto body has B≈25, so both are left alone.
-    const bgLike = r > 238 && g > 178 && g < 212 && b >= 50 && b <= 100 && g - b > 100;
-    if (bgLike) data[i + 3] = 0;
-    else if (r > 238 && g > 178 && g < 212 && b > 40 && b < 50 && g - b > 100) data[i + 3] = Math.round(((50 - b) / 10) * 255); // soft edge
+    const d = Math.hypot(data[i] - bg[0], data[i + 1] - bg[1], data[i + 2] - bg[2]);
+    if (d < HARD) data[i + 3] = 0;
+    else if (d < SOFT) data[i + 3] = Math.round(((d - HARD) / (SOFT - HARD)) * 255);
   }
 
   if (singleSrc) {
