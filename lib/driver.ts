@@ -86,7 +86,7 @@ export function driverScene(a: Args): Scene {
   const tapped = a.step % 2 === 1;
 
   if (a.empty) {
-    return { pose: "wave", bubble: a.mode === "heat" ? "Vanakkam! Type an area and I'll tell you how hot it really is." : "Vanakkam! Type an area and I'll show you how high the water came." };
+    return { pose: "wave", bubble: a.mode === "heat" ? "Vanakkam! Type an area and I'll tell you how hot it really gets." : "Vanakkam! Type an area and I'll show you its flood history, year by year." };
   }
 
   if (a.mode === "heat") {
