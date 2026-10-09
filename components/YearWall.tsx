@@ -48,7 +48,7 @@ export default function YearWall({ mode, title, marks, now, weather, hottest, em
     <div>
       <Wall mode={mode} level={level} scene={scene} onTap={() => setStep((s) => s + 1)} weather={weather} title={title} caption={caption} />
 
-      {mode === "water" && (
+      {mode === "water" && !empty && (
         <div className="mt-4">
           <div className="flex flex-wrap items-center gap-2">
             <span className="mr-1 font-marker text-rust">Show me:</span>
