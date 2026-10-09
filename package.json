@@ -11,7 +11,8 @@
     "fetch-articles": "tsx scripts/fetch-articles.ts",
     "extract": "tsx --env-file=.env.local scripts/extract.ts",
     "load": "tsx --env-file=.env.local scripts/load.ts",
-    "verify": "tsx scripts/verify.ts"
+    "verify": "tsx scripts/verify.ts",
+    "audit": "tsx --env-file=.env.local scripts/audit.ts"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.1147.0",

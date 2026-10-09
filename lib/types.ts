@@ -13,6 +13,9 @@ export interface Locality {
   slug: string;
   name: string;
   aliases: string[];
+  /** Approximate centre, used for live weather. */
+  lat: number;
+  lon: number;
 }
 
 export interface FloodRecord {

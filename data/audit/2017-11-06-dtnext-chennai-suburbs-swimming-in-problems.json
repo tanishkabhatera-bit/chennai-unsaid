@@ -1,0 +1,32 @@
+[
+  {
+    "locality": "mudichur",
+    "date": "2017-11-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "chromepet",
+    "date": "2017-11-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "tambaram",
+    "date": "2017-11-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "chitlapakkam",
+    "date": "2017-11-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perungalathur",
+    "date": "2017-11-06",
+    "ok": true,
+    "reasons": []
+  }
+]

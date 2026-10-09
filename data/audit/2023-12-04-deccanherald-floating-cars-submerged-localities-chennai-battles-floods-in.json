@@ -1,0 +1,92 @@
+[
+  {
+    "locality": "pallikaranai",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "tambaram",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "medavakkam",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "west-mambalam",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mylapore",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kodambakkam",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "nungambakkam",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "anna-nagar",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perambur",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "valasaravakkam",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "adyar",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mudichur",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perungalathur",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "taramani",
+    "date": "2023-12-04",
+    "ok": true,
+    "reasons": []
+  }
+]

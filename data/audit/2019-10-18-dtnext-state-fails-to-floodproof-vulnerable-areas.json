@@ -1,0 +1,26 @@
+[
+  {
+    "locality": "mudichur",
+    "date": "2019-10-18",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "tambaram",
+    "date": "2019-10-18",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2019-10-18",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "vyasarpadi",
+    "date": "2019-10-18",
+    "ok": true,
+    "reasons": []
+  }
+]

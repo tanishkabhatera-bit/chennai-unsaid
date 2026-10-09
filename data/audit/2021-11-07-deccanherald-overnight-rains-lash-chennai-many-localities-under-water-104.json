@@ -1,0 +1,44 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perambur",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "valasaravakkam",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "vadapalani",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mylapore",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ambattur",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "nungambakkam",
+    "date": "2021-11-07",
+    "ok": true,
+    "reasons": []
+  }
+]
