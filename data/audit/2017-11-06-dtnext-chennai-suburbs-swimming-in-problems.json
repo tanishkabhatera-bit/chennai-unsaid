@@ -3,30 +3,35 @@
     "locality": "mudichur",
     "date": "2017-11-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "chromepet",
     "date": "2017-11-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "tambaram",
     "date": "2017-11-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "chitlapakkam",
     "date": "2017-11-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perungalathur",
     "date": "2017-11-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

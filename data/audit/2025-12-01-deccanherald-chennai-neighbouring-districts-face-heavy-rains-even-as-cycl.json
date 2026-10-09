@@ -1,0 +1,26 @@
+[
+  {
+    "locality": "t-nagar",
+    "date": "2025-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kodambakkam",
+    "date": "2025-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2025-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ennore",
+    "date": "2025-12-01",
+    "ok": true,
+    "reasons": []
+  }
+]

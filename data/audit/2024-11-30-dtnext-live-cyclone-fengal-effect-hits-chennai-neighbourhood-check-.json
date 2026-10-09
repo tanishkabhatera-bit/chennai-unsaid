@@ -1,0 +1,68 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "alandur",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "porur",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "egmore",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "manali",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ennore",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "tambaram",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "triplicane",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "chromepet",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "valasaravakkam",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  }
+]

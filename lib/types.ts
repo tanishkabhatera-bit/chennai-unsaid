@@ -43,6 +43,8 @@ export interface Report {
   text: string;
   /** Month the resident says it happened, as YYYY-MM. */
   when: string;
+  /** For flooding reports: how high the water came. */
+  level?: "ankle" | "knee" | "waist" | "chest";
   seeded: boolean;
 }
 

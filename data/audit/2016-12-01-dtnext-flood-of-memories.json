@@ -3,54 +3,63 @@
     "locality": "mudichur",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perumbakkam",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallavaram",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallikaranai",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "t-nagar",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "saidapet",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kotturpuram",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "vyasarpadi",
     "date": "2015-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import FloodTimeline from "@/components/FloodTimeline";
 import HeatCard from "@/components/HeatCard";
+import ReportForm from "@/components/ReportForm";
 import ResidentReports from "@/components/ResidentReports";
 import RiskBadge from "@/components/RiskBadge";
 import SummarySection, { SummarySkeleton } from "@/components/SummarySection";
@@ -54,13 +55,7 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
       </div>
 
       <div className="flex flex-wrap gap-3">
-        <button
-          type="button"
-          disabled
-          className="rounded-2xl border-[4px] border-ink bg-sign px-5 py-3 font-display text-sm uppercase text-chalk shadow-[6px_6px_0_#121212] disabled:cursor-not-allowed disabled:opacity-50"
-        >
-          Add your mark
-        </button>
+        <ReportForm slug={report.locality.slug} name={report.locality.name} />
         <button
           type="button"
           disabled
@@ -68,7 +63,7 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
         >
           Send to the group
         </button>
-        <span className="self-center font-body text-sm text-ink/60">Both coming next.</span>
+        <span className="self-center font-body text-sm text-ink/60">Sharing comes next.</span>
       </div>
     </div>
   );

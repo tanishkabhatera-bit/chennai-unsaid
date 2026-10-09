@@ -1,0 +1,32 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2024-11-11",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mylapore",
+    "date": "2024-11-11",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pattalam",
+    "date": "2024-11-11",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kodambakkam",
+    "date": "2024-11-11",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perambur",
+    "date": "2024-11-11",
+    "ok": true,
+    "reasons": []
+  }
+]

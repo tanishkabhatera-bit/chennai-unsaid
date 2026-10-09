@@ -3,24 +3,28 @@
     "locality": "mudichur",
     "date": "2019-10-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "tambaram",
     "date": "2019-10-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2019-10-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "vyasarpadi",
     "date": "2019-10-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

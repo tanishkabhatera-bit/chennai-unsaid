@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  }
+]

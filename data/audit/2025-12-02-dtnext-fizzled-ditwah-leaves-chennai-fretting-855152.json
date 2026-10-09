@@ -1,0 +1,44 @@
+[
+  {
+    "locality": "poonamallee",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pattalam",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "choolai",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "george-town",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "t-nagar",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kodungaiyur",
+    "date": "2025-12-02",
+    "ok": true,
+    "reasons": []
+  }
+]

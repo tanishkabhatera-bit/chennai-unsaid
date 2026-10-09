@@ -3,30 +3,35 @@
     "locality": "tiruvottiyur",
     "date": "2022-11-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "vyasarpadi",
     "date": "2022-11-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "iyyappanthangal",
     "date": "2022-11-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mugalivakkam",
     "date": "2022-11-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "thoraipakkam",
     "date": "2022-11-18",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

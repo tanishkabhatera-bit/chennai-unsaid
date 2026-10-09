@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2025-06-19",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2025-06-19",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perungudi",
+    "date": "2025-06-19",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "neelankarai",
+    "date": "2025-06-19",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "injambakkam",
+    "date": "2025-06-19",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "karapakkam",
+    "date": "2025-06-19",
+    "ok": true,
+    "reasons": []
+  }
+]

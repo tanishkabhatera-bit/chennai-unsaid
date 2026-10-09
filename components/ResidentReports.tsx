@@ -27,6 +27,7 @@ export default function ResidentReports({
             <li key={r.created_at} className="border-l-[4px] border-rust pl-3">
               <div className="font-body text-xs text-ink/60">
                 {categoryLabel(r.category)} · {monthYear(r.when)}
+                {r.level && ` · water ${r.level === "chest" ? "inside the house" : `${r.level} deep`}`}
                 {r.seeded && " · added by the team"}
               </div>
               <p className="mt-0.5 font-marker text-lg leading-snug text-ink">&ldquo;{r.text}&rdquo;</p>

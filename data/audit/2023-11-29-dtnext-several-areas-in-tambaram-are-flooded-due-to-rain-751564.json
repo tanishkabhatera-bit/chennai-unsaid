@@ -3,36 +3,42 @@
     "locality": "tambaram",
     "date": "2023-11-29",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "chromepet",
     "date": "2023-11-29",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallavaram",
     "date": "2023-11-29",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pammal",
     "date": "2023-11-29",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "peerkankaranai",
     "date": "2023-11-29",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "sembakkam",
     "date": "2023-11-29",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

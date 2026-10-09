@@ -38,13 +38,19 @@ interface Verdict {
   date: string;
   ok: boolean;
   reasons: string[];
+  /** The event label after rule checks (a wrong cyclone name is cleared). */
+  event?: string | null;
 }
 
-function ruleCheck(r: FloodRecord, published: string): string[] {
+/** Returns fatal problems. A wrongly named event isn't fatal: the label is cleared and noted instead. */
+function ruleCheck(r: FloodRecord, published: string, notes: string[]): string[] {
   const problems: string[] = [];
   const ym = r.date.slice(0, 7);
   for (const [re, months] of EVENT_WINDOWS) {
-    if (r.event && re.test(r.event) && !months.includes(ym)) problems.push(`event "${r.event}" dated ${r.date}`);
+    if (r.event && re.test(r.event) && !months.includes(ym)) {
+      notes.push(`event label "${r.event}" removed: not in ${months.join("/")}`);
+      r.event = null;
+    }
   }
   // An article can't report a flood that happens after it was published (allow a 3-day forecast slack).
   const pub = new Date(published).getTime();
@@ -56,7 +62,7 @@ function ruleCheck(r: FloodRecord, published: string): string[] {
 async function aiCheck(text: string, r: FloodRecord, written: string): Promise<{ ok: boolean; reason: string }> {
   const prompt = `You are fact-checking one record extracted from a Chennai news article.
 RECORD: locality "${written}" was waterlogged or flooded around ${r.date}; severity ${r.severity}; water stayed ${r.water_stayed_days ?? "unknown"} days; detail: "${r.detail}".
-Does the ARTICLE TEXT below support this record? The locality must be named as flooded, waterlogged or inundated, and the detail must be stated in the article. The severity scale: minor = roads waterlogged; moderate = traffic disrupted or knee-deep water; severe = water in homes, evacuations, relief camps, deaths.
+Does the ARTICLE TEXT below support this record? The locality must be named as actually flooded, waterlogged or inundated in a rain event that happened, and the detail must be stated in the article. NOT supported: forecasts, warnings, preparations ("boats kept ready"), plans, drain-construction news, general complaints about "chronic flooding" with no specific event, or places named only as flood-prone. The severity scale: minor = roads waterlogged; moderate = traffic disrupted or knee-deep water; severe = water in homes, evacuations, relief camps, deaths.
 Reply with ONLY JSON: {"supported": true|false, "reason": "one short sentence"}.
 
 ARTICLE TEXT:
@@ -97,12 +103,13 @@ async function main() {
     const text = raw.split(/^---$/m).slice(1).join("---");
     const verdicts: Verdict[] = [];
     for (const r of ex.records) {
-      const reasons = ruleCheck(r, ex.article.published);
+      const notes: string[] = [];
+      const reasons = ruleCheck(r, ex.article.published, notes);
       if (reasons.length === 0) {
         const ai = await aiCheck(text, r, r.locality_as_written);
         if (!ai.ok) reasons.push(`AI: ${ai.reason}`);
       }
-      verdicts.push({ locality: r.locality, date: r.date, ok: reasons.length === 0, reasons });
+      verdicts.push({ locality: r.locality, date: r.date, ok: reasons.length === 0, reasons: [...reasons, ...notes], event: r.event });
       if (reasons.length) {
         dropped++;
         console.log(`DROP ${ex.article.id} ${r.locality} ${r.date}: ${reasons.join("; ")}`);
@@ -118,7 +125,7 @@ async function main() {
     const verdicts: Verdict[] = JSON.parse(await readFile(path.join(AUDIT, file), "utf8"));
     for (const r of ex.records) {
       const v = verdicts.find((x) => x.locality === r.locality && x.date === r.date);
-      if (v?.ok) all.push(r);
+      if (v?.ok) all.push({ ...r, event: v.event === undefined ? r.event : v.event });
     }
   }
   all.sort((a, b) => a.locality.localeCompare(b.locality) || b.date.localeCompare(a.date));

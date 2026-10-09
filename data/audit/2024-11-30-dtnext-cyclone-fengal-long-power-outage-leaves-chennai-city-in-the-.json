@@ -1,0 +1,82 @@
+[
+  {
+    "locality": "manali",
+    "date": "2024-11-30",
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Manali New Town being flooded or waterlogged."
+    ]
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pallavaram",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perungalathur",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "chromepet",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "siruseri",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "avadi",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pattabiram",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ambattur",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madhavaram",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "korattur",
+    "date": "2024-11-30",
+    "ok": true,
+    "reasons": []
+  }
+]

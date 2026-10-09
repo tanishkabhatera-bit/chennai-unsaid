@@ -1,0 +1,44 @@
+[
+  {
+    "locality": "saidapet",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "vyasarpadi",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perambur",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kodungaiyur",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "taramani",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ashok-nagar",
+    "date": "2024-12-02",
+    "ok": true,
+    "reasons": []
+  }
+]

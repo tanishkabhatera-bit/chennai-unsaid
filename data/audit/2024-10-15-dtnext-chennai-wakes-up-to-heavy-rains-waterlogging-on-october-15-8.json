@@ -1,0 +1,68 @@
+[
+  {
+    "locality": "uthandi",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "vadapalani",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "nungambakkam",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "meenambakkam",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "adyar",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mylapore",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "tiruvottiyur",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madhavaram",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "porur",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  }
+]

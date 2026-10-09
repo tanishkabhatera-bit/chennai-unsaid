@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pulianthope",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "medavakkam",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "tambaram",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ashok-nagar",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  }
+]

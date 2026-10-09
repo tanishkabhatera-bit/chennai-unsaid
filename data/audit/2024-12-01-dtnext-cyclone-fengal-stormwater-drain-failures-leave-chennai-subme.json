@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "velachery",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "omr-sholinganallur",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mylapore",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perambur",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "anna-nagar",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pattalam",
+    "date": "2024-12-01",
+    "ok": true,
+    "reasons": []
+  }
+]

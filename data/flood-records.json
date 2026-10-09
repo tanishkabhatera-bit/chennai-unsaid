@@ -121,18 +121,6 @@
   },
   {
     "locality": "ambattur",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Roads dug for natural gas pipelines were not properly repaired.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Ambattur"
-  },
-  {
-    "locality": "ambattur",
     "sk": "2023-12-08#300d90f2aa",
     "date": "2023-12-08",
     "event": "Cyclone Michaung",
@@ -238,18 +226,6 @@
     "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
     "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
     "locality_as_written": "Anna Nagar West"
-  },
-  {
-    "locality": "anna-nagar",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "The article mentions Anna Nagar as one of the inundated areas.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Anna Nagar"
   },
   {
     "locality": "anna-nagar",
@@ -1021,18 +997,6 @@
   },
   {
     "locality": "kolathur",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "Hip-level water entered houses and shops.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Kolathur"
-  },
-  {
-    "locality": "kolathur",
     "sk": "2023-11-29#d3b1781633",
     "date": "2023-11-29",
     "event": null,
@@ -1176,18 +1140,6 @@
     "locality_as_written": "Madhavaram"
   },
   {
-    "locality": "madhavaram",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Roads dug for natural gas pipelines were not properly repaired.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Madhavaram"
-  },
-  {
     "locality": "madipakkam",
     "sk": "2025-08-23#255283b853",
     "date": "2025-08-23",
@@ -1273,18 +1225,6 @@
   },
   {
     "locality": "madipakkam",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "The article mentions Madipakkam as one of the inundated areas.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Madipakkam"
-  },
-  {
-    "locality": "madipakkam",
     "sk": "2024-10-13#044ad88c51",
     "date": "2024-10-13",
     "event": null,
@@ -1342,18 +1282,6 @@
     "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
     "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
     "locality_as_written": "Manali Industrial Area"
-  },
-  {
-    "locality": "manali",
-    "sk": "2024-11-30#f804d0d736",
-    "date": "2024-11-30",
-    "event": "Cyclone Fengal",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Power cuts began in the early hours of Saturday when it was raining heavily.",
-    "source_url": "https://www.dtnext.in/news/chennai/cyclone-fengal-long-power-outage-leaves-chennai-city-in-the-dark-813234",
-    "source_title": "Cyclone Fengal: Long power outage leaves Chennai city in the dark",
-    "locality_as_written": "Manali New Town"
   },
   {
     "locality": "manali",
@@ -1522,18 +1450,6 @@
     "source_url": "https://www.dtnext.in/news/chennai/chennai-wakes-up-to-heavy-rains-waterlogging-on-october-15-807501",
     "source_title": "Chennai wakes up to heavy rains, waterlogging on October 15",
     "locality_as_written": "Meenambakkam"
-  },
-  {
-    "locality": "mogappair",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "The busy arterial roads have dangerous stretches which led to minor accidents.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Mogappair"
   },
   {
     "locality": "mudichur",
@@ -1933,18 +1849,6 @@
   },
   {
     "locality": "omr-sholinganallur",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Inundation led to a traffic gridlock.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Sholinganallur"
-  },
-  {
-    "locality": "omr-sholinganallur",
     "sk": "2024-10-13#044ad88c51",
     "date": "2024-10-13",
     "event": null,
@@ -2062,18 +1966,6 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Pallavaram"
-  },
-  {
-    "locality": "pallikaranai",
-    "sk": "2025-12-16#d2797e33fe",
-    "date": "2025-12-16",
-    "event": null,
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Pallikaranai received 13.5 mm of rainfall.",
-    "source_url": "https://www.dtnext.in/news/chennai/mild-showers-flood-chennai-suburbs-856919",
-    "source_title": "Mild showers flood Chennai, suburbs",
-    "locality_as_written": "Pallikaranai"
   },
   {
     "locality": "pallikaranai",
@@ -2293,18 +2185,6 @@
   },
   {
     "locality": "pattalam",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Water-logging due to non-interlinked storm water drains.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Pattalam"
-  },
-  {
-    "locality": "pattalam",
     "sk": "2023-12-08#300d90f2aa",
     "date": "2023-12-08",
     "event": null,
@@ -2445,18 +2325,6 @@
     "detail": "Perambur recorded 211.8 mm of rainfall.",
     "source_url": "https://www.dtnext.in/news/chennai/chennai-rains-new-manali-town-gets-2301-mm-rainfall-in-14-hrs-15-stations-record-over-150-mm-807589",
     "source_title": "Chennai rains: New Manali Town gets 230.1 mm rainfall in 14 hrs; 15 stations record over 150 mm",
-    "locality_as_written": "Perambur"
-  },
-  {
-    "locality": "perambur",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "Hip-level water entered houses and shops.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Perambur"
   },
   {
@@ -2712,18 +2580,6 @@
     "locality_as_written": "Porur"
   },
   {
-    "locality": "porur",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "The article mentions Porur as one of the inundated areas.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Porur"
-  },
-  {
     "locality": "pulianthope",
     "sk": "2024-12-01#2d54c052f5",
     "date": "2024-12-01",
@@ -2733,18 +2589,6 @@
     "detail": "Low-lying areas and densely populated locality came under water.",
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-fengal-remains-stationery-heavy-rains-continue-to-lash-puducherry-tamil-nadu-3298875",
     "source_title": "Cyclone Fengal remains stationery, heavy rains continue to lash Puducherry, Tamil Nadu",
-    "locality_as_written": "Pulianthope"
-  },
-  {
-    "locality": "pulianthope",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Fallen trees added to the woes of the public.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Pulianthope"
   },
   {
@@ -2769,18 +2613,6 @@
     "detail": "Purasawalkam experienced knee-deep water, preventing residents from leaving their homes.",
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/cyclone-ditwah-deep-depression-continues-to-drench-chennai-154-cm-rainfall-in-24-hours-3816747",
     "source_title": "Cyclone Ditwah: Deep depression continues to drench Chennai; 15.4 cm rainfall in 24 hours",
-    "locality_as_written": "Purasawalkam"
-  },
-  {
-    "locality": "purasawalkam",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Inundation led to a traffic gridlock.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Purasawalkam"
   },
   {
@@ -2961,18 +2793,6 @@
     "detail": "Waterlogging and inundation in the business district of T Nagar.",
     "source_url": "https://www.deccanherald.com/india/tamil-nadu/chennai-neighbouring-districts-face-heavy-rains-even-as-cyclone-ditwah-weakens-3816122",
     "source_title": "Chennai, neighbouring districts face heavy rains even as Cyclone Ditwah weakens",
-    "locality_as_written": "T Nagar"
-  },
-  {
-    "locality": "t-nagar",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Fallen trees added to the woes of the public.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "T Nagar"
   },
   {
@@ -3277,18 +3097,6 @@
   },
   {
     "locality": "tiruvottiyur",
-    "sk": "2024-12-20#495bd14688",
-    "date": "2024-12-20",
-    "event": null,
-    "severity": "severe",
-    "water_stayed_days": null,
-    "detail": "The expansion of Ennore Thermal Power Station will cause difficulties in Tiruvottiyur due to backflow from the filled up ETPS Site.",
-    "source_url": "https://www.dtnext.in/news/chennai/ennore-thermal-power-station-expansion-will-flood-north-chennai-warns-study-816106",
-    "source_title": "Ennore Thermal Power Station expansion will flood North Chennai, warns study",
-    "locality_as_written": "Tiruvottiyur"
-  },
-  {
-    "locality": "tiruvottiyur",
     "sk": "2024-10-15#4ff5a7bb7a",
     "date": "2024-10-15",
     "event": null,
@@ -3337,18 +3145,6 @@
   },
   {
     "locality": "tondiarpet",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Rainwater mixed with sewage overflowed from the manhole.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Tondiarpet"
-  },
-  {
-    "locality": "tondiarpet",
     "sk": "2024-09-06#f9cd6f96e9",
     "date": "2024-09-06",
     "event": null,
@@ -3369,18 +3165,6 @@
     "detail": "Heavy rain causes flooding in Chennai’s Triplicane area, inundating Dr Besant Road.",
     "source_url": "https://www.dtnext.in/news/chennai/live-cyclone-fengal-effect-hits-chennai-neighbourhood-check-details-heavy-rainfall-kancheepuram-chengalpattu-tiruvallur-heavy-rains-red-alert-813152",
     "source_title": "HIGHLIGHTS: Cyclone Fengal reaches coast, makes landfall near Puducherry",
-    "locality_as_written": "Triplicane"
-  },
-  {
-    "locality": "triplicane",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "Fallen trees added to the woes of the public.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
     "locality_as_written": "Triplicane"
   },
   {
@@ -3793,18 +3577,6 @@
   },
   {
     "locality": "velachery",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Inundation led to a traffic gridlock.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Velachery"
-  },
-  {
-    "locality": "velachery",
     "sk": "2024-09-06#f9cd6f96e9",
     "date": "2024-09-06",
     "event": null,
@@ -3886,18 +3658,6 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Velachery"
-  },
-  {
-    "locality": "villivakkam",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "minor",
-    "water_stayed_days": null,
-    "detail": "The article mentions Thirumangalam Road in Villivakkam as one of the inundated areas.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Thirumangalam Road in Villivakkam"
   },
   {
     "locality": "villivakkam",
@@ -3994,18 +3754,6 @@
     "source_url": "https://www.dtnext.in/news/city/flood-of-memories",
     "source_title": "Flood of memories",
     "locality_as_written": "Vyasarpadi"
-  },
-  {
-    "locality": "washermanpet",
-    "sk": "2024-10-15#637e4ce7f3",
-    "date": "2024-10-15",
-    "event": "Cyclone Michaung",
-    "severity": "moderate",
-    "water_stayed_days": null,
-    "detail": "Rainwater mixed with sewage overflowed from the manhole.",
-    "source_url": "https://www.dtnext.in/news/chennai/north-east-monsoon-inundated-chennai-braces-for-day-2-807594",
-    "source_title": "North East Monsoon: Inundated Chennai braces for Day 2",
-    "locality_as_written": "Old Washermenpet"
   },
   {
     "locality": "washermanpet",

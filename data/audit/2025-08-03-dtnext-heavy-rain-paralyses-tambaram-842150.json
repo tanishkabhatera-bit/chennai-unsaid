@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "tambaram",
+    "date": "2025-08-03",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "selaiyur",
+    "date": "2025-08-03",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mudichur",
+    "date": "2025-08-03",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perungalathur",
+    "date": "2025-08-03",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "peerkankaranai",
+    "date": "2025-08-03",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "velachery",
+    "date": "2025-08-03",
+    "ok": true,
+    "reasons": []
+  }
+]
