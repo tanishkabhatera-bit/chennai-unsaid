@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog: paste into Builder Center</title>
+<style>
+  body { font-family: Segoe UI, Arial, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 80px; line-height: 1.6; color: #111; background: #fff; }
+  .help { background: #fff4d6; border: 2px solid #c98b00; border-radius: 10px; padding: 14px 16px; margin-bottom: 24px; font-size: 15px; }
+  .help b { color: #8a4b00; }
+  .field { background: #eef4ff; border: 2px solid #3b6fd8; border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; }
+  .field small { display: block; color: #3b6fd8; font-weight: 700; text-transform: uppercase; font-size: 12px; letter-spacing: .05em; }
+  button { font: inherit; font-weight: 700; background: #b5451b; color: #fff; border: 0; border-radius: 10px; padding: 12px 18px; cursor: pointer; }
+  button.small { background: #3b6fd8; padding: 6px 12px; font-size: 13px; margin-top: 6px; }
+  #ok { margin-left: 10px; color: #1a7f37; font-weight: 700; }
+  #article { border-top: 3px solid #111; margin-top: 20px; padding-top: 10px; }
+  .pic { background: #ffe1e1; border: 2px dashed #c0392b; color: #8b1f12; border-radius: 8px; padding: 8px 12px; font-size: 14px; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<div class="help">
+  <b>How to use this page</b><br>
+  1. Copy the <b>title</b>, <b>description</b> and <b>tags</b> below into their own fields in Builder Center (each has its own copy button).<br>
+  2. Click <b>Copy article</b>, click inside the Builder Center body, press <b>Ctrl + V</b>. Bullets, bold and headings come with it.<br>
+  3. Each <span style="color:#8b1f12;font-weight:700">red box</span> shows where a picture goes. In Builder Center, click on that red-box line, delete its text, and drop the picture there. Then type the caption (if any) under it.
+</div>
+
+<div class="field"><small>Title</small><span id="title">A place can look perfect. Until it rains.</span><br><button class="small" onclick="copyText('title')">Copy title</button></div>
+<div class="field"><small>Short description</small><span id="desc">I built a free tool that shows how high the water came in any Chennai area, from ten years of news, before you rent or buy. Built for Environmental Hacks with Amazon Bedrock, DynamoDB and Amplify.</span><br><button class="small" onclick="copyText('desc')">Copy description</button></div>
+<div class="field"><small>Tags (add one at a time)</small>hackathon · amazon-bedrock · dynamodb · aws-amplify · climate · generative-ai</div>
+<div class="field"><small>Cover image</small>Your generated cover (flooded street, auto driver, marks on the wall)</div>
+
+<button onclick="copyArticle()">Copy article</button><span id="ok"></span>
+
+<div id="article">
+
+<p>I fainted from the heat in Chennai once.</p>
+<p>Nobody had told me how hot it actually gets. Not on the weather app, not from anyone around me.</p>
+<p class="pic">PICTURE 1 HERE: generated image, student at the bus stop in the heat (no caption)</p>
+<p>Later I realised it's not just heat. Nobody tells you anything about an area before you move in.</p>
+<p>The broker won't say the street floods. The listing says "24 hrs water, very safe area." The landlord says "no problem here."</p>
+<p>Then the monsoon comes.</p>
+<p class="pic">PICTURE 2 HERE: generated image, broker on the sunny side, flooded building on the monsoon side (no caption)</p>
+<p>This is what I built for Environmental Hacks (WeMakeDevs × AWS), Heat and Water track.</p>
+
+<h2>The problem I picked</h2>
+<p>I'm a digital marketing student, not a developer. I picked one small problem inside the Heat and Water track:</p>
+<p><strong>people in Chennai choose where to live without knowing if that area floods or how hot it gets.</strong></p>
+<p>The information exists. It's just scattered.</p>
+<ul>
+  <li>Every monsoon the news reports which areas went under water.</li>
+  <li>After Cyclone Michaung in December 2023, water stood for about a week in parts of Pallikaranai, Thoraipakkam and Kodungaiyur.</li>
+  <li>Residents remember all of it.</li>
+  <li>Someone signing a lease next month has no way to find it.</li>
+</ul>
+<p>So the question became simple. Can I put ten years of that news in one place, area by area, and show it before someone pays the advance?</p>
+
+<h2>What I built</h2>
+<p>Chennai Unsaid. Live here: <a href="https://main.d1v8v4f0epo1xy.amplifyapp.com">https://main.d1v8v4f0epo1xy.amplifyapp.com</a></p>
+<p class="pic">PICTURE 3 HERE: screenshot, home page in water mode with the auto driver and the wall. Caption: Pick an area, see how high the water came.</p>
+<ul>
+  <li><strong>Flood history for 202 Chennai areas.</strong> Pick an area, tap a year, and the water on the wall rises to how high it came that year. Every mark has the news article behind it.</li>
+  <li><strong>Heat.</strong> Live temperature, how hot it felt on the worst day of the past year, and what that means for a normal day.</li>
+  <li><strong>Check a property.</strong> You paste the broker's message. It reads the area, floor and parking, checks what they claimed against the record, and gives you the questions to ask.</li>
+  <li><strong>Compare two flats.</strong> Flooding, heat and water side by side, with the source and date on every line.</li>
+  <li><strong>Will your water last?</strong> If a supply cut is announced, it works out how many days your stored water lasts.</li>
+</ul>
+<p class="pic">PICTURE 4 HERE: screenshot, Velachery with 2023 selected, water at knee height, Source link visible. Caption: Tap a year. The water goes to the level the news reported, with the article right below.</p>
+<p class="pic">PICTURE 5 HERE: screenshot, Check a property showing "No flooding problem in this street" next to "Doesn't match the record". Caption: The broker said no flooding. The news said five flood years.</p>
+<p>That last screenshot is the whole idea in one picture.</p>
+<p>The app never says "don't live here." It shows what happened, where it came from, and what to ask.</p>
+
+<h2>Why there's an auto driver</h2>
+<p>Flood data in a table is boring. Nobody reads it.</p>
+<p>So the guide is a Chennai auto driver standing next to his auto.</p>
+<ul>
+  <li>Ankle deep, he has an umbrella.</li>
+  <li>Knee deep, he's worried.</li>
+  <li>Water inside homes, arms crossed.</li>
+  <li>In the heat, he's wiping his face, and if you tap him he drinks water and tells you what to do.</li>
+</ul>
+<p class="pic">PICTURE 6 HERE: screenshot, heat mode, driver wiping his brow with the speech bubble. Caption: Heat mode. Tap him and he tells you what to do about it.</p>
+<p>He's there to make you read the evidence, not to replace it.</p>
+
+<h2>How AWS does the actual work</h2>
+<p>Here's the thing. The hard part was not the website. It was turning 190 messy news articles into data I could trust.</p>
+<p class="pic">PICTURE 7 HERE: generated image, newspapers turning into index cards, driver leaning over (no caption)</p>
+<p><strong>Amazon Bedrock (Nova Lite)</strong> read every article and pulled out records like: which area, which date, how bad, how many days the water stayed, and the line from the article that says so.</p>
+<p>Then I made it check its own work. A second pass re-read each article and asked one question: does this article actually say this area flooded?</p>
+<p><strong>Amazon DynamoDB</strong> stores everything: the flood records, heat ratings for 202 areas, residents' reports, and the summaries so they don't get regenerated on every visit.</p>
+<p><strong>AWS Amplify Hosting</strong> runs the site. It deploys from GitHub every time I push. The site talks to DynamoDB and Bedrock through an IAM role, so there are no passwords or keys anywhere in the code.</p>
+<p class="pic">PICTURE 8 HERE: the diagram file docs/architecture.png. Caption: How it fits together.</p>
+<p class="pic">PICTURE 9 HERE: screenshot, DynamoDB FloodRecords table with real rows. Caption: The flood records in DynamoDB.</p>
+
+<h2>What went wrong</h2>
+<p>A lot. These are the ones that taught me something.</p>
+<p class="pic">PICTURE 10 HERE: generated image, driver puzzled at a wrong mark on the wall (no caption)</p>
+
+<h3>1. The app said Velachery flooded in 2026. It didn't.</h3>
+<p>The record came from a 2026 election article where residents talked about the 2015 floods. The AI took the article's date as the flood date.</p>
+<p>I only caught it because I clicked on 2026 and thought, wait, there was no flood this year.</p>
+<p>So I added two checks:</p>
+<ul>
+  <li>if a record talks about an earlier year, it's a look-back, not a new flood</li>
+  <li>if the article is an opinion piece or a report card and not a flood report, its undated records are dropped</li>
+</ul>
+<p>81 of the 190 articles turned out to be feature pieces. After cleaning, 304 records across 82 areas stayed. Fewer, but I trust them.</p>
+
+<h3>2. Counting news articles is not a fair comparison.</h3>
+<p>An area that gets written about more looks worse. So for comparing two flats I added measured numbers, same for every area, same years: the heaviest one-day rain in each monsoon, rain during Cyclone Michaung, and how many days in the past year felt hotter than 40°C.</p>
+
+<h3>3. My first auto driver was a stick figure.</h3>
+<p>It looked bad. Then the background remover I wrote ate holes in his khaki shirt because the shirt was almost the same yellow as the background. I had to change how it detects the background.</p>
+
+<h3>4. Small honest gaps I left in.</h3>
+<ul>
+  <li>It works at area level, not street level. One street can flood and the next one doesn't.</li>
+  <li>The rain data is on a 10 km grid, so neighbouring areas can show the same numbers.</li>
+  <li>There's no official water supply data connected yet. The app says so instead of guessing.</li>
+</ul>
+
+<h2>What I learned</h2>
+<ul>
+  <li>Data you can't trace back to a source is useless for a decision like this. Every number in the app shows where it came from.</li>
+  <li>AI is good at reading. It is not good at being sure. The second check mattered more than the first.</li>
+  <li>A small problem done properly is more useful than a big one done vaguely.</li>
+</ul>
+
+<h2>What's next</h2>
+<ul>
+  <li>Connect official rain gauge and groundwater data.</li>
+  <li>Street level reports from residents during the monsoon, so "Now" fills itself.</li>
+  <li>The same method works for any Indian city that floods. Which is most of them.</li>
+</ul>
+
+<p>So no, a nice listing is not the full picture. The water marks are.</p>
+<p class="pic">VIDEO LINK HERE (after uploading): Watch the 3-minute demo: your YouTube link</p>
+<p><em>I'm Tanishka, a digital marketing student in Chennai. I'm not a developer. I built this in four days with Claude Code.</em></p>
+<p><em>Code: <a href="https://github.com/tanishkabhatera-bit/chennai-unsaid">https://github.com/tanishkabhatera-bit/chennai-unsaid</a>. Weather data by Open-Meteo (CC BY 4.0). Flood records from DT Next, Deccan Herald and Citizen Matters, linked in the app.</em></p>
+
+</div>
+
+<script>
+  function flash(msg) { const ok = document.getElementById('ok'); ok.textContent = msg; setTimeout(() => (ok.textContent = ''), 3000); }
+  async function copyText(id) {
+    const text = document.getElementById(id).textContent;
+    try { await navigator.clipboard.writeText(text); flash('Copied'); }
+    catch { selectNode(document.getElementById(id)); document.execCommand('copy'); flash('Copied'); }
+  }
+  function selectNode(node) { const r = document.createRange(); r.selectNodeContents(node); const s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+  async function copyArticle() {
+    const node = document.getElementById('article');
+    // Copy as rich text so bullets, bold and headings survive the paste.
+    try {
+      const html = node.innerHTML;
+      const text = node.innerText;
+      await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([text], { type: 'text/plain' }) })]);
+      flash('Article copied. Now paste it into Builder Center with Ctrl + V.');
+    } catch {
+      selectNode(node);
+      document.execCommand('copy');
+      flash('Article copied. Now paste it into Builder Center with Ctrl + V.');
+    }
+  }
+</script>
+</body>
+</html>
