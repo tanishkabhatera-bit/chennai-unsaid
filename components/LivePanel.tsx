@@ -38,14 +38,24 @@ export default function LivePanel({
   const wall = picked ? (walls[picked.slug] ?? { years: 0, marks: [], now: { level: "dry" as const, note: "No flooding in the news for this area." } }) : null;
   const lv = picked ? live[picked.slug] : undefined;
 
+  // Once rain and heat are both known, open the view that matters today:
+  // rain now or today → water; otherwise hot → heat.
+  function autoMode(slug: string, s: Record<string, Live>) {
+    const l = s[slug];
+    if (!l || l.rain === undefined || l.current === undefined) return;
+    const wet = !!l.rain && (l.rain.last24h >= 5 || (l.rain.days[0]?.mm ?? 0) >= 10);
+    const hot = !!l.current && ["hot", "scorching"].includes(heatMood(l.current.feelsLike));
+    setMode(wet ? "water" : hot ? "heat" : "water");
+  }
+
   function load(slug: string) {
-    if (live[slug]) return;
+    if (live[slug]) { autoMode(slug, live); return; }
     setLive((s) => ({ ...s, [slug]: {} }));
     for (const part of ["current", "hottest", "rain"] as const) {
       fetch(`/api/weather/${slug}?part=${part}`)
         .then((r) => r.json())
-        .then((v) => setLive((s) => ({ ...s, [slug]: { ...s[slug], [part]: v } })))
-        .catch(() => setLive((s) => ({ ...s, [slug]: { ...s[slug], [part]: null } })));
+        .then((v) => setLive((s) => { const next = { ...s, [slug]: { ...s[slug], [part]: v } }; autoMode(slug, next); return next; }))
+        .catch(() => setLive((s) => { const next = { ...s, [slug]: { ...s[slug], [part]: null } }; autoMode(slug, next); return next; }));
     }
   }
 

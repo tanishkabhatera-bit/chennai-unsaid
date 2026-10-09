@@ -25,8 +25,8 @@ const DOORS = [
     color: "bg-chalk",
   },
   {
-    title: "This monsoon, live",
-    text: "Rain right now and the next three days for your area, plus what residents are marking on the wall this week.",
+    title: "Right now, live",
+    text: "Rain or heat, whichever is hitting your area today: live numbers, the next three days, and what residents are marking this week.",
     href: "/live",
     cta: "See it live",
     icon: "/icon-monsoon.png",
