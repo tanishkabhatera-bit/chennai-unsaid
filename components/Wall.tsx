@@ -36,7 +36,7 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
     <div className={`wall ${mode === "heat" ? "wall-heat" : ""} relative w-full overflow-hidden rounded-[28px] border-[6px] border-ink shadow-[8px_8px_0_#121212]`}>
       <div className="wall-face relative aspect-[4/5] w-full sm:aspect-[16/10]">
         {title && (
-          <div className="absolute left-4 top-4 z-10 max-w-[45%] -rotate-2 bg-ink px-3 py-1 font-display text-base uppercase leading-tight text-chalk sm:text-2xl">
+          <div className="absolute left-4 top-4 z-10 max-w-[50%] -rotate-2 bg-ink px-3 py-1 font-display text-base uppercase leading-tight text-chalk sm:text-xl">
             {title}
           </div>
         )}
@@ -73,7 +73,7 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
         </button>
 
         {/* Speech bubble */}
-        <div key={scene.bubble} className="bubble absolute left-[4%] top-[17%] z-[9] w-[56%] sm:left-[30%] sm:top-[5%] sm:w-[37%]">
+        <div key={scene.bubble} className="bubble absolute left-[4%] top-[18%] z-[9] w-[56%] sm:left-[24%] sm:top-[16%] sm:w-[40%]">
           <button
             type="button"
             onClick={onTap}
