@@ -22,19 +22,6 @@ interface Props {
   caption?: string;
 }
 
-/** Tears over the driver's face (standing image is 285x765; eyes around x 42–58%, y 14%). */
-function Tears() {
-  return (
-    <svg viewBox="0 0 285 765" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
-      <g fill="#2e78b7">
-        {[[122, 118], [160, 118]].map(([x, y], i) => (
-          <path key={i} className="sweat" style={{ animationDelay: `${i * 0.5}s` }} d={`M${x} ${y} q7 12 0 20 q-7 -8 0 -20z`} />
-        ))}
-      </g>
-    </svg>
-  );
-}
-
 /**
  * A compound wall with an auto parked in front and its driver standing beside it.
  * Water mode: the water sits at `level`. Heat mode: the sun comes out and the wall bakes.
@@ -83,7 +70,6 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img key={scene.pose} src={POSE_IMAGE[scene.pose]} alt="" className="pose h-full w-auto" />
-          {scene.tears && scene.pose === "standing" && <Tears />}
         </button>
 
         {/* Speech bubble */}

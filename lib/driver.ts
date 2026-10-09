@@ -1,7 +1,7 @@
 import type { WaterLevel } from "./levels";
 import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay } from "./weather";
 
-export type Pose = "standing" | "drink" | "wipe" | "relaxed" | "phone";
+export type Pose = "standing" | "drink" | "wipe" | "relaxed" | "phone" | "umbrella" | "worried" | "sad";
 
 export const POSE_IMAGE: Record<Pose, string> = {
   standing: "/driver.png",
@@ -9,6 +9,9 @@ export const POSE_IMAGE: Record<Pose, string> = {
   wipe: "/driver-wipe.png",
   relaxed: "/driver-relaxed.png",
   phone: "/driver-phone.png",
+  umbrella: "/driver-umbrella.png",
+  worried: "/driver-worried.png",
+  sad: "/driver-sad.png",
 };
 
 export interface Scene {
@@ -17,16 +20,30 @@ export interface Scene {
   bubble: string;
   /** Small prompt under the bubble, e.g. "Tap me". Absent when tapping does nothing. */
   hint?: string;
-  /** Tears over his face. */
-  tears?: boolean;
 }
+
+const WATER_POSE: Record<WaterLevel, Pose> = {
+  dry: "relaxed",
+  ankle: "umbrella",
+  knee: "worried",
+  waist: "sad",
+  chest: "sad",
+};
 
 const WATER_LINES: Record<WaterLevel, string> = {
   dry: "Dry that time, boss. Nothing to report.",
-  ankle: "Ankle deep. Chappals gone, that's all.",
+  ankle: "Ankle deep. Umbrella out, chappals in hand, that's all.",
   knee: "Knee deep. Autos stopped, people waded through.",
   waist: "Waist deep. Bikes went under, ground floors got water.",
   chest: "Chest deep. Water inside homes. People left by boat.",
+};
+
+const WATER_ADVICE: Record<WaterLevel, string> = {
+  dry: "Still ask the neighbours about the last big rain. The news doesn't catch every street.",
+  ankle: "Ask for a ground floor that's raised a few steps. Check where the water went that time.",
+  knee: "Ask if water entered the stilt parking or the ground floor. Keep the bike on a higher street in the rains.",
+  waist: "Avoid a ground-floor flat here unless it's raised. Ask about a sump pump and backup power.",
+  chest: "Take a higher floor. Ask the owner, in writing, whether water entered the house that year.",
 };
 
 interface Args {
@@ -53,11 +70,12 @@ function hottestLine(h: HottestDay | null | undefined): string {
 
 /** What the driver is doing and saying, given the wall's state. */
 export function driverScene(a: Args): Scene {
+  const tapped = a.step % 2 === 1;
+
   if (a.mode === "heat") {
     if (a.weather === undefined) return { pose: "phone", bubble: "One second, checking the thermometer…" };
     if (a.weather === null) return { pose: "relaxed", bubble: "Can't reach the weather service right now. Try again in a minute." };
     const mood = heatMood(a.weather.feelsLike);
-    const tapped = a.step % 2 === 1;
     if (mood === "hot" || mood === "scorching") {
       return tapped
         ? { pose: "drink", bubble: HEAT_LINES[mood].advice, hint: "Tap again" }
@@ -70,13 +88,18 @@ export function driverScene(a: Args): Scene {
 
   // Water mode
   if (a.selected === "now") {
-    if (a.level === "dry") return { pose: "phone", bubble: a.nowNote };
-    return { pose: "standing", bubble: `Right now: ${WATER_LINES[a.level].toLowerCase()} ${a.nowNote}.`, tears: a.level === "waist" || a.level === "chest" };
+    if (a.level === "dry") {
+      return tapped
+        ? { pose: "relaxed", bubble: "Pick a year below to see how high it came before.", hint: "Tap again" }
+        : { pose: "phone", bubble: a.nowNote, hint: "Tap me" };
+    }
+    return tapped
+      ? { pose: WATER_POSE[a.level], bubble: WATER_ADVICE[a.level], hint: "Tap again" }
+      : { pose: WATER_POSE[a.level], bubble: `Right now: ${WATER_LINES[a.level]}`, hint: "Tap me" };
   }
+
   const when = a.event ? `${a.event}, ${a.selected}` : a.selected;
-  return {
-    pose: "standing",
-    bubble: `${when}: ${WATER_LINES[a.level]}`,
-    tears: a.level === "waist" || a.level === "chest",
-  };
+  return tapped
+    ? { pose: WATER_POSE[a.level], bubble: WATER_ADVICE[a.level], hint: "Tap again" }
+    : { pose: WATER_POSE[a.level], bubble: `${when}: ${WATER_LINES[a.level]}`, hint: "Tap me" };
 }
