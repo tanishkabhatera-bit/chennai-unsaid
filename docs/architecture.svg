@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1200" height="700" fill="#f7dd8a"/>
+  <text x="600" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#121212">Chennai Unsaid: architecture</text>
+
+  <!-- Browser -->
+  <rect x="60" y="110" width="230" height="110" rx="16" fill="#faf3e0" stroke="#121212" stroke-width="4"/>
+  <text x="175" y="155" text-anchor="middle" font-size="22" font-weight="700">Browser</text>
+  <text x="175" y="185" text-anchor="middle" font-size="16">phone or laptop</text>
+
+  <!-- Amplify -->
+  <rect x="400" y="90" width="400" height="150" rx="16" fill="#ffffff" stroke="#121212" stroke-width="4"/>
+  <text x="600" y="130" text-anchor="middle" font-size="22" font-weight="700">AWS Amplify Hosting</text>
+  <text x="600" y="160" text-anchor="middle" font-size="16">Next.js app (pages + API routes, SSR)</text>
+  <text x="600" y="186" text-anchor="middle" font-size="16">deploys from GitHub on every push</text>
+  <text x="600" y="214" text-anchor="middle" font-size="14" fill="#b5451b">IAM compute role: 4 tables + Nova Lite only, no keys</text>
+
+  <!-- Open-Meteo -->
+  <rect x="910" y="110" width="240" height="110" rx="16" fill="#faf3e0" stroke="#121212" stroke-width="4" stroke-dasharray="8 6"/>
+  <text x="1030" y="150" text-anchor="middle" font-size="20" font-weight="700">Open-Meteo</text>
+  <text x="1030" y="178" text-anchor="middle" font-size="15">live weather + ERA5 history</text>
+  <text x="1030" y="200" text-anchor="middle" font-size="13">(external, CC BY 4.0)</text>
+
+  <!-- DynamoDB -->
+  <rect x="230" y="340" width="340" height="170" rx="16" fill="#ffffff" stroke="#121212" stroke-width="4"/>
+  <text x="400" y="380" text-anchor="middle" font-size="22" font-weight="700">Amazon DynamoDB</text>
+  <text x="400" y="412" text-anchor="middle" font-size="16">FloodRecords (304)</text>
+  <text x="400" y="438" text-anchor="middle" font-size="16">HeatRatings (202 areas)</text>
+  <text x="400" y="464" text-anchor="middle" font-size="16">Reports · SummaryCache</text>
+
+  <!-- Bedrock -->
+  <rect x="630" y="340" width="340" height="170" rx="16" fill="#ffffff" stroke="#121212" stroke-width="4"/>
+  <text x="800" y="380" text-anchor="middle" font-size="22" font-weight="700">Amazon Bedrock</text>
+  <text x="800" y="410" text-anchor="middle" font-size="16">Amazon Nova Lite (ap-southeast-2)</text>
+  <text x="800" y="438" text-anchor="middle" font-size="16">live: area summaries, reading</text>
+  <text x="800" y="462" text-anchor="middle" font-size="16">pasted listings, landlord questions</text>
+
+  <!-- Pipeline -->
+  <rect x="60" y="570" width="1090" height="90" rx="16" fill="#faf3e0" stroke="#121212" stroke-width="4"/>
+  <text x="605" y="604" text-anchor="middle" font-size="18" font-weight="700">Data pipeline (scripts/)</text>
+  <text x="605" y="636" text-anchor="middle" font-size="15">190 news articles → Bedrock extracts records → Bedrock re-checks each + rule checks → load into DynamoDB</text>
+
+  <!-- arrows -->
+  <defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#121212"/></marker><marker id="unused" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#121212"/></marker></defs>
+  <line x1="290" y1="165" x2="395" y2="165" stroke="#121212" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="800" y1="165" x2="905" y2="165" stroke="#121212" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="520" y1="240" x2="440" y2="335" stroke="#121212" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="680" y1="240" x2="760" y2="335" stroke="#121212" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="800" y1="565" x2="800" y2="515" stroke="#121212" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="400" y1="565" x2="400" y2="515" stroke="#121212" stroke-width="4" marker-end="url(#a)"/>
+</svg>
