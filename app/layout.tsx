@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Bungee, Permanent_Marker, Rubik } from "next/font/google";
+import { Suspense } from "react";
 import SiteMenu from "@/components/SiteMenu";
 import "./globals.css";
 
@@ -26,7 +27,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <div className="flex items-center gap-4">
               <span className="hidden font-marker text-rust sm:inline">the things listings leave out</span>
-              <SiteMenu />
+              {/* SiteMenu reads the URL, so it renders at request time inside Suspense. */}
+              <Suspense fallback={<span className="h-11 w-11 rounded-xl border-[3px] border-ink bg-chalk" aria-hidden="true" />}>
+                <SiteMenu />
+              </Suspense>
             </div>
           </div>
         </header>
