@@ -55,6 +55,10 @@ function ruleCheck(r: FloodRecord, published: string, notes: string[]): string[]
       r.event = null;
     }
   }
+  // A look-back ("during the 2015 floods") dated by a later article is not a flood in the article's year.
+  const recordYear = Number(r.date.slice(0, 4));
+  const earlier = [...r.detail.matchAll(/\b(20[0-2]\d)\b/g)].map((m) => Number(m[1])).filter((y) => y < recordYear);
+  if (earlier.length) problems.push(`detail refers to ${earlier.join(", ")}, record dated ${r.date}: a look-back, not a new flood`);
   // Complaints, demands, plans, warnings and studies are not flood events.
   if (NOT_AN_EVENT.test(r.detail)) problems.push(`detail reads as a complaint/plan, not an event: "${r.detail.slice(0, 60)}"`);
   // An article can't report a flood that happens after it was published (allow a 3-day forecast slack).
@@ -88,9 +92,43 @@ ${text.slice(0, 15000)}`;
   }
 }
 
+/**
+ * Is the article a report of a specific rain event, or a feature/opinion/explainer/election piece?
+ * In a feature, a record dated by the publication date (no event date of its own) isn't a flood
+ * in that month: "every monsoon it floods" in an August article is not an August flood.
+ */
+async function classifyArticle(title: string, published: string, text: string): Promise<"event" | "feature"> {
+  const prompt = `Classify this Chennai news article.
+"event": it reports flooding or waterlogging from a specific rain spell, cyclone or storm that happened in the days just before ${published}.
+"feature": anything else, such as an explainer, opinion, election or constituency report card, project or policy story, study, retrospective, or general complaint about recurring floods.
+Reply with ONLY one word: event or feature.
+
+TITLE: ${title}
+PUBLISHED: ${published}
+TEXT:
+${text.slice(0, 6000)}`;
+  const res = await bedrock.send(
+    new ConverseCommand({ modelId: MODEL_ID, messages: [{ role: "user", content: [{ text: prompt }] }], inferenceConfig: { temperature: 0, maxTokens: 5 } }),
+  );
+  const reply = (res.output?.message?.content?.map((c) => c.text ?? "").join("") ?? "").toLowerCase();
+  return reply.includes("feature") ? "feature" : "event";
+}
+
 async function main() {
   const force = process.argv.includes("--force");
   await mkdir(AUDIT, { recursive: true });
+
+  // Article-level classification, cached.
+  const KINDS = path.join(AUDIT, "_articles.json");
+  const kinds: Record<string, "event" | "feature"> = existsSync(KINDS) ? JSON.parse(await readFile(KINDS, "utf8")) : {};
+  for (const file of (await readdir(EXTRACTED)).filter((f) => f.endsWith(".json")).sort()) {
+    const ex: Extracted = JSON.parse(await readFile(path.join(EXTRACTED, file), "utf8"));
+    if (kinds[ex.article.id] || ex.records.length === 0) continue;
+    const raw = await readFile(path.join("articles", `${ex.article.id}.txt`), "utf8").catch(() => "");
+    kinds[ex.article.id] = await classifyArticle(ex.article.title, ex.article.published, raw.split(/^---$/m).slice(1).join("---"));
+    if (kinds[ex.article.id] === "feature") console.log(`FEATURE ${ex.article.id}`);
+  }
+  await writeFile(KINDS, JSON.stringify(kinds, null, 2) + "\n");
   const files = (await readdir(EXTRACTED)).filter((f) => f.endsWith(".json")).sort();
   let kept = 0;
   let dropped = 0;
@@ -134,6 +172,9 @@ async function main() {
       // Rules are cheap, so re-apply the current ones even to records audited under older rules.
       const rec = { ...r, event: v.event === undefined ? r.event : v.event };
       const problems = ruleCheck(rec, ex.article.published, []);
+      if (kinds[ex.article.id] === "feature" && r.date === ex.article.published) {
+        problems.push("feature article, and the record has no event date of its own");
+      }
       if (problems.length) {
         console.log(`DROP (rules) ${ex.article.id} ${r.locality} ${r.date}: ${problems.join("; ")}`);
         continue;

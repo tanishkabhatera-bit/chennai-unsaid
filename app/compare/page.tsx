@@ -11,10 +11,10 @@ export default function ComparePage() {
   return (
     <div className="space-y-8 py-8">
       <div>
-        <p className="font-marker text-xl text-rust">Two flats, one rule</p>
+        <p className="font-marker text-xl text-rust">Climate Compare</p>
         <h1 className="mt-1 font-display text-3xl uppercase leading-none text-ink sm:text-5xl">Compare two flats</h1>
         <p className="mt-3 max-w-2xl font-body text-lg text-ink/80">
-          Two areas, or the same area on two floors. The auto anna runs the same check on both and says which comes out ahead on water and heat. The rest is yours.
+          Two areas, or the same area on two floors. See flooding, heat and water availability side by side, with the source and date behind every line, what we don&apos;t know, and what to verify before you pay the advance.
         </p>
       </div>
       <CompareCheck localities={getLocalities()} />

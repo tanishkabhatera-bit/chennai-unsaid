@@ -115,6 +115,76 @@ export async function fetchHottestLastYear(lat: number, lon: number): Promise<Ho
   }
 }
 
+/** Same indicators, same periods, for any location: what Climate Compare lines up side by side. */
+export interface ClimateHistory {
+  /** Heaviest one-day rain in each northeast monsoon (Oct–Dec), oldest first. */
+  monsoonPeaks: { year: number; date: string; mm: number }[];
+  /** Total rain over 2–5 Dec 2023 (Cyclone Michaung). */
+  michaungMm: number | null;
+  /** Days in the last 365 that felt 40°C or hotter. */
+  daysOver40: number;
+  hottest: HottestDay | null;
+  /** The grid cell the archive actually used. */
+  gridLat: number;
+  gridLon: number;
+  period: { start: string; end: string };
+}
+
+export async function fetchClimateHistory(lat: number, lon: number): Promise<ClimateHistory | null> {
+  const end = new Date();
+  end.setDate(end.getDate() - 3); // the archive lags a few days
+  const endStr = end.toISOString().slice(0, 10);
+  const startYear = end.getFullYear() - (end.getMonth() >= 11 ? 4 : 5); // five complete monsoons
+  const start = `${startYear}-10-01`;
+  const url =
+    `https://archive-api.open-meteo.com/v1/archive?latitude=${lat}&longitude=${lon}` +
+    `&start_date=${start}&end_date=${endStr}&daily=precipitation_sum,temperature_2m_max,apparent_temperature_max&timezone=${TZ}`;
+  try {
+    const res = await fetch(url, { next: { revalidate: 86400 } });
+    if (!res.ok) return null;
+    const j = await res.json();
+    const t: string[] = j.daily.time;
+    const rain: (number | null)[] = j.daily.precipitation_sum;
+    const tmax: (number | null)[] = j.daily.temperature_2m_max;
+    const feel: (number | null)[] = j.daily.apparent_temperature_max;
+
+    const peaks = new Map<number, { year: number; date: string; mm: number }>();
+    for (let i = 0; i < t.length; i++) {
+      const m = Number(t[i].slice(5, 7));
+      if (m < 10 || rain[i] == null) continue;
+      const y = Number(t[i].slice(0, 4));
+      if (!peaks.has(y) || rain[i]! > peaks.get(y)!.mm) peaks.set(y, { year: y, date: t[i], mm: Math.round(rain[i]! * 10) / 10 });
+    }
+    // Only complete monsoons (the current year's Oct–Dec isn't over yet).
+    const monsoonPeaks = [...peaks.values()].filter((p) => p.year < end.getFullYear() || end.getMonth() === 11).sort((a, b) => a.year - b.year);
+
+    const mi = t.indexOf("2023-12-02");
+    const michaungMm = mi >= 0 ? Math.round(rain.slice(mi, mi + 4).reduce<number>((s, v) => s + (v ?? 0), 0) * 10) / 10 : null;
+
+    const yearAgo = new Date(end);
+    yearAgo.setFullYear(yearAgo.getFullYear() - 1);
+    const from = yearAgo.toISOString().slice(0, 10);
+    let daysOver40 = 0;
+    let best = -1;
+    for (let i = 0; i < t.length; i++) {
+      if (t[i] < from || feel[i] == null) continue;
+      if (feel[i]! >= 40) daysOver40++;
+      if (best === -1 || feel[i]! > feel[best]!) best = i;
+    }
+    return {
+      monsoonPeaks,
+      michaungMm,
+      daysOver40,
+      hottest: best >= 0 ? { date: t[best], temperature: tmax[best]!, feelsLike: feel[best]! } : null,
+      gridLat: j.latitude,
+      gridLon: j.longitude,
+      period: { start, end: endStr },
+    };
+  } catch {
+    return null;
+  }
+}
+
 export type HeatMood = "chill" | "warm" | "hot" | "scorching";
 
 export function heatMood(feelsLike: number): HeatMood {
