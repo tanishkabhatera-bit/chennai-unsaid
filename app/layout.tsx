@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Bungee, Permanent_Marker, Rubik } from "next/font/google";
+import SiteMenu from "@/components/SiteMenu";
 import "./globals.css";
 
 const bungee = Bungee({ variable: "--font-bungee", weight: "400", subsets: ["latin"] });
@@ -23,7 +24,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/signboard.png" alt="Chennai Unsaid" className="h-10 w-auto sm:h-12" />
             </Link>
-            <span className="hidden font-marker text-rust sm:inline">the things listings leave out</span>
+            <div className="flex items-center gap-4">
+              <span className="hidden font-marker text-rust sm:inline">the things listings leave out</span>
+              <SiteMenu />
+            </div>
           </div>
         </header>
         <main className="mx-auto w-full max-w-5xl flex-1 px-4">{children}</main>

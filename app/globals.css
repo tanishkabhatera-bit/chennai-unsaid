@@ -110,6 +110,15 @@ body {
   to { opacity: 1; }
 }
 
+/* Menu slides in from the right */
+.menu-panel {
+  animation: slide-in 0.22s ease-out both;
+}
+@keyframes slide-in {
+  from { transform: translateX(100%); }
+  to { transform: none; }
+}
+
 /* Marks get painted on one by one */
 .mark {
   animation: paint 0.35s ease-out both;
@@ -120,5 +129,5 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .water, .flood-strip, .mark, .sunglow, .sky, .sweat, .bubble, .pose { animation: none; }
+  .water, .flood-strip, .mark, .sunglow, .sky, .sweat, .bubble, .pose, .menu-panel { animation: none; }
 }
