@@ -9,24 +9,24 @@ const HEAT = Object.fromEntries((heatJson as HeatRating[]).map((h) => [h.localit
 
 const DOORS = [
   {
-    title: "See the wall",
-    text: "Every flood year painted at the height the news reported, with the article behind each mark.",
-    href: "/area/velachery",
-    cta: "Try Velachery",
+    title: "Check a property",
+    text: "Area, floor, parking. The auto anna checks ten years of floods, the heat and what residents say against your exact case, and tells you what to ask.",
+    href: "/check",
+    cta: "Check one now",
     color: "bg-sun",
   },
   {
-    title: "Check a forward",
-    text: "Paste a WhatsApp message about floods or heat. See what the news actually said, with sources.",
-    href: "/check",
-    cta: "Coming next",
+    title: "See the wall",
+    text: "How high the water came in each flood year, with the article behind it. And how hot it is right now.",
+    href: "/area/velachery",
+    cta: "Try Velachery",
     color: "bg-chalk",
   },
   {
     title: "Add your mark",
     text: "Ankle, knee, waist or inside the house? One tap puts your year on the wall. No name, no login.",
     href: "/area/velachery",
-    cta: "Coming next",
+    cta: "Add yours",
     color: "bg-chalk",
   },
   {

@@ -243,6 +243,7 @@ export default function HomeHero({
           now={wall?.now ?? { level: "dry", note: "Pick an area to see its wall." }}
           weather={wx?.current}
           hottest={wx?.hottest}
+          empty={!picked}
         />
       </div>
     </section>

@@ -1,7 +1,9 @@
 import type { WaterLevel } from "./levels";
 import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay } from "./weather";
 
-export type Pose = "standing" | "drink" | "wipe" | "relaxed" | "phone" | "umbrella" | "worried" | "sad";
+export type Pose =
+  | "standing" | "drink" | "wipe" | "relaxed" | "phone" | "umbrella" | "worried" | "sad"
+  | "point" | "thumbs" | "shrug" | "wave" | "show";
 
 export const POSE_IMAGE: Record<Pose, string> = {
   standing: "/driver.png",
@@ -12,6 +14,11 @@ export const POSE_IMAGE: Record<Pose, string> = {
   umbrella: "/driver-umbrella.png",
   worried: "/driver-worried.png",
   sad: "/driver-sad.png",
+  point: "/driver-point.png",
+  thumbs: "/driver-thumbs.png",
+  shrug: "/driver-shrug.png",
+  wave: "/driver-wave.png",
+  show: "/driver-show.png",
 };
 
 export interface Scene {
@@ -60,6 +67,10 @@ interface Args {
   hottest?: HottestDay | null;
   /** How many times the driver has been tapped in this state. */
   step: number;
+  /** No area picked yet (home page). */
+  empty?: boolean;
+  /** The area has no flood records in the news at all. */
+  noRecords?: boolean;
 }
 
 function hottestLine(h: HottestDay | null | undefined): string {
@@ -72,9 +83,13 @@ function hottestLine(h: HottestDay | null | undefined): string {
 export function driverScene(a: Args): Scene {
   const tapped = a.step % 2 === 1;
 
+  if (a.empty) {
+    return { pose: "wave", bubble: a.mode === "heat" ? "Vanakkam! Type an area and I'll tell you how hot it really is." : "Vanakkam! Type an area and I'll show you how high the water came." };
+  }
+
   if (a.mode === "heat") {
     if (a.weather === undefined) return { pose: "phone", bubble: "One second, checking the thermometer…" };
-    if (a.weather === null) return { pose: "relaxed", bubble: "Can't reach the weather service right now. Try again in a minute." };
+    if (a.weather === null) return { pose: "shrug", bubble: "Can't reach the weather service right now. Try again in a minute." };
     const mood = heatMood(a.weather.feelsLike);
     if (mood === "hot" || mood === "scorching") {
       return tapped
@@ -89,6 +104,11 @@ export function driverScene(a: Args): Scene {
   // Water mode
   if (a.selected === "now") {
     if (a.level === "dry") {
+      if (a.noRecords) {
+        return tapped
+          ? { pose: "thumbs", bubble: "Could be good news. Still ask the neighbours about the last big rain.", hint: "Tap again" }
+          : { pose: "shrug", bubble: "No flood report for this area in the news we've read. The news doesn't catch every street.", hint: "Tap me" };
+      }
       return tapped
         ? { pose: "relaxed", bubble: "Pick a year below to see how high it came before.", hint: "Tap again" }
         : { pose: "phone", bubble: a.nowNote, hint: "Tap me" };

@@ -21,10 +21,12 @@ interface Props {
   /** undefined = loading, null = unavailable. */
   weather?: CurrentWeather | null;
   hottest?: HottestDay | null;
+  /** No area picked yet: the driver waves hello. */
+  empty?: boolean;
 }
 
 /** The wall plus the chips that choose which year's water it shows. "Now" is the default. */
-export default function YearWall({ mode, title, marks, now, weather, hottest }: Props) {
+export default function YearWall({ mode, title, marks, now, weather, hottest, empty }: Props) {
   const [selected, setSelected] = useState<string>("now");
   const [step, setStep] = useState(0);
   const mark = marks.find((m) => m.year === selected);
@@ -33,7 +35,7 @@ export default function YearWall({ mode, title, marks, now, weather, hottest }: 
     ? `${mark.event ? `${mark.event}, ` : ""}${mark.year} · as reported in the news`
     : now.note;
 
-  const scene = driverScene({ mode, level, selected, event: mark?.event, nowNote: now.note, weather, hottest, step });
+  const scene = driverScene({ mode, level, selected, event: mark?.event, nowNote: now.note, weather, hottest, step, empty, noRecords: marks.length === 0 });
 
   function choose(year: string) {
     setSelected(year);
