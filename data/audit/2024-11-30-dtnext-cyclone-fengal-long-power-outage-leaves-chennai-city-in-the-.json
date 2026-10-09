@@ -4,79 +4,92 @@
     "date": "2024-11-30",
     "ok": false,
     "reasons": [
-      "AI: The article does not mention Manali New Town being flooded or waterlogged."
-    ]
+      "AI: The article does not mention Manali New Town being waterlogged or flooded."
+    ],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "madipakkam",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "pallavaram",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "pallikaranai",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "perungalathur",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "chromepet",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "velachery",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "siruseri",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "avadi",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "pattabiram",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "ambattur",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "madhavaram",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "korattur",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   }
 ]

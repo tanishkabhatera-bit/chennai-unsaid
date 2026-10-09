@@ -3,18 +3,21 @@
     "locality": "pallikaranai",
     "date": "2023-12-20",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "ennore",
     "date": "2023-12-20",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mylapore",
     "date": "2023-12-20",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

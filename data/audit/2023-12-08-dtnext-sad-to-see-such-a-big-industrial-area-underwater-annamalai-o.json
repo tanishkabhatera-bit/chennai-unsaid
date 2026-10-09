@@ -3,12 +3,14 @@
     "locality": "ambattur",
     "date": "2023-12-08",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "pattalam",
     "date": "2023-12-08",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

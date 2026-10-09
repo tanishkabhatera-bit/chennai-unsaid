@@ -3,12 +3,14 @@
     "locality": "perambur",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

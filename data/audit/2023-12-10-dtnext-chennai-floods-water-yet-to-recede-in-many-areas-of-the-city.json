@@ -3,24 +3,28 @@
     "locality": "kodungaiyur",
     "date": "2023-12-10",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "pallikaranai",
     "date": "2023-12-10",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "thoraipakkam",
     "date": "2023-12-10",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "valasaravakkam",
     "date": "2023-12-10",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   }
 ]

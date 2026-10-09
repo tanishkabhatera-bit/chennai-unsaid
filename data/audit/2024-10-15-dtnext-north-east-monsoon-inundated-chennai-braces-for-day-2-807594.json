@@ -2,145 +2,164 @@
   {
     "locality": "perambur",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "kolathur",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "pattalam",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "tondiarpet",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "washermanpet",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "omr-sholinganallur",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "purasawalkam",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "porur",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "ambattur",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "madipakkam",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "anna-nagar",
     "date": "2024-10-15",
     "ok": false,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "AI: Anna Nagar is mentioned, but not as a flooded area in the specific rain event.",
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "villivakkam",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "t-nagar",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "pulianthope",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "triplicane",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "madhavaram",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   },
   {
     "locality": "mogappair",
     "date": "2024-10-15",
-    "ok": false,
+    "ok": true,
     "reasons": [
-      "event \"Cyclone Michaung\" dated 2024-10-15"
-    ]
+      "event label \"Cyclone Michaung\" removed: not in 2023-12"
+    ],
+    "event": null
   }
 ]

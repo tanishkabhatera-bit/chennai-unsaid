@@ -3,30 +3,35 @@
     "locality": "velachery",
     "date": "2024-11-11",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mylapore",
     "date": "2024-11-11",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pattalam",
     "date": "2024-11-11",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kodambakkam",
     "date": "2024-11-11",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perambur",
     "date": "2024-11-11",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

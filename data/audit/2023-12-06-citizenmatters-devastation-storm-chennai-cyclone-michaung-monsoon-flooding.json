@@ -3,36 +3,42 @@
     "locality": "taramani",
     "date": "2023-12-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "perungudi",
     "date": "2023-12-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "pallikaranai",
     "date": "2023-12-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "madipakkam",
     "date": "2023-12-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "manapakkam",
     "date": "2023-12-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   },
   {
     "locality": "saidapet",
     "date": "2023-12-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Michaung"
   }
 ]

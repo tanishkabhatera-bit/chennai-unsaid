@@ -3,78 +3,91 @@
     "locality": "vadapalani",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "tondiarpet",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "george-town",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kodambakkam",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mylapore",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "tiruvottiyur",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "manali",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perambur",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "ennore",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "puzhal",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kathivakkam",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "omr-sholinganallur",
     "date": "2024-09-06",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

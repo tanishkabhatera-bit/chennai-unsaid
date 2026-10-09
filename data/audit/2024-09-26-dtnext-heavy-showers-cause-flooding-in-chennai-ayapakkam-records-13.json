@@ -3,42 +3,49 @@
     "locality": "poonamallee",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "anna-nagar",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "koyambedu",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "nungambakkam",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "kk-nagar",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perambur",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "villivakkam",
     "date": "2024-09-26",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

@@ -1,6 +1,39 @@
 "use client";
 
-import { Auto, Driver, type Mood } from "./AutoDriver";
+import type { Mood } from "./AutoDriver";
+
+/** Tears, sweat and a worried brow painted over the driver's face. */
+function MoodOverlay({ mood }: { mood: Mood }) {
+  if (mood === "happy") return null;
+  // The driver image is 274x764; his face sits at roughly x 35–65%, y 9–17%.
+  return (
+    <svg viewBox="0 0 274 764" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
+      {mood === "worried" && (
+        <g fill="none" stroke="#121212" strokeWidth="4" strokeLinecap="round">
+          <path d="M118 86 q8 -8 20 -4" />
+          <path d="M156 82 q-8 -8 -20 -4" />
+        </g>
+      )}
+      {mood === "sad" && (
+        <g fill="#2e78b7">
+          <path className="sweat" d="M118 112 q7 12 0 20 q-7 -8 0 -20z" />
+          <path className="sweat sweat-2" d="M156 112 q7 12 0 20 q-7 -8 0 -20z" />
+          <g fill="none" stroke="#121212" strokeWidth="4" strokeLinecap="round">
+            <path d="M116 88 q10 -10 22 -2" />
+            <path d="M158 86 q-10 -10 -22 -2" />
+          </g>
+        </g>
+      )}
+      {mood === "sweating" && (
+        <g fill="#2e78b7">
+          <path className="sweat" d="M104 96 q7 12 0 20 q-7 -8 0 -20z" />
+          <path className="sweat sweat-2" d="M170 100 q7 12 0 20 q-7 -8 0 -20z" />
+          <path className="sweat" style={{ animationDelay: "0.35s" }} d="M137 70 q7 12 0 20 q-7 -8 0 -20z" />
+        </g>
+      )}
+    </svg>
+  );
+}
 import { LEVEL_HEIGHT, LEVEL_LABEL, type WallMark, type WaterLevel } from "@/lib/levels";
 import { heatMood, type CurrentWeather } from "@/lib/weather";
 
@@ -101,9 +134,14 @@ export default function Wall({ mode, level, marks, weather, title, interactive =
             );
           })}
 
-        {/* Auto and driver */}
-        <Auto className="absolute bottom-0 left-[38%] z-[5] h-[62%] w-auto sm:left-[44%]" />
-        <Driver mood={mood} className="absolute bottom-0 left-[72%] z-[5] h-[80%] w-auto sm:left-[76%]" />
+        {/* Auto and driver (illustration cut out by scripts/cut-figures.ts) */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/auto.png" alt="" className="absolute bottom-[2%] left-[2%] z-[5] h-[70%] w-auto sm:left-[18%] sm:h-[76%]" />
+        <div className="absolute bottom-[2%] left-[66%] z-[5] h-[80%] sm:left-[72%] sm:h-[86%]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/driver.png" alt="" className="h-full w-auto" />
+          <MoodOverlay mood={mood} />
+        </div>
 
         {/* Water */}
         {mode === "water" && (

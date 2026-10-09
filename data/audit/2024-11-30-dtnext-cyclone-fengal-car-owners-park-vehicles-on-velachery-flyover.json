@@ -3,18 +3,21 @@
     "locality": "velachery",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "madipakkam",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "pallikaranai",
     "date": "2024-11-30",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   }
 ]

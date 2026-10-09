@@ -3,66 +3,77 @@
     "locality": "uthandi",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "vadapalani",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "nungambakkam",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "meenambakkam",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "adyar",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mylapore",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "tiruvottiyur",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "madipakkam",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "madhavaram",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "porur",
     "date": "2024-10-15",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

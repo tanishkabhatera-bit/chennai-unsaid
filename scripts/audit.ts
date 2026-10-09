@@ -28,6 +28,9 @@ const EVENT_WINDOWS: [RegExp, string[]][] = [
   [/2015/, ["2015-11", "2015-12"]],
 ];
 
+const NOT_AN_EVENT =
+  /\b(flagged|demand|demanded|urged|want(s|ed)? (the|their|a)|concerns?|propos|tender|planned|plans? to|warn|study|constituency|vulnerable|prone|likely|expected|forecast|prepared|kept ready|would|could|may be|might|chronic|frequent(ly)?|every (year|monsoon)|perennial)\b/i;
+
 interface Extracted {
   article: { id: string; url: string; title: string; published: string };
   records: (FloodRecord & { sk: string; locality_as_written: string })[];
@@ -52,6 +55,8 @@ function ruleCheck(r: FloodRecord, published: string, notes: string[]): string[]
       r.event = null;
     }
   }
+  // Complaints, demands, plans, warnings and studies are not flood events.
+  if (NOT_AN_EVENT.test(r.detail)) problems.push(`detail reads as a complaint/plan, not an event: "${r.detail.slice(0, 60)}"`);
   // An article can't report a flood that happens after it was published (allow a 3-day forecast slack).
   const pub = new Date(published).getTime();
   if (new Date(r.date).getTime() > pub + 3 * 86400000) problems.push(`date ${r.date} is after the article (${published})`);
@@ -125,7 +130,15 @@ async function main() {
     const verdicts: Verdict[] = JSON.parse(await readFile(path.join(AUDIT, file), "utf8"));
     for (const r of ex.records) {
       const v = verdicts.find((x) => x.locality === r.locality && x.date === r.date);
-      if (v?.ok) all.push({ ...r, event: v.event === undefined ? r.event : v.event });
+      if (!v?.ok) continue;
+      // Rules are cheap, so re-apply the current ones even to records audited under older rules.
+      const rec = { ...r, event: v.event === undefined ? r.event : v.event };
+      const problems = ruleCheck(rec, ex.article.published, []);
+      if (problems.length) {
+        console.log(`DROP (rules) ${ex.article.id} ${r.locality} ${r.date}: ${problems.join("; ")}`);
+        continue;
+      }
+      all.push(rec);
     }
   }
   all.sort((a, b) => a.locality.localeCompare(b.locality) || b.date.localeCompare(a.date));

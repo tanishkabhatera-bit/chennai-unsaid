@@ -3,18 +3,21 @@
     "locality": "perambur",
     "date": "2024-08-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "adyar",
     "date": "2024-08-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2024-08-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

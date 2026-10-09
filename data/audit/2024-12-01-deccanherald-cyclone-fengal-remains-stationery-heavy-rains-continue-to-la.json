@@ -3,36 +3,42 @@
     "locality": "velachery",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "madipakkam",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "pulianthope",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "medavakkam",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "tambaram",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "ashok-nagar",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   }
 ]

@@ -37,6 +37,9 @@ yarn-error.log*
 articles/*.txt
 !articles/urls.txt
 
+# scratch scripts
+scripts/_*.ts
+
 # vercel
 .vercel
 

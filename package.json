@@ -12,7 +12,8 @@
     "extract": "tsx --env-file=.env.local scripts/extract.ts",
     "load": "tsx --env-file=.env.local scripts/load.ts",
     "verify": "tsx scripts/verify.ts",
-    "audit": "tsx --env-file=.env.local scripts/audit.ts"
+    "audit": "tsx --env-file=.env.local scripts/audit.ts",
+    "cut-figures": "tsx scripts/cut-figures.ts"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.1147.0",
@@ -29,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5"
