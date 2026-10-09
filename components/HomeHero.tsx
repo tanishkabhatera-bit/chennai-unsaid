@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { WallMode } from "./Wall";
 import YearWall from "./YearWall";
 import { searchLocalities } from "@/lib/localities";
-import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay } from "@/lib/weather";
+import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay, type RainOutlook } from "@/lib/weather";
 import type { WallSummary } from "@/lib/wall-data";
 import type { HeatRating, Locality } from "@/lib/types";
 
@@ -15,6 +15,7 @@ const EXAMPLES = ["velachery", "t-nagar", "adyar", "perambur"];
 interface WeatherResponse {
   current: CurrentWeather | null | undefined;
   hottest: HottestDay | null | undefined;
+  rain?: RainOutlook | null;
 }
 
 export default function HomeHero({
@@ -58,16 +59,28 @@ export default function HomeHero({
       .catch(() => setWeather((w) => ({ ...w, [slug]: { ...w[slug], hottest: null } })));
   }
 
+  function loadRain(slug: string) {
+    if (weather[slug]?.rain !== undefined) return;
+    setWeather((w) => ({ ...w, [slug]: { current: w[slug]?.current, hottest: w[slug]?.hottest, rain: undefined } }));
+    fetch(`/api/weather/${slug}?part=rain`)
+      .then((r) => r.json())
+      .then((rain: RainOutlook | null) => setWeather((w) => ({ ...w, [slug]: { ...w[slug], rain } })))
+      .catch(() => setWeather((w) => ({ ...w, [slug]: { ...w[slug], rain: null } })));
+  }
+
   function pick(l: Locality) {
     setPicked(l);
     setQuery(l.name);
     setOpen(false);
     if (mode === "heat") loadWeather(l.slug);
+    else loadRain(l.slug);
   }
 
   function switchMode(m: WallMode) {
     setMode(m);
-    if (m === "heat" && picked) loadWeather(picked.slug);
+    if (!picked) return;
+    if (m === "heat") loadWeather(picked.slug);
+    else loadRain(picked.slug);
   }
 
   const mood = wx?.current ? heatMood(wx.current.feelsLike) : null;
@@ -243,6 +256,7 @@ export default function HomeHero({
           now={wall?.now ?? { level: "dry", note: "Pick an area to see its wall." }}
           weather={wx?.current}
           hottest={wx?.hottest}
+          rain={wx?.rain}
           empty={!picked}
         />
       </div>

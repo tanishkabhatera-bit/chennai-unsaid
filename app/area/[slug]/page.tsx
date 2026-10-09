@@ -11,7 +11,7 @@ import SummarySection, { SummarySkeleton } from "@/components/SummarySection";
 import YearWall from "@/components/YearWall";
 import { getAreaReport, getLocality } from "@/lib/data";
 import { nowState, wallMarks } from "@/lib/levels";
-import { fetchCurrent } from "@/lib/weather";
+import { fetchCurrent, fetchRain } from "@/lib/weather";
 
 export async function generateMetadata({ params }: PageProps<"/area/[slug]">): Promise<Metadata> {
   const { slug } = await params;
@@ -28,7 +28,10 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
 
   const marks = wallMarks(report.floodRecords);
   const now = nowState(report.floodRecords, report.latestReports);
-  const weather = await fetchCurrent(report.locality.lat, report.locality.lon);
+  const [weather, rain] = await Promise.all([
+    fetchCurrent(report.locality.lat, report.locality.lon),
+    fetchRain(report.locality.lat, report.locality.lon),
+  ]);
 
   return (
     <div className="space-y-10 py-8">
@@ -40,7 +43,7 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
         </div>
       </div>
 
-      <YearWall mode="water" title={report.locality.name} marks={marks} now={now} />
+      <YearWall mode="water" title={report.locality.name} marks={marks} now={now} rain={rain} />
 
       <Suspense fallback={<SummarySkeleton />}>
         <SummarySection locality={report.locality} records={report.floodRecords} heat={report.heat} reports={report.latestReports} />

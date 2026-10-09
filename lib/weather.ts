@@ -3,8 +3,25 @@ export interface CurrentWeather {
   temperature: number;
   feelsLike: number;
   humidity: number;
+  /** Rain in the last hour, mm. */
+  rain: number;
   /** ISO time of the reading, Asia/Kolkata. */
   time: string;
+}
+
+export interface RainDay {
+  date: string;
+  /** Total expected rain, mm. */
+  mm: number;
+  /** Chance of rain, 0–100. */
+  chance: number;
+}
+
+export interface RainOutlook {
+  /** Rain in the last 24 hours, mm. */
+  last24h: number;
+  /** Today and the next three days. */
+  days: RainDay[];
 }
 
 export interface HottestDay {
@@ -18,7 +35,7 @@ const TZ = "Asia/Kolkata";
 export async function fetchCurrent(lat: number, lon: number): Promise<CurrentWeather | null> {
   const url =
     `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
-    `&current=temperature_2m,apparent_temperature,relative_humidity_2m&timezone=${TZ}`;
+    `&current=temperature_2m,apparent_temperature,relative_humidity_2m,precipitation&timezone=${TZ}`;
   try {
     const res = await fetch(url, { next: { revalidate: 900 } }); // 15 minutes
     if (!res.ok) return null;
@@ -27,11 +44,47 @@ export async function fetchCurrent(lat: number, lon: number): Promise<CurrentWea
       temperature: j.current.temperature_2m,
       feelsLike: j.current.apparent_temperature,
       humidity: j.current.relative_humidity_2m,
+      rain: j.current.precipitation ?? 0,
       time: j.current.time,
     };
   } catch {
     return null;
   }
+}
+
+/** Rain in the last 24 hours and the outlook for today plus three days. */
+export async function fetchRain(lat: number, lon: number): Promise<RainOutlook | null> {
+  const url =
+    `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
+    `&hourly=precipitation&past_days=1&forecast_days=4&daily=precipitation_sum,precipitation_probability_max&timezone=${TZ}`;
+  try {
+    const res = await fetch(url, { next: { revalidate: 900 } });
+    if (!res.ok) return null;
+    const j = await res.json();
+    const nowIdx = (j.hourly.time as string[]).findIndex((t) => t > new Date().toISOString().slice(0, 13));
+    const end = nowIdx === -1 ? j.hourly.time.length : nowIdx;
+    const last24h = (j.hourly.precipitation as number[]).slice(Math.max(0, end - 24), end).reduce((a, b) => a + (b ?? 0), 0);
+    const days: RainDay[] = (j.daily.time as string[]).slice(1).map((date, i) => ({
+      date,
+      mm: j.daily.precipitation_sum[i + 1] ?? 0,
+      chance: j.daily.precipitation_probability_max[i + 1] ?? 0,
+    }));
+    return { last24h: Math.round(last24h * 10) / 10, days };
+  } catch {
+    return null;
+  }
+}
+
+/** The driver's one-liner about rain. */
+export function rainLine(r: RainOutlook): string {
+  const today = r.days[0];
+  const next = r.days.slice(1).find((d) => d.mm >= 10);
+  const d = (x: string) => new Date(x).toLocaleDateString("en-IN", { weekday: "long" });
+  if (r.last24h >= 30) return `${Math.round(r.last24h)} mm of rain in the last 24 hours. Heavy. Check the streets before you step out.`;
+  if (r.last24h >= 5) return `${Math.round(r.last24h)} mm of rain in the last 24 hours. Roads will be wet, drains working overtime.`;
+  if (today && today.mm >= 10) return `Rain coming today, around ${Math.round(today.mm)} mm expected. Umbrella in the auto.`;
+  if (next) return `Dry now. ${d(next.date)} looks wet, about ${Math.round(next.mm)} mm. Plan the house visit before that.`;
+  return "Dry now and nothing heavy in the next three days.";
 }
 
 /** The hottest day (by feels-like maximum) in the last 365 days. */

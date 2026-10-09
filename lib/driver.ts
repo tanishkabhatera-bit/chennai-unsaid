@@ -1,5 +1,5 @@
 import type { WaterLevel } from "./levels";
-import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay } from "./weather";
+import { HEAT_LINES, heatMood, rainLine, type CurrentWeather, type HottestDay, type RainOutlook } from "./weather";
 
 export type Pose =
   | "standing" | "drink" | "wipe" | "relaxed" | "phone" | "umbrella" | "worried" | "sad"
@@ -71,6 +71,8 @@ interface Args {
   empty?: boolean;
   /** The area has no flood records in the news at all. */
   noRecords?: boolean;
+  /** Live rain for "now" in water mode. undefined = loading, null = unavailable. */
+  rain?: RainOutlook | null;
 }
 
 function hottestLine(h: HottestDay | null | undefined): string {
@@ -104,14 +106,21 @@ export function driverScene(a: Args): Scene {
   // Water mode
   if (a.selected === "now") {
     if (a.level === "dry") {
+      // Live rain comes first: it's what "now" means during the monsoon.
+      if (a.rain && (a.rain.last24h >= 5 || (a.rain.days[0]?.mm ?? 0) >= 10)) {
+        return tapped
+          ? { pose: "phone", bubble: a.nowNote + " If your street is going under, add your mark below so others know.", hint: "Tap again" }
+          : { pose: "umbrella", bubble: rainLine(a.rain), hint: "Tap me" };
+      }
       if (a.noRecords) {
         return tapped
           ? { pose: "thumbs", bubble: "Could be good news. Still ask the neighbours about the last big rain.", hint: "Tap again" }
           : { pose: "shrug", bubble: "No flood report for this area in the news we've read. The news doesn't catch every street.", hint: "Tap me" };
       }
+      const weatherBit = a.rain ? ` ${rainLine(a.rain)}` : "";
       return tapped
         ? { pose: "relaxed", bubble: "Pick a year below to see how high it came before.", hint: "Tap again" }
-        : { pose: "phone", bubble: a.nowNote, hint: "Tap me" };
+        : { pose: "phone", bubble: a.nowNote + weatherBit, hint: "Tap me" };
     }
     return tapped
       ? { pose: WATER_POSE[a.level], bubble: WATER_ADVICE[a.level], hint: "Tap again" }

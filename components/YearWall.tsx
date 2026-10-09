@@ -4,7 +4,7 @@ import { useState } from "react";
 import Wall, { type WallMode } from "./Wall";
 import { driverScene } from "@/lib/driver";
 import type { WallMark } from "@/lib/levels";
-import type { CurrentWeather, HottestDay } from "@/lib/weather";
+import type { CurrentWeather, HottestDay, RainOutlook } from "@/lib/weather";
 
 export interface NowState {
   level: WallMark["level"];
@@ -23,10 +23,12 @@ interface Props {
   hottest?: HottestDay | null;
   /** No area picked yet: the driver waves hello. */
   empty?: boolean;
+  /** Live rain for the "Now" chip. */
+  rain?: RainOutlook | null;
 }
 
 /** The wall plus the chips that choose which year's water it shows. "Now" is the default. */
-export default function YearWall({ mode, title, marks, now, weather, hottest, empty }: Props) {
+export default function YearWall({ mode, title, marks, now, weather, hottest, empty, rain }: Props) {
   const [selected, setSelected] = useState<string>("now");
   const [step, setStep] = useState(0);
   const mark = marks.find((m) => m.year === selected);
@@ -35,7 +37,7 @@ export default function YearWall({ mode, title, marks, now, weather, hottest, em
     ? `${mark.event ? `${mark.event}, ` : ""}${mark.year} · as reported in the news`
     : now.note;
 
-  const scene = driverScene({ mode, level, selected, event: mark?.event, nowNote: now.note, weather, hottest, step, empty, noRecords: marks.length === 0 });
+  const scene = driverScene({ mode, level, selected, event: mark?.event, nowNote: now.note, weather, hottest, step, empty, noRecords: marks.length === 0, rain });
 
   function choose(year: string) {
     setSelected(year);

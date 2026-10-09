@@ -13,7 +13,8 @@
     "load": "tsx --env-file=.env.local scripts/load.ts",
     "verify": "tsx scripts/verify.ts",
     "audit": "tsx --env-file=.env.local scripts/audit.ts",
-    "cut-figures": "tsx scripts/cut-figures.ts"
+    "cut-figures": "tsx scripts/cut-figures.ts",
+    "sweep": "tsx scripts/sweep.ts"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.1147.0",
