@@ -124,16 +124,15 @@ export default function HomeHero({
             <>The rent is affordable.<br /><span className="text-rust">But can you live in that heat?</span></>
           )}
         </h1>
-        <p className="mt-4 font-marker text-xl text-ink sm:text-2xl">
-          {mode === "water" ? "How high did the water come?" : "How hot does your neighbourhood really get?"}
+        <p className="mt-4 max-w-md font-body text-xl font-semibold text-ink sm:text-2xl">
+          {mode === "water"
+            ? "Check any Chennai area's flood history before you rent or buy."
+            : "Check how hot any Chennai area gets before you rent or buy."}
         </p>
         <p className="mt-2 max-w-md font-body text-lg text-ink/80">
           {mode === "water"
-            ? "Explore historical flooding and water-related risks before choosing where to live."
-            : "Explore temperature conditions and understand what the weather could mean for everyday life."}
-        </p>
-        <p className="mt-3 max-w-md font-body text-sm text-ink/60">
-          For anyone renting or buying in Chennai. Every flood mark links to the news report behind it.
+            ? "How high the water came, which years, and the news report behind each one, for 200+ areas. Plus what to ask the landlord."
+            : "Live temperature, the hottest day of the past year, and what it means for everyday life, for 200+ areas."}
         </p>
 
         {/* WATER / HEAT switch */}

@@ -5,8 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const ITEMS = [
-  { href: "/?mode=water", title: "Water: how high did it come?", text: "A place can look perfect. Until it rains.", icon: "/driver-worried.png" },
-  { href: "/?mode=heat", title: "Heat: how hot does it get?", text: "The rent is affordable. But can you live in that heat?", icon: "/driver-wipe.png" },
+  { href: "/?mode=water", title: "Flood history", text: "Any area's past floods, with the news behind each one.", icon: "/driver-worried.png" },
+  { href: "/?mode=heat", title: "Heat", text: "How hot any area gets, live and over the past year.", icon: "/driver-wipe.png" },
   { href: "/check", title: "Check a property", text: "Area, floor, parking, or paste the listing.", icon: "/icon-check.png" },
   { href: "/compare", title: "Compare two flats", text: "Flooding, heat and water side by side, with sources.", icon: "/icon-compare.png" },
   { href: "/live", title: "Right now, live", text: "Rain and heat in your area today.", icon: "/icon-monsoon.png" },
