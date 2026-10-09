@@ -87,7 +87,7 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
         </button>
 
         {/* Speech bubble */}
-        <div key={scene.bubble} className="bubble absolute left-[4%] top-[17%] z-[9] w-[56%] sm:left-[22%] sm:top-[5%] sm:w-[44%]">
+        <div key={scene.bubble} className="bubble absolute left-[4%] top-[17%] z-[9] w-[56%] sm:left-[30%] sm:top-[5%] sm:w-[37%]">
           <button
             type="button"
             onClick={onTap}
