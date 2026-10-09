@@ -28,9 +28,56 @@ async function main() {
 
   if (singleSrc) {
     const keyed = await sharp(data, { raw: { width, height, channels } }).png().toBuffer();
-    await sharp(keyed).trim().png().toFile(singleOut);
-    const m = await sharp(singleOut).metadata();
-    console.log(`${singleOut}: ${m.width}x${m.height}`);
+    const names = singleOut.split(",");
+    if (names.length === 1) {
+      await sharp(keyed).trim().png().toFile(singleOut);
+      const m = await sharp(singleOut).metadata();
+      console.log(`${singleOut}: ${m.width}x${m.height}`);
+      return;
+    }
+    // A sheet of several figures side by side: split at every clear column gap.
+    const colHas = new Array<boolean>(width).fill(false);
+    for (let p = 0; p < width * height; p++) if (data[p * channels + 3] > 20) colHas[p % width] = true;
+    const segments: [number, number][] = [];
+    let start = -1;
+    for (let x = 0; x <= width; x++) {
+      const has = x < width && colHas[x];
+      if (has && start === -1) start = x;
+      if (!has && start !== -1) { segments.push([start, x]); start = -1; }
+    }
+    // Merge slivers (a stray pixel column) into their neighbour.
+    const merged: [number, number][] = [];
+    for (const s of segments) {
+      const last = merged[merged.length - 1];
+      if (last && s[0] - last[1] < 12) last[1] = s[1];
+      else merged.push([...s]);
+    }
+    // Figures that touch (an arm crossing the gap) share a segment: split the widest
+    // segment at its thinnest column until the count matches.
+    const colCount = new Array<number>(width).fill(0);
+    for (let p = 0; p < width * height; p++) if (data[p * channels + 3] > 20) colCount[p % width]++;
+    while (merged.length < names.length) {
+      merged.sort((a, b) => a[0] - b[0]);
+      const i = merged.reduce((best, s, idx) => (s[1] - s[0] > merged[best][1] - merged[best][0] ? idx : best), 0);
+      const [l, r] = merged[i];
+      let cut = -1, min = Infinity;
+      for (let x = l + Math.floor((r - l) * 0.3); x < l + Math.floor((r - l) * 0.7); x++) {
+        if (colCount[x] < min) { min = colCount[x]; cut = x; }
+      }
+      merged.splice(i, 1, [l, cut], [cut, r]);
+      console.log(`split touching figures at x=${cut} (${min} px of overlap)`);
+    }
+    if (merged.length !== names.length) {
+      console.log(`found ${merged.length} figures but ${names.length} names given: ${merged.map((s) => s.join("-")).join(", ")}`);
+      process.exit(1);
+    }
+    for (let i = 0; i < merged.length; i++) {
+      const [l, r] = merged[i];
+      const buf = await sharp(keyed).extract({ left: l, top: 0, width: r - l, height }).png().toBuffer();
+      await sharp(buf).trim().png().toFile(names[i]);
+      const m = await sharp(names[i]).metadata();
+      console.log(`${names[i]}: ${m.width}x${m.height}`);
+    }
     return;
   }
 

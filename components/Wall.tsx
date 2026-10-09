@@ -1,15 +1,19 @@
 "use client";
 
+import { POSE_IMAGE, type Scene } from "@/lib/driver";
 import { LEVEL_HEIGHT, LEVEL_LABEL, type WaterLevel } from "@/lib/levels";
 import { heatMood, type CurrentWeather } from "@/lib/weather";
 
 export type WallMode = "water" | "heat";
-export type Mood = "happy" | "worried" | "sad" | "sweating";
 
 interface Props {
   mode: WallMode;
   /** Water level to show (one year, or "now"). */
   level: WaterLevel;
+  /** What the driver is doing and saying. */
+  scene: Scene;
+  /** Tapping the driver or his bubble. */
+  onTap?: () => void;
   /** Live reading for heat mode; null while loading or if unavailable. */
   weather?: CurrentWeather | null;
   /** Painted on the wall, e.g. the locality name. */
@@ -18,28 +22,13 @@ interface Props {
   caption?: string;
 }
 
-function driverMood(mode: WallMode, level: WaterLevel, weather?: CurrentWeather | null): Mood {
-  if (mode === "heat") {
-    if (!weather) return "happy";
-    const m = heatMood(weather.feelsLike);
-    return m === "hot" || m === "scorching" ? "sweating" : "happy";
-  }
-  const byLevel: Record<WaterLevel, Mood> = { dry: "happy", ankle: "happy", knee: "worried", waist: "sad", chest: "sad" };
-  return byLevel[level];
-}
-
-/** Tears or sweat over the driver's face. The image is 275x764; his face is around x 40–60%, y 9–16%. */
-function MoodOverlay({ mood }: { mood: Mood }) {
-  if (mood === "happy" || mood === "worried") return null;
-  const drops =
-    mood === "sad"
-      ? [[122, 118], [154, 118]]
-      : [[104, 96], [172, 100], [138, 70]];
+/** Tears over the driver's face (standing image is 285x765; eyes around x 42–58%, y 14%). */
+function Tears() {
   return (
-    <svg viewBox="0 0 275 764" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
+    <svg viewBox="0 0 285 765" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
       <g fill="#2e78b7">
-        {drops.map(([x, y], i) => (
-          <path key={i} className="sweat" style={{ animationDelay: `${i * 0.45}s` }} d={`M${x} ${y} q7 12 0 20 q-7 -8 0 -20z`} />
+        {[[122, 118], [160, 118]].map(([x, y], i) => (
+          <path key={i} className="sweat" style={{ animationDelay: `${i * 0.5}s` }} d={`M${x} ${y} q7 12 0 20 q-7 -8 0 -20z`} />
         ))}
       </g>
     </svg>
@@ -48,43 +37,25 @@ function MoodOverlay({ mood }: { mood: Mood }) {
 
 /**
  * A compound wall with an auto parked in front and its driver standing beside it.
- * Water mode: the water sits at `level`. Heat mode: the sun comes out, the wall bakes
- * and the driver sweats when it's hot.
+ * Water mode: the water sits at `level`. Heat mode: the sun comes out and the wall bakes.
+ * The driver changes pose with the scene and talks in a speech bubble.
  */
-export default function Wall({ mode, level, weather, title, caption }: Props) {
+export default function Wall({ mode, level, scene, onTap, weather, title, caption }: Props) {
   const water = mode === "water" ? LEVEL_HEIGHT[level] : 0;
-  const mood = driverMood(mode, level, weather);
   const hot = mode === "heat" && !!weather && ["hot", "scorching"].includes(heatMood(weather.feelsLike));
+  const tappable = !!onTap && !!scene.hint;
 
   return (
     <div className={`wall ${mode === "heat" ? "wall-heat" : ""} relative w-full overflow-hidden rounded-[28px] border-[6px] border-ink shadow-[8px_8px_0_#121212]`}>
       <div className="wall-face relative aspect-[4/5] w-full sm:aspect-[16/10]">
         {title && (
-          <div className="absolute left-4 top-4 z-10 max-w-[60%] -rotate-2 bg-ink px-3 py-1 font-display text-lg uppercase leading-tight text-chalk sm:text-2xl">
+          <div className="absolute left-4 top-4 z-10 max-w-[45%] -rotate-2 bg-ink px-3 py-1 font-display text-base uppercase leading-tight text-chalk sm:text-2xl">
             {title}
           </div>
         )}
 
-        {/* Sun */}
-        {mode === "heat" && (
-          <svg viewBox="0 0 100 100" className={`sun absolute right-4 top-3 z-[4] h-20 w-20 sm:h-28 sm:w-28 ${hot ? "sun-angry" : ""}`} aria-hidden="true">
-            <g stroke="#121212" strokeWidth="3">
-              {Array.from({ length: 12 }, (_, i) => (
-                <line key={i} x1="50" y1="4" x2="50" y2="16" transform={`rotate(${i * 30} 50 50)`} stroke="#b5451b" strokeWidth="4" />
-              ))}
-              <circle cx="50" cy="50" r="24" fill="#f2c94c" />
-            </g>
-            {hot && (
-              <g fill="#121212">
-                <path d="M36 44 l10 4" stroke="#121212" strokeWidth="3" />
-                <path d="M64 44 l-10 4" stroke="#121212" strokeWidth="3" />
-                <circle cx="42" cy="50" r="2.5" />
-                <circle cx="58" cy="50" r="2.5" />
-                <path d="M42 62 q8 -5 16 0" stroke="#121212" strokeWidth="3" fill="none" />
-              </g>
-            )}
-          </svg>
-        )}
+        {/* Sun: a soft glow, stronger when it's hot */}
+        {mode === "heat" && <div className={`sunglow absolute left-[52%] top-[-8%] z-[2] h-[40%] w-[32%] ${hot ? "sunglow-hot" : ""}`} aria-hidden="true" />}
 
         {/* Height scale on the left (water mode) */}
         {mode === "water" && (
@@ -98,13 +69,36 @@ export default function Wall({ mode, level, weather, title, caption }: Props) {
           </div>
         )}
 
-        {/* Auto and driver (illustration cut out by scripts/cut-figures.ts) */}
+        {/* Auto */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/auto.png" alt="" className="absolute bottom-[2%] left-[12%] z-[5] h-[58%] w-auto sm:left-[22%] sm:h-[74%]" />
-        <div className="absolute bottom-[2%] left-[64%] z-[6] h-[76%] sm:left-[72%] sm:h-[86%]">
+        <img src="/auto.png" alt="" className="absolute bottom-[2%] left-[10%] z-[5] h-[52%] w-auto sm:left-[20%] sm:h-[70%]" />
+
+        {/* Driver */}
+        <button
+          type="button"
+          onClick={onTap}
+          disabled={!tappable}
+          aria-label={tappable ? "Tap the auto driver" : undefined}
+          className={`absolute bottom-[2%] left-[62%] z-[6] h-[72%] sm:left-[70%] sm:h-[84%] ${tappable ? "cursor-pointer" : "cursor-default"} disabled:cursor-default`}
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={mood === "sweating" ? "/driver-sweating.png" : "/driver.png"} alt="" className="h-full w-auto" />
-          {mood !== "sweating" && <MoodOverlay mood={mood} />}
+          <img key={scene.pose} src={POSE_IMAGE[scene.pose]} alt="" className="pose h-full w-auto" />
+          {scene.tears && scene.pose === "standing" && <Tears />}
+        </button>
+
+        {/* Speech bubble */}
+        <div key={scene.bubble} className="bubble absolute left-[4%] top-[17%] z-[9] w-[56%] sm:left-[22%] sm:top-[5%] sm:w-[44%]">
+          <button
+            type="button"
+            onClick={onTap}
+            disabled={!tappable}
+            className={`relative block w-full rounded-2xl border-[3px] border-ink bg-chalk px-3.5 py-3 text-left shadow-[5px_5px_0_#121212] ${tappable ? "cursor-pointer hover:bg-white" : "cursor-default"}`}
+          >
+            <p className="font-body text-[13px] leading-snug text-ink sm:text-[15px]">{scene.bubble}</p>
+            {scene.hint && <p className="mt-1.5 font-marker text-xs text-rust sm:text-sm">{scene.hint} →</p>}
+            {/* tail, pointing right at the driver */}
+            <span className="absolute -right-[11px] top-[42%] h-5 w-5 rotate-45 border-r-[3px] border-t-[3px] border-ink bg-chalk" />
+          </button>
         </div>
 
         {/* Water */}
@@ -120,8 +114,6 @@ export default function Wall({ mode, level, weather, title, caption }: Props) {
           </div>
         )}
 
-        {/* Heat shimmer */}
-        {hot && <div className="shimmer pointer-events-none absolute inset-0 z-[8]" />}
       </div>
 
       {/* Caption strip */}

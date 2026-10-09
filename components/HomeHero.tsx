@@ -242,6 +242,7 @@ export default function HomeHero({
           marks={wall?.marks ?? []}
           now={wall?.now ?? { level: "dry", note: "Pick an area to see its wall." }}
           weather={wx?.current}
+          hottest={wx?.hottest}
         />
       </div>
     </section>

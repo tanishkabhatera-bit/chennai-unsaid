@@ -83,7 +83,7 @@ export const HEAT_LINES: Record<HeatMood, { line: string; advice: string }> = {
   },
   hot: {
     line: "Semma heat, boss. Even the auto meter is sweating.",
-    advice: "Stay in between 12 and 3. Umbrella, water, and nombu kanji if you get it.",
+    advice: "Stay in between 12 and 3. Umbrella, a bottle of water, and buttermilk when you can get it.",
   },
   scorching: {
     line: "Vera level heat. The seat is hotter than the tea.",
