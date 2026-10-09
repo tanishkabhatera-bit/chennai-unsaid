@@ -29,7 +29,7 @@ const SITES: { name: string; search: (q: string) => string; article: RegExp }[] 
 
 async function searchLinks(site: (typeof SITES)[number], query: string): Promise<string[]> {
   try {
-    const res = await fetch(site.search(query), { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(25000) });
+    const res = await fetch(site.search(query), { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(12000) });
     if (!res.ok) return [];
     const html = await res.text();
     const links = new Set<string>();
@@ -44,7 +44,11 @@ async function searchLinks(site: (typeof SITES)[number], query: string): Promise
 }
 
 async function main() {
-  const only = process.argv[2];
+  // npm run sweep -- [slug] [--sites=citizenmatters,dtnext]
+  const args = process.argv.slice(2);
+  const only = args.find((a) => !a.startsWith("--"));
+  const siteArg = args.find((a) => a.startsWith("--sites="))?.slice(8);
+  const sites = siteArg ? SITES.filter((s) => siteArg.split(",").includes(s.name)) : SITES;
   const localities = (localitiesJson as Locality[]).filter((l) => !only || l.slug === only);
   const existing = new Set((await readFile("articles/urls.txt", "utf8")).split(/\r?\n/).map((l) => l.trim()).filter((l) => l.startsWith("http")));
   const found = new Map<string, string[]>(); // url -> localities that surfaced it
@@ -52,7 +56,7 @@ async function main() {
   for (const l of localities) {
     const queries = [`${l.name} Chennai waterlogging`, `${l.name} Chennai flood`];
     let n = 0;
-    for (const site of SITES) {
+    for (const site of sites) {
       for (const q of queries) {
         for (const url of await searchLinks(site, q)) {
           if (existing.has(url)) continue;
