@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "manali",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kathivakkam",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perambur",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kolathur",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ayapakkam",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "anna-nagar",
+    "date": "2024-10-15",
+    "ok": true,
+    "reasons": []
+  }
+]

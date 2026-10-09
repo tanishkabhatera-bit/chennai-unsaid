@@ -1,18 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import FloodTimeline from "@/components/FloodTimeline";
 import HeatCard from "@/components/HeatCard";
 import ResidentReports from "@/components/ResidentReports";
 import RiskBadge from "@/components/RiskBadge";
-import SummaryCard from "@/components/SummaryCard";
+import SummarySection, { SummarySkeleton } from "@/components/SummarySection";
+import Wall from "@/components/Wall";
 import { getAreaReport, getLocality } from "@/lib/data";
+import { maxLevel, wallMarks } from "@/lib/levels";
+import { fetchCurrent } from "@/lib/weather";
 
 export async function generateMetadata({ params }: PageProps<"/area/[slug]">): Promise<Metadata> {
   const { slug } = await params;
   const locality = getLocality(slug);
   return {
-    title: locality ? `${locality.name}: floods, heat and residents | Chennai Unsaid` : "Area not found | Chennai Unsaid",
+    title: locality ? `${locality.name}: how high did the water come? | Chennai Unsaid` : "Area not found | Chennai Unsaid",
   };
 }
 
@@ -21,38 +25,50 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
   const report = await getAreaReport(slug);
   if (!report) notFound();
 
+  const marks = wallMarks(report.floodRecords);
+  const level = maxLevel(marks.map((m) => m.level));
+  const weather = await fetchCurrent(report.locality.lat, report.locality.lon);
+
   return (
-    <div className="space-y-8 py-8">
+    <div className="space-y-10 py-8">
       <div>
-        <Link href="/" className="text-sm font-medium text-teal-800 hover:underline">
-          ← Search another area
-        </Link>
-        <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-900">{report.locality.name}</h1>
-        <div className="mt-3">
+        <Link href="/" className="font-marker text-lg text-rust hover:underline">← another area</Link>
+        <div className="mt-2 flex flex-wrap items-end justify-between gap-3">
+          <h1 className="font-display text-4xl uppercase leading-none text-ink sm:text-6xl">{report.locality.name}</h1>
           <RiskBadge risk={report.risk} />
         </div>
       </div>
 
-      {report.isSampleData && (
-        <p className="rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">
-          Sample data for testing the layout. Real records from news articles replace this soon.
-        </p>
-      )}
+      <Wall mode="water" level={level} marks={marks} title={report.locality.name} />
 
-      <SummaryCard summary={report.summary} />
-      <FloodTimeline records={report.floodRecords} />
-      <HeatCard heat={report.heat} />
-      <ResidentReports counts={report.reportCounts} latest={report.latestReports} />
+      <Suspense fallback={<SummarySkeleton />}>
+        <SummarySection locality={report.locality} records={report.floodRecords} heat={report.heat} reports={report.latestReports} />
+      </Suspense>
 
-      <div>
+      <div className="grid gap-8 lg:grid-cols-[3fr_2fr]">
+        <FloodTimeline records={report.floodRecords} />
+        <div className="space-y-8">
+          <HeatCard heat={report.heat} weather={weather} />
+          <ResidentReports counts={report.reportCounts} latest={report.latestReports} />
+        </div>
+      </div>
+
+      <div className="flex flex-wrap gap-3">
         <button
           type="button"
           disabled
-          className="w-full rounded-xl bg-teal-700 px-5 py-3.5 font-medium text-white disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+          className="rounded-2xl border-[4px] border-ink bg-sign px-5 py-3 font-display text-sm uppercase text-chalk shadow-[6px_6px_0_#121212] disabled:cursor-not-allowed disabled:opacity-50"
         >
-          Report something about this area
+          Add your mark
         </button>
-        <p className="mt-2 text-sm text-slate-500">Reporting opens in a later step.</p>
+        <button
+          type="button"
+          disabled
+          className="rounded-2xl border-[4px] border-ink bg-chalk px-5 py-3 font-display text-sm uppercase text-ink shadow-[6px_6px_0_#121212] disabled:cursor-not-allowed disabled:opacity-50"
+        >
+          Send to the group
+        </button>
+        <span className="self-center font-body text-sm text-ink/60">Both coming next.</span>
       </div>
     </div>
   );

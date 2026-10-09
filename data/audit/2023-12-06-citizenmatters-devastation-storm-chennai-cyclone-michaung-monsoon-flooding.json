@@ -1,0 +1,38 @@
+[
+  {
+    "locality": "taramani",
+    "date": "2023-12-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "perungudi",
+    "date": "2023-12-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2023-12-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "madipakkam",
+    "date": "2023-12-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "manapakkam",
+    "date": "2023-12-06",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "saidapet",
+    "date": "2023-12-06",
+    "ok": true,
+    "reasons": []
+  }
+]

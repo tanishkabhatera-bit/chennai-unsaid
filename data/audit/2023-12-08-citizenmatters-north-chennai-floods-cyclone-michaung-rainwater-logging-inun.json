@@ -1,0 +1,26 @@
+[
+  {
+    "locality": "vyasarpadi",
+    "date": "2023-12-08",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "kodungaiyur",
+    "date": "2023-12-08",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pulianthope",
+    "date": "2023-12-08",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ennore",
+    "date": "2023-12-08",
+    "ok": true,
+    "reasons": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "locality": "pallikaranai",
+    "date": "2023-12-20",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "ennore",
+    "date": "2023-12-20",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "mylapore",
+    "date": "2023-12-20",
+    "ok": true,
+    "reasons": []
+  }
+]

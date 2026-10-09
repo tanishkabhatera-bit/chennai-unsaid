@@ -1,0 +1,26 @@
+[
+  {
+    "locality": "kodungaiyur",
+    "date": "2023-12-10",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "pallikaranai",
+    "date": "2023-12-10",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "thoraipakkam",
+    "date": "2023-12-10",
+    "ok": true,
+    "reasons": []
+  },
+  {
+    "locality": "valasaravakkam",
+    "date": "2023-12-10",
+    "ok": true,
+    "reasons": []
+  }
+]
