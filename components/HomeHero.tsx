@@ -2,14 +2,28 @@
 
 import { useId, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import type { WallMode } from "./Wall";
 import YearWall from "./YearWall";
 import { searchLocalities } from "@/lib/localities";
-import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay, type RainOutlook } from "@/lib/weather";
+import { HEAT_LINES, heatMood, type CurrentWeather, type HeatMood, type HottestDay, type RainOutlook } from "@/lib/weather";
 import type { WallSummary } from "@/lib/wall-data";
 import type { HeatRating, Locality } from "@/lib/types";
 
 const EXAMPLES = ["velachery", "t-nagar", "adyar", "perambur"];
+
+/** What a feels-like reading means for an ordinary day. */
+const FEELS_MEANING: Record<HeatMood, string> = {
+  chill: "Comfortable. Fine to be out most of the day.",
+  warm: "Warm. Manageable, but you'll sweat on a walk or a two-wheeler.",
+  hot: "Hot. Outdoor work and walking at midday are tiring; fans alone struggle in a top-floor flat.",
+  scorching: "Dangerous heat. Risk of heat exhaustion outdoors at midday, especially for older people and children.",
+};
+
+function Tag({ kind }: { kind: "live" | "past" | "estimate" }) {
+  const s = { live: ["Live", "bg-rust text-chalk"], past: ["Past year", "bg-sign text-chalk"], estimate: ["Estimate", "bg-sun text-ink"] }[kind];
+  return <span className={`mr-1 inline-block rounded-full border-2 border-ink px-1.5 py-px font-display text-[9px] uppercase ${s[1]}`}>{s[0]}</span>;
+}
 
 /** undefined = still loading, null = unavailable. */
 interface WeatherResponse {
@@ -29,12 +43,24 @@ export default function HomeHero({
 }) {
   const id = useId();
   const listId = `${id}-list`;
-  const [mode, setMode] = useState<WallMode>("water");
+  // /?mode=heat opens straight in heat mode (the menu's Heat entry links here).
+  const params = useSearchParams();
+  const urlMode: WallMode = params.get("mode") === "heat" ? "heat" : "water";
+  const [mode, setMode] = useState<WallMode>(urlMode);
+  const [lastUrlMode, setLastUrlMode] = useState<WallMode>(urlMode);
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const [picked, setPicked] = useState<Locality | null>(null);
   const [weather, setWeather] = useState<Record<string, WeatherResponse>>({});
+
+  // Picking Water or Heat from the menu while already on the home page: start that mode fresh.
+  if (urlMode !== lastUrlMode) {
+    setLastUrlMode(urlMode);
+    setMode(urlMode);
+    setPicked(null);
+    setQuery("");
+  }
 
   const matches = useMemo(() => searchLocalities(localities, query).slice(0, 7), [localities, query]);
   const showList = open && matches.length > 0 && query !== picked?.name;
@@ -88,18 +114,26 @@ export default function HomeHero({
   return (
     <section className="grid gap-8 lg:grid-cols-2 lg:items-start">
       <div>
-        <p className="font-marker text-xl text-rust sm:text-2xl">Chennai, before you sign the lease</p>
-        <h1 className="mt-2 font-display text-4xl uppercase leading-[0.95] text-ink sm:text-6xl">
+        <p className="font-display text-xs uppercase tracking-[0.2em] text-rust sm:text-sm">
+          Chennai Unsaid / {mode === "water" ? "Water" : "Heat"}
+        </p>
+        <h1 className="mt-2 font-display text-3xl uppercase leading-[0.95] text-ink sm:text-5xl">
           {mode === "water" ? (
-            <>How high did<br />the water come?</>
+            <>A place can look perfect.<br /><span className="text-sign">Until it rains.</span></>
           ) : (
-            <>How hot does<br />it really get?</>
+            <>The rent is affordable.<br /><span className="text-rust">But can you live in that heat?</span></>
           )}
         </h1>
-        <p className="mt-4 max-w-md font-body text-lg text-ink/80">
+        <p className="mt-4 font-marker text-xl text-ink sm:text-2xl">
+          {mode === "water" ? "How high did the water come?" : "How hot does your neighbourhood really get?"}
+        </p>
+        <p className="mt-2 max-w-md font-body text-lg text-ink/80">
           {mode === "water"
-            ? "Ten years of Chennai flood news, painted on a wall. Type an area and watch."
-            : "Live temperature for any Chennai area, and what the auto driver says about it."}
+            ? "Explore historical flooding and water-related risks before choosing where to live."
+            : "Explore temperature conditions and understand what the weather could mean for everyday life."}
+        </p>
+        <p className="mt-3 max-w-md font-body text-sm text-ink/60">
+          For anyone renting or buying in Chennai. Every flood mark links to the news report behind it.
         </p>
 
         {/* WATER / HEAT switch */}
@@ -200,15 +234,19 @@ export default function HomeHero({
                 <p className="mt-1 font-body text-sm text-ink/70">— the auto anna</p>
                 <dl className="mt-4 grid grid-cols-2 gap-3 font-body text-sm">
                   <div>
-                    <dt className="text-ink/60">Feels like now</dt>
+                    <dt className="text-ink/60"><Tag kind="live" /> Feels like now</dt>
                     <dd className="font-display text-2xl text-ink">{Math.round(wx.current.feelsLike)}°C</dd>
                   </div>
                   <div>
-                    <dt className="text-ink/60">Air temperature</dt>
+                    <dt className="text-ink/60"><Tag kind="live" /> Air temperature</dt>
                     <dd className="font-display text-2xl text-ink">{Math.round(wx.current.temperature)}°C</dd>
                   </div>
                   <div className="col-span-2">
-                    <dt className="text-ink/60">Hottest day in the last year</dt>
+                    <dt className="text-ink/60">What it means</dt>
+                    <dd className="text-ink">{FEELS_MEANING[mood!]} &ldquo;Feels like&rdquo; adds humidity ({wx.current.humidity}% now) to the air temperature: it&apos;s what your body deals with.</dd>
+                  </div>
+                  <div className="col-span-2">
+                    <dt className="text-ink/60"><Tag kind="past" /> Hottest day in the last year</dt>
                     <dd className="text-ink">
                       {wx.hottest === undefined ? (
                         <span className="text-ink/60">Checking the last 365 days…</span>
@@ -224,7 +262,7 @@ export default function HomeHero({
                   </div>
                   {rating && (
                     <div className="col-span-2">
-                      <dt className="text-ink/60">This area, compared to the city</dt>
+                      <dt className="text-ink/60"><Tag kind="estimate" /> This area, compared to the city</dt>
                       <dd className="text-ink"><strong>{rating.rating}.</strong> {rating.reason}. <span className="text-ink/60">Indicative.</span></dd>
                     </div>
                   )}
@@ -232,7 +270,9 @@ export default function HomeHero({
                 <p className="mt-4 rounded-xl bg-sun p-3 font-body text-ink">
                   <strong>Auto anna says:</strong> {HEAT_LINES[mood!].advice}
                 </p>
-                <p className="mt-2 font-body text-xs text-ink/60">Live from Open-Meteo for {picked.name}.</p>
+                <p className="mt-2 font-body text-xs text-ink/60">
+                  Live: Open-Meteo forecast for {picked.name}, read at {wx.current.time.slice(11, 16)}, refreshed every 15 minutes. Past year: Open-Meteo historical archive. Estimate: our rating from coast distance, tree cover and density. Outdoor weather, not the temperature inside a flat.
+                </p>
               </>
             )}
           </div>

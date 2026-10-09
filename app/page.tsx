@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import HomeHero from "@/components/HomeHero";
 import heatJson from "@/data/heat-ratings.json";
 import { getLocalities } from "@/lib/data";
@@ -53,7 +54,9 @@ const DOORS = [
 export default function Home() {
   return (
     <div className="space-y-16 py-10 sm:py-14">
-      <HomeHero localities={getLocalities()} walls={wallSummaries()} heat={HEAT} />
+      <Suspense>
+        <HomeHero localities={getLocalities()} walls={wallSummaries()} heat={HEAT} />
+      </Suspense>
 
       <section>
         <h2 className="font-display text-2xl uppercase text-ink sm:text-3xl">What you can do here</h2>

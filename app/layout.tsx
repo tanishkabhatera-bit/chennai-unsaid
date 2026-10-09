@@ -11,7 +11,7 @@ const marker = Permanent_Marker({ variable: "--font-marker", weight: "400", subs
 export const metadata: Metadata = {
   title: "Chennai Unsaid",
   description:
-    "How high did the water come? Ten years of Chennai flood news painted on a wall, area by area, with every mark linked to its source.",
+    "A place can look perfect. Until it rains. Flood history, heat and water for any Chennai area, before you rent or buy, with every flood mark linked to its source.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

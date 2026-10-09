@@ -5,7 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const ITEMS = [
-  { href: "/", title: "Home: how high did the water come?", text: "Pick an area, see the wall, switch to heat.", icon: "/driver-wave.png" },
+  { href: "/?mode=water", title: "Water: how high did it come?", text: "A place can look perfect. Until it rains.", icon: "/driver-worried.png" },
+  { href: "/?mode=heat", title: "Heat: how hot does it get?", text: "The rent is affordable. But can you live in that heat?", icon: "/driver-wipe.png" },
   { href: "/check", title: "Check a property", text: "Area, floor, parking, or paste the listing.", icon: "/icon-check.png" },
   { href: "/compare", title: "Compare two flats", text: "Flooding, heat and water side by side, with sources.", icon: "/icon-compare.png" },
   { href: "/live", title: "Right now, live", text: "Rain and heat in your area today.", icon: "/icon-monsoon.png" },
@@ -55,7 +56,8 @@ export default function SiteMenu() {
             </div>
             <ul className="mt-5 space-y-3">
               {ITEMS.map((item) => {
-                const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+                // The two home entries share "/", so neither is marked; the other pages are.
+                const active = !item.href.startsWith("/?") && pathname.startsWith(item.href);
                 return (
                   <li key={item.href}>
                     <Link
