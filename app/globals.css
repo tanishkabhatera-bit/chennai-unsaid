@@ -1,11 +1,68 @@
 @import "tailwindcss";
 
-@theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-display: var(--font-bungee);
+  --font-body: var(--font-rubik);
+  --font-marker: var(--font-marker);
+
+  /* Chennai street palette */
+  --color-wall: #efcb6b;   /* warm concrete yellow */
+  --color-sun: #f7dd8a;    /* lighter sun-baked wall */
+  --color-chalk: #faf3e0;  /* off-white */
+  --color-ink: #121212;    /* stencil black */
+  --color-rust: #b5451b;   /* painted red */
+  --color-sign: #1f5fa8;   /* painted sign blue */
+  --color-water: #2e78b7;  /* monsoon blue */
 }
 
 body {
-  background: var(--color-slate-50);
-  color: var(--color-slate-900);
+  background-color: var(--color-wall);
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.35), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(181, 69, 27, 0.12), transparent 45%),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.025) 0 2px, transparent 2px 7px);
+  color: var(--color-ink);
+}
+
+/* Wall face: plaster with faint stains */
+.wall > div:first-child {
+  background-color: var(--color-sun);
+  background-image:
+    radial-gradient(ellipse at 30% 80%, rgba(181, 69, 27, 0.14), transparent 50%),
+    radial-gradient(ellipse at 75% 20%, rgba(255, 255, 255, 0.45), transparent 45%),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0 1px, transparent 1px 9px);
+}
+
+/* Water rises in, then the waves keep moving */
+.water {
+  animation: rise 1.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+  transform-origin: bottom;
+}
+@keyframes rise {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+.wave {
+  animation: drift 4s linear infinite;
+}
+.wave-2 {
+  animation-duration: 6.5s;
+  animation-direction: reverse;
+}
+@keyframes drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Marks get painted on one by one */
+.mark {
+  animation: paint 0.35s ease-out both;
+}
+@keyframes paint {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .water, .wave, .mark { animation: none; }
 }
