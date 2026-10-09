@@ -1,14 +1,20 @@
-# I made AI read ten years of Chennai flood news so renters wouldn't have to
+TITLE (goes in the Title field):
+I made AI read ten years of Chennai flood news so renters wouldn't have to
 
-_Other title options, pick one:_
-- _A place can look perfect. Until it rains._
-- _Nobody tells you how high the water comes. So I built something that does._
+DESCRIPTION (goes in the short description field):
+I built a free tool that shows how high the water came in any Chennai area, from ten years of news, before you rent or buy. Built for Environmental Hacks with Amazon Bedrock, DynamoDB and Amplify.
 
----
+TAGS: hackathon, amazon-bedrock, dynamodb, aws-amplify, climate, generative-ai
 
-[IMAGE 1: home page of the live site, water mode, with the auto driver and the wall. Caption: "Chennai Unsaid. Pick an area, see how high the water came."]
+COVER IMAGE: the generated cover (flooded street, auto driver, marks on the wall)
+
+======== COPY EVERYTHING BELOW THIS LINE INTO THE ARTICLE BODY ========
+
+*A place can look perfect. Until it rains.*
 
 I fainted from the heat in Chennai once.
+
+[PICTURE: Image A, the student at the bus stop in the heat]
 
 Nobody had told me how hot it actually gets. Not on the weather app, not from anyone around me.
 
@@ -18,9 +24,13 @@ The broker won't say the street floods. The listing says "24 hrs water, very saf
 
 Then the monsoon comes.
 
+[PICTURE: Image B, broker on the sunny side, flooded building on the monsoon side]
+
+This is what I built for Environmental Hacks (WeMakeDevs × AWS), Heat and Water track.
+
 ## The problem I picked
 
-I'm a digital marketing student, not a developer. For Environmental Hacks I picked the Heat and Water track and one small problem inside it:
+I'm a digital marketing student, not a developer. I picked one small problem inside the Heat and Water track:
 
 **people in Chennai choose where to live without knowing if that area floods or how hot it gets.**
 
@@ -37,7 +47,8 @@ So the question became simple. Can I put ten years of that news in one place, ar
 
 Chennai Unsaid. Live here: https://main.d1v8v4f0epo1xy.amplifyapp.com
 
-[IMAGE 2: Velachery with the 2023 chip selected, water at knee height, the source link visible under the wall. Caption: "Tap a year. The water goes to the level the news reported, with the article right below."]
+[PICTURE: screenshot, home page in water mode with the auto driver and the wall]
+*Pick an area, see how high the water came.*
 
 - **Flood history for 202 Chennai areas.** Pick an area, tap a year, and the water on the wall rises to how high it came that year. Every mark has the news article behind it.
 - **Heat.** Live temperature, how hot it felt on the worst day of the past year, and what that means for a normal day.
@@ -45,7 +56,11 @@ Chennai Unsaid. Live here: https://main.d1v8v4f0epo1xy.amplifyapp.com
 - **Compare two flats.** Flooding, heat and water side by side, with the source and date on every line.
 - **Will your water last?** If a supply cut is announced, it works out how many days your stored water lasts.
 
-[IMAGE 3: Check a property with the sample listing, showing "No flooding problem in this street" next to "Doesn't match the record". Caption: "The broker said no flooding. The news said five flood years."]
+[PICTURE: screenshot, Velachery with 2023 selected, water at knee height, Source link visible]
+*Tap a year. The water goes to the level the news reported, with the article right below.*
+
+[PICTURE: screenshot, Check a property with "No flooding problem in this street" next to "Doesn't match the record"]
+*The broker said no flooding. The news said five flood years.*
 
 That last screenshot is the whole idea in one picture.
 
@@ -62,7 +77,8 @@ So the guide is a Chennai auto driver standing next to his auto.
 - Water inside homes, arms crossed.
 - In the heat, he's wiping his face, and if you tap him he drinks water and tells you what to do.
 
-[IMAGE 4: the auto driver in heat mode, wiping his brow, with the speech bubble. Caption: "Heat mode. Tap him and he tells you what to do about it."]
+[PICTURE: screenshot, heat mode, driver wiping his brow with the speech bubble]
+*Heat mode. Tap him and he tells you what to do about it.*
 
 He's there to make you read the evidence, not to replace it.
 
@@ -70,7 +86,7 @@ He's there to make you read the evidence, not to replace it.
 
 Here's the thing. The hard part was not the website. It was turning 190 messy news articles into data I could trust.
 
-[IMAGE 5: the architecture diagram from docs/architecture.png. Caption: "How it fits together."]
+[PICTURE: Image C, newspapers turning into index cards, driver leaning over]
 
 **Amazon Bedrock (Nova Lite)** read every article and pulled out records like: which area, which date, how bad, how many days the water stayed, and the line from the article that says so.
 
@@ -80,9 +96,15 @@ Then I made it check its own work. A second pass re-read each article and asked 
 
 **AWS Amplify Hosting** runs the site. It deploys from GitHub every time I push. The site talks to DynamoDB and Bedrock through an IAM role, so there are no passwords or keys anywhere in the code.
 
-[IMAGE 6: DynamoDB console, FloodRecords table, a few real rows showing locality, date and source_url. Caption: "The flood records in DynamoDB."]
+[PICTURE: docs/architecture.png from the project]
+*How it fits together.*
+
+[PICTURE: screenshot, DynamoDB FloodRecords table with real rows]
+*The flood records in DynamoDB.*
 
 ## What went wrong
+
+[PICTURE: Image D, driver scratching his head at a mark that shouldn't be there]
 
 A lot. These are the ones that taught me something.
 
@@ -93,6 +115,7 @@ The record came from a 2026 election article where residents talked about the 20
 I only caught it because I clicked on 2026 and thought, wait, there was no flood this year.
 
 So I added two checks:
+
 - if a record talks about an earlier year, it's a look-back, not a new flood
 - if the article is an opinion piece or a report card and not a flood report, its undated records are dropped
 
@@ -126,6 +149,8 @@ It looked bad. Then the background remover I wrote ate holes in his khaki shirt 
 
 So no, a nice listing is not the full picture. The water marks are.
 
----
+Watch the 3-minute demo: [ADD YOUTUBE LINK]
 
-_Built for Environmental Hacks, Bharat Builds Tour (WeMakeDevs × AWS). Code: https://github.com/tanishkabhatera-bit/chennai-unsaid. I built it with Claude Code. Weather data by Open-Meteo (CC BY 4.0). Flood records from DT Next, Deccan Herald and Citizen Matters, linked in the app._
+*I'm Tanishka, a digital marketing student in Chennai. I'm not a developer. I built this in four days with Claude Code.*
+
+*Code: https://github.com/tanishkabhatera-bit/chennai-unsaid. Weather data by Open-Meteo (CC BY 4.0). Flood records from DT Next, Deccan Herald and Citizen Matters, linked in the app.*
