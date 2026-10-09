@@ -3,36 +3,44 @@
     "locality": "velachery",
     "date": "2025-06-19",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallikaranai",
     "date": "2025-06-19",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perungudi",
     "date": "2025-06-19",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event on 2025-06-19 where Perungudi was flooded. It only discusses a proposed project and general flooding issues."
+    ],
+    "event": null
   },
   {
     "locality": "neelankarai",
     "date": "2025-06-19",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "injambakkam",
     "date": "2025-06-19",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "karapakkam",
     "date": "2025-06-19",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

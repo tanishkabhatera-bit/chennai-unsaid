@@ -3,12 +3,14 @@
     "locality": "kolathur",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   },
   {
     "locality": "korattur",
     "date": "2024-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Fengal"
   }
 ]

@@ -1,11 +1,11 @@
 import floodJson from "@/data/flood-records.json";
-import { maxLevel, wallMarks, type WallMark, type WaterLevel } from "./levels";
+import { nowState, wallMarks, type WallMark, type WaterLevel } from "./levels";
 import type { FloodRecord } from "./types";
 
 export interface WallSummary {
-  level: WaterLevel;
   years: number;
   marks: WallMark[];
+  now: { level: WaterLevel; note: string };
 }
 
 // The home page animates every locality instantly, so it uses the committed snapshot
@@ -21,7 +21,7 @@ export function wallSummaries(): Record<string, WallSummary> {
   cache = Object.fromEntries(
     [...bySlug].map(([slug, rs]) => {
       const marks = wallMarks(rs);
-      return [slug, { level: maxLevel(marks.map((m) => m.level)), years: marks.length, marks }];
+      return [slug, { years: marks.length, marks, now: nowState(rs) }];
     }),
   );
   return cache;

@@ -17,10 +17,11 @@ async function main() {
   for (let p = 0; p < width * height; p++) {
     const i = p * channels;
     const r = data[i], g = data[i + 1], b = data[i + 2];
-    const yellowish = r > 235 && g > 175 && g < 215;
-    if (!yellowish) continue;
-    if (b >= 52) data[i + 3] = 0;
-    else if (b >= 40) data[i + 3] = Math.round(((52 - b) / 12) * 255); // soft edge
+    // Background: strongly saturated yellow (green minus blue ≈ 110–150). The khaki shirt is
+    // much less saturated (G−B ≈ 50–80) and the auto body has B≈25, so both are left alone.
+    const bgLike = r > 238 && g > 178 && g < 212 && b >= 50 && b <= 100 && g - b > 100;
+    if (bgLike) data[i + 3] = 0;
+    else if (r > 238 && g > 178 && g < 212 && b > 40 && b < 50 && g - b > 100) data[i + 3] = Math.round(((50 - b) / 10) * 255); // soft edge
   }
 
   // Split at the widest fully-transparent column gap between the two figures.

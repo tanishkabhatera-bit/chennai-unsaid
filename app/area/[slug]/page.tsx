@@ -8,9 +8,9 @@ import ReportForm from "@/components/ReportForm";
 import ResidentReports from "@/components/ResidentReports";
 import RiskBadge from "@/components/RiskBadge";
 import SummarySection, { SummarySkeleton } from "@/components/SummarySection";
-import Wall from "@/components/Wall";
+import YearWall from "@/components/YearWall";
 import { getAreaReport, getLocality } from "@/lib/data";
-import { maxLevel, wallMarks } from "@/lib/levels";
+import { nowState, wallMarks } from "@/lib/levels";
 import { fetchCurrent } from "@/lib/weather";
 
 export async function generateMetadata({ params }: PageProps<"/area/[slug]">): Promise<Metadata> {
@@ -27,7 +27,7 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
   if (!report) notFound();
 
   const marks = wallMarks(report.floodRecords);
-  const level = maxLevel(marks.map((m) => m.level));
+  const now = nowState(report.floodRecords, report.latestReports);
   const weather = await fetchCurrent(report.locality.lat, report.locality.lon);
 
   return (
@@ -40,7 +40,7 @@ export default async function AreaPage({ params }: PageProps<"/area/[slug]">) {
         </div>
       </div>
 
-      <Wall mode="water" level={level} marks={marks} title={report.locality.name} />
+      <YearWall mode="water" title={report.locality.name} marks={marks} now={now} />
 
       <Suspense fallback={<SummarySkeleton />}>
         <SummarySection locality={report.locality} records={report.floodRecords} heat={report.heat} reports={report.latestReports} />

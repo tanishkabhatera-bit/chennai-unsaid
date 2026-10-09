@@ -2,7 +2,8 @@
 
 import { useId, useMemo, useState } from "react";
 import Link from "next/link";
-import Wall, { type WallMode } from "./Wall";
+import type { WallMode } from "./Wall";
+import YearWall from "./YearWall";
 import { searchLocalities } from "@/lib/localities";
 import { HEAT_LINES, heatMood, type CurrentWeather, type HottestDay } from "@/lib/weather";
 import type { WallSummary } from "@/lib/wall-data";
@@ -36,7 +37,9 @@ export default function HomeHero({
 
   const matches = useMemo(() => searchLocalities(localities, query).slice(0, 7), [localities, query]);
   const showList = open && matches.length > 0 && query !== picked?.name;
-  const wall = picked ? (walls[picked.slug] ?? { level: "dry" as const, years: 0, marks: [] }) : null;
+  const wall = picked
+    ? (walls[picked.slug] ?? { years: 0, marks: [], now: { level: "dry" as const, note: "No flooding in the news for this area." } })
+    : null;
   const wx = picked ? weather[picked.slug] : undefined;
   const rating = picked ? heat[picked.slug] : undefined;
 
@@ -233,12 +236,12 @@ export default function HomeHero({
       </div>
 
       <div key={`${mode}-${picked?.slug ?? "empty"}`} className="lg:sticky lg:top-6">
-        <Wall
+        <YearWall
           mode={mode}
-          level={wall?.level ?? "dry"}
-          marks={wall?.marks ?? []}
-          weather={wx?.current}
           title={picked ? picked.name : "Pick an area"}
+          marks={wall?.marks ?? []}
+          now={wall?.now ?? { level: "dry", note: "Pick an area to see its wall." }}
+          weather={wx?.current}
         />
       </div>
     </section>

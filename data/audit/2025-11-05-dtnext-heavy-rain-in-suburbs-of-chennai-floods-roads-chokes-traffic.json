@@ -3,42 +3,49 @@
     "locality": "tambaram",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "chromepet",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "pallavaram",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "mudichur",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "velachery",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "perungalathur",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "selaiyur",
     "date": "2025-11-05",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

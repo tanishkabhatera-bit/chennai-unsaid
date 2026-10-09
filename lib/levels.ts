@@ -44,6 +44,28 @@ export interface WallMark {
   source_title: string;
 }
 
+export const NOW_WINDOW_DAYS = 14;
+
+/**
+ * What's happening now: the highest level from news records and resident flood marks
+ * within the last NOW_WINDOW_DAYS. Dry if there's nothing.
+ */
+export function nowState(
+  records: Pick<FloodRecord, "date" | "severity" | "detail" | "water_stayed_days">[],
+  residentMarks: { created_at: string; level?: WaterLevel }[] = [],
+  today = new Date(),
+): { level: WaterLevel; note: string } {
+  const cutoff = new Date(today.getTime() - NOW_WINDOW_DAYS * 86400000).toISOString().slice(0, 10);
+  const recent = records.filter((r) => r.date >= cutoff);
+  const marks = residentMarks.filter((m) => m.level && m.created_at.slice(0, 10) >= cutoff);
+  const level = maxLevel([...recent.map(recordLevel), ...marks.map((m) => m.level!)]);
+  if (level === "dry") return { level, note: `No flooding reported here in the last ${NOW_WINDOW_DAYS} days.` };
+  const parts = [];
+  if (recent.length) parts.push(`${recent.length} news ${recent.length === 1 ? "report" : "reports"}`);
+  if (marks.length) parts.push(`${marks.length} resident ${marks.length === 1 ? "mark" : "marks"}`);
+  return { level, note: `${parts.join(" and ")} in the last ${NOW_WINDOW_DAYS} days` };
+}
+
 /** One mark per year: the highest level recorded that year. */
 export function wallMarks(records: FloodRecord[]): WallMark[] {
   const byYear = new Map<string, WallMark>();

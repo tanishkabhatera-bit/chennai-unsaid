@@ -3,12 +3,14 @@
     "locality": "ambattur",
     "date": "2025-06-14",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   },
   {
     "locality": "korattur",
     "date": "2025-06-14",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": null
   }
 ]

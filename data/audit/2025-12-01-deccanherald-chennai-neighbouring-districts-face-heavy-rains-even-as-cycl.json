@@ -3,24 +3,30 @@
     "locality": "t-nagar",
     "date": "2025-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "kodambakkam",
     "date": "2025-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "velachery",
     "date": "2025-12-01",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention Velachery being flooded on 2025-12-01."
+    ],
+    "event": "Cyclone Ditwah"
   },
   {
     "locality": "ennore",
     "date": "2025-12-01",
     "ok": true,
-    "reasons": []
+    "reasons": [],
+    "event": "Cyclone Ditwah"
   }
 ]

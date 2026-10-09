@@ -1,54 +1,21 @@
 "use client";
 
-import type { Mood } from "./AutoDriver";
-
-/** Tears, sweat and a worried brow painted over the driver's face. */
-function MoodOverlay({ mood }: { mood: Mood }) {
-  if (mood === "happy") return null;
-  // The driver image is 274x764; his face sits at roughly x 35–65%, y 9–17%.
-  return (
-    <svg viewBox="0 0 274 764" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
-      {mood === "worried" && (
-        <g fill="none" stroke="#121212" strokeWidth="4" strokeLinecap="round">
-          <path d="M118 86 q8 -8 20 -4" />
-          <path d="M156 82 q-8 -8 -20 -4" />
-        </g>
-      )}
-      {mood === "sad" && (
-        <g fill="#2e78b7">
-          <path className="sweat" d="M118 112 q7 12 0 20 q-7 -8 0 -20z" />
-          <path className="sweat sweat-2" d="M156 112 q7 12 0 20 q-7 -8 0 -20z" />
-          <g fill="none" stroke="#121212" strokeWidth="4" strokeLinecap="round">
-            <path d="M116 88 q10 -10 22 -2" />
-            <path d="M158 86 q-10 -10 -22 -2" />
-          </g>
-        </g>
-      )}
-      {mood === "sweating" && (
-        <g fill="#2e78b7">
-          <path className="sweat" d="M104 96 q7 12 0 20 q-7 -8 0 -20z" />
-          <path className="sweat sweat-2" d="M170 100 q7 12 0 20 q-7 -8 0 -20z" />
-          <path className="sweat" style={{ animationDelay: "0.35s" }} d="M137 70 q7 12 0 20 q-7 -8 0 -20z" />
-        </g>
-      )}
-    </svg>
-  );
-}
-import { LEVEL_HEIGHT, LEVEL_LABEL, type WallMark, type WaterLevel } from "@/lib/levels";
+import { LEVEL_HEIGHT, LEVEL_LABEL, type WaterLevel } from "@/lib/levels";
 import { heatMood, type CurrentWeather } from "@/lib/weather";
 
 export type WallMode = "water" | "heat";
+export type Mood = "happy" | "worried" | "sad" | "sweating";
 
 interface Props {
   mode: WallMode;
+  /** Water level to show (one year, or "now"). */
   level: WaterLevel;
-  marks: WallMark[];
   /** Live reading for heat mode; null while loading or if unavailable. */
   weather?: CurrentWeather | null;
   /** Painted on the wall, e.g. the locality name. */
   title?: string;
-  /** Clicking a mark opens its source in a new tab. */
-  interactive?: boolean;
+  /** Right-hand caption under the wall. */
+  caption?: string;
 }
 
 function driverMood(mode: WallMode, level: WaterLevel, weather?: CurrentWeather | null): Mood {
@@ -61,15 +28,33 @@ function driverMood(mode: WallMode, level: WaterLevel, weather?: CurrentWeather 
   return byLevel[level];
 }
 
+/** Tears or sweat over the driver's face. The image is 275x764; his face is around x 40–60%, y 9–16%. */
+function MoodOverlay({ mood }: { mood: Mood }) {
+  if (mood === "happy" || mood === "worried") return null;
+  const drops =
+    mood === "sad"
+      ? [[122, 118], [154, 118]]
+      : [[104, 96], [172, 100], [138, 70]];
+  return (
+    <svg viewBox="0 0 275 764" className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden="true">
+      <g fill="#2e78b7">
+        {drops.map(([x, y], i) => (
+          <path key={i} className="sweat" style={{ animationDelay: `${i * 0.45}s` }} d={`M${x} ${y} q7 12 0 20 q-7 -8 0 -20z`} />
+        ))}
+      </g>
+    </svg>
+  );
+}
+
 /**
  * A compound wall with an auto parked in front and its driver standing beside it.
- * Water mode: water rises to `level` and each flood year is painted as a mark.
- * Heat mode: the sun comes out, the wall bakes and the driver sweats when it's hot.
+ * Water mode: the water sits at `level`. Heat mode: the sun comes out, the wall bakes
+ * and the driver sweats when it's hot.
  */
-export default function Wall({ mode, level, marks, weather, title, interactive = true }: Props) {
+export default function Wall({ mode, level, weather, title, caption }: Props) {
   const water = mode === "water" ? LEVEL_HEIGHT[level] : 0;
   const mood = driverMood(mode, level, weather);
-  const hot = mode === "heat" && weather && (heatMood(weather.feelsLike) === "hot" || heatMood(weather.feelsLike) === "scorching");
+  const hot = mode === "heat" && !!weather && ["hot", "scorching"].includes(heatMood(weather.feelsLike));
 
   return (
     <div className={`wall ${mode === "heat" ? "wall-heat" : ""} relative w-full overflow-hidden rounded-[28px] border-[6px] border-ink shadow-[8px_8px_0_#121212]`}>
@@ -101,43 +86,22 @@ export default function Wall({ mode, level, marks, weather, title, interactive =
           </svg>
         )}
 
-        {/* Height guides (water mode) */}
-        {mode === "water" &&
-          (["ankle", "knee", "waist", "chest"] as const).map((l) => (
-            <div key={l} className="absolute right-0 left-0 border-t border-dashed border-ink/25" style={{ bottom: `${LEVEL_HEIGHT[l] * 100}%` }}>
-              <span className="absolute right-3 -top-3 font-marker text-xs text-ink/50 sm:text-sm">{l}</span>
-            </div>
-          ))}
-
-        {/* Painted marks, one per flood year (water mode) */}
-        {mode === "water" &&
-          marks.map((m, i) => {
-            const Tag = interactive ? "a" : "div";
-            return (
-              <Tag
-                key={m.year}
-                {...(interactive ? { href: m.source_url, target: "_blank", rel: "noopener noreferrer" } : {})}
-                title={m.source_title}
-                className="mark group absolute z-[7] flex items-center gap-2"
-                style={{
-                  bottom: `${LEVEL_HEIGHT[m.level] * 100}%`,
-                  left: `${4 + ((i * 13) % 40)}%`,
-                  transform: `rotate(${((i % 3) - 1) * 2}deg)`,
-                  animationDelay: `${0.9 + i * 0.12}s`,
-                }}
-              >
-                <span className="h-[3px] w-6 bg-rust sm:w-10" />
-                <span className="rounded-md bg-chalk/90 px-1.5 py-0.5 font-marker text-base leading-none text-rust shadow-[2px_2px_0_#121212] group-hover:underline sm:text-xl">
-                  {m.year}
-                </span>
-              </Tag>
-            );
-          })}
+        {/* Height scale on the left (water mode) */}
+        {mode === "water" && (
+          <div className="absolute bottom-0 left-0 top-0 z-[3] w-14 border-r-2 border-dashed border-ink/20 sm:w-20">
+            {(["ankle", "knee", "waist", "chest"] as const).map((l) => (
+              <div key={l} className="absolute left-0 right-0 flex items-center" style={{ bottom: `${LEVEL_HEIGHT[l] * 100}%` }}>
+                <span className="h-[2px] w-3 bg-ink/40" />
+                <span className={`ml-1 font-marker text-[11px] uppercase sm:text-sm ${level === l ? "text-rust" : "text-ink/50"}`}>{l}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Auto and driver (illustration cut out by scripts/cut-figures.ts) */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/auto.png" alt="" className="absolute bottom-[2%] left-[2%] z-[5] h-[70%] w-auto sm:left-[18%] sm:h-[76%]" />
-        <div className="absolute bottom-[2%] left-[66%] z-[5] h-[80%] sm:left-[72%] sm:h-[86%]">
+        <img src="/auto.png" alt="" className="absolute bottom-[2%] left-[12%] z-[5] h-[58%] w-auto sm:left-[22%] sm:h-[74%]" />
+        <div className="absolute bottom-[2%] left-[64%] z-[6] h-[76%] sm:left-[72%] sm:h-[86%]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/driver.png" alt="" className="h-full w-auto" />
           <MoodOverlay mood={mood} />
@@ -145,7 +109,7 @@ export default function Wall({ mode, level, marks, weather, title, interactive =
 
         {/* Water */}
         {mode === "water" && (
-          <div className="water absolute inset-x-0 bottom-0 z-[6]" style={{ height: `${water * 100}%` }} aria-label={LEVEL_LABEL[level]}>
+          <div className="water absolute inset-x-0 bottom-0 z-[7]" style={{ height: `${water * 100}%` }} aria-label={LEVEL_LABEL[level]}>
             <svg className="wave absolute -top-5 left-0 h-6 w-[200%]" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true">
               <path d="M0 12 Q75 0 150 12 T300 12 T450 12 T600 12 T750 12 T900 12 T1050 12 T1200 12 V24 H0 Z" fill="#2E78B7" />
             </svg>
@@ -157,7 +121,7 @@ export default function Wall({ mode, level, marks, weather, title, interactive =
         )}
 
         {/* Heat shimmer */}
-        {hot && <div className="shimmer pointer-events-none absolute inset-0 z-[6]" />}
+        {hot && <div className="shimmer pointer-events-none absolute inset-0 z-[8]" />}
       </div>
 
       {/* Caption strip */}
@@ -165,9 +129,7 @@ export default function Wall({ mode, level, marks, weather, title, interactive =
         {mode === "water" ? (
           <>
             <span className="font-display text-sm uppercase text-ink sm:text-base">{LEVEL_LABEL[level]}</span>
-            <span className="font-body text-xs text-ink/70 sm:text-sm">
-              {marks.length === 0 ? "No news record" : `${marks.length} flood ${marks.length === 1 ? "year" : "years"} in the news`}
-            </span>
+            {caption && <span className="text-right font-body text-xs text-ink/70 sm:text-sm">{caption}</span>}
           </>
         ) : (
           <>

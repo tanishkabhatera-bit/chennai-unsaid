@@ -2,45 +2,64 @@
   {
     "locality": "manali",
     "date": "2024-12-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event where Manali Industrial Area was flooded."
+    ],
+    "event": null
   },
   {
     "locality": "kodungaiyur",
     "date": "2024-12-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event affecting Kodungaiyur Dumpyard."
+    ],
+    "event": null
   },
   {
     "locality": "peravallur",
     "date": "2024-12-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event where Peravallur was flooded or waterlogged. It only discusses potential future flooding due to the expansion of the Ennore Thermal Power Station."
+    ],
+    "event": null
   },
   {
     "locality": "ambattur",
     "date": "2024-12-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event or flooding incident in Ambattur on 2024-12-20."
+    ],
+    "event": null
   },
   {
     "locality": "perambur",
     "date": "2024-12-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific rain event where Perambur was flooded. It only discusses potential future flooding due to the expansion of the ETPS site."
+    ],
+    "event": null
   },
   {
     "locality": "madhavaram",
     "date": "2024-12-20",
-    "ok": true,
-    "reasons": []
+    "ok": false,
+    "reasons": [
+      "AI: The article does not mention a specific flood event in Madhavaram."
+    ],
+    "event": null
   },
   {
     "locality": "tiruvottiyur",
     "date": "2024-12-20",
     "ok": false,
     "reasons": [
-      "AI: The article does not mention that Tiruvottiyur was waterlogged or flooded on 2024-12-20. It only discusses potential future flooding due to the expansion of the Ennore Thermal Power Station."
-    ]
+      "AI: The article does not mention a specific flood event in Tiruvottiyur around 2024-12-20."
+    ],
+    "event": null
   }
 ]
