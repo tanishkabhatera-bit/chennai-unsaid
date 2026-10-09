@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const ITEMS = [
   { href: "/?mode=water", title: "Flood history", text: "Any area's past floods, with the news behind each one.", icon: "/driver-worried.png" },
-  { href: "/?mode=heat", title: "Heat", text: "How hot any area gets, live and over the past year.", icon: "/driver-wipe.png" },
+  { href: "/?mode=heat", title: "Heat", text: "How hot any area gets, live and over the past year.", icon: "/icon-heat.png", tile: true },
   { href: "/check", title: "Check a property", text: "Area, floor, parking, or paste the listing.", icon: "/icon-check.png" },
   { href: "/compare", title: "Compare two flats", text: "Flooding, heat and water side by side, with sources.", icon: "/icon-compare.png" },
   { href: "/live", title: "Right now, live", text: "Rain and heat in your area today.", icon: "/icon-monsoon.png" },
@@ -67,7 +67,11 @@ export default function SiteMenu() {
                       className={`flex items-center gap-3 rounded-2xl border-[3px] border-ink p-3 shadow-[4px_4px_0_#121212] transition hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0_#121212] ${active ? "bg-ink text-chalk" : "bg-chalk text-ink"}`}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={item.icon} alt="" className="h-14 w-14 shrink-0 object-contain" />
+                      <img
+                        src={item.icon}
+                        alt=""
+                        className={`h-14 w-14 shrink-0 ${"tile" in item && item.tile ? "rounded-xl border-2 border-ink object-cover" : "object-contain"}`}
+                      />
                       <span>
                         <span className="block font-display text-sm uppercase leading-tight">{item.title}</span>
                         <span className={`mt-0.5 block font-body text-sm ${active ? "text-chalk/80" : "text-ink/70"}`}>{item.text}</span>
