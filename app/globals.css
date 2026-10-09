@@ -32,13 +32,18 @@ body {
     linear-gradient(180deg, rgba(255, 236, 170, 0.6) 0%, rgba(240, 140, 50, 0.15) 100%);
 }
 .sunglow {
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 246, 200, 0.95) 0%, rgba(255, 220, 120, 0.7) 22%, rgba(255, 190, 80, 0.25) 45%, rgba(255, 170, 60, 0) 70%);
   animation: breathe 6s ease-in-out infinite;
 }
 .sunglow-hot {
-  background: radial-gradient(circle, rgba(255, 250, 220, 1) 0%, rgba(255, 210, 100, 0.85) 20%, rgba(240, 140, 50, 0.35) 45%, rgba(220, 90, 30, 0) 72%);
-  animation-duration: 3.5s;
+  animation-duration: 3s;
+  filter: saturate(1.25) brightness(1.05);
+}
+.sky {
+  animation: cloud-drift 60s ease-in-out infinite alternate;
+}
+@keyframes cloud-drift {
+  from { transform: translateX(-2%); }
+  to { transform: translateX(2%); }
 }
 @keyframes breathe {
   0%, 100% { transform: scale(1); opacity: 0.9; }
@@ -115,5 +120,5 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .water, .flood-strip, .mark, .sunglow, .sweat, .bubble, .pose { animation: none; }
+  .water, .flood-strip, .mark, .sunglow, .sky, .sweat, .bubble, .pose { animation: none; }
 }

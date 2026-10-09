@@ -20,6 +20,8 @@ interface Props {
   title?: string;
   /** Right-hand caption under the wall. */
   caption?: string;
+  /** It's raining in the area right now (water mode shows the monsoon sky). */
+  raining?: boolean;
 }
 
 /**
@@ -27,7 +29,7 @@ interface Props {
  * Water mode: the water sits at `level`. Heat mode: the sun comes out and the wall bakes.
  * The driver changes pose with the scene and talks in a speech bubble.
  */
-export default function Wall({ mode, level, scene, onTap, weather, title, caption }: Props) {
+export default function Wall({ mode, level, scene, onTap, weather, title, caption, raining }: Props) {
   const water = mode === "water" ? LEVEL_HEIGHT[level] : 0;
   const hot = mode === "heat" && !!weather && ["hot", "scorching"].includes(heatMood(weather.feelsLike));
   const tappable = !!onTap && !!scene.hint;
@@ -41,8 +43,17 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
           </div>
         )}
 
-        {/* Sun: a soft glow, stronger when it's hot */}
-        {mode === "heat" && <div className={`sunglow absolute left-[52%] top-[-8%] z-[2] h-[40%] w-[32%] ${hot ? "sunglow-hot" : ""}`} aria-hidden="true" />}
+        {/* Sun (heat mode): the painted sun, bigger and brighter when it's hot */}
+        {mode === "heat" && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src="/sun.png" alt="" className={`sunglow absolute left-[50%] top-[-10%] z-[2] w-[30%] sm:left-[48%] sm:top-[-14%] sm:w-[26%] ${hot ? "sunglow-hot" : "opacity-80"}`} />
+        )}
+
+        {/* Monsoon sky (water mode, when it's raining now): clouds along the top */}
+        {mode === "water" && raining && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src="/monsoon-sky.png" alt="" className="sky absolute left-0 top-0 z-[2] w-full" />
+        )}
 
         {/* Height scale on the left (water mode) */}
         {mode === "water" && (

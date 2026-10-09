@@ -46,7 +46,16 @@ export default function YearWall({ mode, title, marks, now, weather, hottest, em
 
   return (
     <div>
-      <Wall mode={mode} level={level} scene={scene} onTap={() => setStep((s) => s + 1)} weather={weather} title={title} caption={caption} />
+      <Wall
+        mode={mode}
+        level={level}
+        scene={scene}
+        onTap={() => setStep((s) => s + 1)}
+        weather={weather}
+        title={title}
+        caption={caption}
+        raining={selected === "now" && !!rain && (rain.last24h >= 5 || (rain.days[0]?.mm ?? 0) >= 10)}
+      />
 
       {mode === "water" && !empty && (
         <div className="mt-4">
