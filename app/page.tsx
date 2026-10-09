@@ -40,6 +40,14 @@ const DOORS = [
     icon: "/icon-compare.png",
     color: "bg-chalk",
   },
+  {
+    title: "Will your water last?",
+    text: "Supply cut announced? Enter your household and storage: see how many days it lasts, the day you'd run short, and what to do before it starts.",
+    href: "/water",
+    cta: "Work it out",
+    icon: "/driver-drink.png",
+    color: "bg-chalk",
+  },
 ];
 
 export default function Home() {

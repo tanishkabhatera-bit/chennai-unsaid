@@ -162,7 +162,7 @@ export function waterReport(reports: Report[]): DimensionReport {
       "Ask how many days a week Metro water comes, and for how long.",
       "Ask the borewell depth and whether the water is hard or salty.",
       "Ask how many tanker loads the building bought last summer, and at what price.",
-      "Check for rainwater harvesting and the sump's size.",
+      "Check for rainwater harvesting and the sump's size, then use 'Will your water last?' to see how many days of a cut it covers.",
     ],
     limit: "Resident reports only. No official supply or groundwater dataset is connected yet.",
   };
