@@ -292,7 +292,7 @@ export default function HomeHero({
           mode={mode}
           title={picked ? picked.name : "Pick an area"}
           marks={wall?.marks ?? []}
-          now={wall?.now ?? { level: "dry", note: "Pick an area to see its wall." }}
+          now={wall?.now ?? { level: "dry", note: "Every mark links to its news report." }}
           weather={wx?.current}
           hottest={wx?.hottest}
           rain={wx?.rain}

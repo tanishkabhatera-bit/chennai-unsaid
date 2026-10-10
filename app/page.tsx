@@ -10,6 +10,14 @@ const HEAT = Object.fromEntries((heatJson as HeatRating[]).map((h) => [h.localit
 
 const DOORS = [
   {
+    title: "Residents' Map",
+    text: "Where to sit in the shade at 1 pm, where the free water tap is, which roads have no shade and which streets are under water. Marked by people who live there, with a photo.",
+    href: "/spots",
+    cta: "Open the map",
+    icon: "/icon-heat.png",
+    color: "bg-sun",
+  },
+  {
     title: "Check a property",
     text: "Area, floor, parking. The auto anna checks ten years of floods, the heat and what residents say against your exact case, and tells you what to ask.",
     href: "/check",

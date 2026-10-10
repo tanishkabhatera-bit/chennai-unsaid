@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const ITEMS = [
+  { href: "/spots", title: "Residents' Map", text: "Shade to rest, free water, roads with no shade, streets under water.", icon: "/icon-heat.png", tile: true },
   { href: "/?mode=water", title: "Flood history", text: "Any area's past floods, with the news behind each one.", icon: "/driver-worried.png" },
   { href: "/?mode=heat", title: "Heat", text: "How hot any area gets, live and over the past year.", icon: "/icon-heat.png", tile: true },
   { href: "/check", title: "Check a property", text: "Area, floor, parking, or paste the listing.", icon: "/icon-check.png" },

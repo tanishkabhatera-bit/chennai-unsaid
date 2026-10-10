@@ -11,7 +11,7 @@ frontend:
       commands:
         # Amplify console variables reach the build, not the SSR runtime, so copy the ones the app reads.
         # AWS access itself comes from the app's compute role, so no keys are needed here.
-        - env | grep -E '^(APP_AWS_REGION|BEDROCK_MODEL_ID)=' >> .env.production || true
+        - env | grep -E '^(APP_AWS_REGION|BEDROCK_MODEL_ID|SPOTS_REVIEW_KEY)=' >> .env.production || true
         - npm run build
   artifacts:
     baseDirectory: .next

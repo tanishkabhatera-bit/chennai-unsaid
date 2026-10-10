@@ -22,6 +22,8 @@ interface Props {
   caption?: string;
   /** It's raining in the area right now (water mode shows the monsoon sky). */
   raining?: boolean;
+  /** No area picked yet: show a shallow layer of water so the wall reads as a flood wall. */
+  puddle?: boolean;
 }
 
 /**
@@ -29,8 +31,8 @@ interface Props {
  * Water mode: the water sits at `level`. Heat mode: the sun comes out and the wall bakes.
  * The driver changes pose with the scene and talks in a speech bubble.
  */
-export default function Wall({ mode, level, scene, onTap, weather, title, caption, raining }: Props) {
-  const water = mode === "water" ? LEVEL_HEIGHT[level] : 0;
+export default function Wall({ mode, level, scene, onTap, weather, title, caption, raining, puddle }: Props) {
+  const water = mode === "water" ? LEVEL_HEIGHT[level] || (puddle ? 0.14 : 0) : 0;
   const hot = mode === "heat" && !!weather && ["hot", "scorching"].includes(heatMood(weather.feelsLike));
   const tappable = !!onTap && !!scene.hint;
 
@@ -112,7 +114,7 @@ export default function Wall({ mode, level, scene, onTap, weather, title, captio
       <div className="flex items-center justify-between gap-3 border-t-[6px] border-ink bg-chalk px-4 py-3">
         {mode === "water" ? (
           <>
-            <span className="font-display text-sm uppercase text-ink sm:text-base">{LEVEL_LABEL[level]}</span>
+            <span className="font-display text-sm uppercase text-ink sm:text-base">{puddle ? "Pick an area" : LEVEL_LABEL[level]}</span>
             {caption && <span className="text-right font-body text-xs text-ink/70 sm:text-sm">{caption}</span>}
           </>
         ) : (

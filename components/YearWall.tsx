@@ -54,6 +54,7 @@ export default function YearWall({ mode, title, marks, now, weather, hottest, em
         weather={weather}
         title={title}
         caption={caption}
+        puddle={empty}
         raining={selected === "now" && !!rain && (rain.last24h >= 5 || (rain.days[0]?.mm ?? 0) >= 10)}
       />
 
