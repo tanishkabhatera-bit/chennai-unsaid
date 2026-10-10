@@ -6,7 +6,7 @@ Flood history, heat and water for any Chennai area, before you rent or buy. Ever
 
 - **Live:** https://main.d1v8v4f0epo1xy.amplifyapp.com
 - **Track:** Heat and Water · Environmental Hacks, Bharat Builds Tour (WeMakeDevs × AWS), 8–11 Oct 2026
-- **Demo video:** _add YouTube link_
+- **Demo video:** https://youtu.be/NSe1TDtaW0Y
 
 ![Architecture](docs/architecture.png)
 
