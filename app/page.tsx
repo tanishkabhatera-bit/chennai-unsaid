@@ -14,7 +14,7 @@ const DOORS = [
     text: "Where to sit in the shade at 1 pm, where the free water tap is, which roads have no shade and which streets are under water. Marked by people who live there, with a photo.",
     href: "/spots",
     cta: "Open the map",
-    icon: "/icon-heat.png",
+    icon: "/icon-map.png",
     color: "bg-sun",
   },
   {

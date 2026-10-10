@@ -5,9 +5,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const ITEMS = [
-  { href: "/spots", title: "Residents' Map", text: "Shade to rest, free water, roads with no shade, streets under water.", icon: "/icon-heat.png", tile: true },
+  { href: "/spots", title: "Residents' Map", text: "Shade to rest, free water, roads with no shade, streets under water.", icon: "/icon-map.png" },
   { href: "/?mode=water", title: "Flood history", text: "Any area's past floods, with the news behind each one.", icon: "/driver-worried.png" },
-  { href: "/?mode=heat", title: "Heat", text: "How hot any area gets, live and over the past year.", icon: "/icon-heat.png", tile: true },
+  { href: "/?mode=heat", title: "Heat", text: "How hot any area gets, live and over the past year.", icon: "/icon-heat.png" },
   { href: "/check", title: "Check a property", text: "Area, floor, parking, or paste the listing.", icon: "/icon-check.png" },
   { href: "/compare", title: "Compare two flats", text: "Flooding, heat and water side by side, with sources.", icon: "/icon-compare.png" },
   { href: "/live", title: "Right now, live", text: "Rain and heat in your area today.", icon: "/icon-monsoon.png" },
@@ -71,7 +71,7 @@ export default function SiteMenu() {
                       <img
                         src={item.icon}
                         alt=""
-                        className={`h-14 w-14 shrink-0 ${"tile" in item && item.tile ? "rounded-xl border-2 border-ink object-cover" : "object-contain"}`}
+                        className="h-14 w-14 shrink-0 object-contain"
                       />
                       <span>
                         <span className="block font-display text-sm uppercase leading-tight">{item.title}</span>
