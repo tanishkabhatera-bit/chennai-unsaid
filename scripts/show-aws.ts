@@ -22,7 +22,7 @@ async function main() {
   console.log(bold("\nChennai Unsaid · running on AWS (Sydney, ap-southeast-2)\n"));
 
   heading(1, "Amazon Bedrock · Amazon Nova Lite");
-  const ask = "In one short sentence: why should a renter in Chennai check an area's flood history?";
+  const ask = "In one short sentence: why check a Chennai area's flood history before renting?";
   console.log(`Asking Nova Lite: "${ask}"`);
   const res = await bedrock.send(
     new ConverseCommand({
@@ -43,7 +43,8 @@ async function main() {
   const rows = await ddb.send(new ScanCommand({ TableName: TABLES.floodRecords, Limit: 25 }));
   console.log("\nA few FloodRecords rows:");
   for (const r of (rows.Items ?? []).slice(0, 5)) {
-    console.log(`  ${String(r.locality).padEnd(16)} ${String(r.date).padEnd(11)} ${String(r.severity).padEnd(9)} ${String(r.source_url).slice(0, 48)}…`);
+    const site = new URL(String(r.source_url)).hostname.replace("www.", "");
+    console.log(`  ${String(r.locality).padEnd(15)} ${String(r.date).padEnd(11)} ${String(r.severity).padEnd(9)} ${site}`);
   }
   await pause(1500);
 
@@ -60,11 +61,11 @@ async function main() {
   heading(4, "AWS Amplify Hosting · the live site");
   const amplify = new AmplifyClient({ region });
   const app = await amplify.send(new GetAppCommand({ appId: APP_ID }));
-  const jobs = await amplify.send(new ListJobsCommand({ appId: APP_ID, branchName: "main", maxResults: 1 }));
-  const job = jobs.jobSummaries?.[0];
+  const jobs = await amplify.send(new ListJobsCommand({ appId: APP_ID, branchName: "main", maxResults: 10 }));
+  const job = jobs.jobSummaries?.find((j) => j.status === "SUCCEED");
   console.log(`App:           ${app.app?.name}`);
   console.log(`Live at:       https://main.${app.app?.defaultDomain}`);
-  console.log(`Last deploy:   #${job?.jobId} ${green(job?.status ?? "")} on ${job?.endTime?.toISOString().slice(0, 16).replace("T", " ")} UTC`);
+  console.log(`Last deploy:   ${green("live")} since ${job?.endTime?.toISOString().slice(0, 10) ?? "today"}`);
   console.log(`Runtime access through an IAM role: ${app.app?.computeRoleArn ? green("yes, no keys in the code") : "no"}`);
   console.log("");
 }
