@@ -116,7 +116,8 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
       if (!q) return true;
       return areaSlugs.has(s.locality) || normalise(`${s.landmark} ${s.note} ${names[s.locality] ?? ""}`).includes(q);
     });
-    const rank = (s: PublicSpot) => (s.trust === "reference" ? 1 : 0);
+    // Photos first, then resident reports before reference spots, newest first.
+    const rank = (s: PublicSpot) => (s.photo ? 0 : 2) + (s.trust === "reference" ? 1 : 0);
     return list.sort((a, b) =>
       me
         ? distanceKm(me.lat, me.lon, a.lat, a.lon) - distanceKm(me.lat, me.lon, b.lat, b.lon)
