@@ -260,5 +260,23 @@
       "title": "Mylapore Times, June 2025: water ATMs launched in Mylapore zone",
       "url": "https://www.mylaporetimes.com/2025/06/water-atms-launched-in-3-places-across-mylapore-zone-people-can-have-a-glass-of-potable-water-here-free"
     }
+  },
+  {
+    "id": "ref-cmrl-central",
+    "kind": "water-point",
+    "trust": "reference",
+    "locality": "park-town",
+    "landmark": "Central Metro station entrance (CMRL)",
+    "note": "Free RO purified drinking water from a 500-litre plant at the station entrance. Reported in 2019, so check it is still there.",
+    "lat": 13.08173,
+    "lon": 80.27392,
+    "seen_on": "2019-05-06",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": null,
+    "source": {
+      "title": "India Infra Hub: CMRL installs 500-litre RO plant for free drinking water",
+      "url": "https://indiainfrahub.com/?p=1421"
+    }
   }
 ]
