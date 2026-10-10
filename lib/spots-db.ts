@@ -2,7 +2,7 @@ import { DeleteObjectCommand, GetObjectCommand, PutObjectCommand } from "@aws-sd
 import { GetCommand, PutCommand, ScanCommand, UpdateCommand } from "@aws-sdk/lib-dynamodb";
 import { ddb, s3, SPOTS_BUCKET, TABLES } from "./aws";
 import seedJson from "@/data/seed-spots.json";
-import { CONFIRMS_TO_VERIFY, type PublicSpot, type SpotKind, type SpotStatus } from "./spots";
+import { CONFIRMS_TO_VERIFY, type PhotoCredit, type PublicSpot, type SpotKind, type SpotStatus } from "./spots";
 
 /** One row in the Spots table. */
 export interface SpotRecord {
@@ -20,6 +20,8 @@ export interface SpotRecord {
   confirms: number;
   /** Optional name shown on the spot. */
   by?: string;
+  /** Set by the team when a submitted photo is openly licensed and needs credit. */
+  credit?: PhotoCredit;
   reviewed_at?: string;
 }
 
@@ -39,6 +41,7 @@ export function toPublic(r: SpotRecord): PublicSpot {
     seen_on: r.seen_on,
     confirms: r.confirms,
     by: r.by || null,
+    ...(r.credit ? { credit: r.credit } : {}),
     photo: `/api/spots/${r.id}/photo`,
   };
 }
