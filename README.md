@@ -7,6 +7,7 @@ Flood history, heat and water for any Chennai area, before you rent or buy. Ever
 - **Live:** https://main.d1v8v4f0epo1xy.amplifyapp.com
 - **Track:** Heat and Water · Environmental Hacks, Bharat Builds Tour (WeMakeDevs × AWS), 8–11 Oct 2026
 - **Demo video:** https://youtu.be/NSe1TDtaW0Y
+- **Blog (AWS Builder Center):** https://builder.aws.com/content/3KT7ksEAvbVGowexzwddfprGQ7z/a-place-can-look-perfect-until-it-rains
 
 ![Architecture](docs/architecture.png)
 
@@ -18,7 +19,7 @@ Chennai floods in the same localities every northeast monsoon. Residents know wh
 
 | Page | What you get |
 |---|---|
-| **Residents' Map** (`/spots`) | A community map: shade to rest, free drinking water, roads with no shade, waterlogged streets. Each pin has a photo, area and landmark, a one-line reason, the date seen and the name of who shared it (optional). New pins stay hidden until a photo check. Labelled **Reference** (real place, credited photo or news source), **Community report** or **Verified** (3+ "still here" taps or checked by us). Search by area or landmark, filter by type, "Near me". |
+| **Residents' Map** (`/spots`) | A community map: shade to rest, cool drink stalls, free drinking water, roads with no shade, waterlogged streets. Each pin has a photo, area and landmark, a one-line reason, the date seen and the name of who shared it (optional). New pins stay hidden until a photo check. Labelled **Reference** (real place, credited photo or news source), **Community report** or **Verified** (3+ "still here" taps or checked by us). Search by area or landmark, filter by type, "Near me". |
 | **Flood history** (home, water) | Pick any of 202 areas. See how high the water came in each year the news reported a flood, with the article behind each mark. "Now" shows the last 14 days of reports and live rain. |
 | **Heat** (home, heat) | Live feels-like temperature, the hottest day and 40°C+ days of the past year, and what it means for daily life. Every number labelled live, past year or estimate. |
 | **Check a property** (`/check`) | Area + floor + parking, or paste a broker's message. Claims are checked against the record. Verdict by a written rule, plus questions to ask before paying the advance. |
@@ -47,7 +48,7 @@ The verdicts and comparisons are deterministic rules shown in the app. AI reads 
 | Live weather | Open-Meteo forecast API, CC BY 4.0 | Refreshed every 15 minutes. |
 | Heat ratings (202 areas) | Team estimate from coast distance, tree cover, density | Labelled "estimate" in the app. |
 | Resident reports | Users; seed reports written by the team | Seeds marked `seeded: true` and shown as "added by the team". |
-| Residents' Map reference spots (14) | Real places added by the team: 10 with photos from [Wikimedia Commons](https://commons.wikimedia.org) (CC BY-SA 3.0/4.0 or CC0, author and licence on each card), and 4 Metro Water ATMs from news reports (DT Next RTI audit, May 2026; Mylapore Times, June 2025), linked on each card | Marked "Reference". Never counted as resident reports. No demo pins remain. |
+| Residents' Map reference spots (15) | Real places added by the team: 10 with photos from [Wikimedia Commons](https://commons.wikimedia.org) (CC BY-SA 3.0/4.0 or CC0, author and licence on each card), 4 Metro Water ATMs from news reports (DT Next RTI audit, May 2026; Mylapore Times, June 2025) and CMRL's free RO water at Central Metro (India Infra Hub, May 2019), linked on each card | Marked "Reference". Never counted as resident reports. No demo pins remain. |
 | Water norms | CPHEEO Manual on Water Supply (135 L/person/day), Sphere Handbook (15 L) | |
 
 **Limits:** neighbourhood level, not street or plot level. No record does not mean no risk. Outdoor weather is not indoor temperature. No official water-supply or groundwater data is connected yet.
@@ -82,7 +83,7 @@ npm run load             # write to DynamoDB
 
 - **Claude Code** (Anthropic) for writing and debugging the code.
 - **Amazon Bedrock, Nova Lite** inside the app (above).
-- **[Image tool]** for the illustrations (auto driver, auto, wall, water, sky, icons).
+- **An AI image generator** for the illustrations (auto driver, auto, wall, water, sky, icons), from prompts written by me, then cut out and placed by hand.
 
 ## Credits
 

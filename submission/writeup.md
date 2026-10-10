@@ -4,6 +4,7 @@
 **Live:** https://main.d1v8v4f0epo1xy.amplifyapp.com
 **Repo:** https://github.com/tanishkabhatera-bit/chennai-unsaid
 **Demo video:** https://youtu.be/NSe1TDtaW0Y
+**Blog:** https://builder.aws.com/content/3KT7ksEAvbVGowexzwddfprGQ7z/a-place-can-look-perfect-until-it-rains
 
 ## The problem
 
@@ -48,7 +49,7 @@ The verdicts and comparisons are deterministic rules shown in the app, not AI op
 
 - **Claude Code** (Anthropic): wrote and debugged the code with me.
 - **Amazon Bedrock, Nova Lite**: data extraction and checking, summaries and listing reading inside the app.
-- **[Your image tool]**: the auto driver, auto rickshaw, wall, water, sky and icon illustrations.
+- **An AI image generator**: the auto driver, auto rickshaw, wall, water, sky and icon illustrations, from my prompts.
 
 ## Credits
 
