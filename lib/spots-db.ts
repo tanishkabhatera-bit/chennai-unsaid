@@ -1,7 +1,7 @@
 import { DeleteObjectCommand, GetObjectCommand, PutObjectCommand } from "@aws-sdk/client-s3";
 import { GetCommand, PutCommand, ScanCommand, UpdateCommand } from "@aws-sdk/lib-dynamodb";
 import { ddb, s3, SPOTS_BUCKET, TABLES } from "./aws";
-import demoJson from "@/data/demo-spots.json";
+import seedJson from "@/data/seed-spots.json";
 import { CONFIRMS_TO_VERIFY, type PublicSpot, type SpotKind, type SpotStatus } from "./spots";
 
 /** One row in the Spots table. */
@@ -23,7 +23,8 @@ export interface SpotRecord {
   reviewed_at?: string;
 }
 
-export const DEMO_SPOTS = demoJson as PublicSpot[];
+/** Reference spots (real places, credited photos) and the few demo entries left. */
+export const SEED_SPOTS = seedJson as PublicSpot[];
 
 export function toPublic(r: SpotRecord): PublicSpot {
   return {

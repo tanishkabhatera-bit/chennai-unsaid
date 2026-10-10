@@ -6,7 +6,14 @@ export type SpotKind = "shade" | "no-shade" | "water-point" | "waterlogged";
 export type SpotStatus = "pending" | "community" | "verified" | "rejected";
 
 /** How much to trust a pin, shown as a label on every spot. */
-export type Trust = "demo" | "community" | "verified";
+export type Trust = "demo" | "reference" | "community" | "verified";
+
+/** Credit for a photo taken from an openly licensed source. */
+export interface PhotoCredit {
+  author: string;
+  license: string;
+  url: string;
+}
 
 export interface SpotKindInfo {
   id: SpotKind;
@@ -84,13 +91,16 @@ export interface PublicSpot {
   by: string | null;
   /** null for demo entries, which have no real photo. */
   photo: string | null;
+  /** Reference spots only: who took the photo and under what licence. */
+  credit?: PhotoCredit;
 }
 
 /** "Still here" taps needed before a community pin counts as verified. */
 export const CONFIRMS_TO_VERIFY = 3;
 
 export const TRUST_LABEL: Record<Trust, { label: string; text: string }> = {
-  demo: { label: "Demo", text: "Example only, to show how the map works. Not a real report." },
+  demo: { label: "Demo", text: "Example only, to show how the map works. Not a real place." },
+  reference: { label: "Reference", text: "A real place, added by the team with an openly licensed photo. Not a resident report." },
   community: { label: "Community report", text: "Sent by a resident. We checked the photo, not the place." },
   verified: { label: "Verified", text: `Confirmed by ${CONFIRMS_TO_VERIFY} or more people, or checked by us.` },
 };

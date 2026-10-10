@@ -25,7 +25,11 @@ const AddSpotForm = dynamic(() => import("./AddSpotForm"), {
 /** Real places to cool off and drink water the community is trying to map. */
 const CHALLENGE_GOAL = 100;
 
-function seenText(date: string): string {
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function seenText(s: PublicSpot): string {
+  if (s.trust === "reference") return `Photo from ${MONTHS[Number(s.seen_on.slice(5, 7)) - 1]} ${s.seen_on.slice(0, 4)}`;
+  const date = s.seen_on;
   const d = daysSince(date);
   return d === 0 ? "Seen today" : d === 1 ? "Seen yesterday" : `Seen ${d} days ago`;
 }
@@ -34,7 +38,9 @@ function TrustBadge({ trust }: { trust: PublicSpot["trust"] }) {
   const style =
     trust === "demo"
       ? "border-dashed border-ink/60 bg-white text-ink/70"
-      : trust === "verified"
+      : trust === "reference"
+        ? "border-ink bg-sun text-ink"
+        : trust === "verified"
         ? "border-ink bg-[#2f7d4f] text-chalk"
         : "border-ink bg-sign text-chalk";
   return (
@@ -114,7 +120,7 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
       if (!q) return true;
       return areaSlugs.has(s.locality) || normalise(`${s.landmark} ${s.note} ${names[s.locality] ?? ""}`).includes(q);
     });
-    const rank = (s: PublicSpot) => (s.trust === "demo" ? 1 : 0);
+    const rank = (s: PublicSpot) => (s.trust === "demo" ? 2 : s.trust === "reference" ? 1 : 0);
     return list.sort((a, b) =>
       me
         ? distanceKm(me.lat, me.lon, a.lat, a.lon) - distanceKm(me.lat, me.lon, b.lat, b.lon)
@@ -122,7 +128,7 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
     );
   }, [spots, kinds, showDemo, query, areaMatches, names, me]);
 
-  const real = (spots ?? []).filter((s) => s.trust !== "demo");
+  const real = (spots ?? []).filter((s) => s.trust === "community" || s.trust === "verified");
   const challengeCount = real.filter((s) => s.kind === "shade" || s.kind === "water-point").length;
 
   const select = useCallback((id: string) => {
@@ -230,7 +236,7 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
         })}
         <label className="ml-auto flex cursor-pointer items-center gap-2 font-body text-sm">
           <input type="checkbox" checked={showDemo} onChange={(e) => setShowDemo(e.target.checked)} className="h-4 w-4 accent-ink" />
-          Show demo entries
+          Show demo examples
         </label>
       </div>
 
@@ -239,8 +245,8 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
       <SpotMap spots={visible} selectedId={selectedId} onSelect={select} focus={focus} me={me} />
 
       <p className="font-body text-sm text-ink/70">
-        <strong>Dashed pins are demo entries</strong>, there to show how the map works. Solid pins are real reports from residents.
-        {real.length === 0 && spots ? " There are no real reports yet." : ""}
+        <strong>Reference</strong> pins are real places the team added, with credited photos. <strong>Dashed</strong> pins are demo examples. Everything else comes from residents.
+        {real.length === 0 && spots ? " There are no resident reports yet." : ""}
       </p>
 
       {/* The challenge counts real reports only. Demo entries never count. */}
@@ -300,18 +306,31 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
                   </div>
                   <p className="mt-2 font-body font-semibold leading-snug">{s.landmark}</p>
                   <p className="font-body text-sm text-ink/70">
-                    {names[s.locality] ?? s.locality} · {seenText(s.seen_on)}
+                    {names[s.locality] ?? s.locality} · {seenText(s)}
                     {dist !== null ? ` · ${dist < 1 ? `${Math.round(dist * 1000)} m` : `${dist.toFixed(1)} km`} away` : ""}
                   </p>
                   {stale && <p className="mt-1 font-body text-sm text-rust">Water drains. This may be gone now.</p>}
                   {s.note && <p className="mt-2 font-body text-sm">&ldquo;{s.note}&rdquo;</p>}
-                  {s.trust !== "demo" && <p className="mt-1 font-marker text-sm text-rust">Shared by {s.by ?? "a resident"}</p>}
+                  {s.trust === "reference" ? (
+                    <p className="mt-1 font-marker text-sm text-rust">Added by the Chennai Unsaid team</p>
+                  ) : s.trust !== "demo" ? (
+                    <p className="mt-1 font-marker text-sm text-rust">Shared by {s.by ?? "a resident"}</p>
+                  ) : null}
+                  {s.credit && (
+                    <p className="mt-1 font-body text-xs text-ink/60">
+                      Photo:{" "}
+                      <a href={s.credit.url} target="_blank" rel="noreferrer" className="underline">
+                        {s.credit.author}
+                      </a>
+                      , {s.credit.license}, via Wikimedia Commons
+                    </p>
+                  )}
                   <p className="mt-2 font-body text-xs text-ink/60">{TRUST_LABEL[s.trust].text}</p>
                   <div className="mt-3 flex flex-wrap items-center gap-2">
                     <button type="button" onClick={() => showOnMap(s)} className="rounded-xl border-[3px] border-ink bg-sun px-3 py-1 font-display text-xs uppercase">
                       Show on map
                     </button>
-                    {s.trust !== "demo" && (
+                    {(s.trust === "community" || s.trust === "verified") && (
                       <button
                         type="button"
                         onClick={() => stillHere(s)}

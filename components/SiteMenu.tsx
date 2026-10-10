@@ -65,7 +65,7 @@ export default function SiteMenu() {
                       href={item.href}
                       onClick={() => setOpen(false)}
                       aria-current={active ? "page" : undefined}
-                      className={`flex items-center gap-3 rounded-2xl border-[3px] border-ink p-3 shadow-[4px_4px_0_#121212] transition hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0_#121212] ${active ? "bg-ink text-chalk" : "bg-chalk text-ink"}`}
+                      className={`flex items-center gap-3 rounded-2xl border-[3px] border-ink p-3 shadow-[4px_4px_0_#121212] transition hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0_#121212] ${active ? "bg-sun text-ink ring-2 ring-rust ring-offset-2 ring-offset-sun" : "bg-chalk text-ink"}`}
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
@@ -74,8 +74,11 @@ export default function SiteMenu() {
                         className="h-14 w-14 shrink-0 object-contain"
                       />
                       <span>
-                        <span className="block font-display text-sm uppercase leading-tight">{item.title}</span>
-                        <span className={`mt-0.5 block font-body text-sm ${active ? "text-chalk/80" : "text-ink/70"}`}>{item.text}</span>
+                        <span className="block font-display text-sm uppercase leading-tight">
+                          {item.title}
+                          {active && <span className="ml-2 rounded-full bg-rust px-2 py-0.5 align-middle font-body text-[10px] normal-case text-chalk">You&apos;re here</span>}
+                        </span>
+                        <span className={`mt-0.5 block font-body text-sm text-ink/70`}>{item.text}</span>
                       </span>
                     </Link>
                   </li>

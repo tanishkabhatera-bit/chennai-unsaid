@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { connection } from "next/server";
 import { getLocality } from "@/lib/data";
 import { clientIp, rateLimited } from "@/lib/rate-limit";
-import { DEMO_SPOTS, listPublicSpots, putSpot, stripJpegMetadata, type SpotRecord } from "@/lib/spots-db";
+import { SEED_SPOTS, listPublicSpots, putSpot, stripJpegMetadata, type SpotRecord } from "@/lib/spots-db";
 import { daysSince, insideChennai, KIND, todayIST, type SpotKind } from "@/lib/spots";
 
 const MAX_PHOTO = 2 * 1024 * 1024; // the browser shrinks photos to well under this
@@ -19,9 +19,9 @@ export async function GET() {
     community = await listPublicSpots();
   } catch (err) {
     console.error("spots list failed", err);
-    error = "Community reports couldn't load right now. Demo entries are still shown.";
+    error = "Community reports couldn't load right now. Reference spots are still shown.";
   }
-  return NextResponse.json({ spots: [...community, ...DEMO_SPOTS], error });
+  return NextResponse.json({ spots: [...community, ...SEED_SPOTS], error });
 }
 
 function clean(value: FormDataEntryValue | null, max: number): string {

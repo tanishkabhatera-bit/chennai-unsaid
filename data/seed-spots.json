@@ -1,0 +1,220 @@
+[
+  {
+    "id": "ref-tholkappia",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "adyar",
+    "landmark": "Tholkappia Poonga (Adyar Eco Park)",
+    "note": "Paved paths and benches under trees, beside the Adyar estuary.",
+    "lat": 13.0193,
+    "lon": 80.2647,
+    "seen_on": "2015-08-12",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-tholkappia.jpg",
+    "credit": {
+      "author": "Destination8infinity",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Adyar-Tholkappiya-Poonga-Park-Chennai-India-12.jpg"
+    }
+  },
+  {
+    "id": "ref-semmozhi",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "teynampet",
+    "landmark": "Semmozhi Poonga, Cathedral Road",
+    "note": "A covered walkway and shady trees in the middle of the city.",
+    "lat": 13.0505,
+    "lon": 80.2514,
+    "seen_on": "2011-10-08",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-semmozhi.jpg",
+    "credit": {
+      "author": "Eashchand",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Semmozhi_Poonga_1.jpg"
+    }
+  },
+  {
+    "id": "ref-tower-park",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "anna-nagar",
+    "landmark": "Anna Nagar Tower Park",
+    "note": "Big park with tall trees and walking paths around the old tower.",
+    "lat": 13.0868,
+    "lon": 80.2144,
+    "seen_on": "2017-12-16",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-tower-park.jpg",
+    "credit": {
+      "author": "Mohan Babu V",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Anna_Nagar_Tower_Park.jpg"
+    }
+  },
+  {
+    "id": "ref-chetpet",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "chetpet",
+    "landmark": "Chetpet Eco Park, by Chetpet lake",
+    "note": "Lakeside paths with a shelter to sit under.",
+    "lat": 13.074,
+    "lon": 80.2395,
+    "seen_on": "2016-04-27",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-chetpet.jpg",
+    "credit": {
+      "author": "Destination8infinity",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Chetpet-Eco-Park-Chennai-Boating-9.jpg"
+    }
+  },
+  {
+    "id": "ref-guindy",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "guindy",
+    "landmark": "Children's Park, Guindy National Park",
+    "note": "Dense tree cover over the lawns and paths.",
+    "lat": 13.0058,
+    "lon": 80.2357,
+    "seen_on": "2012-11-03",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-guindy.jpg",
+    "credit": {
+      "author": "Bagavath G",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Children%27s_park_at_Guindy_National_Park.jpg"
+    }
+  },
+  {
+    "id": "ref-natesan",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "t-nagar",
+    "landmark": "Natesan Park, T Nagar",
+    "note": "Old shady trees in a quiet park, a short walk from the shopping streets.",
+    "lat": 13.0375,
+    "lon": 80.2361,
+    "seen_on": "2013-10-07",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-natesan.jpg",
+    "credit": {
+      "author": "Commons_sibi",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Natesan_park_Chennai.jpg"
+    }
+  },
+  {
+    "id": "ref-ac-bus-stop",
+    "kind": "shade",
+    "trust": "reference",
+    "locality": "st-thomas-mount",
+    "landmark": "Air-conditioned bus stop, St Thomas Mount",
+    "note": "Seats inside an air-conditioned bus shelter. The photo is from 2015, so check it still works.",
+    "lat": 13.005,
+    "lon": 80.195,
+    "seen_on": "2015-05-02",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-ac-bus-stop.jpg",
+    "credit": {
+      "author": "Destination8infinity",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:AC-Bus-Stop-St-Thomas-Mount-Chennai-1-r.jpg"
+    }
+  },
+  {
+    "id": "ref-uthandi",
+    "kind": "no-shade",
+    "trust": "reference",
+    "locality": "uthandi",
+    "landmark": "Uthandi beach, 2nd Main Road",
+    "note": "Benches on open sand, with no shade once the sun is up.",
+    "lat": 12.868,
+    "lon": 80.2505,
+    "seen_on": "2021-05-18",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-uthandi.jpg",
+    "credit": {
+      "author": "Timothy A. Gonsalves",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Uthandi_Beach_2ndMain_Benches_Cloudy_NorthEast_Chennai_May21_A7C_00766.jpg"
+    }
+  },
+  {
+    "id": "ref-ramapuram",
+    "kind": "waterlogged",
+    "trust": "reference",
+    "locality": "ramapuram",
+    "landmark": "Ramapuram Main Road, near the Arasamaram landmark",
+    "note": "Muddy water pooled across the main road after rain.",
+    "lat": 13.032,
+    "lon": 80.18,
+    "seen_on": "2017-10-12",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-ramapuram.jpg",
+    "credit": {
+      "author": "Balasubrap",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ramapuram,_Chennai,_the_Main_Road_and_the_landmark_called_Arasamaram.jpg"
+    }
+  },
+  {
+    "id": "ref-marina",
+    "kind": "waterlogged",
+    "trust": "reference",
+    "locality": "triplicane",
+    "landmark": "Service road near Marina beach",
+    "note": "Under water during the December 2015 floods.",
+    "lat": 13.054,
+    "lon": 80.282,
+    "seen_on": "2015-12-02",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": "/spots/ref-marina.jpg",
+    "credit": {
+      "author": "SIDDHAR",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Flooded_Marina_beach_Near_Service_Road_(_2015_).jpg"
+    }
+  },
+  {
+    "id": "demo-5",
+    "kind": "water-point",
+    "trust": "demo",
+    "locality": "t-nagar",
+    "landmark": "Example: a public drinking water tap",
+    "note": "Free tap near a shop street, working this week.",
+    "lat": 13.0405,
+    "lon": 80.2357,
+    "seen_on": "2026-10-05",
+    "confirms": 0,
+    "photo": null,
+    "by": null
+  },
+  {
+    "id": "demo-6",
+    "kind": "water-point",
+    "trust": "demo",
+    "locality": "egmore",
+    "landmark": "Example: a water pot outside a shop",
+    "note": "A shopkeeper keeps a pot of water and a cup for anyone, refilled every morning.",
+    "lat": 13.0745,
+    "lon": 80.2593,
+    "seen_on": "2026-10-06",
+    "confirms": 0,
+    "photo": null,
+    "by": null
+  }
+]
