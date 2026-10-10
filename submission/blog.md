@@ -14,7 +14,7 @@ COVER IMAGE: the generated cover (flooded street, auto driver, marks on the wall
 
 I fainted from the heat in Chennai once.
 
-[PICTURE: Image A, the student at the bus stop in the heat]
+[PICTURE: Image A, girl walking on a hot street at midday]
 
 Nobody had told me how hot it actually gets. Not on the weather app, not from anyone around me.
 
@@ -96,12 +96,6 @@ Then I made it check its own work. A second pass re-read each article and asked 
 
 **AWS Amplify Hosting** runs the site. It deploys from GitHub every time I push. The site talks to DynamoDB and Bedrock through an IAM role, so there are no passwords or keys anywhere in the code.
 
-[PICTURE: docs/architecture.png from the project]
-*How it fits together.*
-
-[PICTURE: screenshot, DynamoDB FloodRecords table with real rows]
-*The flood records in DynamoDB.*
-
 ## What went wrong
 
 [PICTURE: Image D, driver scratching his head at a mark that shouldn't be there]
@@ -149,7 +143,7 @@ It looked bad. Then the background remover I wrote ate holes in his khaki shirt 
 
 So no, a nice listing is not the full picture. The water marks are.
 
-Watch the 3-minute demo: [ADD YOUTUBE LINK]
+Watch the 3-minute demo: https://youtu.be/NSe1TDtaW0Y
 
 *I'm Tanishka, a digital marketing student in Chennai. I'm not a developer. I built this in four days with Claude Code.*
 

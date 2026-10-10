@@ -37,7 +37,7 @@
 
 <p>I fainted from the heat in Chennai once.</p>
 <p>Nobody had told me how hot it actually gets. Not on the weather app, not from anyone around me.</p>
-<p class="pic">PICTURE 1 HERE: generated image, student at the bus stop in the heat (no caption)</p>
+<p class="pic">PICTURE 1 HERE: generated image, girl walking on a hot street at midday (no caption)</p>
 <p>Later I realised it's not just heat. Nobody tells you anything about an area before you move in.</p>
 <p>The broker won't say the street floods. The listing says "24 hrs water, very safe area." The landlord says "no problem here."</p>
 <p>Then the monsoon comes.</p>
@@ -90,8 +90,6 @@
 <p>Then I made it check its own work. A second pass re-read each article and asked one question: does this article actually say this area flooded?</p>
 <p><strong>Amazon DynamoDB</strong> stores everything: the flood records, heat ratings for 202 areas, residents' reports, and the summaries so they don't get regenerated on every visit.</p>
 <p><strong>AWS Amplify Hosting</strong> runs the site. It deploys from GitHub every time I push. The site talks to DynamoDB and Bedrock through an IAM role, so there are no passwords or keys anywhere in the code.</p>
-<p class="pic">PICTURE 8 HERE: the diagram file docs/architecture.png. Caption: How it fits together.</p>
-<p class="pic">PICTURE 9 HERE: screenshot, DynamoDB FloodRecords table with real rows. Caption: The flood records in DynamoDB.</p>
 
 <h2>What went wrong</h2>
 <p>A lot. These are the ones that taught me something.</p>
