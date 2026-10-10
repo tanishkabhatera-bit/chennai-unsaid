@@ -14,7 +14,8 @@
     "verify": "tsx scripts/verify.ts",
     "audit": "tsx --env-file=.env.local scripts/audit.ts",
     "cut-figures": "tsx scripts/cut-figures.ts",
-    "sweep": "tsx scripts/sweep.ts"
+    "sweep": "tsx scripts/sweep.ts",
+    "show-aws": "tsx --env-file=.env.local scripts/show-aws.ts"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.1147.0",
@@ -27,6 +28,7 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@aws-sdk/client-amplify": "^3.1149.0",
     "@tailwindcss/turbopack": "^4",
     "@types/leaflet": "^1.9.12",
     "@types/node": "^20",
