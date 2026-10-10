@@ -5,7 +5,7 @@ import { getLocalities } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Residents' Map: shade, water and problem spots | Chennai Unsaid",
   description:
-    "A community map of Chennai: shady places to rest, free drinking water, roads with no shade and waterlogged streets. Every pin has a photo and a date, and demo entries are clearly marked.",
+    "A community map of Chennai: shady places to rest, free drinking water, roads with no shade and waterlogged streets. Every pin has a date and a source: a resident's photo, a credited photo or a news report.",
 };
 
 export default function SpotsPage() {

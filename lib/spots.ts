@@ -1,12 +1,12 @@
 // Community spots: shared by the server routes and the map page. No server-only imports here.
 
-export type SpotKind = "shade" | "no-shade" | "water-point" | "waterlogged";
+export type SpotKind = "shade" | "cool-stall" | "no-shade" | "water-point" | "waterlogged";
 
 /** pending: waiting for a photo check. community: photo checked, shown. verified: checked by us. */
 export type SpotStatus = "pending" | "community" | "verified" | "rejected";
 
 /** How much to trust a pin, shown as a label on every spot. */
-export type Trust = "demo" | "reference" | "community" | "verified";
+export type Trust = "reference" | "community" | "verified";
 
 /** Credit for a photo taken from an openly licensed source. */
 export interface PhotoCredit {
@@ -39,6 +39,16 @@ export const SPOT_KINDS: SpotKindInfo[] = [
     whyExample: "e.g. Big neem trees and benches, open till 9 pm",
     color: "#2f7d4f",
     icon: "M12 3a5 5 0 0 0-4.6 7A4 4 0 0 0 8 18h8a4 4 0 0 0 .6-8A5 5 0 0 0 12 3zM12 18v3",
+  },
+  {
+    id: "cool-stall",
+    theme: "heat",
+    label: "Cool drink stall",
+    hint: "A tender coconut, buttermilk, nungu or lemon juice stall where you can cool down. It doesn't have to be free.",
+    why: "Why stop here?",
+    whyExample: "e.g. Tender coconut for 50, under a tree, open from 9 am",
+    color: "#2a8c82",
+    icon: "M7 4h10l-1.6 16H8.6zM8 9h8M12 4l2-2",
   },
   {
     id: "no-shade",
@@ -89,7 +99,7 @@ export interface PublicSpot {
   confirms: number;
   /** Name the person chose to show, or null. */
   by: string | null;
-  /** null for demo entries, which have no real photo. */
+  /** null when nobody has added a photo yet. */
   photo: string | null;
   /** Reference spots only: who took the photo and under what licence. */
   credit?: PhotoCredit;
@@ -101,7 +111,6 @@ export interface PublicSpot {
 export const CONFIRMS_TO_VERIFY = 3;
 
 export const TRUST_LABEL: Record<Trust, { label: string; text: string }> = {
-  demo: { label: "Demo", text: "Example only, to show how the map works. Not a real place." },
   reference: { label: "Reference", text: "A real place, added by the team from an open photo or a news report. Not a resident report." },
   community: { label: "Community report", text: "Sent by a resident. We checked the photo, not the place." },
   verified: { label: "Verified", text: `Confirmed by ${CONFIRMS_TO_VERIFY} or more people, or checked by us.` },

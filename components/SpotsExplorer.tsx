@@ -36,9 +36,7 @@ function seenText(s: PublicSpot): string {
 
 function TrustBadge({ trust }: { trust: PublicSpot["trust"] }) {
   const style =
-    trust === "demo"
-      ? "border-dashed border-ink/60 bg-white text-ink/70"
-      : trust === "reference"
+    trust === "reference"
         ? "border-ink bg-sun text-ink"
         : trust === "verified"
         ? "border-ink bg-[#2f7d4f] text-chalk"
@@ -66,7 +64,6 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
   const [spots, setSpots] = useState<PublicSpot[] | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [kinds, setKinds] = useState<Set<SpotKind>>(new Set(SPOT_KINDS.map((k) => k.id)));
-  const [showDemo, setShowDemo] = useState(true);
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [focus, setFocus] = useState<MapFocus | null>(null);
@@ -116,17 +113,16 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
     const areaSlugs = new Set(areaMatches.map((l) => l.slug));
     const list = (spots ?? []).filter((s) => {
       if (!kinds.has(s.kind)) return false;
-      if (!showDemo && s.trust === "demo") return false;
       if (!q) return true;
       return areaSlugs.has(s.locality) || normalise(`${s.landmark} ${s.note} ${names[s.locality] ?? ""}`).includes(q);
     });
-    const rank = (s: PublicSpot) => (s.trust === "demo" ? 2 : s.trust === "reference" ? 1 : 0);
+    const rank = (s: PublicSpot) => (s.trust === "reference" ? 1 : 0);
     return list.sort((a, b) =>
       me
         ? distanceKm(me.lat, me.lon, a.lat, a.lon) - distanceKm(me.lat, me.lon, b.lat, b.lon)
         : rank(a) - rank(b) || b.seen_on.localeCompare(a.seen_on),
     );
-  }, [spots, kinds, showDemo, query, areaMatches, names, me]);
+  }, [spots, kinds, query, areaMatches, names, me]);
 
   const real = (spots ?? []).filter((s) => s.trust === "community" || s.trust === "verified");
   const challengeCount = real.filter((s) => s.kind === "shade" || s.kind === "water-point").length;
@@ -234,12 +230,6 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
             </button>
           );
         })}
-        {spots?.some((s) => s.trust === "demo") && (
-          <label className="ml-auto flex cursor-pointer items-center gap-2 font-body text-sm">
-            <input type="checkbox" checked={showDemo} onChange={(e) => setShowDemo(e.target.checked)} className="h-4 w-4 accent-ink" />
-            Show demo examples
-          </label>
-        )}
       </div>
 
       {loadError && <p className="rounded-xl border-[3px] border-rust bg-chalk px-3 py-2 font-body text-sm text-rust">{loadError}</p>}
@@ -290,14 +280,15 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
                 ref={(el) => {
                   cards.current[s.id] = el;
                 }}
-                className={`overflow-hidden rounded-[20px] border-[4px] bg-chalk shadow-[5px_5px_0_#121212] ${s.trust === "demo" ? "border-dashed border-ink/70" : "border-ink"} ${selectedId === s.id ? "ring-4 ring-rust" : ""}`}
+                className={`overflow-hidden rounded-[20px] border-[4px] bg-chalk shadow-[5px_5px_0_#121212] border-ink ${selectedId === s.id ? "ring-4 ring-rust" : ""}`}
               >
                 {s.photo ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={s.photo} alt={`Photo of ${k.label.toLowerCase()}: ${s.landmark}`} loading="lazy" className="h-40 w-full border-b-[3px] border-ink object-cover" />
                 ) : (
-                  <div className="demo-photo grid h-28 place-items-center border-b-[3px] border-dashed border-ink/60 px-4 text-center font-display text-xs uppercase text-ink/60">
-                    {s.trust === "demo" ? "Demo entry, no real photo" : "No photo yet. Been here? Add one."}
+                  <div className="flex h-40 flex-col items-center justify-center gap-2 border-b-[3px] border-ink px-4 text-center" style={{ background: `${k.color}22` }}>
+                    <KindIcon kind={s.kind} size={56} />
+                    <span className="font-body text-sm text-ink/70">No photo yet. Been here? Add one.</span>
                   </div>
                 )}
                 <div className="p-4">
@@ -315,9 +306,9 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
                   {s.note && <p className="mt-2 font-body text-sm">&ldquo;{s.note}&rdquo;</p>}
                   {s.trust === "reference" ? (
                     <p className="mt-1 font-marker text-sm text-rust">Added by the Chennai Unsaid team</p>
-                  ) : s.trust !== "demo" ? (
+                  ) : (
                     <p className="mt-1 font-marker text-sm text-rust">Shared by {s.by ?? "a resident"}</p>
-                  ) : null}
+                  )}
                   {s.source && (
                     <p className="mt-1 font-body text-xs text-ink/60">
                       Source:{" "}

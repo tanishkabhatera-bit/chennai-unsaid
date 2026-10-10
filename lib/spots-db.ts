@@ -23,7 +23,7 @@ export interface SpotRecord {
   reviewed_at?: string;
 }
 
-/** Reference spots (real places, credited photos) and the few demo entries left. */
+/** Reference spots: real places added by the team, with a credited photo or a news source. */
 export const SEED_SPOTS = seedJson as PublicSpot[];
 
 export function toPublic(r: SpotRecord): PublicSpot {

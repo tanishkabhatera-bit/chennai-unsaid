@@ -148,11 +148,6 @@ body {
   box-shadow: 2px 2px 0 var(--color-ink);
   transition: transform 0.15s;
 }
-.spot-pin--demo {
-  opacity: 0.75;
-  border-style: dashed;
-  box-shadow: none;
-}
 .spot-pin--on {
   transform: scale(1.3);
   outline: 3px solid var(--color-rust);
@@ -166,7 +161,4 @@ body {
   background: var(--color-sign);
   border: 3px solid #fff;
   box-shadow: 0 0 0 2px var(--color-ink);
-}
-.demo-photo {
-  background: repeating-linear-gradient(-45deg, var(--color-sun) 0 12px, var(--color-chalk) 12px 24px);
 }

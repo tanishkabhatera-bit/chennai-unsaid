@@ -17,7 +17,7 @@ const CHENNAI_CENTRE: [number, number] = [13.03, 80.22];
 
 function pinHtml(spot: PublicSpot, selected: boolean): string {
   const k = KIND[spot.kind];
-  const cls = ["spot-pin", spot.trust === "demo" ? "spot-pin--demo" : "", selected ? "spot-pin--on" : ""].join(" ");
+  const cls = ["spot-pin", selected ? "spot-pin--on" : ""].join(" ");
   return `<span class="${cls}" style="--pin:${k.color}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="${k.icon}"/></svg></span>`;
 }
 
@@ -32,7 +32,7 @@ function drawPins(L: Leaflet, layer: LayerGroup, spots: PublicSpot[], selectedId
       icon,
       title: label,
       alt: label,
-      zIndexOffset: s.id === selectedId ? 1000 : s.trust === "demo" ? 0 : 500,
+      zIndexOffset: s.id === selectedId ? 1000 : s.trust === "reference" ? 0 : 500,
       keyboard: true,
     });
     marker.on("click", () => onSelect(s.id));
