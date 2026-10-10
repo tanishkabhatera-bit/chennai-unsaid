@@ -19,17 +19,19 @@ A web app for anyone renting or buying in Chennai. 202 localities, searchable wi
 - **Check a property.** Enter area, floor and parking, or paste a broker's message. The app reads the listing, checks its claims ("no flooding problem in this street") against the record, gives a verdict by a written rule, and lists the questions to ask before paying the advance.
 - **Compare two flats (Climate Compare).** Flooding, heat and water availability side by side, using the same measured indicators over the same period for both, with the source and date on every line, what is unknown, and what to verify.
 - **Will your water last?** For a supply cut: household size and storage give the days the water lasts, the day it runs out, the shortfall, tanker loads, and what to do. Uses the CPHEEO 135 L/person/day norm and the Sphere 15 L emergency minimum.
+- **Residents' Map.** A community map of shade to rest, cool drink stalls, free drinking water, roads with no shade and waterlogged streets. Each spot has a photo, area and landmark, one line on why it matters, the date seen and an optional name. New spots stay hidden until the photo is checked, and location data is stripped from every photo. Spots are labelled Reference (real places added by the team with a credited photo or news source), Community report or Verified. It launched with 16 real places, including Metro Water ATMs found working in a May 2026 audit and a resident's photo of a Metro Water tanker in Vyasarpadi.
 - **Resident reports.** Anonymous: how high the water came, power cuts, dengue, water supply.
 
 An illustrated Chennai auto driver carries the verdicts and reacts to the data (umbrella at ankle-deep, worried at knee-deep, wiping his brow in the heat), so the evidence is easy to read, not decoration.
 
-**What changes for people:** a renter checks the area before signing, takes the second floor instead of the ground floor, asks the landlord in writing whether water entered the building in 2023, and moves the bike before a forecast downpour.
+**What changes for people:** a renter checks the area before signing, takes the second floor instead of the ground floor, asks the landlord in writing whether water entered the building in 2023, and moves the bike before a forecast downpour. On a 40°C day, anyone can find the nearest shade or free drinking water, and add one for the next person.
 
 ## Where AWS fits
 
 - **Amazon Bedrock (Amazon Nova Lite, ap-southeast-2).** Read 190 Chennai news articles (DT Next, Deccan Herald, Citizen Matters, 2015–2026) and extracted structured flood records. A second Bedrock pass re-read every article to confirm each record, classified articles as event reports or features, and dropped look-backs, forecasts and complaints. 304 records across 82 localities survived. At runtime Bedrock writes the area summaries (cached 24 hours in DynamoDB), reads pasted listings, and writes the landlord questions.
-- **Amazon DynamoDB.** FloodRecords, HeatRatings (202 areas), Reports and SummaryCache. Every area page, check and comparison reads live from it.
-- **AWS Amplify Hosting.** The Next.js app (SSR) deploys from GitHub on every push. An IAM compute role scoped to the four tables and Nova Lite gives the site its AWS access, so there are no keys in the code or the environment.
+- **Amazon DynamoDB.** FloodRecords, HeatRatings (202 areas), Reports, SummaryCache and Spots. Every area page, check, comparison and map pin reads live from it.
+- **Amazon S3.** A private bucket for Residents' Map photos. Public access is blocked; approved photos are served through the app, and pending ones only to the reviewer.
+- **AWS Amplify Hosting.** The Next.js app (SSR) deploys from GitHub on every push. An IAM compute role scoped to the app's tables, the photo bucket and Nova Lite gives the site its AWS access, so there are no keys in the code or the environment.
 
 The verdicts and comparisons are deterministic rules shown in the app, not AI opinions. AI is used to read the news, not to make the decision.
 
