@@ -28,7 +28,7 @@ const CHALLENGE_GOAL = 100;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function seenText(s: PublicSpot): string {
-  if (s.trust === "reference") return `Photo from ${MONTHS[Number(s.seen_on.slice(5, 7)) - 1]} ${s.seen_on.slice(0, 4)}`;
+  if (s.trust === "reference") return `${s.photo ? "Photo from" : "Reported"} ${MONTHS[Number(s.seen_on.slice(5, 7)) - 1]} ${s.seen_on.slice(0, 4)}`;
   const date = s.seen_on;
   const d = daysSince(date);
   return d === 0 ? "Seen today" : d === 1 ? "Seen yesterday" : `Seen ${d} days ago`;
@@ -234,10 +234,12 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
             </button>
           );
         })}
-        <label className="ml-auto flex cursor-pointer items-center gap-2 font-body text-sm">
-          <input type="checkbox" checked={showDemo} onChange={(e) => setShowDemo(e.target.checked)} className="h-4 w-4 accent-ink" />
-          Show demo examples
-        </label>
+        {spots?.some((s) => s.trust === "demo") && (
+          <label className="ml-auto flex cursor-pointer items-center gap-2 font-body text-sm">
+            <input type="checkbox" checked={showDemo} onChange={(e) => setShowDemo(e.target.checked)} className="h-4 w-4 accent-ink" />
+            Show demo examples
+          </label>
+        )}
       </div>
 
       {loadError && <p className="rounded-xl border-[3px] border-rust bg-chalk px-3 py-2 font-body text-sm text-rust">{loadError}</p>}
@@ -245,7 +247,7 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
       <SpotMap spots={visible} selectedId={selectedId} onSelect={select} focus={focus} me={me} />
 
       <p className="font-body text-sm text-ink/70">
-        <strong>Reference</strong> pins are real places the team added, with credited photos. <strong>Dashed</strong> pins are demo examples. Everything else comes from residents.
+        <strong>Reference</strong> pins are real places the team added, each with a credited photo or a news source. Everything else comes from residents.
         {real.length === 0 && spots ? " There are no resident reports yet." : ""}
       </p>
 
@@ -294,8 +296,8 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={s.photo} alt={`Photo of ${k.label.toLowerCase()}: ${s.landmark}`} loading="lazy" className="h-40 w-full border-b-[3px] border-ink object-cover" />
                 ) : (
-                  <div className="demo-photo grid h-28 place-items-center border-b-[3px] border-dashed border-ink/60 font-display text-xs uppercase text-ink/60">
-                    Demo entry, no real photo
+                  <div className="demo-photo grid h-28 place-items-center border-b-[3px] border-dashed border-ink/60 px-4 text-center font-display text-xs uppercase text-ink/60">
+                    {s.trust === "demo" ? "Demo entry, no real photo" : "No photo yet. Been here? Add one."}
                   </div>
                 )}
                 <div className="p-4">
@@ -316,6 +318,14 @@ export default function SpotsExplorer({ localities }: { localities: Locality[] }
                   ) : s.trust !== "demo" ? (
                     <p className="mt-1 font-marker text-sm text-rust">Shared by {s.by ?? "a resident"}</p>
                   ) : null}
+                  {s.source && (
+                    <p className="mt-1 font-body text-xs text-ink/60">
+                      Source:{" "}
+                      <a href={s.source.url} target="_blank" rel="noreferrer" className="underline">
+                        {s.source.title}
+                      </a>
+                    </p>
+                  )}
                   {s.credit && (
                     <p className="mt-1 font-body text-xs text-ink/60">
                       Photo:{" "}

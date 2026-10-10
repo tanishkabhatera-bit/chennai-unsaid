@@ -93,6 +93,8 @@ export interface PublicSpot {
   photo: string | null;
   /** Reference spots only: who took the photo and under what licence. */
   credit?: PhotoCredit;
+  /** Reference spots only: the report this place comes from. */
+  source?: { title: string; url: string };
 }
 
 /** "Still here" taps needed before a community pin counts as verified. */
@@ -100,7 +102,7 @@ export const CONFIRMS_TO_VERIFY = 3;
 
 export const TRUST_LABEL: Record<Trust, { label: string; text: string }> = {
   demo: { label: "Demo", text: "Example only, to show how the map works. Not a real place." },
-  reference: { label: "Reference", text: "A real place, added by the team with an openly licensed photo. Not a resident report." },
+  reference: { label: "Reference", text: "A real place, added by the team from an open photo or a news report. Not a resident report." },
   community: { label: "Community report", text: "Sent by a resident. We checked the photo, not the place." },
   verified: { label: "Verified", text: `Confirmed by ${CONFIRMS_TO_VERIFY} or more people, or checked by us.` },
 };

@@ -190,31 +190,75 @@
     }
   },
   {
-    "id": "demo-5",
+    "id": "ref-atm-vadapalani",
     "kind": "water-point",
-    "trust": "demo",
-    "locality": "t-nagar",
-    "landmark": "Example: a public drinking water tap",
-    "note": "Free tap near a shop street, working this week.",
-    "lat": 13.0405,
-    "lon": 80.2357,
-    "seen_on": "2026-10-05",
+    "trust": "reference",
+    "locality": "vadapalani",
+    "landmark": "Metro Water ATM, Vadapalani bus terminus",
+    "note": "Free 150 ml glass of purified water. Found working in a May 2026 audit.",
+    "lat": 13.04927,
+    "lon": 80.20709,
+    "seen_on": "2026-05-29",
     "confirms": 0,
+    "by": "Chennai Unsaid team",
     "photo": null,
-    "by": null
+    "source": {
+      "title": "DT Next, 29 May 2026: RTI audit of water ATMs",
+      "url": "https://www.dtnext.in/amp/story/news/chennai/arappor-flags-three-missing-water-atms-in-rti-audit"
+    }
   },
   {
-    "id": "demo-6",
+    "id": "ref-atm-sivan-park",
     "kind": "water-point",
-    "trust": "demo",
-    "locality": "egmore",
-    "landmark": "Example: a water pot outside a shop",
-    "note": "A shopkeeper keeps a pot of water and a cup for anyone, refilled every morning.",
-    "lat": 13.0745,
-    "lon": 80.2593,
-    "seen_on": "2026-10-06",
+    "trust": "reference",
+    "locality": "kk-nagar",
+    "landmark": "Metro Water ATM, Sivan Park, KK Nagar",
+    "note": "Free 150 ml glass of purified water. Found working in a May 2026 audit.",
+    "lat": 13.04198,
+    "lon": 80.20497,
+    "seen_on": "2026-05-29",
     "confirms": 0,
+    "by": "Chennai Unsaid team",
     "photo": null,
-    "by": null
+    "source": {
+      "title": "DT Next, 29 May 2026: RTI audit of water ATMs",
+      "url": "https://www.dtnext.in/amp/story/news/chennai/arappor-flags-three-missing-water-atms-in-rti-audit"
+    }
+  },
+  {
+    "id": "ref-atm-mylapore-tank",
+    "kind": "water-point",
+    "trust": "reference",
+    "locality": "mylapore",
+    "landmark": "Metro Water ATM, South Mada Street, temple tank side",
+    "note": "Free 150 ml glass of purified water. Opened June 2025, so check it is still working.",
+    "lat": 13.03238,
+    "lon": 80.26934,
+    "seen_on": "2025-06-18",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": null,
+    "source": {
+      "title": "Mylapore Times, June 2025: water ATMs launched in Mylapore zone",
+      "url": "https://www.mylaporetimes.com/2025/06/water-atms-launched-in-3-places-across-mylapore-zone-people-can-have-a-glass-of-potable-water-here-free"
+    }
+  },
+  {
+    "id": "ref-atm-bharathidasan",
+    "kind": "water-point",
+    "trust": "reference",
+    "locality": "teynampet",
+    "landmark": "Metro Water ATM, Bharathidasan Road",
+    "note": "Free 150 ml glass of purified water. Opened June 2025, so check it is still working. Pin is on the road, not the exact machine.",
+    "lat": 13.03534,
+    "lon": 80.24988,
+    "seen_on": "2025-06-18",
+    "confirms": 0,
+    "by": "Chennai Unsaid team",
+    "photo": null,
+    "source": {
+      "title": "Mylapore Times, June 2025: water ATMs launched in Mylapore zone",
+      "url": "https://www.mylaporetimes.com/2025/06/water-atms-launched-in-3-places-across-mylapore-zone-people-can-have-a-glass-of-potable-water-here-free"
+    }
   }
 ]
